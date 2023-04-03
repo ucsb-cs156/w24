@@ -5,10 +5,12 @@ description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
+slides: https://docs.google.com/presentation/d/10kwKZUJRs1vz3j6JDdLMd8zl2WrDMA6853RcCfpIUmo/edit?usp=sharing
+link_to_self_intro_activity: https://ucsb.instructure.com/courses/7876/assignments/91665
+link_to_team_first_day_activity: https://ucsb.instructure.com/courses/7876/assignments/91669
 ---
 
-<div style="display:none;">https://ucsb-cs156.github.io/s23/lectures/lect00
-</div>
+Link to Slides: <{{page.slides}}>
 
 # Please sit with your team:
 
@@ -145,83 +147,21 @@ Note that while the instructor, or a TA or LA might drop in on your Breakout Roo
 
 # What to do in your breakout room
 
-This part is 40% of your participation grade for today (P00 on Canvas)
-
-1. Please choose someone to be the discussion leader, and someone else to be the scribe.  Note that you'll be asked to rotate these roles each time
-   we have a session, so that everyone gets a chance to practice their leadership skills and their writing skills.
-
-   You could also choose to rotate the scribe during the session; that's up to you.  Stick with one discussion leader for today though, to make things
-   less confusing.  (of course if your discussion leader loses their internet connection half way through class, you'll have to improvise.)
- 
-2. Everyone log in to the Slack in another window (Zoom open in one window, slack in another.)
+1. If you haven't yet made a post to your team channel introducing yourself, 
+   i.e. [this assignment on Canvas](page.link_to_self_intro_activity), please do that now, following the instructions at [this link](page.link_to_self_intro_activity).
    
-   Everyone find the Slack channel for your team.  It will have a name such as `s23-5pm-3`.   Everyone on the team join that channel, and introduce yourself
-   with a post.
-   
-   The post should include
-   * (a) The name you like to be called
-   * (b) Your pronouns (e.g. she/her/hers, he/him/his, they/them/theirs)
-   * (c) Your computing platform(s): Windows, Mac, Linux, or WSL (Windows Subsystem for Linux)
-   * (d) Optional: Something interesting about yourself (this may be unrelated to Computing)
-   * (e) Optional: Something you are hoping to learn in this course
+   The deadline for full credit for this activity is at the end of today's
+   lecture, and it will only take a moment.
 
-   Completing this step earn you 60% of the participation points for today's class, and you earn those as an individual.  (This part can be made up later.)
-   
-   The remaining 40% comes as a "group grade" when your group completes the questions below (note that you must be present in class to earn this part.)
+2. Once everyone on your team has done that, you are going to work as a team on 
+   the activity at this link on canvas:
 
-3. The person who is the scribe should:
-   * Find the Slack channel for the team
-   * "share their screen", so that everyone else can see what they are typing. 
+   * <{{page.link_to_team_first_day_activity}}>
 
-   The scribe should record who the discussion leader is for the group, and whether you are sticking with
-   one scribe, or rotating for each question.  Just make a post in your group's slack channel with this information.
-   
-4. The discussion leader should give everyone time to find the slack channel, and make their first post.
-
-   Then, ask the following questions of the group.    The scribe can record the group's answers.
-   
-   Each of these is worth 10% towards your group's particpation grade for today's activity.  The discussion leader should note that there are 
-   five questions, so be sure to allocate the time appropriately, and move on to the next question as needed.
-   
- 
-   *  *Question 1*: Every team is a group of people, but not every group of people functions as a team.
-
-      Think about when you've been part of a successful team.  As a group, identify at least three
-      things that are true of a team that functions well.   You could probably identify many more,
-      but for today, stop at three so you have time for the remaining questions.
-      
-   *  *Question 2*: There are a variety of dimensions of "success" for a team.  
-
-      One dimension is the "outcome" of what they 
-      produce, e.g. do they win the game, or make the product, etc.
-
-      Another dimension is the "process" by which they accomplish that.  That dimension  includes aspects such as:
-      * the way in which the team members work together either in harmony, or in conflict,
-      * whether there is an equitable sharing of the workload or one that feels inequitable
-      * whether team members feel safe and respected, or unsafe and disrespected
-      
-      Identify three things that your team in this course
-      might do to ensure good process, without sacrificing the quality of the "outcome".  (These might or might
-      not overlap with your answers to question 1; it's ok if they do, but try to think about it from 
-      a different perspective.  Question 1 is more about memories of past successful teams, while this question
-      is more about looking forward to what you'll do with *this* team and any other temas are you are part of
-      in CMPSC 156.)
-      
-   *  *Question 3*: On a team, there are often people with different levels of prior experience and knowledge 
-      for the given task.  Your team likely has different levels of prior experience, knowledge, and current skill level with
-      in a variety of areas, such as Java, JavaScript, git, GitHub, databases, HTML, CSS, and Agile just to name a few topics.
-
-      Those varying levels of experience can be a stumbling block, but they don't have to be.
-
-      Think of three challenges that might arise because of differnet levels of experience.
-      
-   *  *Question 4:* Now, for each of the challenges you listed above, come up with a strategy that a team could use
-      to address that challenge, and put the team on the path to success.
-      
       
 # If time remains, here's what to do with it      
       
-If you complete these four questions, with the time remaining, you are invited to discuss with one another your prior experience with these technologies, and record some of that discussion in your Slack channel.
+If you complete the activities above, with the time remaining, you are invited to discuss with one another your prior experience with these technologies, and record some of that discussion in your Slack channel.
 
 *It's totally fine if you have no experience with any of these things.*  Success in this course is defined by *learning*, which is the change between where you start and where you end up at the end of the course.   So, don't worry about comparing yourself to others and feeling like you don't belong.
 
@@ -256,5 +196,3 @@ Check out these two videos about our legacy code projects:
 Read the Listening to Developers Paper:
 * <https://pconrad.github.io/files/paper028.pdf>
 
-Read the follow up paper (in review):
-* [Follow up Paper](exprpt.pdf)
