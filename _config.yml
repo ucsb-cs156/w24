@@ -24,7 +24,7 @@ aux_links:
   "CS156 main website":
     - "https://ucsb-cs156.github.io/"
   "Canvas":
-    - "https://www.canvas.ucsb.edu/"
+    - "https://ucsb.instructure.com/courses/7876"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
