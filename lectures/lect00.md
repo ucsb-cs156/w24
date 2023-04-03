@@ -88,10 +88,8 @@ Here:
 
 * <https://ucsb-cs156.github.io/s23/info/syllabus/>
 
-# First Homework assignments
+# Online access to the textbooks
 
-* See course website under Hwk, or see the Calendar
-  - There are three due next week!
 * Reading in the textbooks: Use <https://bit.ly/ucsb-or> to get online access
 * Then use:
   - <https://bit.ly/or-hfj3> Head First Java, 3rd Edition
@@ -99,12 +97,12 @@ Here:
 
 # Homework 
 
-## For next Wednesday's discussion section:
+## For next Tuesday (04/11/2023)
 
 * Before next Tuesday's lecture seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
   - Read all of the "abstract" and Section 1 (about 1 page), and skim through Section 4 (about 5 pages)
-  - During discussion next Wednesday, you'll be dividing up the six parts of section 4 among the team members,
-    and then doing a more detailed read for a homework assignment due later (<https://ucsb-cs156.github.io/s23/hwk/h03/>)
+  - During class next week, you'll be dividing up the six parts of section 4 among the team members,
+    and then doing a more detailed read for a homework assignment due in a few days. 
 
 * As you read, be prepared to discuss the ways in which developers felt unprepared, 
   and what experiences they wish they had during their courses at University.
