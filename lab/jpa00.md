@@ -416,7 +416,9 @@ Now, we are going to add a second remote.  This remote will use the URL for the 
 
 The image below shows how to copy that URL: (1) Click the green `Code` button.  (2) Select `SSH` to choose that as the network protocol for the URL (3) Click the icon to copy the URL to your clipboard.
 
-![starter-ssh-url-50.png](starter-ssh-url-50.png)
+
+<img width="192" alt="starter-ssh-url-50" src="https://user-images.githubusercontent.com/1119017/229932825-e2ce51b9-acc3-4b45-b314-50174a211d26.png">
+
 
 Then, use this command to add a remote called `starter` for the starter code repo:
 
@@ -535,8 +537,8 @@ To submit your work, you should be able to click on the GitHub link in Gradescop
 
 After you submit, it will take some time for Gradescope to process your submission.  Once it's processsed, you should see output similar to this:
 
+<img width="294" alt="jpa00-gs-starter-code-50" src="https://user-images.githubusercontent.com/1119017/229932774-25157e0d-5911-4df9-877e-7d35d9a01c00.png">
 
-![Gradescope output from starter code](jpa00-gs-starter-code-50.png)
 
 The most important part is this:
 
@@ -585,7 +587,8 @@ Now, submit to Gradescope again.  You should see output like this:
 
 * At the right hand side, you'll see the following:
 
-  ![mvn-compile-failed-50.png](mvn-compile-failed-50.png)
+
+  <img width="162" alt="mvn-compile-failed-50" src="https://user-images.githubusercontent.com/1119017/229932738-b85ff1a3-1dac-43d6-899f-92f1cedb7dd3.png">
 
   This is how you'll know that the Maven compile failed on Gradescope.
 
@@ -595,16 +598,17 @@ Now, submit to Gradescope again.  You should see output like this:
 * Look in the main window, for
   output with `mvn compile failed` at the top.  It will probably be very
   long (the whole output is not shown):
-
-  ![mvn-compile-failed-top-50.png](mvn-compile-failed-top-50.png)
+  
+  <img width="414" alt="mvn-compile-failed-top-50" src="https://user-images.githubusercontent.com/1119017/229932691-f8411e99-3131-4062-b504-387e0cd55f5f.png">
 
   This output is really long because it shows every single file that was
   downloaded by Maven in order to do it's work (which is quite a few).  However,
   the really useful output is at the bottom, so you have to scroll down a while:
 
 * Look at the bottom of this section, and eventually you should see:
+  
+  <img width="412" alt="mvn-compile-failed-bottom-50" src="https://user-images.githubusercontent.com/1119017/229932642-703fbdd2-022e-436c-81ad-5a74c3d82b71.png">
 
-  ![mvn-compile-failed-bottom-50.png](mvn-compile-failed-bottom-50.png)
 
   Here, finally, you can see what's wrong with the compile (the missing semicolon).
 
