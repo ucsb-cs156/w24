@@ -6,11 +6,12 @@ ready: true
 layout: default
 parent: lectures
 slides: https://docs.google.com/presentation/d/10kwKZUJRs1vz3j6JDdLMd8zl2WrDMA6853RcCfpIUmo/edit?usp=sharing
+video: https://drive.google.com/file/d/15G3FEyZh-9q-I4LqabdwNQH61m9s51aH/view?usp=share_link
 link_to_self_intro_activity: https://ucsb.instructure.com/courses/7876/assignments/91665
 link_to_team_first_day_activity: https://ucsb.instructure.com/courses/7876/assignments/91669
 ---
 
-Link to Slides: <{{page.slides}}>
+Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
