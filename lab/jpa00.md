@@ -282,11 +282,11 @@ We will use gradescope to grade all your homeworks, exams and lab/programming as
 
 The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.num}} using this page.
 
-## Step 4: Set up your local system
+## Step 4: Set up your local system for Java 17 and Maven
 
-If you are doing this lab on CSIL (which you can only do if/when Java 17 is installed there), then you don't have to do this step for now.
+If you are doing this lab on CSIL then you don't have to do this step for now.
 
-However, we *strongly encourage you do to this step*.  The sooner you get a Java 17 + Maven environment working on your local system, the easier time you will
+However, we *strongly encourage you do to this step sooner rather than later*.  The sooner you get a Java 17 + Maven environment working on your local system, the easier time you will
 have with the rest of the work in this course.
 
 What you'll need:
@@ -342,7 +342,8 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
 
 2. Now, go to the `github.com` web page, and find your `jpa00-userid` repo. The page should look something like this:
 
-   ![jpa00-cgaucho-50.png](jpa00-cgaucho-50.png)
+
+   <img width="513" alt="jpa00-cgaucho-50" src="https://user-images.githubusercontent.com/1119017/230218643-28916fd4-42ac-4be7-80e6-5b517ac6654e.png">
 
    You should see a button for `SSH`;
    select that button.  Then there is a button to copy the URL shown;
