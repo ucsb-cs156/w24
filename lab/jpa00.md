@@ -404,12 +404,12 @@ If you've used `git` before, you
 may be familiar with the command:
 
 ```
-git pull origin master
+git pull origin main
 ```
 
 The word `origin` in this case refers to a *remote*, that is a repo that lives somewhere out there on the network.   
 
-The word `master` refers to the default branch of the repo.  The default branch of GitHub repos recently changed from `master` to `main`; we'll be using `main` throughout this course.
+The word `main` refers to the default branch of the repo.  The default branch of GitHub repos recently changed from `master` to `main`; we'll be using `main` throughout this course.
 
 If you type the following command, you'll see that `origin` is defined as a remote for the repo that you cloned from.  Your output will look similar, except that you'll have your GitHub in place of `cgaucho`:
 
