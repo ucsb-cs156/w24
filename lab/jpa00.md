@@ -353,7 +353,7 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
    `url` with the url that you copied.
 
    That `url` should be something like
-   <tt>git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git</tt> but with your GitHub id in place of <tt>cgaucho</tt>.
+   <tt>git@github.com:{{page.course_org_name}}/{{page.title}}-cgaucho.git</tt> but with your GitHub id in place of <tt>cgaucho</tt>.
 
    ```
    git clone url
@@ -362,16 +362,16 @@ This is currently an empty repo.  In the next step, we'll clone this empty repo 
    You'll will see a warning message that you are cloning an empty repo; that's normal.
 
    
-   <tt>Cloning into {{page.num}}-cgaucho...<br />
+   <tt>Cloning into {{page.title}}-cgaucho...<br />
    warning: You appear to have cloned an empty repository<br /></tt>
    
   
-4. If you use the `ls` command, you should now have a subdirectory called <tt>{{page.num}}-cgaucho</tt> (except <tt>cgaucho</tt> will be your GitHub username.)  Use
+4. If you use the `ls` command, you should now have a subdirectory called <tt>{{page.title}}-cgaucho</tt> (except <tt>cgaucho</tt> will be your GitHub username.)  Use
    a `cd` command to change directory 
    into that directory, e.g.
 
    
-   <tt>cd {{page.num}}-cgaucho</tt>
+   <tt>cd {{page.title}}-cgaucho</tt>
    
 
    An `ls -a` should reveal an empty
@@ -415,8 +415,8 @@ If you type the following command, you'll see that `origin` is defined as a remo
 
 <tt>
 % git remote -v<br />
-origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (fetch)<br />
-origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (push)<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.title}}-cgaucho.git (fetch)<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.title}}-cgaucho.git (push)<br />
 % <br />
 </tt>
 
@@ -438,10 +438,10 @@ After this command, use `git remote -v` to list all your remotes. Your output sh
 
 <tt>
 % git remote -v<br />
-origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (fetch)<br />
-origin	git@github.com:{{page.course_org_name}}/{{page.num}}-cgaucho.git (push)<br />
-starter	git@github.com:{{page.course_org_name}}/STARTER-{{page.num}}.git (fetch)<br />
-starter	git@github.com:{{page.course_org_name}}/STARTER-{{page.num}}.git (push)<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.title}}-cgaucho.git (fetch)<br />
+origin	git@github.com:{{page.course_org_name}}/{{page.title}}-cgaucho.git (push)<br />
+starter	git@github.com:{{page.course_org_name}}/STARTER-{{page.title}}.git (fetch)<br />
+starter	git@github.com:{{page.course_org_name}}/STARTER-{{page.title}}.git (push)<br />
 % 
 </tt>
 
@@ -460,7 +460,7 @@ git push origin main
 
 After these three commands, go look at your repo on GitHub, i.e. the repo at this url (but substituting your GitHub id for cgaucho:)
 
-* <https://github.com/{{page.course_org_name}}/{{page.num}}-cgaucho>
+* <https://github.com/{{page.course_org_name}}/{{page.title}}-cgaucho>
 
 You should see that instead of an empty repo, you now have a copy of the starter code.
 
@@ -651,5 +651,5 @@ git push origin main
 
 Then submit to Gradescope again.
 
-Once you see that you have a score of 100 for {{page.num}} on Gradescope, you are *done* with {{page.num}}.
+Once you see that you have a score of 100 for {{page.title}} on Gradescope, you are *done* with {{page.title}}.
 
