@@ -278,9 +278,9 @@ END COMMENTED OUT!!!   -->
 
 ## Step 3: Get setup with gradescope
 
-We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have added everyone enrolled in the course to Gradescope by syncing the Canvas roster.   You should have received an email notification with instructions about logging into gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.qtr}} courses.
+We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have added everyone enrolled in the course to Gradescope by syncing the Canvas roster.   You should have received an email notification with instructions about logging into gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.quarter}} courses.
 
-The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.num}} using this page.
+The lab assignment {{page.title}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.title}} using this page.
 
 ## Step 4: Set up your local system for Java 17 and Maven
 
