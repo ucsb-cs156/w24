@@ -651,5 +651,5 @@ git push origin main
 
 Then submit to Gradescope again.
 
-Once you see that you have a score of 100 for {{page.title}} on Gradescope, you are *done* with {{page.title}}.
+Once you see that you have a score of 100 for {{page.title}} on Gradescope, you are *done* with the *required* work for {{page.title}}. However, you are encouraged to look at the README.md file in your lab00 repo and go through the explanation of the files in the repo.  Some of this may be review, but some if it may be new to you, especially if you have not used Maven before.   We'll be using Maven throughout the course, so it's good to get familiar with how Maven works in this very small `Hello World` program before we see a more complex example.
 
