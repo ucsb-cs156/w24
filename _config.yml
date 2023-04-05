@@ -3,6 +3,7 @@ theme: just-the-docs
 
 incremental: true
 
+course: "CMPSC 156"
 title: "CS156 S23"
 quarter: "Spring 2023"
 QXX: S23
