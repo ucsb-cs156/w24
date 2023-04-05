@@ -247,6 +247,10 @@ OS name: "linux", version: "5.15.12-100.fc34.x86_64", arch: "amd64", family: "un
 
 ## Step 2: Get setup with github and add yourself to our organization
 
+I'm commenting this step out, because for S23 all students have already done this step.
+
+<!--   COMMENTED OUT !!!!
+
 We will be using github.com in this course. We have created an
 organization called {{site.github_org}} on github.com where you can
 create repositories (repos) for your assignments in this course.
@@ -269,9 +273,12 @@ email, and confirm that email address.  (If you have an `@umail.ucsb.edu` addres
 
 4. There should be a link to the invitation for the GitHub organization for this course (<https://github.com/{{site.github_org}}>). Click on the invitation link and accept it. You can also go straight to <https://github.com/{{site.github_org}}> and see the invitation there (if you're logged in). Accept the invitation that appears in your browser (from step 3) or log into your account on [https://github.com/](https://github.com/) to accept the invitation.
 
+END COMMENTED OUT!!!   -->
+
+
 ## Step 3: Get setup with gradescope
 
-We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email notification with instructions about logging into gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.qtr}} courses.
+We will use gradescope to grade all your homeworks, exams and lab/programming assignments. I have added everyone enrolled in the course to Gradescope by syncing the Canvas roster.   You should have received an email notification with instructions about logging into gradescope. Once you follow the instructions to set your password, you should have access to our course on Gradescope. You should see {{site.course}} in your {{site.qtr}} courses.
 
 The lab assignment {{page.num}} should appear in your Gradescope dashboard in {{site.course}}. You will need to submit your code for {{page.num}} using this page.
 
