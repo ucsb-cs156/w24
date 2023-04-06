@@ -1,6 +1,6 @@
 #!/bin/sh
 
 rm -rf _site
-bundle exec jekyll build
-open http://localhost:4000 & 
-bundle exec jekyll serve
+jekyll build
+(sleep 3; open http://localhost:4000/s23/) & 
+jekyll serve

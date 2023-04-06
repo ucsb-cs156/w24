@@ -376,7 +376,7 @@ repo (which happens each time you push a change to GitHub).   When you do, you s
 see that there is a link for "Artifacts" when you examine the Github Actions results.
 
 
-<details>
+ <details markdown="1">
 <summary>
 Note: If you don't see the Artifacts as shown below, click the arrow for hints on what might be wrong.
 </summary>
