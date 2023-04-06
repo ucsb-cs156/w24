@@ -5,6 +5,7 @@ due: 2023-04-13 23:59
 layout: lab
 title: jpa01
 ready: true
+parent: lab
 course_org: https://github.com/ucsb-cs156-s23
 course_org_name: ucsb-cs156-s23
 starter_repo: https://github.com/ucsb-cs156-s23/STARTER-jpa01
