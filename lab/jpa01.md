@@ -291,7 +291,7 @@ Here is an explanation of *mutation testing* from the
 website for [pitest](https://pitest.org) which is the package we are using for mutation testing.
 
 
-<details>
+<details markdown="1">
 <summary>
 Explanation of Mutation Testing (click the arrow to reveal)
 </summary>
