@@ -57,11 +57,11 @@ The next Java LTS version will be Java 21 which is scheduled for Fall 2023; it m
 
 Note: these instructions were current as of F22.   Things change every quarter&mdash;sometimes even from day to day&mdash;and the only way we find out is when students try things and tell us.  (We don't have the bandwidth to try all of the instructions on every possible OS version combination.)
 
-* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/s23/info/software/).  If you need help, ask on the `#help-macos` channel on the Slack.
-* For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/s23/info/software/). 
+* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/s23/info/software.html).  If you need help, ask on the `#help-macos` channel on the Slack.
+* For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/s23/info/software.html). 
   * For help with installing WSL, you can ask on the `#help-windows` Slack channel
   * For help *after* you've installed WSL, use the `#help-linux-wsl` Slack channel 
-* For Linux, there are instructions on  [this page](https://ucsb-cs156.github.io/s23/info/software/). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the `#help-linux-wsl` Slack channel 
+* For Linux, there are instructions on  [this page](https://ucsb-cs156.github.io/s23/info/software.html). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the `#help-linux-wsl` Slack channel 
  
 
 # Do I really need Java 17?  
