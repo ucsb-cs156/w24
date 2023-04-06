@@ -11,23 +11,6 @@ course_org_name: ucsb-cs156-s23
 starter_repo: https://github.com/ucsb-cs156-s23/STARTER-jpa01
 ---
 
-
-# NOT READY YET
-# DON'T START YET
-# WAIT... STILL MAKING EDITS
-# NOT READY YET
-# DON'T START YET
-# WAIT... STILL MAKING EDITS
-# NOT READY YET
-# DON'T START YET
-# WAIT... STILL MAKING EDITS
-# NOT READY YET
-# DON'T START YET
-# WAIT... STILL MAKING EDITS
-# NOT READY YET
-# DON'T START YET
-# WAIT... STILL MAKING EDITS
-
 <style>
 
 summary { 
@@ -423,13 +406,14 @@ If you download the artifacts, you'll get a .zip file that you can download, and
 open.  Inside that zip file, you'll find an `index.html` file that you can open in a
 web browser.  That will show you the Pitest mutation report.
 
-![click the green check](click-green-check-50.png)
+<img width="318" alt="click-green-check-50" src="https://user-images.githubusercontent.com/1119017/230472255-36adfc64-719f-4b5c-b16a-dfd3ff550071.png">
 
-![click where it says details](click-details-50.png)
+<img width="237" alt="click-details-50" src="https://user-images.githubusercontent.com/1119017/230472288-06171923-7d52-401b-97c6-b0c6f357fb14.png">
 
-![click on artifacts](click-artifacts-50.png)
+<img width="442" alt="click-artifacts-50" src="https://user-images.githubusercontent.com/1119017/230472308-babc5389-28a2-4e66-af78-68d2aee271e1.png">
 
-![click to download zip](click-to-download-zip-50.png)
+<img width="223" alt="click-to-download-zip-50" src="https://user-images.githubusercontent.com/1119017/230472335-7ef6e1ea-ade1-47d3-bb40-c1a34810c43a.png">
+
 
 # Mutation testing is 30% of your grade
 
