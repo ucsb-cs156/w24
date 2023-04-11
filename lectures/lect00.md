@@ -1,6 +1,6 @@
 ---
-title: "Lecture 00"
-lecture_date: 2022-09-22
+title: "Week 01 - 04.04 Tue"
+lecture_date: 2023-04-04
 description: "Introduction to CS156"
 ready: true
 layout: default

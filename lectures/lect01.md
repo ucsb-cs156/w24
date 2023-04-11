@@ -1,5 +1,5 @@
 ---
-title: "Lecture 01"
+title: "Week 01 - 04.05 Wed"
 lecture_date: 2023-04-05
 description: "Wed: start jpa00"
 ready: true
