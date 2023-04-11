@@ -1,5 +1,5 @@
 ---
-title: "Week 02 04.11 Tue"
+title: "Week 02 - 04.11 Tue"
 lecture_date: 2023-04-11
 description: "Discuss LTD"
 ready: true
