@@ -53,10 +53,17 @@ collections:
   lectures:
     permalink: "/lectures/:path/"
     output: true
+  hwk:
+    permalink: "/hwk/:path/"
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
       type: lectures
+    values:
+      layout: default
+  - scope:
+      type: hwk
     values:
       layout: default
   - scope:
