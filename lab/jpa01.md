@@ -82,7 +82,8 @@ These chapters may be particularly helpful.  For this lab, you don't necessarily
 
 You have the option to work alone on this assignment, or to pair with someone from your assigned team.
 
-To set up a pair repo, see these instructions: [Pair Repo Setup](https://ucsb-cs156.github.io/topics/git_pair_repo/).
+To set up a pair repo, see these instructions: [Pair Repo Setup](https://ucsb-cs156.github.io/topics/git/git_pair_repo.html).
+
 
 You'll also need to be sure to *submit as a pair on Gradescope*; this means adding your pair partner to your submission when you submit.  You need to do that *every time you submit*, so follow the instructions here:
 * [Adding other people to your submission on Gradescope](https://help.gradescope.com/article/m5qz2xsnjy-student-add-group-members)
