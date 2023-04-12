@@ -8,6 +8,7 @@ course: "CMPSC 156"
 title: "CS156 S23"
 quarter: "Spring 2023"
 QXX: S23
+qxx: s23
 baseurl: "/s23"
 
 ta_list_full: Avishek, Vivian
