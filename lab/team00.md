@@ -13,7 +13,7 @@ starter_repo: https://github.com/ucsb-cs156-s23/STARTER-team00
 starter_repo_ssh: 
 course_software: https://ucsb-cs156.github.io/s23/info/software.html
 canvas_url: https://ucsb.instructure.com/courses/7876/assignments/93523
-sample_deployed_app: https://ucsb-cs156-s23.github.io/demo-react-example/
+sample_deployed_app: https://ucsb-cs156-s23.github.io/STARTER-team00
 ---
 
 # {{page.title}} - {{page.description}}
