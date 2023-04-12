@@ -123,7 +123,22 @@ Next, choose one person that will carry out the following task while sharing the
 
   Commit this change to the main branch, and push.
 
-  You should see that this kicks off a GitHub Action (look at the Actions tab in your repo) that publishes the
+* One more one line change in `frontend/package.json`
+
+  Change this:
+  
+  ```
+  "homepage": "https://ucsb-cs156-s23.github.io/STARTER-team00/",
+  ```
+  
+  to this (substituting in your team name, not the one shown):
+  
+  ```
+  "homepage": "https://ucsb-cs156-s23.github.io/team00-s23-7pm-3/",
+  ```
+
+  You should see that commiting and pushing these changes 
+  kicks off a GitHub Action (look at the Actions tab in your repo) that publishes the
   site to the gh-pages branch.
 
   Once that finishes, you'll need to enable GitHub Pages, which is the next step
@@ -151,3 +166,5 @@ Then you should see something like this:
 
 If you click the link, it should take you to the deployed web app, similar to the one here:
 * <{{page.sample_deployed_app}}>
+
+
