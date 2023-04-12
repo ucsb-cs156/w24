@@ -18,24 +18,9 @@ sample_deployed_app: https://ucsb-cs156-s23.github.io/demo-react-example/
 
 # {{page.title}} - {{page.description}}
 
-# NOT READY YET
-# STILL WORKING ON THIS
-# NOT READY YET
-# NOT READY YET
-# DON'T START THIS YET
-# NOT READY YET
-# NOT READY YET
-# CHECK BACK LATER
-# NOT READY YET
-# NOT READY YET
-# STILL WORKING ON THIS
-# NOT READY YET
-# NOT READY YET
-# DON'T START THIS YET
-# NOT READY YET
-# NOT READY YET
-# CHECK BACK LATER
-# NOT READY YET
+This is a work in progress, but you can get started on it.
+
+Refresh often for updates.
 
 ## First team programming assignment: Introduction to React
 
@@ -71,11 +56,6 @@ Here are links to the repos:
 
 ## Step 0: Understand the assignment
 
-The first step is that everyone on the team should read through this entire assignment's web page.
-
-No, really.  Read it all the way through.  Right now.
-
-You need the big picture before you start getting down into the weeds.
 
 ### What you'll be doing
 
