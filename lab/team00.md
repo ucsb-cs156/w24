@@ -13,6 +13,7 @@ starter_repo: https://github.com/ucsb-cs156-s23/STARTER-team00
 starter_repo_ssh: 
 course_software: https://ucsb-cs156.github.io/s23/info/software.html
 canvas_url: https://ucsb.instructure.com/courses/7876/assignments/93523
+sample_deployed_app: https://ucsb-cs156-s23.github.io/demo-react-example/
 ---
 
 # {{page.title}} - {{page.description}}
@@ -42,7 +43,7 @@ This is a team programming assignment.  Each team has it's own repo to complete 
 
 In this assignment, you'll be given the starter code for this web app, which you should go explore a bit right now:
 
-* <https://ucsb-cs156-s23.github.io/demo-react-example/>
+* <{{page.sample_deployed_app}}>
 
 You'll see that there is a home page, and a menu with links to three pages, one for each of three towns:
 
@@ -134,29 +135,19 @@ Enable GitHub Pages for your repo by going to the Settings tab, finding Pages, a
   
 <img width="545" alt="image" src="https://user-images.githubusercontent.com/1119017/231609350-e5947a84-1ff2-497b-bc89-dce00cfdb757.png">
 
-
-After that's done, it will take a few minutes, but you should then be able to see the web app at the links below:
-  
-| 5pm | 6pm | 7pm |
-|-----|-----|-----|
-| [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-1) | [{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-1) | [{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-1)  |
-| [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-2) | [{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-2) | [{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-2)  |
-| [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-3) | [{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-3) | [{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-3)  |
-| [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-4) | [{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-4) | [{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-4)  |
-{:.table .table-sm .table-striped .table-bordered}
-
-  
-## Step 4: Configure the link on your repo page
-
-On your team00 Github repo page, find the place at right that looks like this:
+Then, on your team00 Github repo page, find the place at right that looks like this:
 
 <img width="412" alt="image" src="https://user-images.githubusercontent.com/1119017/231609798-88b24ed6-86d1-4720-8350-a23c540da265.png">
 
-Click the little gear
+Click the little gear.
 
 You should then see a page like this.  Click the box that says "Use your GitHub Page Website" and then click Save Changes
 
 <img width="785" alt="image" src="https://user-images.githubusercontent.com/1119017/231609863-47b28701-e626-4917-a2b2-c919e43fa559.png">
 
+Then you should see something like this:
 
-| [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-1) | [{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-1) | [{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-1)  |
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/1119017/231610003-c555c722-ca1e-4bc3-a7a0-fc3c30c56207.png">
+
+If you click the link, it should take you to the deployed web app, similar to the one here:
+* <{{page.sample_deployed_app}}>
