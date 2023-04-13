@@ -211,7 +211,7 @@ The information you'll need to change it this:
 * The `<p>` (paragraph) content describing the town.  This doesn't have to be long; a couple of sentences is fine.
 * The `<p>` (paragraph) element showing who added the page.  You can just use your first name and last initial here.
 
-Make this change, and then make sure the application still loads by doing `npm start`.  You won't be able to see your content yet, but you should still run `npm start` to make sure you didn't break anything; if there is a syntax error, you'll find out
+Make this change, and then make sure the application still loads by doing `npm start`.  You won't be able to see your content yet--that happens in the next step after we add a route to your new page).   However, you should still run `npm start` to make sure you didn't break anything; if there is a syntax error, you'll find out
 when you run `npm start`.
 
 If all goes well, make a commit for adding this file.  That might look like this (but with your initials instead of xy).  Also note that you are pushing to your branch, not `main`:
@@ -247,4 +247,41 @@ A few handy commands:
 * `git status` shows what branch you are on, among other things
 * `git branch -a` shows all current branches
 * `git fetch` updates information about branches by pulling new branch names from GitHub
+
+# Step 7: Add a route to the page you were assigned
+
+Now, open up the file `frontend/src/App.js`.  In this file, we define the mapping from web urls to the pages
+that are served.
+
+Find these lines at the top of the file:
+
+```js
+import AvilaBeachPage from "main/pages/AvilaBeachPage";
+import LosAlamosPage from "main/pages/LosAlamosPage";
+import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
+```
+
+You should be able to guess what line needs to be added for your page; add that line.
+
+Then, look for these lines of code:
+
+```js
+        <Route exact path="/towns/AvilaBeach" element={<AvilaBeachPage />} />
+        <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
+        <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
+```
+
+Again, you should be able to guess what line needs to be added for your page; add that line.
+
+At this point, if you do `npm start` and open up the app, your page won't appear on the menu, 
+but if you manually put in the url for your town, it should show up!
+
+Give it a try, and if it works, do another commit; something like this:
+
+```
+git add frontend/src/App.js
+git commit -m "cg - added route in App.js for San Diego"
+git push origin Chris-SanDiego
+```
+
 
