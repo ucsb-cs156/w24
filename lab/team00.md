@@ -284,4 +284,25 @@ git commit -m "cg - added route in App.js for San Diego"
 git push origin Chris-SanDiego
 ```
 
+## Step 8: Add your page to the menu
+
+Now, open up the file `frontend/src/main/components/Nav/AppNavbar.js` and look for this code:
+
+```js
+                <NavDropdown.Item as={Link} to="/towns/ArroyoGrande">Arroyo Grande</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/AvilaBeach">Avila Beach</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/towns/LosAlamos">Los Alamos</NavDropdown.Item>
+```
+
+Again, you can probably figure out from the example what code needs to be added.
+
+So add in the appropriate line of code, and then test using `npm start`.
+
+If it works, you should be able to go to the menu, and select the web page for your town!
+
+If so, then you are done with your branch, and it's time to do a pull request to merge this branch into the `main` branch.  We'll explain how to do that in the next step!
+
+Note that learning the pull request process is *part of the lab*; don't take any shortcuts here!
+
+
 
