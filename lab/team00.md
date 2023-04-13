@@ -332,5 +332,25 @@ Then, in the big area, using complete sentences, type something like this what y
 
 Then click "Create Pull Request".
 
+# Step 8: Merging the Pull Requests
+
+At this step, you should coordinate with one another again.
+
+The aim here is for each of you to merge *someone else's pull request* (not your own).
+
+Note that because each of you were making changes in `App.js` and in `AppNavbar.js`, there is a potential for
+*merge conflicts*. Fortunately, these will be easy to resolve!  But the process for resolving them can be a little tricky,
+so we'll go over it in lecture.
+
+As each pull request is merged into the main branch, you should see the page populate on the
+running app on Github Pages.
+
+When all six are merged into the main branch and appearing in the app, your team is done with this assignment.
+
+## Submission/Grading
+
+* Grading for this assignment is manual; someone on your team will submit the url to the [Canvas link for team00]({{page.canvas_url}}) when the team thinks the site is ready for grading.
+
+# End of assignment
 
 
