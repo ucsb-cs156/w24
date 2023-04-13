@@ -195,7 +195,35 @@ You'll do all of your work in this branch, and when you are done, you'll do a *P
 
 ## Step 6: Implement the Page you were assigned
 
-TODO: Add instructions here about how to add the new page;
+To add a new page, we first add a file for the new page.  You can look at these files as examples:
+
+* [frontend/src/main/pages/ArroyoGrandePage.js](https://github.com/ucsb-cs156-s23/STARTER-team00/blob/main/frontend/src/main/pages/ArroyoGrandePage.js)
+* [frontend/src/main/pages/AvilaBeachPage.js](https://github.com/ucsb-cs156-s23/STARTER-team00/blob/main/frontend/src/main/pages/AvilaBeachPage.js)
+* [frontend/src/main/pages/LosAlamosPage.js](https://github.com/ucsb-cs156-s23/STARTER-team00/blob/main/frontend/src/main/pages/LosAlamosPage.js)
+
+Create a similar file in the same directory.
+
+The information you'll need to change it this:
+
+* The name: `export default function AvilaBeachPage() {`
+  - Change it to, for example, `GoletaPage` instead of `AvilaBeachPage`
+* The `<h1>` (headline) content.
+* The `<p>` (paragraph) content describing the town.  This doesn't have to be long; a couple of sentences is fine.
+* The `<p>` (paragraph) element showing who added the page.  You can just use your first name and last initial here.
+
+Make this change, and then make sure the application still loads by doing `npm start`.  You won't be able to see your content yet, but you should still run `npm start` to make sure you didn't break anything; if there is a syntax error, you'll find out
+when you run `npm start`.
+
+If all goes well, make a commit for adding this file.  That might look like this (but with your initials instead of xy).  Also note that you are pushing to your branch, not `main`:
+
+```
+git add frontend/src/main/pages/GoletaPage.js
+git status
+git commit -m "xy - add page for Goleta"
+git push origin Phill-Goleta
+```
+
+### Make Good Commit Messages
 
 As you work on your page, make commits whenever something is working.
 * Use your initials at the start of your commit message (e.g. `cg` for "Chris Gaucho")
@@ -220,4 +248,3 @@ A few handy commands:
 * `git branch -a` shows all current branches
 * `git fetch` updates information about branches by pulling new branch names from GitHub
 
-TODO: Continue from here.
