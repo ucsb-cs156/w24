@@ -18,9 +18,6 @@ sample_deployed_app: https://ucsb-cs156-s23.github.io/STARTER-team00
 
 # {{page.title}} - {{page.description}}
 
-This is a work in progress, but you can get started on it.
-
-Refresh often for updates.
 
 ## First team programming assignment: Introduction to React
 
@@ -56,6 +53,7 @@ Here are links to the repos:
 
 ## Step 0: Understand the assignment
 
+I recommend that everyone read (or at least skim) the assignment all the way through before getting started so that you have a notion of the "big picture".
 
 ### What you'll be doing
 
@@ -64,10 +62,11 @@ In this assignment, you'll work as a team to:
 * Pull the starter code into your team's team00 repo.
 * Deploy the starter code to GitHub Pages.
 * Divide up a list of tasks that need to be done to modify the app.
-* Carry out those tasks as a group.
+* Carry out those tasks individually in your own git branches
+* Do pull requests on GitHub to request that your individual branches be merged into the main
+* Take turns merging one another's PRs into main (never merging your own).  You may run into merge conflicts at this stage, but they will be easy ones to fix, and good practice!
 
-This will require some coordination among the six of you.
-
+This will require a lot of coordination among the six of you.
 
 ## Step 1: Choose the towns, and divide up some tasks
 
