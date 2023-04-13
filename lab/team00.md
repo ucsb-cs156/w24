@@ -182,7 +182,7 @@ To create your branch, cd into your cloned repo, and use this command:
 ```
 git checkout main
 git pull origin main
-git checkout -b Chris-SanDiego`
+git checkout -b Chris-SanDiego
 ```
 
 This creates a new branch `Chris-SanDiego` that is branched off a fresh copy of the main branch.
