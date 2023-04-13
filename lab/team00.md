@@ -305,4 +305,19 @@ If so, then you are done with your branch, and it's time to do a pull request to
 Note that learning the pull request process is *part of the lab*; don't take any shortcuts here!
 
 
+## Step 9: Do a pull request
+
+The next step is to go to the webpage for your repo on GitHub, and find the "Pull Requests" tab.  It should look like this:
+
+<img width="1297" alt="image" src="https://user-images.githubusercontent.com/1119017/231614969-d48d910a-6a36-491a-93e8-007739ec7210.png">
+
+Click the "New Pull Request" button.   You should then see something like this:
+
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/1119017/231614921-9ce0bb1a-5e17-44e0-a8eb-b329d6efe974.png">
+
+
+Change it so that the base is `main` and the branch you are comparing to is your branch, like this, and then click the "Create Pull Request" button.
+
+<img width="1297" alt="image" src="https://user-images.githubusercontent.com/1119017/231615304-19380a77-d198-46c2-b3a1-054993b6d52d.png">
+
 
