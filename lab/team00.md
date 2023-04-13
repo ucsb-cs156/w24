@@ -248,7 +248,7 @@ A few handy commands:
 * `git branch -a` shows all current branches
 * `git fetch` updates information about branches by pulling new branch names from GitHub
 
-# Step 7: Add a route to the page you were assigned
+## Step 7: Add a route to the page you were assigned
 
 Now, open up the file `frontend/src/App.js`.  In this file, we define the mapping from web urls to the pages
 that are served.
@@ -332,7 +332,7 @@ Then, in the big area, using complete sentences, type something like this what y
 
 Then click "Create Pull Request".
 
-# Step 8: Merging the Pull Requests
+## Step 10: Merging the Pull Requests
 
 At this step, you should coordinate with one another again.
 
@@ -347,7 +347,7 @@ running app on Github Pages.
 
 When all six are merged into the main branch and appearing in the app, your team is done with this assignment.
 
-## Submission/Grading
+## Step 11: Submission/Grading
 
 * Grading for this assignment is manual; someone on your team will submit the url to the [Canvas link for team00]({{page.canvas_url}}) when the team thinks the site is ready for grading.
 
