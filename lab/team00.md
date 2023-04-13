@@ -320,4 +320,17 @@ Change it so that the base is `main` and the branch you are comparing to is your
 
 <img width="1297" alt="image" src="https://user-images.githubusercontent.com/1119017/231615304-19380a77-d198-46c2-b3a1-054993b6d52d.png">
 
+You'll then see something like this.  
+
+<img width="902" alt="image" src="https://user-images.githubusercontent.com/1119017/231615432-ed5e95d8-8860-43b3-8c47-c59aa040c959.png">
+
+Your next step should be to change the title (which will be populated with some suggested text from one of your recent commit messages).  Change it to: "Add Los Angeles" (or whatever your town was).
+
+Then, in the big area, using complete sentences, type something like this what you see in the image below:
+
+<img width="897" alt="image" src="https://user-images.githubusercontent.com/1119017/231615702-f3cb8436-209e-405f-a463-f4bbc3d7dd38.png">
+
+Then click "Create Pull Request".
+
+
 
