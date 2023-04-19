@@ -4,7 +4,8 @@ description: Spring Boot and Render.com Hello World
 assigned: 2023-04-19 17:00
 due: 2023-04-26 23:59
 github_org: ucsb-cs156-s23
-layout: lab
+layout: default
+parent: lab
 num: jpa02r
 title: jpa02r
 ready: true
