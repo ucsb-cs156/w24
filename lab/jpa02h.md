@@ -16,7 +16,7 @@ starter: https://github.com/ucsb-cs156-f22/STARTER-jpa02
 
 # There are two versions of this lab
 
-* One uses Heroku.  The other uses Render.com
+* This one uses Heroku (jpa02h).  The other ([jpa02r](https://ucsb-cs156.github.io/s23/lab/jpa02r.html) uses Render.com
 * Heroku is faster, but requires a credit card (though you will not be charged)
 * Render.com is slower but doesn't require a credit card
 * You don't need to do both. You can if you want, but there's no extra credit for doing so.
