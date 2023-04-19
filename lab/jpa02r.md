@@ -8,7 +8,7 @@ layout: lab
 num: jpa02r
 title: jpa02r
 ready: true
-starter: https://github.com/ucsb-cs156-f22/STARTER-jpa02
+starter: https://github.com/ucsb-cs156-s23/STARTER-jpa02
 ---
 
 {% include drop_down_style.html %}
