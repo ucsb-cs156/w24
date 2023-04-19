@@ -1,10 +1,11 @@
 ---
 desc: Spring Boot and Heroku Hello World
+parent: lab
+layout: default
 description: Spring Boot and Heroku Hello World
 assigned: 2023-04-19 17:00
 due: 2023-04-26 23:59
 github_org: ucsb-cs156-s23
-layout: lab
 num: jpa02h
 title: jpa02h
 ready: true
