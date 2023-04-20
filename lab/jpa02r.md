@@ -260,20 +260,16 @@ Render allows us to deploy web applications in Java rather easily.
 
 *A note about security*: Let's say up front that this is a risky thing to do.   You need to be very careful about security when deploying web applications to the public internet.  Fortunately, this particular application is rather simple and low-risk.   We'll discuss web security throughout the course.
 
-# Step 6: Create a new Render App
+# Step 6: Create a new Render App and link GitHub Repo
 
 
 In this step, we'll deploy our Spring Boot application to the public internet using Render.com
-
-# Step 6a: Create a Render.com application and link GitHub Repo
 
 You can follow the instructions here to create a new app. Use the name `jpa02-yourgithubid`
 
 <https://ucsb-cs156.github.io/topics/render/deploying_any_repo_to_render.html>
 
 This should result in an app at the address `https://jpa02-yourgithubid.onrender.com`
-
-
 
 
 # Step 8: Changing what is shown on the page
