@@ -47,7 +47,7 @@ Here are links to the repos:
 
 ## Submission/Grading
 
-* Grading for this assignment is manual; someone on your team will submit the url to the [Canvas link for team00]({{page.canvas_url}}) when the team thinks the site is ready for grading.
+* Grading for this assignment is manual; someone on your team will submit the url to the [Canvas link for {{page.title}}]({{page.canvas_url}}) when the team thinks the site is ready for grading.
 
 
 ## Step 1: Understand the assignment
