@@ -60,7 +60,7 @@ The rest of this explains how to proceed.
 
 Next, choose one person that will carry out the following task while sharing their screen; the rest of you should follow along.  If you are on zoom, go into a breakout room for your team, and follow along there.
 
-* Clone your teams team00-teamName repo.
+* Clone your teams <tt>{{page.title}}-teamName</tt> repo.
 * Add a remote for the starter code:
   
   <tt>git remote add starter {{page.starter_repo_url}}</tt>
