@@ -435,7 +435,9 @@ Follow the instructions
 
 # Step 11: Submitting your work for grading
 
-When you have a running web app on Heroku, make a submission under jpa02 on Canvas with a 
-link to your repo.  The repo's README should have a link to your running web app.
+When you have a running web app on Heroku, make a submission under jpa02 on Canvas **with a 
+link to your GitHub repo**.   The link should start with `https://github.com`.
+
+The repo's README should have a link to your running web app.
 
 
