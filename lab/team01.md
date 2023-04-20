@@ -110,7 +110,7 @@ Enable GitHub Pages for your repo by going to the Settings tab, finding Pages, a
   
 <img width="545" alt="image" src="https://user-images.githubusercontent.com/1119017/231609350-e5947a84-1ff2-497b-bc89-dce00cfdb757.png">
 
-Then, on your team00 Github repo page, find the place at right that looks like this:
+Then, on your {{page.title}} Github repo page, find the place at right that looks like this:
 
 <img width="412" alt="image" src="https://user-images.githubusercontent.com/1119017/231609798-88b24ed6-86d1-4720-8350-a23c540da265.png">
 
