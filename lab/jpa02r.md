@@ -209,7 +209,7 @@ If you are using `ssh` to connect to CSIL, the solution shown here
 allows you to forward traffic on `localhost:8080` on your own machine
 to `localhost:8080` on the machine you are connecting to:
 
-* <https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding/>
+* <https://ucsb-cs156.github.io/topics/csil_ssh_port_forwarding.html>
 
 ## Strategy 3: Remote Desktop 
 
@@ -235,7 +235,7 @@ The code in this repo is configured to start up a webserver on port 8080, runnin
   machine.
 * The port number is a more specific "communications channel" on that machine.   You can find more information on port numbers
   at this short article, which you are encouraged to read if you are not already familiar with port numbers
-  (or, for that matter, even if you are): <https://ucsb-cs156.github.io/topics/port_numbers/>
+  (or, for that matter, even if you are): <https://ucsb-cs156.github.io/topics/port_numbers.html>
   
 So the web address to acccess your server is: `http://localhost:8080`.
 
