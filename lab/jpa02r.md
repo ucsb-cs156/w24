@@ -280,7 +280,8 @@ You should see something like this (but with only your app):
 <img width="1325" alt="image" src="https://user-images.githubusercontent.com/1119017/233225783-32ad524a-4bdb-453f-9316-8e1b81cfd787.png">
 
 As you can see, for each app you'll see either:
-* <img width="161" alt="deploy succeeded" src="https://user-images.githubusercontent.com/1119017/233225872-6e71efff-91f2-4761-96b2-eab56107a10d.png"> or * <img width="136" alt="deploy failed" src="https://user-images.githubusercontent.com/1119017/233225919-a9ca277a-1d13-44d8-b8d5-e9f5fc242205.png">.  
+* <img width="161" alt="deploy succeeded" src="https://user-images.githubusercontent.com/1119017/233225872-6e71efff-91f2-4761-96b2-eab56107a10d.png"> or 
+* <img width="136" alt="deploy failed" src="https://user-images.githubusercontent.com/1119017/233225919-a9ca277a-1d13-44d8-b8d5-e9f5fc242205.png">.  
 
 If you see "Deploy Failed", you can click on the button and it will take you to a page like this:
 
