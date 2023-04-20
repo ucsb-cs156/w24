@@ -190,7 +190,7 @@ in that case you'll see the error:
 Web server failed to start. Port 8080 was already in use.
 ```
 
-<details>
+<details markdown="1">
 <summary>
 To see how to fix the `Port 8080 was already in use` error, click the triangle:
 </summary>
@@ -207,7 +207,7 @@ when trying to load the website.
 </details>
 
 
-<details>
+<details markdown="1">
 <summary>
 To see strategies for bringing up a web page for a web server running on CSIL, click the triangle.
 </summary>
@@ -364,7 +364,7 @@ You'll have:
         return "Greetings from cgaucho!";
 ```
 
-<details>
+<details markdown="1">
 <summary>
 If your email contains upper-case letters, underscore (`_`) or periods (`.`) click the triangle for special instructions:
 </summary>
