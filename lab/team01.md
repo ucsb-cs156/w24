@@ -279,7 +279,7 @@ adjust the instructions accordingly for your object.
    that are appropriate for your object.  You need a minimum of three fields beyond `id`; you can implement more if you like, 
    but since this is just an exercise, I suggest you keep it simple.
 4. Now replace the objects inside `threeHotels` with three objects that are different from (and have different id values) from the ones
-   in your `oneHotel` object.  I suggest that you keep the sample ids as `2`, `3, `4`, since that will make coding the tests later 
+   in your `oneHotel` object.  I suggest that you keep the sample ids as `2`, `3`, `4`, since that will make coding the tests later 
    easier&mdash;the example tests expect the id of one of the fixtures to be `2`, `3` and `4`.  But it's your choice. Just know that if you
    choose different id numbers, you'll need to adjust the testing code later accordingly.
 </details>
