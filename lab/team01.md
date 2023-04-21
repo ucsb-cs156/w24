@@ -189,10 +189,10 @@ But for the most part, you'll just follow the example code for Restaurants.
 
 Be sure that for each file you add, you also look under stories and tests, not just main!
 
-<summary markdown="1">
-<details>
+<details markdown="1">
+<summary>
 Step 6a: Adding the fixture
-</details>
+</summary>
 
 The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
 
@@ -282,7 +282,7 @@ adjust the instructions accordingly for your object.
    in your `oneHotel` object.  I suggest that you keep the sample ids as `2`, `3, `4`, since that will make coding the tests later 
    easier&mdash;the example tests expect the id of one of the fixtures to be `2`, `3` and `4`.  But it's your choice. Just know that if you
    choose different id numbers, you'll need to adjust the testing code later accordingly.
-</summary>
+</details>
 
 
 ### Make Good Commit Messages
