@@ -191,7 +191,7 @@ Be sure that for each file you add, you also look under stories and tests, not j
 
 <details markdown="1">
 <summary>
-Step 6a: Adding the fixture
+### Step 6a: Adding the fixture
 </summary>
 
 The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
@@ -300,10 +300,34 @@ adjust the instructions accordingly for your object.
 
 <details markdown="1">
 <summary>
-Step 6b: Adding the CRUD utilities
+### Step 6b: Adding the CRUD utilities
 </summary>
 
-Details will be added here to describe how to add the CRUD utilities.
+In this step, we are adding a Javascript file that allows us to do CRUD operations (Create/Read/Update/Destroy) on a particular
+kind of object (e.g. `hotels`) using the code in 
+The model to follow here is [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js) as a model.
+
+The data is stored in something called *Browser Local Storage*.  Each web browser provides the capability for a website to 
+maintain a key/value store specific to that site.   Note that this storage is local to not only to your local computer, but
+even to different web browsers on the same computer, and different "user profiles" within the same browser.  So this is a very 
+limited way of storing data, and is *not* suitable for most applications.  We are using it in this course (temporarily) 
+only because it allows us to proceed with testing/learning some frontend development skills, and delay (for the time being)
+the complications of communicating with a backend that implements a proper database.
+
+**Testing is crucial**.  Starting with this step, each time we add code, we will add tests for that code.    We didn't do that with the
+fixtures file, but that's really a special case; as a general rule, when you add code, you are required to add tests for that code.
+The GitHub Actions scripts will actually enforce that rule; you'll get a "red X" (e.g. ❌ ) if you try to add code that doesn't have 
+test coverage.
+
+So in addition to looking at [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js), we also need to understand the file [frontend/src/tests/utils/restaurantUtils.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/utils/restaurantUtils.test.js)
+
+#### Understanding [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+
+More coming soon!
+
+#### Understanding [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+More coming soon!
 
 </details>
 
