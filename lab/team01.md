@@ -282,8 +282,30 @@ adjust the instructions accordingly for your object.
    in your `oneHotel` object.  I suggest that you keep the sample ids as `2`, `3`, `4`, since that will make coding the tests later 
    easier&mdash;the example tests expect the id of one of the fixtures to be `2`, `3` and `4`.  But it's your choice. Just know that if you
    choose different id numbers, you'll need to adjust the testing code later accordingly.
+5. When your new `hotelFixtures.js` file (for example) is done, commit the change, and do a pull request. 
+
+   For your PR title, use something like `Add fixtures for hotel objects`.
+   
+   Normally a PR description might need to contain screenshots, or testing instructions, but in this case, it can be
+   very simple.  I suggest something like this:
+
+   ```
+   In this PR, we add fixtures for hotel objects to be used in testing and storybook entries.
+   ```
+6. When you've made the PR, drag the issue on the Kanban board into `In Review`.
+7. Then, assign yourself a new issue from `ToDo`, and drag that into the `In progress` column, and start work on that issue.
 </details>
 
+
+
+<details markdown="1">
+<summary>
+Step 6b: Adding the CRUD utilities
+</summary>
+
+Details will be added here to describe how to add the CRUD utilities.
+
+</details>
 
 ### Make Good Commit Messages
 
