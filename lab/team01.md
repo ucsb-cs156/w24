@@ -321,11 +321,120 @@ test coverage.
 
 So in addition to looking at [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js), we also need to understand the file [frontend/src/tests/utils/restaurantUtils.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/utils/restaurantUtils.test.js)
 
+
+#### Understanding [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+First, let's take a look at the big picture of `restaurantUtilities.js`.  Here's the entire file with the contents
+of each arrow function omitted.  
+
+```js
+// get restaurants from local storage
+const get = () => {
+   // details omitted
+};
+
+const getById = (id) => {
+   // details omitted
+}
+
+// set restaurants in local storage
+const set = (restaurantCollection) => {
+     // details omitted
+};
+
+// add a restaurant to local storage
+const add = (restaurant) => {
+      // details omitted
+};
+
+// update a restaurant in local storage
+const update = (restaurant) => {
+   // details omitted
+};
+
+// delete a restaurant from local storage
+const del = (id) => {
+   // details omitted
+};
+
+const restaurantUtils = {
+    get,
+    getById,
+    add,
+    update,
+    del
+};
+
+export { restaurantUtils };
+```
+
+In the listing above, the first thing to notice is that the file consists of:
+* Six arrow functions (`get`, `getById`, `set`, `add`, `update`, `del`)
+* Declaration of an object called `restaurantUtils` which consists of five of these functions
+  - Note that `get,` inside a javascript object is a shorthand notation for `get: get,`
+  - Accordingly, the keys are `get`, `getById`, `add`, `update`, and `del`, and the values are the function themselves
+* The statement `export { restaurantUtils };` which allows us to do this in another file:
+  ```js
+  import { restaurantUtils } from 'main/utils/restaurantUtils';
+  ```
+
+Note also that we don't export the `set` function.  Think of this like a "private method" of the 
+restaurantUtils, while the others are similar to "public" methods.
+
+
+Now let's look at each of the functions individually.
+
+#### Understanding `get` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+The `get` function looks like this:
+
+```js
+const get = () => {
+    const restaurantValue = localStorage.getItem("restaurants");
+    if (restaurantValue === undefined) {
+        const restaurantCollection = { nextId: 1, restaurants: [] }
+        return set(restaurantCollection);
+    }
+    const restaurantCollection = JSON.parse(restaurantValue);
+    if (restaurantCollection === null) {
+        const restaurantCollection = { nextId: 1, restaurants: [] }
+        return set(restaurantCollection);
+    }
+    return restaurantCollection;
+};
+```
+
+The line `const restaurantValue = localStorage.getItem("restaurants");` gets the text of the value
+associated with the key `restaurants` from the browser local storage.
+
+If this value is `undefined`, we set an intial value of `{ nextId: 1, restaurants: [] }` and pass that to the `set` function
+which will convert this to a string representation and put it in local storage under the key `restaurants`.  The
+object stores the next id value that will be assigned to a restaurant object, and a list of restaurants, initally empty (`[]`).
+
+#### Understanding `getById` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+Coming soon!
+
+#### Understanding `set` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+Coming soon!
+
+#### Understanding `add` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+Coming soon!
+
+#### Understanding `update` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+Coming soon!
+
+#### Understanding `del` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+
+Coming soon!
+
 #### Understanding [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
 
 More coming soon!
 
-#### Understanding [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 More coming soon!
 
