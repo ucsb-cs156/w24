@@ -178,18 +178,12 @@ You'll do all of your work in this branch, and when you are done, you'll do a *P
 ## Step 6: Work on your issues
 
 I will add more details here about the specific issues
-* adding the fixture
-* adding the CRUD utilities
-* adding the form
-* adding the table
-* adding the Create and Edit pages
-* adding the index and details pages
 
-But for the most part, you'll just follow the example code for Restaurants.
+But for the most part, you'll just follow the example code for `Restaurants`.
 
-Be sure that for each file you add, you also look under stories and tests, not just main!
+Be sure that for each file you add, you also look under `stories` and `tests`, not just `main`!
 
-Click the triangles for details
+Click the triangles for details:
 
 <details markdown="1">
 <summary><b>Step 6a: Adding the fixture</b></summary>
@@ -849,6 +843,27 @@ The process looks like this:
 9. Make sure you also run `npx eslint --fix .` and address any issues it flags before making your PR.
 
 </details>
+
+<details markdown="1">
+<summary><b>Step 6c: Adding the form (coming soon!)</b></summary>
+  Coming soon
+</details>
+
+<details markdown="1">
+<summary><b>Step 6d: Adding the table (coming soon!)</b></summary>
+  Coming soon
+</details>
+
+<details markdown="1">
+<summary><b>Step 6e: Adding the Create and Edit Pages (coming soon!)</b></summary>
+  Coming soon
+</details>
+
+<details markdown="1">
+<summary><b>Step 6f: Adding the Index and Details Pages (coming soon!)</b></summary>
+  Coming soon
+</details>
+
 
 ### Make Good Commit Messages
 
