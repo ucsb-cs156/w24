@@ -846,7 +846,24 @@ The process looks like this:
 
 <details markdown="1">
 <summary><b>Step 6c: Adding the form (coming soon!)</b></summary>
-  Coming soon
+
+In this step, you'll add:
+* a file similar to [`RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js) that provides a form for users to enter data for a restaurant
+* a file similar to [RestaurantForm.stories.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
+* a file similar to [RestaurantForm.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the form
+
+#### Understanding [`frontend/src/main/components/Restaurants/RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js)
+
+Coming soon!
+
+#### Understanding [`frontend/src/stories/components/Restaurants/RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
+
+Coming soon!
+
+#### Understanding [/frontend/src/tests/components/Restaurants/RestaurantForm.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js)
+
+Coming soon!
+
 </details>
 
 <details markdown="1">
