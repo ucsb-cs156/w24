@@ -612,7 +612,9 @@ look at how to run mutation testing locally.
 
 Later, as we have partial coverage for a file, you can click on the file and see which lines are, and are not covered by tests.  For example, here is what that report looks like with just a few of the tests included, but not all of them:
 
-TODO: INSERT MORE HERE.
+<img width="697" alt="image" src="https://user-images.githubusercontent.com/1119017/233866365-9942b1ff-cb16-4c3a-8229-35b16e10480d.png">
+
+As you can see, we have full coverage of the `get` function (as shown by the green color, and the numbers such as `1x`, `2x`, etc. showing how many times a line has been exercised by tests. But other parts of the file do not have coverage, as shown by the red color, and the absence of anything next to those lines.
 
 #### Running mutation coverage locally
 
