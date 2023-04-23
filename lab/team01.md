@@ -192,9 +192,7 @@ Be sure that for each file you add, you also look under stories and tests, not j
 **Click the triangles for details**
 
 <details markdown="1">
-<summary markdown="1">
-**Step 6a: Adding the fixture**
-</summary>
+<summary><b>Step 6a: Adding the fixture</b></summary>
 
 The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
 
