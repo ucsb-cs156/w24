@@ -190,7 +190,7 @@ But for the most part, you'll just follow the example code for Restaurants.
 Be sure that for each file you add, you also look under stories and tests, not just main!
 
 <details markdown="1">
-<summary>
+<summary markdown="1">
 ### Step 6a: Adding the fixture
 </summary>
 
@@ -299,7 +299,7 @@ adjust the instructions accordingly for your object.
 
 
 <details markdown="1">
-<summary>
+<summary markdown="1">
 ### Step 6b: Adding the CRUD utilities
 </summary>
 
