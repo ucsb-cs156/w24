@@ -189,11 +189,11 @@ But for the most part, you'll just follow the example code for Restaurants.
 
 Be sure that for each file you add, you also look under stories and tests, not just main!
 
-** Click the triangles for details**
+**Click the triangles for details**
 
 <details markdown="1">
 <summary markdown="1">
-** Step 6a: Adding the fixture **
+**Step 6a: Adding the fixture**
 </summary>
 
 The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
