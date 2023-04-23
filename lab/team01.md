@@ -411,13 +411,63 @@ If this value is `undefined`, we set an intial value of `{ nextId: 1, restaurant
 which will convert this to a string representation and put it in local storage under the key `restaurants`.  The
 object stores the next id value that will be assigned to a restaurant object, and a list of restaurants, initally empty (`[]`).
 
+The line `const restaurantCollection = JSON.parse(restaurantValue);` converts the 
+text representation of an object (as a string) to the actual object representation.
+
+* To convert a string to an object, we use: `object = JSON.parse(string)`
+* To convert an object to a strring, we use: `string = JSON.stringify(object)` 
+
 #### Understanding `getById` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
-Coming soon!
+The `getById` looks for a particular restaurant by it's id and returns that
+object.  Here's the code:
+
+```js
+const getById = (id) => {
+    if (id === undefined) {
+        return { "error": "id is a required parameter" };
+    }
+    const restaurantCollection = get();
+    const restaurants = restaurantCollection.restaurants;
+
+    /* eslint-disable-next-line eqeqeq */ // we really do want == here, not ===
+    const index = restaurants.findIndex((r) => r.id == id);
+    if (index === -1) {
+        return { "error": `restaurant with id ${id} not found` };
+    }
+    return { restaurant: restaurants[index] };
+}
+```
+
+The code here is mostly straightforward; the part that may need some explanation is this:
+
+```js
+    /* eslint-disable-next-line eqeqeq */ // we really do want == here, not ===
+    const index = restaurants.findIndex((r) => r.id == id);
+```
+
+Note that Javascript has two kinds of test for equality: `==` and `===`.  It is typically the case that we want `===` which is a strict test for equality, however in this case we want `==` which is a looser test for equality. That is likely because this allows the `id` value to be either
+an integer or string representation of the `id` while still maintaining the desired behavior.
+
+However, the `eslint` utility will recommend a change from `==` to `===`, which will introduce a bug.  To suppress that warning,
+we use the special comment `/* eslint-disable-next-line eqeqeq */`.  This syntax is explained in detail in the [eslint documentation](https://eslint.org/docs/latest/use/configure/rules)
 
 #### Understanding `set` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
-Coming soon!
+This function is used internally to update the restaurants in local storage.  It is responsible for converting from object representation
+to string representation and storing under the key `restaurants`.
+
+This function is straightforward, so we won't explain in detail.  We'll just point out that your version for `hotels` (for example), should
+use the key `hotels` rather than `restaurants` as the first parameter to `setItem`.  It's important that this key be consistent throughout the
+file.  (In fact, one way to improve on the current code might be to factor this out into its own `const` value, such as `const storageKey = "restaurants";` and then use that in both the `setItem` and `getItem` calls, as an application of the [Don't Repeat Yourself (DRY) principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+
+```js
+// set restaurants in local storage
+const set = (restaurantCollection) => {
+    localStorage.setItem("restaurants", JSON.stringify(restaurantCollection));
+    return restaurantCollection;
+};
+```
 
 #### Understanding `add` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
