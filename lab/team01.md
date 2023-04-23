@@ -577,7 +577,11 @@ When we get this result, what do we need to do?  First, let's review how to run 
 
 #### Running test coverage locally
 
-To run test coverage locally, you need to be in the `frontend` directory.  Then run:
+To run test coverage locally, you need to be in the `frontend` directory.  
+
+First run `npm test` to make sure that the test suite is all passing; it doesn't make sense to compute test coverage if you have failing tests.
+
+Then run:
 ```
 npm run coverage
 ```
@@ -603,11 +607,244 @@ The yellow color, and the number less than 100% in all four columns (statements,
 <img width="934" alt="image" src="https://user-images.githubusercontent.com/1119017/233862904-54544cdd-4ea1-41bd-8691-4502ad2c026c.png">
 
 The red color, and the zeros for `hotelUtils.js` show that we need test coverage for that file.  To get this test coverage,
-we can add a file `frontend/src/tests/utils/hotelsUtils.test.js` using [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js) as a model.  So let's look at that file next.
+we can add a file `frontend/src/tests/utils/hotelsUtils.test.js` using [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js) as a model.  So we'll look at that in a moment.  But first, let's also 
+look at how to run mutation testing locally.
 
-#### Understanding [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+Later, as we have partial coverage for a file, you can click on the file and see which lines are, and are not covered by tests.  For example, here is what that report looks like with just a few of the tests included, but not all of them:
 
-More coming soon!
+TODO: INSERT MORE HERE.
+
+#### Running mutation coverage locally
+
+To run mutation test coverage locally, you need to be in the `frontend` directory.  
+
+First run `npm test` to make sure that the test suite is all passing; it doesn't make sense to compute mutation coverage if you have failing tests.
+
+Then, run:
+
+```
+npx stryker run
+```
+
+It may take a while to run.  When I ran `npm run coverage`, it took only 5 seconds, but `npx stryker run` took 53 seconds.  As the projects get larger, this number will get larger too.
+
+Eventualy, you'll see a report on your console like this one:
+
+<img width="1176" alt="image" src="https://user-images.githubusercontent.com/1119017/233865677-90895eff-15ca-4d6a-bcde-dc3567c1f389.png">
+
+The red and the number less than 100% in the score column shows us where we need to focus, in this case `hotelUtils.js`.  As with `npm run coverage`, there is also a detailed HTML report, which we can find in the file `reports/mutation/html/index.html` (this file name is echoed on the console):
+
+```
+13:51:33 (81953) INFO HtmlReporter Your report can be found at: file:///Users/pconrad/github/ucsb-cs156-s23/team01-s23-4pm-1/frontend/reports/mutation/html/index.html
+13:51:33 (81953) INFO MutationTestExecutor Done in 53 seconds.
+```
+
+We can open this in a web browser, and we see something like this:
+
+<img width="915" alt="strykerjs example output" src="https://user-images.githubusercontent.com/1119017/233865763-ebae4a88-a0f9-4e72-b70d-5f96a1ed28c9.png">
+
+As with `npm run coverage`, we can click on a directory to see more detail; clicking on `utils` takes us here, where we see that the issue is in `hotelUtils.js`:
+
+<img width="917" alt="strykerjs example output" src="https://user-images.githubusercontent.com/1119017/233865821-61f69df7-e60a-4858-9968-7201f680f9c2.png">
+
+Clicking on that takes us to the source code for `hotelUtils.js` where we can see which lines are covered, and which are not.  Here's what that looks like when there is no coverage at all. 
+
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/1119017/233865867-f37a0e41-e945-4200-8ab6-19b9adbd0938.png">
+
+Note that you can explore the report and find out exactly what mutations were done that survived by clicking on the red circles.  Each time, this shows the "before/after" comparison of the original code and the mutated code.  You can use that information to come up with a strategy to write a test that will fail on that specific mutation:
+
+![stryker-mutations](https://user-images.githubusercontent.com/1119017/233865937-70c70745-f35f-44df-9107-5ce414781de9.gif)
+
+
+#### Understanding the big picture of [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+
+Let's start by looking at the big picture of this file.  Here's the entire file with some details omitted:
+
+```js
+import { restaurantFixtures } from "fixtures/restaurantFixtures";
+import { restaurantUtils } from "main/utils/restaurantUtils";
+
+describe("restaurantUtils tests", () => {
+    // return a function that can be used as a mock implementation of getItem
+    // the value passed in will be convertd to JSON and returned as the value
+    // for the key "restaurants".  Any other key results in an error
+    const createGetItemMock = (returnValue) => (key) => {
+       // details omitted
+    };
+
+    describe("get", () => {
+       // details omitted
+    });
+
+    describe("getById", () => {
+      // details omitted
+    });
+    
+    describe("add", () => {
+      // details omitted
+    });
+
+    describe("update", () => {
+      // details omitted
+    });
+});
+```
+
+Looking at this, we see that the file starts, as most of our Javascript source files do, with some imports.  In this case, we are importing the functions
+that we want to test, and the `restaurantFixtures` that can serve as example objects to test with.
+
+We then have a block with this structure:
+
+```
+describe("restaurantUtils tests", () => {
+   // details omitted.
+});
+```
+
+This is a single call to the `describe` function which takes two parameters:
+* a string describing a group of tests (in this case, "restaurantUtils tests")
+* a Javascript arrow function `()=>{}` that contains all of the tests.
+
+The `describe` function is a feature of [`jest`](https://jestjs.io/) which is the Javascript testing framework we are using.  There is [documentation for the `describe` function](https://jestjs.io/docs/api#describename-fn) if you want to learn more, but the basic idea is that we can group tests within calls to `describe`.  
+
+As this example shows, `describe` function calls can be nested; indeed the entire outer describe contains five inner `describe` blocks:
+
+```
+describe("restaurantUtils tests", () => {
+  
+  // function definition of createItemGetMock omitted for now
+  
+  describe("get", () => {
+      // details omitted
+  });
+  
+  describe("getById", () => {
+      // details omitted
+  });
+  
+  // etc...
+  
+});
+```
+
+Each of the inner `describe` blocks corresponds to one of the five functions that the `restaurantUtils` module makes available.
+
+
+Next, we'll look at a few of the tests.  
+
+#### Understanding the tests in [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+
+Since there are thirteen tests in `restaurantUtils.test.js` we won't go over all of them in detail; we'll review just a few so that you get the basic idea, and leave it to you to discover how the others work.
+
+Let's start with the first test for the `get` function.  This test follows a general pattern for tests which is **arrange, act, assert**.
+
+```js
+        test("When restaurants is undefined in local storage, should set to empty list", () => {
+
+            // arrange
+            ...
+            
+            // act
+            ...
+            
+            // assert
+            ...
+        });
+```
+
+The **arrange** section sets up the conditions for the tests. One of the important ideas here is the idea of a **mock**.  When we are doing unit
+testing, we are trying to test one unit of code at a time, and not test other units that we may be depending on.   
+
+We also don't want our tests
+to have any side-effects that could change the outcome of other tests, which means we want to avoid writing to the file system, sending
+real messages over the network, or storing things in a database.
+
+In this case, the correctness of our code depends 
+on the `localStorage.getItem()` and `localStorage.setItem()` functions working properly.  And we want to avoid actually writing things into `localStorage`,
+or depending on `localStorage` being in a certain state.
+
+So we set up a **mock implementation** of `localStorage`.  That is done with this code.  Here `Storage.prototype` is the built in Javascript object
+that implements the `localStoarage` function.  The function [jest.spyOn](https://jestjs.io/docs/jest-object#jestspyonobject-methodname) is used to
+create a mock function that is called instead of the real `localStorage.getItem`.  We do the same for `localStorage.setItem`.
+
+```js
+        test("When restaurants is undefined in local storage, should set to empty list", () => {
+
+            // arrange
+            const getItemSpy = jest.spyOn(Storage.prototype, 'getItem');
+            getItemSpy.mockImplementation(createGetItemMock(undefined));
+
+            const setItemSpy = jest.spyOn(Storage.prototype, 'setItem');
+            setItemSpy.mockImplementation((_key, _value) => null);
+            ...
+        });
+```
+
+We also supply a mock implementation for both functions. The Jest [`mockImplementation`](https://jestjs.io/docs/mock-function-api/#mockfnmockimplementationfn) function takes a Javascript function as its argument.  In the case of `getItem`, we use the function
+defined at the top of the outer `describe` block to create that function.  Since this function is documented with comments, we won't
+explain further, except to point out that this is a *function that returns a function*, which may be a new idea; you don't see this
+much in C++ and Java programming, but it is a key feature of functional programming languages such as LISP, Scheme, Scala, and others.
+Over time, Javascript has evolved to incorporate many of the ideas of functional programming. We'll see it often in React code.
+
+```js
+    // return a function that can be used as a mock implementation of getItem
+    // the value passed in will be convertd to JSON and returned as the value
+    // for the key "restaurants".  Any other key results in an error
+    const createGetItemMock = (returnValue) => (key) => {
+        if (key === "restaurants") {
+            return JSON.stringify(returnValue);
+        } else {
+            throw new Error("Unexpected key: " + key);
+        }
+    };
+```
+
+The `// Act ` section of a test involves actually invoking the unit under test, which in this case is the `add` function of `restaurantUtils.js`:
+
+```
+            // act
+            const result = restaurantUtils.get();
+```
+
+This is followed by the `// Assert` section of the test, in which we call assertions about what should be true if the code is correct.
+* Here we first check that we expect the `result` variable returned by `restaurantUtils.get();` to equal a certain value.  
+* We can also check that our `setItem` function was called with the expected parameter value
+
+```js
+            // assert
+            const expected = { nextId: 1, restaurants: [] } ;
+            expect(result).toEqual(expected);
+
+            const expectedJSON = JSON.stringify(expected);
+            expect(setItemSpy).toHaveBeenCalledWith("restaurants", expectedJSON);
+```
+
+The remaining twelve tests follow a similar pattern, so we won't describe them in detail. We'll just point one thing that's slightly different, namely that in addition to asserting whether a mock function has been called, we can also assert that it was *not* called:
+
+```
+            expect(setItemSpy).not.toHaveBeenCalled();
+```
+
+This is occasionally useful for making sure we cover both branches of an if/else, for example, or that a mutation to an if test is killed.
+
+#### Writing your own version of [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+
+It may be possible to get full test and mutation coverage by just copying this file over, doing a search and replace (e.g. changing all instances of `restaurant` to `hotel`).
+
+However, I suggest that once you do this, you comment out all of the describe blocks except for the one for `describe("get", () => {`, and then uncomment the tests one at a time so that you can see the effect on test coverage and mutation coverage.
+
+The process looks like this:
+
+1. Put yourself at command line in the `frontend` directory.
+1. Copy `src/tests/utils/restaurantUtils.test.js` to, for example `src/tests/utils/hotelUtils.test.js`
+2. Do a global search replace `restaurant` to hotel`
+3. Comment out all of the inner `describe blocks` except the one for `get`, and comment out all but the first test inside the `get` block.
+4. Run the tests with `npm test`.  They should pass; if they don't, fix that first.
+5. Run test coverage with `npm run coverage`. You should see coverage gaps; look at this both in the console window and in the html report.
+6. Also run `npx stryker run`.  You should see coverage gaps; look at this both in the console window and in the html report.
+7. Now uncomment the tests a bit at a time, and see the effect on the coverage gaps.  This will help you understand what each test is doing.
+8. When you get to 100% test coverage with both `npm run coverage` and `npx stryker run` you'll be almost ready for a pull request.
+9. Make sure you also run `npx eslint --fix .` and address any issues it flags before making your PR.
 
 </details>
 
