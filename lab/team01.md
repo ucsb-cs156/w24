@@ -189,9 +189,11 @@ But for the most part, you'll just follow the example code for Restaurants.
 
 Be sure that for each file you add, you also look under stories and tests, not just main!
 
+** Click the triangles for details**
+
 <details markdown="1">
 <summary markdown="1">
-### Step 6a: Adding the fixture
+** Step 6a: Adding the fixture **
 </summary>
 
 The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
@@ -300,7 +302,7 @@ adjust the instructions accordingly for your object.
 
 <details markdown="1">
 <summary markdown="1">
-### Step 6b: Adding the CRUD utilities
+**Step 6b: Adding the CRUD utilities**
 </summary>
 
 In this step, we are adding a Javascript file that allows us to do CRUD operations (Create/Read/Update/Destroy) on a particular
@@ -471,7 +473,40 @@ const set = (restaurantCollection) => {
 
 #### Understanding `add` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
-Coming soon!
+The `add` routine is used to add a restaurant to the collection.
+
+```js
+// add a restaurant to local storage
+const add = (restaurant) => {
+    const restaurantCollection = get();
+    restaurant = { ...restaurant, id: restaurantCollection.nextId };
+    restaurantCollection.nextId++;
+    restaurantCollection.restaurants.push(restaurant);
+    set(restaurantCollection);
+    return restaurant;
+};
+```
+
+The line `const restaurantCollection = get();` retrieves the entire collection (initializing it to an empty collection if it doesn't already exist).
+
+The next line illustrates an important use of the Javascript spread operator, i.e. `...`.  What this line of code does is to assign a new value to the
+variable `restaurant`, consisting of a Javascript object that has:
+* all of the fields of the old value of restaurant `...restaurant`
+* then, an additional field with the key `id` and the value `restaurantCollection.nextId`
+
+The effect is to add the id to the object.  Note that if the object already had an `id` value, this will
+override that older value since `id: restaurantCollection.nextId` comes after `...restaurant`.
+
+```js
+    restaurant = { ...restaurant, id: restaurantCollection.nextId };
+```
+
+We then increment the `nextId` with `restaurantCollection.nextId++;` and then we add the restaurant to the collection with:
+```js
+ restaurantCollection.restaurants.push(restaurant);
+```
+
+We then use `set(restaurantCollection);` to update the restaurant collection, and we return the updated object (which now has an id number).
 
 #### Understanding `update` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
