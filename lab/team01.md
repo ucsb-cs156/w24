@@ -189,7 +189,7 @@ But for the most part, you'll just follow the example code for Restaurants.
 
 Be sure that for each file you add, you also look under stories and tests, not just main!
 
-**Click the triangles for details**
+Click the triangles for details
 
 <details markdown="1">
 <summary><b>Step 6a: Adding the fixture</b></summary>
@@ -299,9 +299,7 @@ adjust the instructions accordingly for your object.
 
 
 <details markdown="1">
-<summary markdown="1">
-**Step 6b: Adding the CRUD utilities**
-</summary>
+<summary><b>Step 6b: Adding the CRUD utilities</b></summary>
 
 In this step, we are adding a Javascript file that allows us to do CRUD operations (Create/Read/Update/Destroy) on a particular
 kind of object (e.g. `hotels`) using the code in 
@@ -564,10 +562,50 @@ const del = (id) => {
 If you've followed the explanations of `getById`, `add`, and `update`, the only new thing here is `restaurants.splice(index, 1);` which
 will remove one item at index `index`; for more details, you can read the [documentation of splice at the MDN website](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).  In general, the [MDN documentation for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a useful resource.
 
+#### Understanding the checks for coverage and mutation testing
+
+When we add a new file to our app, we also need to add tests.  If we were to add, for example, `frontend/src/tests/utils/hotelUtils.js` without adding test coverage, we'd get a result like this when trying to do a pull request:
+
+<img width="929" alt="GitHub Actions Checks" src="https://user-images.githubusercontent.com/1119017/233858463-7f53ab44-ae57-42b5-9696-d7dcf2a2ca8e.png">
+
+We see here that the GitHub Actions script `32-frontend-coverage` has failed, indicating that there is frontend code that is not covered by tests.
+In the image above, we also see the yellow circle indicating that the `34-frontend-mutation-testing` is still running; as we've discussed in lecture, coverage generally runs an order of magnitude faster than mutation testing.  Eventually that one will turn to a red X as well:
+
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/1119017/233858582-740068a3-cb7c-4b0a-83a8-15009e3255d4.png">
+
+When we get this result, what do we need to do?  First, let's review how to run coverage locally.
+
+#### Running test coverage locally
+
+To run test coverage locally, you need to be in the `frontend` directory.  Then run:
+```
+npm run coverage
+```
+
+You'll get a report on the console like this one:
+
+<img width="1056" alt="image" src="https://user-images.githubusercontent.com/1119017/233858700-2b429c0d-d651-40f1-acc2-6b51f5a41d37.png">
+
+Note that files with uncovered lines are shown in red, and also are flagged in the column for `Uncovered Line #s` (for users that may have color perception issues.)  This is helpful, but we can get much more detail by opening the detailed report in a web browser.  The filename for that report is `coverage/lcov-report/index.html`; on MacOS, you can open the file with this command:
+
+```
+open coverage/lcov-report/index.html 
+```
+
+On other platforms, use the "open file" feature of your web browser, and navigate to and open the file.
+
+When we do that, we see this:
+
+<img width="940" alt="image" src="https://user-images.githubusercontent.com/1119017/233862804-d345152a-77b9-4b14-8bdd-d56d866430e0.png">
+
+The yellow color, and the number less than 100% in all four columns (statements, branches, functions, lines) shows us that the utils directory is where the problem lies.  We can click on the utils directory in this report, and see more detail:
+
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/1119017/233862904-54544cdd-4ea1-41bd-8691-4502ad2c026c.png">
+
+The red color, and the zeros for `hotelUtils.js` show that we need test coverage for that file.  To get this test coverage,
+we can add a file `frontend/src/tests/utils/hotelsUtils.test.js` using [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js) as a model.  So let's look at that file next.
+
 #### Understanding [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
-
-More coming soon!
-
 
 More coming soon!
 
