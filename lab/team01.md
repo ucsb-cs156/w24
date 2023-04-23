@@ -471,7 +471,8 @@ const set = (restaurantCollection) => {
 
 #### Understanding `add` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
-The `add` routine is used to add a restaurant to the collection.
+The `add` routine is used to add a restaurant to the collection.  The restaurant should have all of the fields of
+a restaurant object except the `id` field; that value is added by the `add` routine.
 
 ```js
 // add a restaurant to local storage
@@ -508,11 +509,60 @@ We then use `set(restaurantCollection);` to update the restaurant collection, an
 
 #### Understanding `update` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
-Coming soon!
+The update function is used to support updating the value of an existing restaurant. The parameter is a restaurant object with 
+an `id` number.  That `id` should already exist in the restaurant collection; otherwise an error is returned.
+
+Here's the code:
+
+```js
+// update a restaurant in local storage
+const update = (restaurant) => {
+    const restaurantCollection = get();
+
+    const restaurants = restaurantCollection.restaurants;
+
+    /* eslint-disable-next-line eqeqeq */ // we really do want == here, not ===
+    const index = restaurants.findIndex((r) => r.id == restaurant.id);
+    if (index === -1) {
+        return { "error": `restaurant with id ${restaurant.id} not found` };
+    }
+    restaurants[index] = restaurant;
+    set(restaurantCollection);
+    return { restaurantCollection: restaurantCollection };
+};
+```
+
+As you can see the code is similar to code from `getById` and `add`, so we won't explain further.
 
 #### Understanding `del` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
-Coming soon!
+The `del` function is named `del` to avoid any conflict with the word `delete`.   It is used to delete a restaurant from the collection.
+The `id` parameter should be the id of a restaurant already in the collection; otherwise, an error is returned.
+
+Here's the code: 
+
+```js
+// delete a restaurant from local storage
+const del = (id) => {
+    if (id === undefined) {
+        return { "error": "id is a required parameter" };
+    }
+    const restaurantCollection = get();
+    const restaurants = restaurantCollection.restaurants;
+
+    /* eslint-disable-next-line eqeqeq */ // we really do want == here, not ===
+    const index = restaurants.findIndex((r) => r.id == id);
+    if (index === -1) {
+        return { "error": `restaurant with id ${id} not found` };
+    }
+    restaurants.splice(index, 1);
+    set(restaurantCollection);
+    return { restaurantCollection: restaurantCollection };
+};
+```
+
+If you've followed the explanations of `getById`, `add`, and `update`, the only new thing here is `restaurants.splice(index, 1);` which
+will remove one item at index `index`; for more details, you can read the [documentation of splice at the MDN website](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice).  In general, the [MDN documentation for JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is a useful resource.
 
 #### Understanding [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
 
