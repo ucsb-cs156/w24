@@ -849,8 +849,8 @@ The process looks like this:
 
 In this step, you'll add:
 * a file similar to [`RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js) that provides a form for users to enter data for a restaurant
-* a file similar to [RestaurantForm.stories.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
-* a file similar to [RestaurantForm.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the form
+* a file similar to [`RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
+* a file similar to [`RestaurantForm.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the form
 
 #### Understanding [`frontend/src/main/components/Restaurants/RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js)
 
@@ -860,7 +860,7 @@ Coming soon!
 
 Coming soon!
 
-#### Understanding [/frontend/src/tests/components/Restaurants/RestaurantForm.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js)
+#### Understanding [`/frontend/src/tests/components/Restaurants/RestaurantForm.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js)
 
 Coming soon!
 
@@ -871,8 +871,8 @@ Coming soon!
 
 In this step, you'll add:
 * a file similar to [`RestaurantTable.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantTable.js) that provides a table to display a single restaurant, or a list of restaurants with buttons for Details, Edit, and Delete functions.
-* a file similar to [RestaurantTable.stories.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantTable.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
-* a file similar to [RestaurantForm.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the table
+* a file similar to [`RestaurantTable.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantTable.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
+* a file similar to [`RestaurantForm.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the table
 
 #### Understanding [`frontend/src/main/components/Restaurants/RestaurantTable.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantTable.js)
 
@@ -882,7 +882,7 @@ Coming soon!
 
 Coming soon!
 
-#### Understanding [/frontend/src/tests/components/Restaurants/RestaurantTable.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantTable.test.js)
+#### Understanding [`/frontend/src/tests/components/Restaurants/RestaurantTable.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantTable.test.js)
 
 Coming soon!
 
@@ -893,9 +893,9 @@ Coming soon!
   
 In this step, you'll add:
 * a file similar to [`RestaurantCreatePage.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/pages/Restaurants/RestaurantCreatePage.js) that provides a page for creating a new restaurant.
-* a file similar to [RestaurantCreatePage.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantCreatePage.test.js) that provides test coverage that page.
+* a file similar to [`RestaurantCreatePage.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantCreatePage.test.js) that provides test coverage that page.
 * a file similar to [`RestaurantEditPage.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/pages/Restaurants/RestaurantCreatePage.js) that provides a page for editing an existing restaurant.
-* a file similar to [RestaurantEditPage.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js) that provides test coverage for the edit page.
+* a file similar to [`RestaurantEditPage.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js) that provides test coverage for the edit page.
 
 Arguably, we should also perhaps add a storybook entries for the `RestaurantCreatePage` and `RestaurantEditPage`.  We'll omit that from this assignment, but we'll be sure to include in future assignments.
 
@@ -903,7 +903,7 @@ Arguably, we should also perhaps add a storybook entries for the `RestaurantCrea
 
 Coming soon!
 
-#### Understanding [frontend/src/tests/pages/Restaurants/RestaurantCreatePage.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantCreatePage.test.js)
+#### Understanding [`frontend/src/tests/pages/Restaurants/RestaurantCreatePage.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantCreatePage.test.js)
 
 Coming soon!
 
@@ -911,7 +911,7 @@ Coming soon!
 
 Coming soon!
 
-#### Understanding [frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js)
+#### Understanding [`frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js)
 
 Coming soon!
   
@@ -922,9 +922,9 @@ Coming soon!
 
 In this step, you'll add:
 * a file similar to [`RestaurantIndexPage.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/pages/Restaurants/RestaurantIndexPage.js) that provides a page for listing restaurants, as well as buttons to Create, see the Details for, Update or Delete a restaurant.
-* a file similar to [RestaurantIndexPage.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantIndexPage.test.js) that provides test coverage for the Index page.
+* a file similar to [`RestaurantIndexPage.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantIndexPage.test.js) that provides test coverage for the Index page.
 * a file similar to [`RestaurantDetailsPage.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/pages/Restaurants/RestaurantCreatePage.js) that provides a page for showing a single restaurant.
-* a file similar to [RestaurantDetailsPage.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js) that provides test coverage for the Details page.
+* a file similar to [`RestaurantDetailsPage.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/pages/Restaurants/RestaurantEditPage.test.js) that provides test coverage for the Details page.
 
 Arguably, we should also perhaps add a storybook entries for the `RestaurantIndexPage` and `RestaurantDetailsPage`.  We'll omit that from this assignment, but we'll be sure to include in future assignments.
 
