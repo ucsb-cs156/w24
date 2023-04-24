@@ -981,7 +981,55 @@ Let's next look at the lines of code that appear before the return:
   HTML elements; for example: `data-testid={testIdPrefix + "-name"}` This helps ensure that the testId values in the file have a common prefix,
   and makes it easier to reuse this code.
   
-MORE TO COME
+Next, let's look at the `return` statement.   At a high level, this statement is simply this:
+
+```js
+ return (
+        <Form onSubmit={handleSubmit(submitAction)}>
+          <!-- stuff omitted --->
+        </Form>
+    )
+}
+```
+
+This is typical of a React component in the functional style: the return statement should returns a single JSX expression consisting of a single element, i.e. single pair of open close tags such as `<Form></Form>` or a self-closing tag such as `<Form />`, possibly with some attributes, and some content.
+
+In this case, what we are returning is a `<Form>` element.  
+
+The parts inside the `<Form>` element comes from React Bootstrap (<https://react-bootstrap.github.io/forms/overview/>), which is where we can find the documentation for the parts such as `<Form.Group>`, `<Form.Label>` and `<Form.Control>`.   Rather than explaining each of these in detail, I'll refer you to the documentation.
+
+In addition, we see inside the `<Form.Control>` elements expressions such as these:
+
+For the id:
+```js
+  {...register("id")}
+```
+
+For the name:
+```js
+      {...register("name", {
+          required: "Name is required.",
+          maxLength : {
+              value: 30,
+              message: "Max length 30 characters"
+          }
+      })}
+```
+
+The `register` function comes from `react-hook-form`, and gives us a way to do validation of input.  It's various capabilities are documented here: <https://react-hook-form.com/api/useform/register/>.   If you need to change the validation for a particular field, that's where you can look to see
+what is possible.  There are many ways to do validation, including regular expressions.
+
+#### Creating a file similar to `restaurantForm.js`
+
+For your `hotelForm` (for example), your job is to:
+* Create a folder/directory `Hotels` with a capital `H` and plural under  `frontend/src/main/components/`, as a sibling of `Restaurants`
+* Create a copy of `restaurantForm.js` called `hotelForm.js` inside that `Hotels` folder
+* Search/replace (case-sensitive) `restaurant` with `hotel`, and `Restaurant` with `Hotel`
+* Leave the parts pertaining to `id`
+* Change `name` and `description` to whatever is appropriate for your item (you may keep `name` and `description` if they are appropriate)
+* Add at least one more field, along with suitable validation
+
+Now, we need to test whether this works, which we can do two different ways; first with Storybook, and then with jest/coverage/Stryker.
 
 #### Understanding [`frontend/src/stories/components/Restaurants/RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
 
