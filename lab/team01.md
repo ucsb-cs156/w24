@@ -854,7 +854,134 @@ In this step, you'll add:
 
 #### Understanding [`frontend/src/main/components/Restaurants/RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js)
 
-Coming soon!
+The file `RestaurantForm.js` provides a React component that allows the user to enter or edit details for a restaurant.
+
+Here's an overview of the big picture structure of the file (with some details omitted):
+
+```js
+import React from 'react'
+// more imports omitted
+
+function RestaurantForm({ initialContents, submitAction, buttonLabel = "Create" }) {
+
+    const navigate = useNavigate(); 
+    // details of useForm call omitted
+    const testIdPrefix = "RestaurantForm";
+
+    return (
+        <Form onSubmit={handleSubmit(submitAction)}>
+
+            {initialContents && (
+                <Form.Group className="mb-3" >
+                    <Form.Label htmlFor="id">Id</Form.Label>
+                    <!-- details of Form.Control omitted -->
+                </Form.Group>
+            )}
+
+            <Form.Group className="mb-3" >
+                <Form.Label htmlFor="name">Name</Form.Label>
+                <!-- details of Form.Control and Form.Control.Feedback omitted -->
+            </Form.Group>
+
+            <Form.Group className="mb-3" >
+                <Form.Label htmlFor="description">Description</Form.Label>
+                <!-- details of Form.Control and Form.Control.Feedback omitted -->
+            </Form.Group>
+
+            <!-- details of two <Button /> elements omitted -->
+        </Form>
+    )
+}
+
+export default RestaurantForm;
+```
+
+Let's understand each of these parts a bit at a time.  
+
+First the imports:
+
+| Import | Purpose and Links to Documentation|
+|--------|---------|
+|`import React from 'react'` | Not strictly necessary anymore but this imports the React framework |
+|`import { Button, Form } from 'react-bootstrap';` | This imports the components [`Button`](https://react-bootstrap.github.io/components/buttons/) and [`Form`](https://react-bootstrap.github.io/forms/overview/) from [`react-bootstrap`](https://react-bootstrap.github.io/) |
+|`import { useForm } from 'react-hook-form'` | This imports the`useForm` hook from [`react-hook-form`](https://react-hook-form.com/) which is a library that provides validation for data entry form.  We'll explain the `useForm` hook more below. |
+|`import { useNavigate } from 'react-router-dom';` | This imports the `useNavigate` hook from [`react-router-dom`](https://reactrouter.com/en/main); this gives us the ability to navigate to other pages (as explained in more detail below)|
+
+Next, the first line of the function:
+
+```
+function RestaurantForm({ initialContents, submitAction, buttonLabel = "Create" }) {
+```
+
+Notice these things:
+* The name of the function `RestaurantForm` is camel-cased, and starts with a capital letter; this is a standard naming convention for React components.
+* The parameter to the function is a single object, which by React convention is called `props`, but in this cases we use Javascript argument destructuring to assign the individual components of the parameter to the variables `initialContents`, `submitAction` and `buttonLabel`.  The `buttonLabel` parameter has a default value of `"Create"`.   
+
+Let's preview the purposes of these parameters:
+* `initialContents` is passed in only when we are using the form to edit an existing object.  This block of code presents the form element for the `id`
+   field only if `initialContents` is *truthy*, which in this context means not null and not undefined.  If initialConents is *falsy* then
+   this element simply is not rendered in the output.   The value of `initialContents` is also used in the call to `use
+   
+   ```js
+   {initialContents && (
+                <Form.Group className="mb-3" >
+                    <Form.Label htmlFor="id">Id</Form.Label>
+                    <!-- Form.Control omitted for space -->
+                </Form.Group>
+           )}
+   ``` 
+   
+   The value of `initialContents` is also used in `useForm` where we use either `initialContents` or an empty object `{}` as the 
+   values that are displayed in the form when it is rendered on the page.
+
+   ```js
+   useForm(
+        { defaultValues: initialContents || {}, }
+    );
+   ``` 
+* `submitAction` is a function (typically in the form of an arrow function, i.e. `()=>{}`, that is invoked when the form is submitted
+  (i.e. when the submit button is clicked.)   This action will be different for a `Create` page vs. an `Edit` page, so we pass it in 
+  as a parameter.
+* `buttonLabel` is the word that appears on the submit button.  The default is `Create`, but we can also pass in `Update` or anything
+   else that we want to appear on the label for that button.
+   
+Let's next look at the lines of code that appear before the return:
+
+```js
+ const navigate = useNavigate();
+    
+    // Stryker disable all
+    const {
+        register,
+        formState: { errors },
+        handleSubmit,
+    } = useForm(
+        { defaultValues: initialContents || {}, }
+    );
+    // Stryker enable all
+   
+    const testIdPrefix = "RestaurantForm";
+```
+
+* `const navigate = useNavigate();` gives us an object `navigate` that can be used to navigate to another page.  The `Cancel` button
+  uses `onClick={() => navigate(-1)}`, where the special value `-1` means "go back to the page you were on before", similar to a kind of
+  "Back button".
+* The next few lines are a call to the `useForm` hook (documented here: <https://react-hook-form.com/api/useform/>).   The object that follows `const` has three keys for the three values returned
+  by `useForm`:
+  - `register`: explained here: <https://react-hook-form.com/api/useform/register/>
+  - `formState`: explained here: <https://react-hook-form.com/api/useform/formstate/>
+  - `handleSubmit`: explained here: <https://react-hook-form.com/api/useform/handlesubmit/>
+* Note that the call to `useForm` is surrounded by these comments, which disable mutation testing for the lines in between.  We do this because we do not yet have a good handle on how to properly set up tests to kill the various mutations that Stryker does on these lines of code.  If/when we do, we may remove these comments.
+  ```
+   // Stryker disable all
+    /* call to useForm */
+   // Stryker enable all
+  ```
+* Finally, the value of `const testIdPrefix = "RestaurantForm";` is used throughout the form as a prefix to the `data-testId` attribute of various
+  HTML elements; for example: `data-testid={testIdPrefix + "-name"}` This helps ensure that the testId values in the file have a common prefix,
+  and makes it easier to reuse this code.
+  
+MORE TO COME
 
 #### Understanding [`frontend/src/stories/components/Restaurants/RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
 
