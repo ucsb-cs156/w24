@@ -183,17 +183,12 @@ But for the most part, you'll just follow the example code for `Restaurants`.
 
 Be sure that for each file you add, you also look under `stories` and `tests`, not just `main`!
 
-* [Step 6a: Adding the fixture](team01/team01_6a/)
-* [Step 6b: Adding the CRUD utilities](team01/team01_6b/)
-* [Step 6c: Adding the form (partially complete)](team01/team01_6c/)
-* [Step 6d: ](team01/team01_6d/)
-* [Step 6e: ](team01/team01_6e/)
-* [Step 6f: ](team01/team01_6f/)
-
-
-
-
-
+* [Step 6a: Adding the fixture](team01/team01_6a.html)
+* [Step 6b: Adding the CRUD utilities](team01/team01_6b.html)
+* [Step 6c: Adding the form](team01/team01_6c.html)
+* [Step 6d: Adding the table](team01/team01_6d.html)
+* [Step 6e: Adding the Create and Edit Pages](team01/team01_6e.html)
+* [Step 6f: Adding the Index and Details Pages](team01/team01_6f.html)
 
 ### Make Good Commit Messages
 
