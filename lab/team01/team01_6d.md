@@ -1,7 +1,7 @@
 ---
 layout: default
 title: team01-6d
-description: "Team01, Step 6d: Adding the table"
+description: "Adding the table"
 layout: default
 parent: team01
 grand_parent: lab

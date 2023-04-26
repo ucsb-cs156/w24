@@ -1,7 +1,7 @@
 ---
 layout: default
 title: team01-6e
-description: "Team01, Step 6e: Adding the Create and Edit Pages"
+description: "Adding the Create and Edit Pages"
 layout: default
 parent: team01
 grand_parent: lab

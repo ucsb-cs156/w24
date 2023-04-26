@@ -1,7 +1,7 @@
 ---
 layout: default
 title: team01-6c
-description: "Team01, Step 6c: Adding the form"
+description: "Adding the form"
 layout: default
 parent: team01
 grand_parent: lab

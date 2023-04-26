@@ -1,7 +1,7 @@
 ---
 layout: default
 title: team01-6b
-description: "Team01, Step 6b: Adding the CRUD utilities"
+description: "Adding the CRUD utilities"
 layout: default
 parent: team01
 grand_parent: lab

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: team01-6f
-description: "Team01, Step 6f: Adding the Index and Details Pages"
+description: "Adding the Index and Details Pages"
 layout: default
 parent: team01
 grand_parent: lab

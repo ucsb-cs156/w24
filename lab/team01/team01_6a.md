@@ -1,7 +1,7 @@
 ---
 layout: default
 title: team01-6a
-description: "Team01, Step 6a: Adding the fixture"
+description: "Adding the fixture"
 layout: default
 parent: team01
 grand_parent: lab
