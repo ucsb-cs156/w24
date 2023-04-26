@@ -3,6 +3,8 @@ layout: default
 title: team01-6c
 description: "Team01, Step 6c: Adding the form"
 layout: default
+parent: team01
+grand_parent: lab
 ---
 
 # {{ page.title}} - {{page.description}}
@@ -193,7 +195,24 @@ Now, we need to test whether this works, which we can do two different ways; fir
 
 #### Understanding [`frontend/src/stories/components/Restaurants/RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
 
-Coming soon!
+To understand the next step, it helps to first review how to fire up the Storybook.
+
+While in the `frontend` directory, type this at a shell prompt:
+
+```
+npm run storybook
+```
+
+This should launch a browser on port 6006 (i.e. <http://localhost:6006>) where you can see the Storybook.  You should 
+see that there is already an entry for the `RestaurantForm` is what is produced by the file `RestaurantForm.stories.js`.  Your job in this step is ensure that a similar entry appears for the new `HotelForm`.
+
+Let's review the contents of `RestaurantForm.stories.js`:
+
+```js
+
+
+```
+
 
 #### Understanding [`/frontend/src/tests/components/Restaurants/RestaurantForm.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js)
 
