@@ -15,6 +15,7 @@ course_software: https://ucsb-cs156.github.io/s23/info/software.html
 canvas_url: TBD
 sample_deployed_app: https://ucsb-cs156-s23.github.io/STARTER-team01
 kanban_setup: https://ucsb-cs156.github.io/s23/hwk/p06/
+has_children: true
 ---
 
 # {{page.title}} - {{page.description}}
