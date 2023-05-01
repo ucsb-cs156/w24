@@ -4,7 +4,6 @@ description: "Deploying a Spring Boot/React/OAuth/Postgres app on Dokku"
 assigned: 2023-05-02 14:00
 due: 2023-05-09 23:59
 github_org: ucsb-cs156-s23
-layout: default
 num: jpa03
 title: jpa03
 ready: true
@@ -14,6 +13,7 @@ parent: lab
 teams_url: https://ucsb-cs156.github.io/s23/info/teams/
 example_running_app: 
 office_hours_page: https://ucsb-cs156.github.io/s23/office-hours
+software_install_url: https://ucsb-cs156.github.io/s23/info/software.html
 ---
 
 # NOT READY YET
@@ -78,10 +78,9 @@ For working on your own machine, you'll need the following:
 * Node 14
 * npm 8.3
 
-See guides for installing these on your machine at the links shown:
+See guides for installing these on your machine at this link:
+* <{{page.software_install_url}}>
 
-* Windows / WSL / Ubuntu: <https://ucsb-cs156.github.io/topics/windows_wsl/>
-* MacOS: <https://ucsb-cs156.github.io/topics/macos/>
 
 # Step 1: Understanding what we are trying to do
 
@@ -93,7 +92,6 @@ take to deploy full-stack Spring Boot/React apps on Dokku, configuring them for 
 Unlike the simple "backend only" `Hello World` type app 
 from jpa02, in this assignment, the app is a full-stack 
 app with:
-
 
 There are quite a few configuration steps that are needed,
 and we want to get you used to those before we start
