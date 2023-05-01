@@ -89,21 +89,18 @@ See guides for installing these on your machine at this link:
 This lab, similar to `jpa02` has little to no programming.  The point of the lab is to walk you through the steps you need to 
 take to deploy full-stack Spring Boot/React apps on Dokku, configuring them for Google OAuth (for logins) and a Postgres database.
 
-Unlike the simple "backend only" `Hello World` type app 
-from jpa02, in this assignment, the app is a full-stack 
-app with:
-
 There are quite a few configuration steps that are needed,
 and we want to get you used to those before we start
 introducing the coding challenges as well.
 
 # Step 2: Create your repo
 
-You should already have a repo under the course organization 
-<tt>{{page.github_org}}</tt> called 
-<tt>{{page.num}}-<i>githubid</i></tt>
-created for you by the staff, where <tt><i>github</i></tt> 
-is your github id.
+There should already be a repo for you under the course organization 
+with a name in this format:
+
+* <tt>https://github.com/{{page.github_org}}{{page.num}}-<i>githubid</i></tt>
+
+where <tt><i>github</i></tt> is your github id.
 
 If not, create one for yourself following that naming convention;
 it should initially be public, and empty (no `README`, license or
