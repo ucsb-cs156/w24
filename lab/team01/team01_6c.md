@@ -206,11 +206,62 @@ npm run storybook
 This should launch a browser on port 6006 (i.e. <http://localhost:6006>) where you can see the Storybook.  You should 
 see that there is already an entry for the `RestaurantForm` is what is produced by the file `RestaurantForm.stories.js`.  Your job in this step is ensure that a similar entry appears for the new `HotelForm`.
 
-Let's review the contents of `RestaurantForm.stories.js`:
+Let's review the contents of `RestaurantForm.stories.js`.  As you read, you may also find it helpful to review the [Storybook documentation on how to write stories](https://storybook.js.org/docs/react/writing-stories/introduction).
+
+The file starts with these imports:
+```js
+import React from 'react';
+import RestaurantForm from "main/components/Restaurants/RestaurantForm"
+import { restaurantFixtures } from 'fixtures/restaurantFixtures';
+...
+```
+
+* The first import simply imports the `React` framework (in more recent version of React, this is optional.)  
+* The second import pulls in the form that is the basis of our story
+* The third import pulls in the fixtures we defined; we'll use those for our story.
+
+Next, we have an `export default` that exports a Javscript object with two keys, `title` and `component`.  The `title` is used to organize the storybook, while the `component` specifies the component that is the basis of the story.  You can read more about defining the `export default` object of of a story at the [Storybook documentation](https://storybook.js.org/docs/react/writing-stories/introduction).
 
 ```js
+export default {
+    title: 'components/Restaurants/RestaurantForm',
+    component: RestaurantForm
+};
+```
 
+This is followed by defining a value `Template` that renders
+the component with the args passed in.  
 
+```js
+const Template = (args) => {
+    return (
+        <RestaurantForm {...args} />
+    )
+};
+```
+
+This is then followed by a sequence of different views
+of the component, each with different values passed in for the
+components arguments.  
+
+* The first, `Default` shows what happens when the `submitText` is `Create`, and the `submitAction` is an arrow function that prints a message on the console that `Submit was clicked`.  (Note that to see the `console.log` messages, you need to use the `inspect` feature of your browser, and find the tab that shows the Console.)
+* The second, `Show`, fills in the restaurant param with a single argument, and also passes nothing for the submitText, and an empty function for the submit actions. This is what the values looked like in the starter code, but this is arguably *incorrect*, or at least not ideal. Instead, 
+
+```
+export const Default = Template.bind({});
+
+Default.args = {
+    submitText: "Create",
+    submitAction: () => { console.log("Submit was clicked"); }
+};
+
+export const Show = Template.bind({});
+
+Show.args = {
+    Restaurant: restaurantFixtures.oneRestaurant,
+    submitText: "",
+    submitAction: () => { }
+};
 ```
 
 
