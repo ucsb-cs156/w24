@@ -49,6 +49,12 @@ but as a code base that demonstrates many of the techniques you
 would need in such an app.   The legacy code apps that we'll work
 with in this course have a similar structure.
 
+Here is an example of this app, up and running.  Try logging in with your UCSB Google Credentials:
+
+* <https://jpa03-cgaucho.dokku-00.cs.ucsb.edu/>
+
+
+
 # Preliminaries
 
 You'll need an environment where you can test this lab out on localhost before deploying.
