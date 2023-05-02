@@ -57,7 +57,20 @@ If the menu looks like this, click on the hamburger icon (☰) to expose the Log
 
 <img width="799" alt="image" src="https://user-images.githubusercontent.com/1119017/235781737-648575ec-c095-4ecf-a218-12ec579d4d19.png">
 
+It should then look like this, and you shoudl be able to login:
 
+<img width="732" alt="image" src="https://user-images.githubusercontent.com/1119017/235782012-7775743c-1880-4960-b99a-3417055f850e.png">
+
+Once you are logged in, you'll see a menu like this one:
+
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/1119017/235782278-fac78168-1290-4afd-8efe-cedf24e69ae6.png">
+
+Neither of the menus will do much of anything: it turns out that the application is
+set up to only allow "Admin Users" to do Create, Update, or Delete operations.  When you 
+configure your own instance, though, you'll be able to make yourself an admin user,
+so you'll see more functions.
+
+So, let's get started.
 
 # Preliminaries
 
