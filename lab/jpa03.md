@@ -211,15 +211,13 @@ If it doesn't work:
 
 At the top of your README.md, you'll find this:
 
-<img width="850" alt="image" src="https://user-images.githubusercontent.com/1119017/235758700-20b3d8cf-d0dc-4182-8e6d-5e6ef551956a.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/1119017/235758700-20b3d8cf-d0dc-4182-8e6d-5e6ef551956a.png">
 
 Follow these instructions; i.e. put in the link to your running app on Dokku, and 
 remove the comment so that afterwards it looks something like this (but with your actual Dokku link, 
 not the example value shown here).
 
-<img width="638" alt="image" src="https://user-images.githubusercontent.com/1119017/235759017-e48fdcf6-abb7-40e7-8ae8-71173113d4cd.png">
-
-top of your README file**.
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/1119017/235759017-e48fdcf6-abb7-40e7-8ae8-71173113d4cd.png">
 
 
 # Step 6: Submit on Canvas
