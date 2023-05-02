@@ -53,6 +53,10 @@ Here is an example of this app, up and running.  Try logging in with your UCSB G
 
 * <https://jpa03-cgaucho.dokku-00.cs.ucsb.edu/>
 
+If the menu looks like this, click on the hamburger icon (☰) to expose the Login button:
+
+<img width="799" alt="image" src="https://user-images.githubusercontent.com/1119017/235781737-648575ec-c095-4ecf-a218-12ec579d4d19.png">
+
 
 
 # Preliminaries
