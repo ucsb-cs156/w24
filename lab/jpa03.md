@@ -112,7 +112,8 @@ Then add this remote:
 
 <tt>git remote add starter {{page.starter}}</tt>
 
-That sets up `starter` as a remote with the code from this github repo: <{{page.starter}}>
+That sets up `starter` as a remote with the code from this github repo:
+* <{{page.starter}}>
 
 Then do:
 
