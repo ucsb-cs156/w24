@@ -125,18 +125,40 @@ git push origin main
 
 # Step 3: Configure your app for localhost as documented in the README.md
 
-The next step is to read through the [README.md]({{page.starter}}/blob/main/README.md) and configure your app as indicated there.
+Before we start configuring your app, let's take just a moment to learn what OAuth is
 
-This includes configuration for Google OAuth, and GitHub pages.
+## About OAuth
 
-The configuration step includes copying the `.env.SAMPLE` file to `.env`.
+OAuth is a protocol that allows you to delegate the login/logout
+functionality (user authentication) to a third party such as
+Google, Facebook, GitHub, Twitter, etc.  If you've ever used
+a website that allows you to "Login with Google", "Login With Facebook", or "Login with Github" then chances are good that app was built using OAuth.
 
-The `.env` file  should *not* be committed to GitHub. 
+Indeed, you've already encountered an examples of GitHub OAuth earlier in the course when you used your GitHub account to log into the <https://ucsb-cs-github-linker.herokuapp.com>
 
-The instruction to configure this app for OAuth are linked to from
-the `README.md` in the starter repo itself, so will not repeat
-them here.  Follow those instructions (which may, in turn, refer
-you to instruction inside the `docs` folder of the repo.)
+When implementing a website that can store information and making it available on the public internet it's important to *secure the site;* otherwise, bad actors may fill your database with unsavory material.   
+
+One choice is to implemnent our own username/password authentication, but I want to strongly caution you: if you take on the responsibility of storing passwords, you are assuming a lot of risk.  The problem is that people reuse passwords, so even if you think that your site isn't that important, the problem is that the passwords you are storing might be the same ones folks are using for other sensitive apps.
+
+Using OAuth sidesteps this issue:
+* Your app never actually sees the password the user enters; it is entered on a page that is hosted by Google (or Facebook, or Github, or whoever is providing the OAuth service.)
+* The user doesn't need to come up with a new username or password; they can use one they already have.
+
+Implementing OAuth can be tricky at first, but once you get the hang of it, it's far easier than everything you would need to do to really work with usernames/passwords securely and safely.
+
+## Steps to Configure your app
+
+The next step is to read through the [`README.md`]({{page.starter}}/blob/main/README.md) and configure your app as indicated there.
+
+As shown in the [`README.md`]({{page.starter}}/blob/main/README.md), these steps include the following.  Each of these is documented in files linked to from the [`README.md`]({{page.starter}}/blob/main/README.md) file so we won't repeat those here; we'll just link to them.
+
+1. [Configuring GitHub Pages for the documentation](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#configuring-github-pages-for-the-documentation)
+2. [Getting Started on localhost](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#getting-started-on-localhost), which includes:
+   - Setting up Google OAuth credentials
+   - Entering those credential in the `.env` file
+   - Learning how to run the backend and frontend in separate windows
+
+   
 
 ## The `.env` file  should *not* be committed to GitHub
 
@@ -152,80 +174,26 @@ Security starts with making smart choices about how to handle credentials and to
 
 The staff reserve the right to deduct points if we find that you have committed your `.env` file to GitHub.
 
-## About OAuth
-
-OAuth is a protocol that allows you to delegate the login/logout
-functionality (user authentication) to a third party such as
-Google, Facebook, GitHub, Twitter, etc.  If you've ever used
-a website that allows you to "Login with Google" or "Login With Facebook", then chances are good that app was built using OAuth.
-
-Indeed, you've already encountered an examples of GitHub OAuth earlier in the course when you used your GitHub account to log into the <https://ucsb-cs-github-linker.herokuapp.com>
-
-## Follow the instructions in the README
-
-The instructions in the README include instructions
-for deploying to both localhost, and to Dokku.  
-
-Follow those instructions, consulting the material below and the
-material in jpa02 as needed, until you have the application
-working on both localhost and Dokku.
-
-You'll be following this sequence of instructions many
-times during this course, so this assignment is here to help you get used to that process.
-
-## Also set up GitHub Pages
-
-In the file `docs/github-pages.md` there are instructions for setting up GitHub Pages to publish the documentation for this repo.  Follow these instructions.
 
 ## Green check ✅, not red X ❌
 
-GitHub Actions should be running on the main branch with
+Once you've completed your setup, GitHub Actions should be running on the main branch with
 a green check, not a red X.  If there are problems there,
 address those as best you can before submitting.
 
-## Reminder about running your web app on `localhost`
+# Step 4: Configure your app to run on Dokku
 
-To get this demo app running on `localhost`, we need to do the following:
+The steps to get your app up and running on Dokku are documented here:
 
-* Do the OAuth Configuration steps linked to from the README to get a `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` value
-  and put them in your `.env` file
-* Add your own UCSB email address, `phtcon@ucsb.edu`, and your mentors email (see <{{page.teams_url}})
-* Add your own UCSB email address after `phtcon@ucsb.edu`, and your mentor's email (see <{{page.teams_url}}>) separated by commas (no spaces) like this:
-  
-  ```
-  ADMIN_EMAILS=phtcon@ucsb.edu,mentorsemail@ucsb.edu,youremail@ucsb.edu
-  ```
+* [Getting Started on Dokku](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#getting-started-on-dokku)
 
-* Then, use `mvn compile` to make sure that the code compiles.
-* Next, try `mvn test` to be sure that the test cases pass.
-* Then, run the following two commands separately in their own shells
-  * In the first, launch the React frontend using `npm start` in the frontend directory. This should start the frontend on port 3000
-  * In the second, launch the Spring Boot backend using `mvn spring-boot:run`.  This should start a web server on port 8080
+These include: 
+- Creating the dokku app
+- Creating the postgres database and linking it to your app 
+- Setting up the needed environment variables with `dokku config:set app-name VARIABLE=VALUE`
 
-The `mvn spring-boot:run` command is a shortcut that is provided for us to be able to run the jar file.  It does pretty much the same thing as 
-if we ran the `.jar` file and specified the class containing our `main` on the command line.
+Once you have your app up and running try logging in with OAuth, and store things in the database.
 
-When the app is up and running, try logging in on your localhost
-implementation with your UCSB Google Account.  
-
-# Step 4: Create a new Dokku App
-
-
-In this step, we'll deploy our Spring Boot application to the public internet using Dokku.
-
-The name of your app will be the same
-as the name of your repo, e.g. (e.g. <tt>{{page.title}}-cgaucho</tt>)
-
-Follow the instructions here:
-
-* <https://ucsb-cs156.github.io/topics/dokku/getting_started.html>
-
-You will also need to configure the Dokku app with
-* environment variables as described here: <https://ucsb-cs156.github.io/topics/dokku/environment_variables.html>
-* a postgres database as described here: <https://ucsb-cs156.github.io/topics/dokku/postgres_database.html>
-
-You may also need to look at the logs to debug what's going wrong:
-* <https://ucsb-cs156.github.io/topics/dokku/logs.html>
 
 
 # What if it doesn't work?
@@ -241,14 +209,17 @@ If it doesn't work:
 
 # Step 5: Add link to running app to your README.md file
 
-Near the top of your README.md file, there should be a place
-for a link to the running app (i.e. the running app on Dokku)
+At the top of your README.md, you'll find this:
 
-When you have it running, **put the link to this app near the
+<img width="850" alt="image" src="https://user-images.githubusercontent.com/1119017/235758700-20b3d8cf-d0dc-4182-8e6d-5e6ef551956a.png">
+
+Follow these instructions; i.e. put in the link to your running app on Dokku, and 
+remove the comment so that afterwards it looks something like this (but with your actual Dokku link, 
+not the example value shown here).
+
+<img width="638" alt="image" src="https://user-images.githubusercontent.com/1119017/235759017-e48fdcf6-abb7-40e7-8ae8-71173113d4cd.png">
+
 top of your README file**.
-
-Then: **delete any "TODO comment" that was
-there telling you to do this.**
 
 
 # Step 6: Submit on Canvas
