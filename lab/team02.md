@@ -360,4 +360,43 @@ If you need additional guidance, ask on the `#help-team02` channel, and we'll tr
 
 * Grading for this assignment is manual; someone on your team will submit the url to the [Canvas link for {{page.title}}]({{page.canvas_url}}) when the team thinks the site is ready for grading.
 
+# Appendix
 
+This contains notes that were added (and shared on the course slack) after the assignment was published.
+
+## Different remotes for `prod` and `qa
+
+Here’s something that may not have been clear: when you are setting up your prod and qa instances of team02, you can define different remotes for them.   
+
+Instead of calling them both `dokku`, you could call them `prod` and `qa`.   For example:
+
+```
+git remote add prod dokku@dokku-00.cs.ucsb.edu:team02-prod
+git remote add qa dokku@dokku-00.cs.ucsb.edu:team02-qa
+```
+
+Then, you always push from the `main` branch to `prod`:
+
+```
+git checkout main
+git pull origin main
+git push dokku main
+```
+
+But on `qa`, you can push any branch including a feature branch you are working on, like this.
+
+Suppose, for example, that you are about to opened a pull request for `Chris-HotelControllerGet`, which you've tested
+on `localhost`, but you want to be sure that it works when you deploy to `dokku` before you make (or merge) a PR.
+
+Here's how to deploy the `Chris-HotelControllerGet` branch on your `qa` site:
+
+```
+git checkout Chris-HotelControllerGet
+git pull origin Chris-HotelControllerGet
+git push dokku Chris-HotelControllerGet:main
+```
+
+The syntax `branchName:main` (e.g. in `git push dokku Chris-HotelControllerGet:main`) 
+means 
+* push **from** the local branch `branchName` 
+* but on the remote end, push it **to** the `main` branch (which is the one that dokku deploys)
