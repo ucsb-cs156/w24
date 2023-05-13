@@ -10,11 +10,11 @@ grand_parent: lab
 # {{ page.title}} - {{page.description}}
 
 In this step, you'll add:
-* a file similar to [`RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js) that provides a form for users to enter data for a restaurant
-* a file similar to [`RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
-* a file similar to [`RestaurantForm.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the form
+* a file similar to [`RestaurantForm.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js) that provides a form for users to enter data for a restaurant
+* a file similar to [`RestaurantForm.stories.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js) that allows developers to work with the component in isolation through [Storybook](https://storybook.js.org/)
+* a file similar to [`RestaurantForm.test.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js) that provides test coverage for the form
 
-#### Understanding [`frontend/src/main/components/Restaurants/RestaurantForm.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js)
+#### Understanding [`frontend/src/main/components/Restaurants/RestaurantForm.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/components/Restaurants/RestaurantForm.js)
 
 The file `RestaurantForm.js` provides a React component that allows the user to enter or edit details for a restaurant.
 
@@ -193,7 +193,7 @@ For your `hotelForm` (for example), your job is to:
 
 Now, we need to test whether this works, which we can do two different ways; first with Storybook, and then with jest/coverage/Stryker.
 
-#### Understanding [`frontend/src/stories/components/Restaurants/RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
+#### Understanding [`frontend/src/stories/components/Restaurants/RestaurantForm.stories.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
 
 To understand the next step, it helps to first review how to fire up the Storybook.
 
@@ -265,7 +265,7 @@ Show.args = {
 ```
 
 
-#### Understanding [`/frontend/src/tests/components/Restaurants/RestaurantForm.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js)
+#### Understanding [`/frontend/src/tests/components/Restaurants/RestaurantForm.test.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/tests/components/Restaurants/RestaurantForm.test.js)
 
 Coming soon!
 

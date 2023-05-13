@@ -7,14 +7,14 @@ title: team01
 ready: true
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s23
-course_org_name: ucsb-cs156-s23
-starter_repo: https://github.com/ucsb-cs156-s23/STARTER-team01
-starter_repo_ssh: git@github.com:ucsb-cs156-s23/STARTER-team01.git
-course_software: https://ucsb-cs156.github.io/s23/info/software.html
+course_org: https://github.com/ucsb-cs156-m23
+course_org_name: ucsb-cs156-m23
+starter_repo: https://github.com/ucsb-cs156-m23/STARTER-team01
+starter_repo_ssh: git@github.com:ucsb-cs156-m23/STARTER-team01.git
+course_software: https://ucsb-cs156.github.io/m23/info/software.html
 canvas_url: TBD
-sample_deployed_app: https://ucsb-cs156-s23.github.io/STARTER-team01
-kanban_setup: https://ucsb-cs156.github.io/s23/hwk/p06/
+sample_deployed_app: https://ucsb-cs156-m23.github.io/STARTER-team01
+kanban_setup: https://ucsb-cs156.github.io/m23/hwk/p06/
 has_children: true
 ---
 
@@ -80,7 +80,7 @@ Next, choose one person that will carry out the following task while sharing the
   <BrowserRouter basename="/demo-react-example">
   ```
 
-  change `STARTER-team01` to `team01-s23-5pm-1` or whatever your team's name is
+  change `STARTER-team01` to `team01-m23-5pm-1` or whatever your team's name is
 
   Commit this change to the main branch, and push.
 
@@ -89,13 +89,13 @@ Next, choose one person that will carry out the following task while sharing the
   Change this:
   
   ```
-  "homepage": "https://ucsb-cs156-s23.github.io/STARTER-team00/",
+  "homepage": "https://ucsb-cs156-m23.github.io/STARTER-team00/",
   ```
   
   to this (substituting in your team name, not the one shown):
   
   ```
-  "homepage": "https://ucsb-cs156-s23.github.io/team01-s23-7pm-3/",
+  "homepage": "https://ucsb-cs156-m23.github.io/team01-m23-7pm-3/",
   ```
 
   You should see that commiting and pushing these changes 
@@ -137,7 +137,7 @@ Use `git clone repo-url`, then cd into the repo and open it up in your editor (w
 
 Now, if you haven't yet installed node on your machine, follow the instructions here to do so:
 
-* <https://ucsb-cs156.github.io/s23/info/software.html>
+* <https://ucsb-cs156.github.io/m23/info/software.html>
 
 Then, `cd frontend` to move into the subdirectory with the React application.
 

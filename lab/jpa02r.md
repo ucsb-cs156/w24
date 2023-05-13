@@ -3,13 +3,13 @@ desc: Spring Boot and Render.com Hello World
 description: Spring Boot and Render.com Hello World
 assigned: 2023-04-19 17:00
 due: 2023-04-26 23:59
-github_org: ucsb-cs156-s23
+github_org: ucsb-cs156-m23
 layout: default
 parent: lab
 num: jpa02r
 title: jpa02r
 ready: true
-starter: https://github.com/ucsb-cs156-s23/STARTER-jpa02
+starter: https://github.com/ucsb-cs156-m23/STARTER-jpa02
 ---
 
 {% include drop_down_style.html %}

@@ -7,13 +7,13 @@ title: team02
 ready: true
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s23
-course_org_name: ucsb-cs156-s23
-starter_repo: https://github.com/ucsb-cs156-s23/STARTER-team02
-starter_repo_ssh: git@github.com:ucsb-cs156-s23/STARTER-team02.git
-course_software: https://ucsb-cs156.github.io/s23/info/software.html
+course_org: https://github.com/ucsb-cs156-m23
+course_org_name: ucsb-cs156-m23
+starter_repo: https://github.com/ucsb-cs156-m23/STARTER-team02
+starter_repo_ssh: git@github.com:ucsb-cs156-m23/STARTER-team02.git
+course_software: https://ucsb-cs156.github.io/m23/info/software.html
 canvas_url: https://ucsb.instructure.com/courses/7876/assignments/102851
-sample_deployed_app: https://ucsb-cs156-s23.github.io/STARTER-team02
+sample_deployed_app: https://ucsb-cs156-m23.github.io/STARTER-team02
 ---
 
 # {{page.title}} - {{page.description}}

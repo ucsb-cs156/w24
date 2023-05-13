@@ -5,18 +5,18 @@ layout: default
 description: Spring Boot and Heroku Hello World
 assigned: 2023-04-19 17:00
 due: 2023-04-26 23:59
-github_org: ucsb-cs156-s23
+github_org: ucsb-cs156-m23
 num: jpa02h
 title: jpa02h
 ready: true
-starter: https://github.com/ucsb-cs156-s23/STARTER-jpa02
+starter: https://github.com/ucsb-cs156-m23/STARTER-jpa02
 ---
 
 {% include drop_down_style.html %}
 
 # There are two versions of this lab
 
-* This one uses Heroku (jpa02h).  The other ([jpa02r](https://ucsb-cs156.github.io/s23/lab/jpa02r.html)) uses Render.com
+* This one uses Heroku (jpa02h).  The other ([jpa02r](https://ucsb-cs156.github.io/m23/lab/jpa02r.html)) uses Render.com
 * Heroku is faster, but requires a credit card (though you will not be charged)
 * Render.com is slower but doesn't require a credit card
 * You don't need to do both. You can if you want, but there's no extra credit for doing so.

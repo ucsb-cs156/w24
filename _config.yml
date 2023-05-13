@@ -5,16 +5,16 @@ theme: just-the-docs
 incremental: true
 
 course: "CMPSC 156"
-title: "CS156 S23"
-quarter: "Spring 2023"
-QXX: S23
-qxx: s23
-baseurl: "/s23"
+title: "CS156 m23"
+quarter: "Summer 2023"
+QXX: m23
+qxx: m23
+baseurl: "/m23"
 
-ta_list_full: Avishek, Vivian
-la_list_full: Andrew, Bobby, Bryan
-discussion_section_day: Wednesday
-discussion_section_times: 5pm, 6pm, 7pm 
+ta_list_full: TBD
+la_list_full: TBD
+discussion_section_day: Friday
+discussion_section_times: 9am, 10am 
 
 mermaid:
   # Version of mermaid library
@@ -36,13 +36,13 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/ucsb-cs156/s23" # the github URL for your repo
+gh_edit_repository: "https://github.com/ucsb-cs156/m23" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 
-help_macos_link: https://ucsb-cs156-s23.slack.com/archives/C0516KXQZJB
-help_windows_link: https://ucsb-cs156-s23.slack.com/archives/C052ASM6MFA
+help_macos_link: https://ucsb-cs156-m23.slack.com/archives/C0516KXQZJB
+help_windows_link: https://ucsb-cs156-m23.slack.com/archives/C052ASM6MFA
 
 
 # Collections for website data

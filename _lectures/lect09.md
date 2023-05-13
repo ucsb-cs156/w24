@@ -8,5 +8,5 @@ parent: lectures
 slides: 
 ---
 
-Today we did <https://ucsb-cs156.github.io/s23/hwk/p06/>, a participation activity where we set up Kanban boards for <https://ucsb-cs156.github.io/s23/lab/team01.html>
+Today we did <https://ucsb-cs156.github.io/m23/hwk/p06/>, a participation activity where we set up Kanban boards for <https://ucsb-cs156.github.io/m23/lab/team01.html>
 

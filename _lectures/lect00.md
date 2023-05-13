@@ -1,24 +1,26 @@
 ---
-title: "Week 01 - 04.04 Tue"
-lecture_date: 2023-04-04
+title: "Week 01 - 06.27 Tue"
+lecture_date: 2023-06-27
 description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/10kwKZUJRs1vz3j6JDdLMd8zl2WrDMA6853RcCfpIUmo/edit?usp=sharing
-video: https://drive.google.com/file/d/15G3FEyZh-9q-I4LqabdwNQH61m9s51aH/view?usp=share_link
-link_to_self_intro_activity: https://ucsb.instructure.com/courses/7876/assignments/91665
-link_to_team_first_day_activity: https://ucsb.instructure.com/courses/7876/assignments/91669
+slides: https://example.org/LINK_TBD
+video: https://example.org/LINK_TBD
+slack_help_lecture_discussion: https://example.org/LINK_TBD
+link_to_self_intro_activity: https://ucsb.instructure.com/courses/10130/assignments/104110
+link_to_team_first_day_activity: https://ucsb.instructure.com/courses/10130/assignments/104111
 ---
 
 Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
-Team listing is here: <https://bit.ly/cs156-s23-teams>
+Team listing is here: <https://bit.ly/cs156-m23-teams>
 
-![SH1431-s23-updated](https://user-images.githubusercontent.com/1119017/191854530-810658ef-184a-4fae-bd10-e0d89fce8efa.png)
+![SH1431-m23-updated](https://example.org/upload-pic)
 
+<https://docs.google.com/drawings/d/1vd7bzM6g-kiVct42ozDTY2gsduDPCt9XnZsbArfe5E8/edit>
 
 # My special passion: Teaching real world software practice
 
@@ -49,10 +51,10 @@ Helping prepare you for transition from "Computer Science Student" to "Professio
 
 # Format: Not so much lecture
 
-* "Lectures" (75 minute classes on MW)
+* "Lectures" (75 minute classes on TR)
   - Typically try to keep the lecture material to between 15-30 minutes, max 45
   - Usually between 30-60 minutes of group, hands on work in your teams
-* "Discussion" (50 minute classes on T)
+* "Discussion" (50 minute classes on Friday)
   - Typically try to keep instructions to 5-15 minutes
   - 35-45 minutes with your teams
 
@@ -60,7 +62,7 @@ Helping prepare you for transition from "Computer Science Student" to "Professio
 
 The #help-lecture-discussion channel on the Slack is special.
 
-* <https://ucsb-cs156-s23.slack.com/archives/C041W1SLWKU/p1662848235180529>
+* <{{page.slack_help_lecture_discussion}}>
 * Use it when we are in "work mode" during lecture or discussion and you need help.
 
 Please use #help-lecture-discussion
@@ -79,15 +81,14 @@ Here: <https://ucsb-cs156.github.io>
 
 Note the two parts:
 * Permanent part for CS156
-* The part for `/s23/` specifically
+* The part for `/m23/` specifically
 
-Also note the Calendar where you can keep track of things that are due: <https://ucsb-cs156.github.io/s23/info/calendar/>
 
 # Where is the syllabus?
 
 Here:
 
-* <https://ucsb-cs156.github.io/s23/info/syllabus/>
+* <https://ucsb-cs156.github.io/m23/info/syllabus/>
 
 # Online access to the textbooks
 
@@ -98,9 +99,9 @@ Here:
 
 # Homework 
 
-## For next Tuesday (04/11/2023)
+## For next Thursday (07/06/2023)
 
-* Before next Tuesday's lecture seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
+* Before next Thursday's lecture seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
   - Read all of the "abstract" and Section 1 (about 1 page), and skim through Section 4 (about 5 pages)
   - During class next week, you'll be dividing up the six parts of section 4 among the team members,
     and then doing a more detailed read for a homework assignment due in a few days. 
@@ -113,7 +114,7 @@ Here:
 # Other Homework is on Gradescope
 
 * You can access Gradescope through Canvas
-* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/s23>
+* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/m23>
 * There are reading assignments in the textbooks for each homework assignment.
 
 # What will we learn in this class:
@@ -130,7 +131,7 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
-* Check website for software to install <https://ucsb-cs156.github.io/s23/info/software/>
+* Check website for software to install <https://ucsb-cs156.github.io/m23/info/software/>
 
 # Now we meet our first team
 
@@ -139,7 +140,7 @@ We'll now separate into teams, (and/or go into breakout rooms if online) and you
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
 Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
-* <https://bit.ly/cs156-s23-teams>
+* <https://bit.ly/cs156-m23-teams>
 
 Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own  breakout room discussion.
 
@@ -188,7 +189,7 @@ Record as much of your conversation as you are able in the Slack channel
 
 # For next week:
 
-Check out these two videos about our legacy code projects:
+Check out these  videos about two of our legacy code projects:
 * [Courses Search](https://drive.google.com/file/d/1NpXyoh__e08Vu5xdvfeAHAo2pl3AI9xZ/view)
 * [Happy Cows](https://drive.google.com/file/d/1gIJzuDLt-UOuD5ZfVpW_pg6kIwVlbwLk/view)  
 

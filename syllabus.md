@@ -25,10 +25,10 @@ Basic Facts
   * {{site.discussion_section_day}} {{site.discussion_section_times}}
   * Attendance/Participation is expected/required.
   * You must participate the section for which you are registered, since teams are assigned by section.
-* Office Hours: See: [https://ucsb-cs156.github.io/s23/office-hours.html](https://ucsb-cs156.github.io/s23/office-hours.html)
+* Office Hours: See: [https://ucsb-cs156.github.io/m23/office-hours.html](https://ucsb-cs156.github.io/m23/office-hours.html)
 
 
-Course website: <https://ucsb-cs156.github.io/s23/>
+Course website: <https://ucsb-cs156.github.io/m23/>
 
 About the Course
 ----------------

@@ -3,17 +3,17 @@ desc: "Deploying a Spring Boot/React/OAuth/Postgres app on Dokku"
 description: "Deploying a Spring Boot/React/OAuth/Postgres app on Dokku"
 assigned: 2023-05-02 14:00
 due: 2023-05-09 23:59
-github_org: ucsb-cs156-s23
+github_org: ucsb-cs156-m23
 num: jpa03
 title: jpa03
 ready: true
-starter: https://github.com/ucsb-cs156-s23/STARTER-jpa03
+starter: https://github.com/ucsb-cs156-m23/STARTER-jpa03
 layout: default
 parent: lab
-teams_url: https://ucsb-cs156.github.io/s23/info/teams/
+teams_url: https://ucsb-cs156.github.io/m23/info/teams/
 example_running_app: 
-office_hours_page: https://ucsb-cs156.github.io/s23/office-hours
-software_install_url: https://ucsb-cs156.github.io/s23/info/software.html
+office_hours_page: https://ucsb-cs156.github.io/m23/office-hours
+software_install_url: https://ucsb-cs156.github.io/m23/info/software.html
 ---
 
 For due date: see the jpa03 entry on Canvas.
@@ -163,8 +163,8 @@ The next step is to read through the [`README.md`]({{page.starter}}/blob/main/RE
 
 As shown in the [`README.md`]({{page.starter}}/blob/main/README.md), these steps include the following.  Each of these is documented in files linked to from the [`README.md`]({{page.starter}}/blob/main/README.md) file so we won't repeat those here; we'll just link to them.
 
-1. [Configuring GitHub Pages for the documentation](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#configuring-github-pages-for-the-documentation)
-2. [Getting Started on localhost](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#getting-started-on-localhost), which includes:
+1. [Configuring GitHub Pages for the documentation](https://github.com/ucsb-cs156-m23/STARTER-jpa03/tree/main#configuring-github-pages-for-the-documentation)
+2. [Getting Started on localhost](https://github.com/ucsb-cs156-m23/STARTER-jpa03/tree/main#getting-started-on-localhost), which includes:
    - Setting up Google OAuth credentials
    - Entering those credential in the `.env` file
    - Learning how to run the backend and frontend in separate windows
@@ -196,7 +196,7 @@ address those as best you can before submitting.
 
 The steps to get your app up and running on Dokku are documented here:
 
-* [Getting Started on Dokku](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#getting-started-on-dokku)
+* [Getting Started on Dokku](https://github.com/ucsb-cs156-m23/STARTER-jpa03/tree/main#getting-started-on-dokku)
 
 These include: 
 - Creating the dokku app
@@ -236,7 +236,7 @@ not the example value shown here).
 Here's a checklist to look over before submitting on Canvas:
 
 1. On the main page for the repo: is the app "green on CI"? i.e. does the `main` branch have a green check for the Github Actions scripts?
-2. On the main page for the repo: is there a link to the apps Github Pages site on the main page for the repo?  (i.e. the site whose URL is something like `https://ucsb-cs156-s23.github.io/jpa03-cgaucho`)?
+2. On the main page for the repo: is there a link to the apps Github Pages site on the main page for the repo?  (i.e. the site whose URL is something like `https://ucsb-cs156-m23.github.io/jpa03-cgaucho`)?
 3. Does the Github Pages site link take you to a page with links to
    javadoc and storybook?
 4. Do those javadoc and storybook links work?

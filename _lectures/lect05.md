@@ -11,4 +11,4 @@ slides: https://docs.google.com/presentation/d/1VY3T4m5uVA9_5_gesSEibnsXsY_JiP7F
 [Slides]({{page.slides}})
 
 
-<https://ucsb-cs156.github.io/s23/lab/team00.html>
+<https://ucsb-cs156.github.io/m23/lab/team00.html>

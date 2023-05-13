@@ -7,9 +7,9 @@ title: jpa01
 ready: true
 parent: lab
 layout: default
-course_org: https://github.com/ucsb-cs156-s23
-course_org_name: ucsb-cs156-s23
-starter_repo: https://github.com/ucsb-cs156-s23/STARTER-jpa01
+course_org: https://github.com/ucsb-cs156-m23
+course_org_name: ucsb-cs156-m23
+starter_repo: https://github.com/ucsb-cs156-m23/STARTER-jpa01
 ---
 
 <style>

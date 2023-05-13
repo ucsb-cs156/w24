@@ -8,11 +8,11 @@ ready: true
 layout: default
 parent: lab
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
-slack: https://ucsb-cs156-s23.slack.com
-course_org: https://github.com/ucsb-cs156-s23
-course_org_name: ucsb-cs156-s23
-starter_repo: https://github.com/ucsb-cs156-s23/STARTER-jpa00
-course_software: https://ucsb-cs156.github.io/s23/info/software.html
+slack: https://ucsb-cs156-m23.slack.com
+course_org: https://github.com/ucsb-cs156-m23
+course_org_name: ucsb-cs156-m23
+starter_repo: https://github.com/ucsb-cs156-m23/STARTER-jpa00
+course_software: https://ucsb-cs156.github.io/m23/info/software.html
 ---
 
 This assignment is `jpa00`, i.e "Java Programming Assignment 00".
@@ -248,7 +248,7 @@ OS name: "linux", version: "5.15.12-100.fc34.x86_64", arch: "amd64", family: "un
 
 ## Step 2: Get setup with github and add yourself to our organization
 
-I'm commenting this step out, because for S23 all students have already done this step.
+I'm commenting this step out, because for m23 all students have already done this step.
 
 <!--   COMMENTED OUT !!!!
 

@@ -7,13 +7,13 @@ title: team00
 ready: true
 layout: default
 parent: lab
-course_org: https://github.com/ucsb-cs156-s23
-course_org_name: ucsb-cs156-s23
-starter_repo: https://github.com/ucsb-cs156-s23/STARTER-team00
-starter_repo_ssh: git@github.com:ucsb-cs156-s23/STARTER-team00.git
-course_software: https://ucsb-cs156.github.io/s23/info/software.html
+course_org: https://github.com/ucsb-cs156-m23
+course_org_name: ucsb-cs156-m23
+starter_repo: https://github.com/ucsb-cs156-m23/STARTER-team00
+starter_repo_ssh: git@github.com:ucsb-cs156-m23/STARTER-team00.git
+course_software: https://ucsb-cs156.github.io/m23/info/software.html
 canvas_url: https://ucsb.instructure.com/courses/7876/assignments/93523
-sample_deployed_app: https://ucsb-cs156-s23.github.io/STARTER-team00
+sample_deployed_app: https://ucsb-cs156-m23.github.io/STARTER-team00
 ---
 
 # {{page.title}} - {{page.description}}
@@ -98,7 +98,7 @@ Next, choose one person that will carry out the following task while sharing the
   <BrowserRouter basename="/demo-react-example">
   ```
 
-  change `STARTER-team00` to `team00-s23-5pm-1` or whatever your team's name is
+  change `STARTER-team00` to `team00-m23-5pm-1` or whatever your team's name is
 
   Commit this change to the main branch, and push.
 
@@ -107,13 +107,13 @@ Next, choose one person that will carry out the following task while sharing the
   Change this:
   
   ```
-  "homepage": "https://ucsb-cs156-s23.github.io/STARTER-team00/",
+  "homepage": "https://ucsb-cs156-m23.github.io/STARTER-team00/",
   ```
   
   to this (substituting in your team name, not the one shown):
   
   ```
-  "homepage": "https://ucsb-cs156-s23.github.io/team00-s23-7pm-3/",
+  "homepage": "https://ucsb-cs156-m23.github.io/team00-m23-7pm-3/",
   ```
 
   You should see that commiting and pushing these changes 
@@ -155,7 +155,7 @@ Use `git clone repo-url`, then cd into the repo and open it up in your editor (w
 
 Now, if you haven't yet installed node on your machine, follow the instructions here to do so:
 
-* <https://ucsb-cs156.github.io/s23/info/software.html>
+* <https://ucsb-cs156.github.io/m23/info/software.html>
 
 Then, `cd frontend` to move into the subdirectory with the React application.
 
@@ -196,9 +196,9 @@ You'll do all of your work in this branch, and when you are done, you'll do a *P
 
 To add a new page, we first add a file for the new page.  You can look at these files as examples:
 
-* [frontend/src/main/pages/ArroyoGrandePage.js](https://github.com/ucsb-cs156-s23/STARTER-team00/blob/main/frontend/src/main/pages/ArroyoGrandePage.js)
-* [frontend/src/main/pages/AvilaBeachPage.js](https://github.com/ucsb-cs156-s23/STARTER-team00/blob/main/frontend/src/main/pages/AvilaBeachPage.js)
-* [frontend/src/main/pages/LosAlamosPage.js](https://github.com/ucsb-cs156-s23/STARTER-team00/blob/main/frontend/src/main/pages/LosAlamosPage.js)
+* [frontend/src/main/pages/ArroyoGrandePage.js](https://github.com/ucsb-cs156-m23/STARTER-team00/blob/main/frontend/src/main/pages/ArroyoGrandePage.js)
+* [frontend/src/main/pages/AvilaBeachPage.js](https://github.com/ucsb-cs156-m23/STARTER-team00/blob/main/frontend/src/main/pages/AvilaBeachPage.js)
+* [frontend/src/main/pages/LosAlamosPage.js](https://github.com/ucsb-cs156-m23/STARTER-team00/blob/main/frontend/src/main/pages/LosAlamosPage.js)
 
 Create a similar file in the same directory.
 

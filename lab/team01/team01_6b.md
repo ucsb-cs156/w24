@@ -11,7 +11,7 @@ grand_parent: lab
 
 In this step, we are adding a Javascript file that allows us to do CRUD operations (Create/Read/Update/Destroy) on a particular
 kind of object (e.g. `hotels`) using the code in 
-The model to follow here is [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js) as a model.
+The model to follow here is [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js) as a model.
 
 The data is stored in something called *Browser Local Storage*.  Each web browser provides the capability for a website to 
 maintain a key/value store specific to that site.   Note that this storage is local to not only to your local computer, but
@@ -25,10 +25,10 @@ fixtures file, but that's really a special case; as a general rule, when you add
 The GitHub Actions scripts will actually enforce that rule; you'll get a "red X" (e.g. ❌ ) if you try to add code that doesn't have 
 test coverage.
 
-So in addition to looking at [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js), we also need to understand the file [frontend/src/tests/utils/restaurantUtils.test.js](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/tests/utils/restaurantUtils.test.js)
+So in addition to looking at [`frontend/src/main/utils/restaurantUtils.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.js), we also need to understand the file [frontend/src/tests/utils/restaurantUtils.test.js](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/tests/utils/restaurantUtils.test.js)
 
 
-#### Understanding [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 First, let's take a look at the big picture of `restaurantUtilities.js`.  Here's the entire file with the contents
 of each arrow function omitted.  
@@ -90,7 +90,7 @@ restaurantUtils, while the others are similar to "public" methods.
 
 Now let's look at each of the functions individually.
 
-#### Understanding `get` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding `get` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 The `get` function looks like this:
 
@@ -123,7 +123,7 @@ text representation of an object (as a string) to the actual object representati
 * To convert a string to an object, we use: `object = JSON.parse(string)`
 * To convert an object to a strring, we use: `string = JSON.stringify(object)` 
 
-#### Understanding `getById` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding `getById` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 The `getById` looks for a particular restaurant by it's id and returns that
 object.  Here's the code:
@@ -158,7 +158,7 @@ an integer or string representation of the `id` while still maintaining the desi
 However, the `eslint` utility will recommend a change from `==` to `===`, which will introduce a bug.  To suppress that warning,
 we use the special comment `/* eslint-disable-next-line eqeqeq */`.  This syntax is explained in detail in the [eslint documentation](https://eslint.org/docs/latest/use/configure/rules)
 
-#### Understanding `set` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding `set` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 This function is used internally to update the restaurants in local storage.  It is responsible for converting from object representation
 to string representation and storing under the key `restaurants`.
@@ -175,7 +175,7 @@ const set = (restaurantCollection) => {
 };
 ```
 
-#### Understanding `add` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding `add` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 The `add` routine is used to add a restaurant to the collection.  The restaurant should have all of the fields of
 a restaurant object except the `id` field; that value is added by the `add` routine.
@@ -213,7 +213,7 @@ We then increment the `nextId` with `restaurantCollection.nextId++;` and then we
 
 We then use `set(restaurantCollection);` to update the restaurant collection, and we return the updated object (which now has an id number).
 
-#### Understanding `update` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding `update` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 The update function is used to support updating the value of an existing restaurant. The parameter is a restaurant object with 
 an `id` number.  That `id` should already exist in the restaurant collection; otherwise an error is returned.
@@ -240,7 +240,7 @@ const update = (restaurant) => {
 
 As you can see the code is similar to code from `getById` and `add`, so we won't explain further.
 
-#### Understanding `del` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
+#### Understanding `del` fron [`frontend/src/main/utils/restaurantUtilities.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtilities.js)
 
 The `del` function is named `del` to avoid any conflict with the word `delete`.   It is used to delete a restaurant from the collection.
 The `id` parameter should be the id of a restaurant already in the collection; otherwise, an error is returned.
@@ -315,7 +315,7 @@ The yellow color, and the number less than 100% in all four columns (statements,
 <img width="934" alt="image" src="https://user-images.githubusercontent.com/1119017/233862904-54544cdd-4ea1-41bd-8691-4502ad2c026c.png">
 
 The red color, and the zeros for `hotelUtils.js` show that we need test coverage for that file.  To get this test coverage,
-we can add a file `frontend/src/tests/utils/hotelsUtils.test.js` using [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js) as a model.  So we'll look at that in a moment.  But first, let's also 
+we can add a file `frontend/src/tests/utils/hotelsUtils.test.js` using [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js) as a model.  So we'll look at that in a moment.  But first, let's also 
 look at how to run mutation testing locally.
 
 Later, as we have partial coverage for a file, you can click on the file and see which lines are, and are not covered by tests.  For example, here is what that report looks like with just a few of the tests included, but not all of them:
@@ -345,7 +345,7 @@ Eventualy, you'll see a report on your console like this one:
 The red and the number less than 100% in the score column shows us where we need to focus, in this case `hotelUtils.js`.  As with `npm run coverage`, there is also a detailed HTML report, which we can find in the file `reports/mutation/html/index.html` (this file name is echoed on the console):
 
 ```
-13:51:33 (81953) INFO HtmlReporter Your report can be found at: file:///Users/pconrad/github/ucsb-cs156-s23/team01-s23-4pm-1/frontend/reports/mutation/html/index.html
+13:51:33 (81953) INFO HtmlReporter Your report can be found at: file:///Users/pconrad/github/ucsb-cs156-m23/team01-m23-4pm-1/frontend/reports/mutation/html/index.html
 13:51:33 (81953) INFO MutationTestExecutor Done in 53 seconds.
 ```
 
@@ -366,7 +366,7 @@ Note that you can explore the report and find out exactly what mutations were do
 ![stryker-mutations](https://user-images.githubusercontent.com/1119017/233865937-70c70745-f35f-44df-9107-5ce414781de9.gif)
 
 
-#### Understanding the big picture of [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+#### Understanding the big picture of [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
 
 Let's start by looking at the big picture of this file.  Here's the entire file with some details omitted:
 
@@ -442,7 +442,7 @@ Each of the inner `describe` blocks corresponds to one of the five functions tha
 
 Next, we'll look at a few of the tests.  
 
-#### Understanding the tests in [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+#### Understanding the tests in [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
 
 Since there are thirteen tests in `restaurantUtils.test.js` we won't go over all of them in detail; we'll review just a few so that you get the basic idea, and leave it to you to discover how the others work.
 
@@ -537,7 +537,7 @@ The remaining twelve tests follow a similar pattern, so we won't describe them i
 
 This is occasionally useful for making sure we cover both branches of an if/else, for example, or that a mutation to an if test is killed.
 
-#### Writing your own version of [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
+#### Writing your own version of [`frontend/src/tests/utils/restaurantUtils.test.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/main/utils/restaurantUtils.test.js)
 
 It may be possible to get full test and mutation coverage by just copying this file over, doing a search and replace (e.g. changing all instances of `restaurant` to `hotel`).
 

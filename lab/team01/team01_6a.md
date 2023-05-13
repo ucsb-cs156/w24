@@ -9,7 +9,7 @@ grand_parent: lab
 
 # {{ page.title}} - {{page.description}}
 
-The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
+The model to follow here is [`frontend/src/fixtures/restaurantFixtures.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/fixtures/restaurantFixtures.js)
 
 The purpose of the fixtures file is to serve as a source of examples objects.  It has several use cases:
 * "A single source of truth" to document the fields that you are expecting in an object of this type.
@@ -37,7 +37,7 @@ export { restaurantFixtures };
 ```
 
 This sets the variable `restaurantFixtures` to a Javascript object (delimited by a set of curly braces, `{ }`), and then exports that variable so that 
-you can import the variable in another file with code like this (from [`RestaurantForm.stories.js`](https://github.com/ucsb-cs156-s23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
+you can import the variable in another file with code like this (from [`RestaurantForm.stories.js`](https://github.com/ucsb-cs156-m23/STARTER-team01/blob/main/frontend/src/stories/components/Restaurants/RestaurantForm.stories.js)
 
 ```
 import { restaurantFixtures } from 'fixtures/restaurantFixtures';
