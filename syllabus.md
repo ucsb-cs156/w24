@@ -65,13 +65,9 @@ Your grade will be made up of activities from the following categories:
   
   Particpation grades may vary: some are individual, some are team, and some may be a combination of the two that adds up to 100.
   
-  The lowest three participation grades will be dropped; accordingly, if you need to miss a lecture every now and then because of illness,
-  internet problems, etc., it shouldn't affect your grade unless it becomes a persistent problem (in which case you should speak to the instructor as soon as possible about your situation.)
-  
 * Homeworks / Quizzes (20 %) - These will be administered through Gradescope.  
   Some questions will be graded by hand (e.g. short answer/essay type questions), while others might be autograded
   (e.g. multiple choice, fill in the blank, true/false questions.)  These will typically be based on assigned readings.
-  We will drop only the lowest two grades from this category.
   
 * PAs (Auto-Graded Programming assignments) (20 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
@@ -133,13 +129,20 @@ Missing homework/in-class activities: Drop the lowest n grades
 If you miss a participation assignment, you miss the opportunity for the points on that participation assignment, or homework that was due. 
 
 Rather than providing a makeup opportunity, I will drop:
-* the lowest 3 participation assignments
-* the lowest 2 homework/quiz grades 
+* the lowest n participation assignments
+* the lowest k homework/quiz grades 
+
+Where both n and k are a function of the number of assignments in that category:
+* <= 2 assignments, no dropped assignments
+* 2 to 5 assignments: 1 dropped grades
+* 6 to 8 assignments: 2 dropped grades
+* 9 or more: 2 dropped grades
+
+This applies only to participation and homework assignments.
 
 This should be sufficient to allow for occaisional personal situations that may prevent your participation; if there is some special circumstance beyond your control where greater consideration may be needed, please contact the instructor; they will consider these on a case-by-case basis.
 
 Each homework and in-class-activity will be of equal value (100 pts).
-
 
 Project Points
 ==============
@@ -155,7 +158,6 @@ Some assignments in the project category are worth more points, and some worth f
 If you accumulate more than 100 project points, up to 10 project points may be used to raise your final average in the class. (The points will be recorded as extra credit). 
 
 You may not earn more than 110 total project points--any points in excess of 110 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
-
 
 Late Programming Assignments
 ----------------------------
