@@ -16,11 +16,7 @@ Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
-Team listing is here: <https://bit.ly/cs156-m23-teams>
-
-![SH1431-m23-updated](https://example.org/upload-pic)
-
-<https://docs.google.com/drawings/d/1vd7bzM6g-kiVct42ozDTY2gsduDPCt9XnZsbArfe5E8/edit>
+<img width="618" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/7e99a653-5834-48f2-b185-f37c56c402d1">
 
 # My special passion: Teaching real world software practice
 
@@ -111,11 +107,11 @@ Here:
 
   The point of reading this paper is to try to understand *why* this course is structured the way it is.
 
-# Other Homework is on Gradescope
+# Other Homework will be on Gradescope
 
 * You can access Gradescope through Canvas
 * Link to Canvas is on the course website: <https://ucsb-cs156.github.io/m23>
-* There are reading assignments in the textbooks for each homework assignment.
+* There will be reading assignments in the textbooks for each homework assignment.
 
 # What will we learn in this class:
 
