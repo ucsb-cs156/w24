@@ -5,9 +5,9 @@ description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
-slides: https://example.org/LINK_TBD
+slides: https://docs.google.com/presentation/d/1b18FqHzBIDp9ToM08kukd-0RCSfWaIm6-hcFXyLcdIc/edit?usp=sharing
 video: https://example.org/LINK_TBD
-slack_help_lecture_discussion: https://example.org/LINK_TBD
+slack_help_lecture_discussion: https://ucsb-cs156-m23.slack.com/archives/C05F7FSRK6U
 link_to_self_intro_activity: https://ucsb.instructure.com/courses/10130/assignments/104110
 link_to_team_first_day_activity: https://ucsb.instructure.com/courses/10130/assignments/104111
 ---
@@ -183,11 +183,7 @@ What are you most interested to learn in this course?
 
 Record as much of your conversation as you are able in the Slack channel
 
-# For next week:
-
-Check out these  videos about two of our legacy code projects:
-* [Courses Search](https://drive.google.com/file/d/1NpXyoh__e08Vu5xdvfeAHAo2pl3AI9xZ/view)
-* [Happy Cows](https://drive.google.com/file/d/1gIJzuDLt-UOuD5ZfVpW_pg6kIwVlbwLk/view)  
+# For Thursday
 
 Read the Listening to Developers Paper:
 * <https://pconrad.github.io/files/paper028.pdf>
