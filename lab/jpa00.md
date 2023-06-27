@@ -1,7 +1,7 @@
 ---
 description: Getting Started
-assigned: 2022-09-27 17:00
-due: 2022-10-05 19:59
+assigned: 2023-06-27
+due: 2023-07-05 23:59
 layout: default
 title: jpa00
 ready: true
