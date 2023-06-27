@@ -1,6 +1,6 @@
 ---
-title: "Week 02 - 04.13 Thu"
-lecture_date: 2023-04-13
+title: "Week 03a - 07.11 Tue"
+lecture_date: 2023-07-11
 description: "informed consent briefing, git merge vs rebase, merge conflicts, and more"
 ready: true
 layout: default
@@ -10,4 +10,7 @@ slides: https://docs.google.com/presentation/d/17ovs4sJGc5UOuRVv-JsdqGoKR6wnpW5r
 
 [Slides]({{page.slides}})
 
+
+
+# Introduction to Courses and Gauchoride Apps
 

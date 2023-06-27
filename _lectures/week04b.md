@@ -1,6 +1,6 @@
 ---
-title: "Week 04 - 04.25 Tue"
-lecture_date: 2023-04-25
+title: "Week 04b - 07.20 Thu"
+lecture_date: 2023-07-20
 description: "Finish up jpa02, work on team01"
 ready: true
 layout: default
@@ -17,7 +17,7 @@ Today, we briefly reviewed a few things:
   - Dokku seems reasonably fast, and it's implemented by [UCSB CoE ECI](https://eci.ucsb.edu/)
   - You use it with your CSIL account
   - <https://ucsb-cs156.github.io/topics/dokku/>
-* jpa02 is due Wednesday night at midnight, so try to finish up
+* jpa02 is due Thunesday night at midnight, so try to finish up
 
 # team01
 

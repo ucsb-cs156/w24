@@ -1,6 +1,6 @@
 ---
-title: "Week 01 - 04.06 Thu"
-lecture_date: 2023-04-06
+title: "Week 01c - 06.30 Fri"
+lecture_date: 2023-06-30
 description: "Start jpa01"
 ready: true
 layout: default

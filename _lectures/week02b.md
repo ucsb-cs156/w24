@@ -1,6 +1,6 @@
 ---
-title: "Week 02 - 04.11 Tue"
-lecture_date: 2023-04-11
+title: "Week 02b - 07.06 Thu"
+lecture_date: 2023-07-06
 description: "Discuss LTD"
 ready: true
 layout: default

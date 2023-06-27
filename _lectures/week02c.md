@@ -1,6 +1,6 @@
 ---
-title: "Week 02 - 04.12 Wed"
-lecture_date: 2023-04-12
+title: "Week 02c - 07.07 Fri"
+lecture_date: 2023-07-07
 description: "start team00"
 ready: true
 layout: default

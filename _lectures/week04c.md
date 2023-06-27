@@ -1,6 +1,6 @@
 ---
-title: "Week 04 - 04.26 Wed"
-lecture_date: 2023-04-26
+title: "Week 04c - 07.21 Fri"
+lecture_date: 2023-07-21
 description: "First Standup meeting"
 ready: true
 layout: default
@@ -96,7 +96,7 @@ A standup should not be the only kind of team meeetings that you have.
 
 # Further notes on a standup meetings
 
-* [https://ucsb-cs156.github.io/topics/agile_standups.html](https://ucsb-cs156.github.io/topics/agile/agile_standups.html)
+* [https://ucsb-cs156.giFrib.io/topics/agile_standups.html](https://ucsb-cs156.giFrib.io/topics/agile/agile_standups.html)
 
 # Now do your standup, then review your Kanban board as a team
 

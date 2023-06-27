@@ -1,6 +1,6 @@
 ---
-title: "Week 03 - 04.20 Thu"
-lecture_date: 2023-04-20
+title: "Week 04a - 07.18 Tue"
+lecture_date: 2023-07-18
 description: "Introduction to working with Kanban boards"
 ready: true
 layout: default

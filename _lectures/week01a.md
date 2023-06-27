@@ -1,5 +1,5 @@
 ---
-title: "Week 01 - 06.27 Tue"
+title: "Week 01a - 06.27 Tue"
 lecture_date: 2023-06-27
 description: "Introduction to CS156"
 ready: true
