@@ -28,4 +28,6 @@ slides: https://docs.google.com/presentation/d/1MAYJC84MEcrLMa9v7Qh7LmRTbNg8GF1Y
 	 - See P05 link on Canvas or Course Web Site for instructions
 
 
-4. Time to work on P04, jpa00, OR you may leave early if you are finished with jpa00.
+4. Time to work on P04, jpa00, H00.
+
+If finished with all of those, try getting an early start on  [jpa01](https://ucsb-cs156.github.io/m23/lab/jpa01.html)
