@@ -5,7 +5,14 @@ description: "Start jpa01"
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/1YEK_iGW5-EYdavg7T_qE1i-kdnNYTDuldPE5GgHPkEk/edit?usp=sharing
+slides: 
 ---
+
+# Start Playing Happy Cows
+
+One of the legacy code apps we'll be working on is called Happy Cows.
+
+Today, I'll introduce you to the game, and we'll start playing.
+
 
 [Slides]({{page.slides}})
