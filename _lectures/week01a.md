@@ -6,7 +6,7 @@ ready: true
 layout: default
 parent: lectures
 slides: https://docs.google.com/presentation/d/1b18FqHzBIDp9ToM08kukd-0RCSfWaIm6-hcFXyLcdIc/edit?usp=sharing
-video: https://example.org/LINK_TBD
+video: https://drive.google.com/file/d/1ivdN29n4MaZHG4-dkGP09oHk3MVx05u-/view?usp=drive_link
 slack_help_lecture_discussion: https://ucsb-cs156-m23.slack.com/archives/C05F7FSRK6U
 link_to_self_intro_activity: https://ucsb.instructure.com/courses/10130/assignments/104110
 link_to_team_first_day_activity: https://ucsb.instructure.com/courses/10130/assignments/104111
