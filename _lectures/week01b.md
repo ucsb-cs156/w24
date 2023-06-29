@@ -10,9 +10,4 @@ slides: https://docs.google.com/presentation/d/1he8_NTfwwlXJ8VGh8ku1bwU4Ti8K72oS
 
 [Slides]({{page.slides}})
 
-# Start Playing Happy Cows
-
-One of the legacy code apps we'll be working on is called Happy Cows.
-
-Today, I'll introduce you to the game, and we'll start playing.
 
