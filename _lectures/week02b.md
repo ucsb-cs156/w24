@@ -13,4 +13,9 @@ slides: https://docs.google.com/presentation/d/1Jwod9HLgi-y5YE4pL8o713HvNRm78MQJ
 
 Today's activity: <https://ucsb-cs156.github.io/m23/hwk/p07/>
 
-After lecture today, you are encouraged to start on: <https://ucsb-cs156.github.io/m23/lab/jpa02/>
+After lecture today, you are encouraged to
+
+* Start on: <https://ucsb-cs156.github.io/m23/lab/jpa02/>, even if you aren't done with jpa01
+* It should be straightforward
+* Also: by end of lab tomorrow, *everyone* should have made at least a first submission for jpa01
+  
