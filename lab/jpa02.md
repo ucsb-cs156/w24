@@ -125,7 +125,7 @@ Clone that repo somewhere and cd into it.
 
 Then add this remote:
 
-<tt>git remote add starter {{page.starter}}</tt>
+<tt>git remote add starter <a href="{{page.starter}}">{{page.starter}}</a></tt>
 
 Then do:
 
