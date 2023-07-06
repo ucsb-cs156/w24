@@ -378,7 +378,15 @@ The test cases are in these files:
 
 Run the tests and see them fail.
 
-Then modify them so that they pass.   Note that we are doing TDD "wrong" this time; to do it "the right way",  we should have modified the tests first, and then modified the code so that the tests pass.   We'll pivot to this style of working once we have a better grasp on all the moving parts here.
+Then modify them so that they pass.   
+
+You should commit the changes to the tests to GitHub.
+
+Note that from a "purist" point of view, we are doing TDD "wrong" this time; to do it "the right way",  we should have modified the tests first, and then modified the code so that the tests pass.  
+
+We can pivot to this style of working once we have a better grasp on all the moving parts here&mdash;or not.  To be honest, there are times when the pure TDD approach is good, and other times when it's more effective to get something working, and then figure out how to test it.  It's good to understand various ways of approaching testing, and the pros/cons of each approach.
+
+
 
 # Step 10: Adding links to running web app in the README.md
 
