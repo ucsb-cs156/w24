@@ -281,6 +281,8 @@ In this step, we'll deploy our Spring Boot application to the public internet us
 
 You can follow the instructions here to create a new app. Use the name `jpa02-yourgithubid`
 
+* <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html#deploying-an-app>
+
 This should result in an app at the address `https://jpa02-yourgithubid.dokku-xx.cs.ucsb.edu`
 
 
