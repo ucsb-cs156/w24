@@ -12,3 +12,5 @@ slides: https://docs.google.com/presentation/d/1Jwod9HLgi-y5YE4pL8o713HvNRm78MQJ
 
 
 Today's activity: <https://ucsb-cs156.github.io/m23/hwk/p07/>
+
+After lecture today, you are encouraged to start on: <https://ucsb-cs156.github.io/m23/lab/jpa02/>
