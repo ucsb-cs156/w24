@@ -5,7 +5,7 @@ description: "start team00"
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/1VY3T4m5uVA9_5_gesSEibnsXsY_JiP7F4QrL3pyNj-U/edit?usp=sharing
+slides: https://docs.google.com/presentation/d/1FXKkUy05QQEZixMdILuiZ9wBfEaFACYsLY1TLgyVgg4/edit?usp=sharing
 ---
 
 [Slides]({{page.slides}})
