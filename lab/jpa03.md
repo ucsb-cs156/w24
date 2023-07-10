@@ -189,11 +189,9 @@ If GitHub Actions are already enabled:
 </tbody>
 </table>
 
-Next, visit the file docs/README.md on GitHub and read what it says to do 
-to configure the documentation for your repo on Github Pages.
+If it looks like the one on the left, click the green button that says "Enable Actions on this Repository".
 
-
-
+Next, visit the file [`docs/github-pages.md`](https://github.com/ucsb-cs156-m23/STARTER-jpa03/blob/main/docs/github-pages.md) on GitHub and read what it says to do to configure the documentation for your repo on Github Pages.
 
 ## Step 4: Configure your app for localhost as documented in the README.md
 
@@ -266,8 +264,6 @@ These include:
 
 Once you have your app up and running try logging in with OAuth, and store things in the database.
 
-
-
 ## What if it doesn't work?
 
 If it doesn't work:
@@ -303,21 +299,20 @@ Here's a checklist to look over before submitting on Canvas:
 4. Do those javadoc and storybook links work?
 5. In the README.md file: is there a link to the running app?
 6. Does OAuth work on the running app, i.e. can I log in with my Google login?
-7. Did you remember to add the instructor, your mentor, your fellow teamm members, and yourself to the `ADMIN_EMAILS` variable in your `config:set` on dokku?
+7. Did you remember to add the instructor, your mentor, your fellow team members, and yourself to the `ADMIN_EMAILS` variable in your `config:set` on dokku?
 8. Did you deploy a database, and if so, do the CRUD operations work when you log in?
 
 If so, then you are ready to submit on Canvas.  
 
-* Submit the link to your repo, not the link to your running app.
-
+* Submit the link to *your repo*, not the link to your running app.
 
 ## Grading Rubric:
 
 * (10 pts) Basic Logistics
-  * Having a repo with the correct name in the correct organization with the starter code for this lab
+  * There is a repo with the correct name in the correct organization with the starter code for this lab
   * There is a post on Canvas for this assignment that has the correct content
-* (10 pts) README has a link to your repo.
-* (20 pts) Having a running web app at <tt>https://{{page.num}}-<i>githubid</i>.dokku-xx.cs.ucsb.edu</tt>
+* (20 pts) There is a running web app at <tt>https://{{page.num}}-<i>githubid</i>.dokku-xx.cs.ucsb.edu</tt>
+* (10 pts) README has a link to your running web app.
 * (20 pts) Running web app has the ability to login with OAuth through a Google Account.
 * (20 pts) Github Pages are set up correctly.
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
