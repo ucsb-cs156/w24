@@ -7,7 +7,7 @@ github_org: ucsb-cs156-m23
 num: jpa03
 title: jpa03
 ready: true
-starter: https://github.com/ucsb-cs156-s23/STARTER-jpa03
+starter: https://github.com/ucsb-cs156-m23/STARTER-jpa03
 layout: default
 parent: lab
 teams_url: https://bit.ly/cs156-m23-teams
