@@ -5,12 +5,16 @@ description: "informed consent briefing, git merge vs rebase, merge conflicts, a
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/17ovs4sJGc5UOuRVv-JsdqGoKR6wnpW5rpMZY7fxDpXw/edit?usp=sharing
+slides: https://docs.google.com/presentation/d/1YbHWyed_GitgdHMtti5KBqiclpxt4mxseOgFg6snVjs/edit?usp=sharing
 ---
 
 [Slides]({{page.slides}})
 
+# Informed consent briefing
 
+See slides
 
-# Introduction to Courses and Gauchoride Apps
+# jpa03
+
+* <https://ucsb-cs156.github.io/m23/lab/jpa03.html>
 
