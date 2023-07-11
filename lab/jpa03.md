@@ -16,19 +16,6 @@ office_hours_page: https://ucsb-cs156.github.io/m23/office-hours
 software_install_url: https://ucsb-cs156.github.io/m23/info/software.html
 ---
 
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-# NOT READY
-
 For due date: see the jpa03 entry on Canvas.
 
 # Instructions for jpa03
