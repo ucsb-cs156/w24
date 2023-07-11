@@ -222,8 +222,8 @@ The next step is to read through the [`README.md`]({{page.starter}}/blob/main/RE
 
 As shown in the [`README.md`]({{page.starter}}/blob/main/README.md), these steps include the following.  Each of these is documented in files linked to from the [`README.md`]({{page.starter}}/blob/main/README.md) file so we won't repeat those here; we'll just link to them.
 
-1. [Configuring GitHub Pages for the documentation](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#configuring-github-pages-for-the-documentation)
-2. [Getting Started on localhost](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#getting-started-on-localhost), which includes:
+1. [Configuring GitHub Pages for the documentation]({{page.starter}}/tree/main#configuring-github-pages-for-the-documentation)
+2. [Getting Started on localhost](https://github.com/{{page.starter}}/tree/main#getting-started-on-localhost), which includes:
    - Setting up Google OAuth credentials
    - Entering those credential in the `.env` file
    - Learning how to run the backend and frontend in separate windows
