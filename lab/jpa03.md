@@ -63,7 +63,7 @@ It should then look like this, and you shoudl be able to login:
 
 Once you are logged in, you'll see a menu like this one:
 
-<img width="738" alt="image" src="https://user-images.githubusercontent.com/1119017/235782278-fac78168-1290-4afd-8efe-cedf24e69ae6.png">
+<img width="647" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/0cfc63d4-d4d1-4764-8113-0f9e6c7f381e">
 
 None of the menus will do much of anything.  It turns out that the application is
 a shell of an application that:
