@@ -339,7 +339,12 @@ Each of these service works roughly the same as the example `EarthquakeQueryServ
 * The `EarthquakeQueryService` and `CountryCodeQueryService` are both provided for you as examples.  Please read over them; we'll also go over them in lecture.  
 * The `CollegeSubredditQueryService` is also provided for you, but it works a bit differently; it uses a CSV file as it's data source rather than a JSON web service.  So don't use that as a model for your services. We'll discuss that one in lecture and how it differs from the others.
 
-Now, open up the stub file for your service, and start adding code based on what you see in the two example services.
+You will find that often in this course, you are asked to write some code by using some other code as an example. This "copy/paste/edit" approach, as it turns out, is *very common to how lots of real world code is written*, especially when you 
+are new to a code base.  You may find that as you work through, you are not really understanding 100% of what you are writing.
+That's ok at first; as long as it works, you can just power through some of that.   You are encouraged to ask questions,
+and look into what's going on in the code, as long as it doesn't slow you down too much.
+
+Open up the stub file for your service, and start adding code based on what you see in the two example services.
 
 The first piece of information you need is a value for the endpoint, which is in the table below.  You should
 see a variable `public static final String ENDPOINT` that is set to an empty string; instead, set that to the value
@@ -353,7 +358,47 @@ in this table.  Note the values in `{braces}`; these are variables that will get
 | `UniversityQueryService`    | `http://universities.hipolabs.com/search?name={name}` |
 | `ZipCodeQueryService`       | `http://api.zippopotam.us/us/{zipcode}` |
 
-You will also need some additional documentation about the parameters.  You can find this on the swagger-ui pages of staff solution, here:
+A line of code you may see occasionally is something like this:
+
+```
+        log.info("distance={}, minMag={}", distance, minMag);
+```
+
+This is debugging output.  Each of the `{}` symbols is  replaced  in the output with the value of the corresponding variable.  This debugging output is enabled with the annotation `@Slf4j` in front of the class; that annotation requires the following import:
+
+```
+import lombok.extern.slf4j.Slf4j;
+```
+
+Since the `log.info()` method call is just debugging output, it's optional, but if you retain it, you may want to print out
+the value of the parameters; for example, for the `LocationQueryService`, you might use:
+
+```
+        log.info("location={}", location);
+```
+
+You will also a statement such as this one:
+```
+  Map<String, String> uriVariables = Map.of("minMag", minMag, "distance", distance, "latitude", ucsbLat,
+                "longitude", ucsbLong);
+```
+
+The parameter to `Map.of` is a list of strings in key/value pairs; i.e. `"minMag"` is a key, and then the value of the variable
+`minMag` becomes its value.  The next key here is `"distance"`, with the value of `distance` as its value, and so forth.  The `Map.of` method turns these pairs into a `Map<String, String>` data structure which functions like a hash table, or a Python dictionary; you can look up a key and get its value.    
+
+This map is used later to translate the keys in braces in the URL template, e.g. the keys `{minMag}`, `{distance}`, `{latitude}` and `{longitude}` in this URL:
+
+```
+    public static final String ENDPOINT = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minmagnitude={minMag}&maxradiuskm={distance}&latitude={latitude}&longitude={longitude}";
+```
+
+You will need to adjust the value passed to `Map.of` based on whatever `{key}` values you find in the URL for your service.  For example, for the LocationQueryService, it should look like this:
+
+```
+        Map<String, String> uriVariables = Map.of("location", location);
+```
+
+You may also need some additional documentation about the parameters that your API call takes.  You can find this on the swagger-ui pages of staff solution, here:
 
 * <{{page.demo_deployment}}>/swagger-ui/index.html>
 
@@ -369,7 +414,12 @@ in the implementation.*   So those should not appear in your code for anything o
 think of it differently; it's an example that forces you to really think about what's going on, and what parameters you should retain, vs. which ones
 you should not retain.
 
-As you work on your service, make commits frequently, with meaningful commit messages. 
+
+When you're done implementing the first draft, try compiling with: `mvn compile`.  You won't really be able to
+test the service beyond "does it compile" without first writing a test, and then implementing the controller as well.
+
+Once you have a first draft that compiles, make a commit with a meaningful commit message:
+
 * Use your initials at the start of your commit message (e.g. `cg` for "Chris Gaucho")
 * Separate your initials from your message with a hyphen
 * Your message should describe what you did
@@ -392,17 +442,21 @@ A few handy commands:
 * `git branch -a` shows all current branches
 * `git fetch` updates information about branches by pulling new branch names from GitHub
 
-When you're done implementing the first draft, the next step is to write the test for your service
-
 ## Step 2.4: Implement the test for the service you were assigned
 
 In the directory `src/test/java/edu/ucsb/cs156/spring/backenddemo/services` you will find tests for the three sample services.  Use these as a model to write a test for your service.
 
-We'll go over the code for these tests in lecture.
+There is no stub; you'll need to create a new file in that directory; be sure to follow the existing naming convention, and put
+your test in the same directory as the others.
 
-Run the tests by running `mvn test` and then check the test coverage with `mvn test jacoco:report`
+We'll go over the code for these tests in lecture; and they are covered in the video here:
+* [On Youtube](https://youtu.be/mdh9LJ3RSOQ)
 
-When that test passes, we'll build the controller and the controller test so that you can try out your service.
+Run the tests by running `mvn test` and then check the test coverage with:
+* `mvn test jacoco:report`
+* `mvn test pitest:mutationCoverage`
+
+When the tests pass and you have full coverage, make a commit, and then proceed with  building the controller and the controller test so that you can try out your service.
 
 ## Step 2.5: Implement the controller for the service
 
