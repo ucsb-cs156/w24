@@ -12,7 +12,7 @@ starter: https://github.com/ucsb-cs156-m23/STARTER-team01
 qxx: m23
 participation_activity_num: p09
 participation_activity_date: "Thursday 07/13/2023"
-demo_deployment: http://team01.dokku-00.cs.ucsb.edu/
+demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: m23-9am-3
 teams_list: https://bit.ly/cs156-m23-teams
 ---
