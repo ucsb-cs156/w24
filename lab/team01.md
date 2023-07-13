@@ -452,6 +452,62 @@ your test in the same directory as the others.
 We'll go over the code for these tests in lecture; and they are covered in the video here:
 * [On Youtube](https://youtu.be/mdh9LJ3RSOQ)
 
+Here are also a few notes:
+
+The following code contains the `@Autowired` annotation, which is something you'll see a lot in Spring Boot:
+```
+    @Autowired
+    private MockRestServiceServer mockRestServiceServer;
+
+    @Autowired
+    private EarthquakeQueryService earthquakeQueryService;
+```
+
+What's going on here is that Spring Boot is doing some magic so that we don't have to manually invoke the constructor like this:
+
+```
+ private EarthquakeQueryService earthquakeQueryService = new EarthquakeQueryService(); // We don't typically do this
+```
+
+Instead, `@Autowired` asks Spring Boot to go look for an appropriate class with an appropriate constructor, and call it for us *automatically*.
+
+But it's even more than that; having Spring Boot invoke constructors for us instead of us doing it ourselves enables a helpful
+design pattern called *Dependency Injection*.  The idea is that in a unit test, we don't want to use the real location API, 
+because then the test will fail if the API is down, or we don't have an internet connection.  Instead, we set up 
+a *mock* service that will be a kind of "stand-in" for the real API.   
+
+That's what this code does:
+```
+        String fakeJsonResult = "{ \"fake\" : \"result\" }";
+
+        this.mockRestServiceServer.expect(requestTo(expectedURL))
+                .andExpect(header("Accept", MediaType.APPLICATION_JSON.toString()))
+                .andExpect(header("Content-Type", MediaType.APPLICATION_JSON.toString()))
+                .andRespond(withSuccess(fakeJsonResult, MediaType.APPLICATION_JSON));
+```
+
+The  `mockRestServiceServer` will take precedence over the real service that connects to the internet to get the result
+of the API call; and this allows us to make sure that the test uses our fake service, so that the outcome is predictable.
+In essence we are only testing to make sure that the call is made to the correct endpoint with the correct parameters.
+
+The are pros/cons to this style of testing; we'll discuss in class.
+
+Another important line of code is this one, which you will find as an annotation on the `EarthquakeQueryServiceTests` class:
+```
+@RestClientTest(EarthquakeQueryService.class)
+```
+
+This is necessary to set up the whole mocking of the API endpoint using the `MockRestServiceServer`; the parameter is the service class you are testing.  When creating, for example, the `LocationQueryServiceTests`, you'll need a line like this one:
+
+```
+@RestClientTest(LocationQueryService.class)
+```
+
+The import that goes along with that is:
+```
+import org.springframework.boot.test.autoconfigure.web.client.RestClientTest;
+```
+
 Run the tests by running `mvn test` and then check the test coverage with:
 * `mvn test jacoco:report`
 * `mvn test pitest:mutationCoverage`
