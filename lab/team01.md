@@ -274,6 +274,14 @@ This Video (about 40 minutes) walks you through steps 2.0 through 2.4
 
 A video for steps 2.5, 2.6, and 2.8 (about 15 minutes) appears here: [Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
 
+Please note that in the video, the following annotations are used:
+* `@Api, @ApiOperation, @ApiParam`
+
+However, those come from a package that has  been deprecated (i.e. they are no longer supported).  Instead, we are now using equivalent annotations from a different package that has ongoing support:
+* `@Tag, @Operation, @Parameter`
+
+Please use the new ones. 
+
 ## Step 2.0: Optional, but recommended: install VSCode extension for Lombok
 
 This step is optional, but highly recommended.  If you like, you may come back and do this later
