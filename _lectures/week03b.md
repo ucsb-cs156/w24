@@ -1,7 +1,7 @@
 ---
 title: "Week 03b - 07.13 Thu"
 lecture_date: 2023-07-13
-description: ""
+description: "Intro to Kanban boards"
 ready: true
 layout: default
 parent: lectures
