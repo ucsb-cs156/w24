@@ -1,8 +1,8 @@
 ---
 title: team01
 desc: "Team Project 01: Spring Boot Backend, part 1 (unauthenticated RESTFul APIs)"
-assigned: 2022-10-13 17:00
-due: 2022-10-20 23:59
+assigned: 2023-07-13 14:00
+due: 2023-07-20 23:59
 github_org: ucsb-cs156-m23
 layout: default
 parent: lab
