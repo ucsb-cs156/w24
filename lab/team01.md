@@ -9,7 +9,7 @@ parent: lab
 num: team01
 ready: true
 starter: https://github.com/ucsb-cs156-m23/STARTER-team01
-qxx: f22
+qxx: m23
 participation_activity_num: p09
 participation_activity_date: "Thursday 07/13/2023"
 demo_deployment: http://team01.dokku-00.cs.ucsb.edu/
