@@ -8,6 +8,8 @@ parent: lectures
 slides: 
 ---
 
+# {{page.title}}: {{page.description}}
+
 Today: 
 * [p09](https://ucsb-cs156.github.io/m23/hwk/p09/)
 
