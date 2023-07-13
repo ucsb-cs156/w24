@@ -512,9 +512,47 @@ Run the tests by running `mvn test` and then check the test coverage with:
 * `mvn test jacoco:report`
 * `mvn test pitest:mutationCoverage`
 
-When the tests pass and you have full coverage, make a commit, and then proceed with  building the controller and the controller test so that you can try out your service.
+When the tests pass and you have full coverage, make a commit, and then do a Pull Request for the branch you've created so far.
+
+* Navigate to your repo on the GitHub website
+* Go to the Pull Requests tab
+* Click to create a new pull request
+  - the `base` branch should be `main` (this is where your code will be "pulled into")
+  - the `compare` branch should be your feature branch, e.g. `Chris-Zipcode`
+  - for the title, put in something like "Add ZipCode Service and Controller"
+* For the PR description, enter something like this.  DO NOT leave the description blank.
+  It is very important to develop good habits around writing clear PR descriptions.
+
+  ```
+  In this PR, we add an service that wraps the Location API from
+  https://nominatim.openstreetmap.org/search/{location}?format=json"; 
+  ```
+* Then, once the PR is created, add your team members as code reviewers
+* Do not merge your own PR.  You should wait until another member of your team has code reviewed it, and then they can do the merge.
+* Once you've made your PR, drag the card for your issue into the `In Review` column on GitHub
+* Link your PR to the issue. One way to do this by putting `Closes #13` in the text of the PR description (where `13` is the issue number.)  There are also ways to link issues with PRs in the GitHub web interface. 
+
+Then, make a new branch from the one you have.  For example, if your branch is `Chris-Locations`, while on that branch, do:
+
+```
+git pull origin Chris-Locations
+git checkout -b Chris-Locations-Controller
+```
+
+It is important to *make a new branch* once you've made a pull request ; otherwise any commits you make on that branch will
+affect the pull request.  We want a pull request to not be a moving target; it should be stable so that it can be reviewed.
+
+There times when a reviewer may suggest changes to a branch with an outstanding PR (e.g. `Chris-Locations`); when that happens, we can get those changes into, for example, `Chris-Locations-Controller`, if necessary, in a variety of ways.  We'll cross that bridge when we come to it.
+into the later branch 
+
+Once you've made a PR for the branch containing your service and tests, and made a new branch from that one, 
+proceed with  building the controller and the controller test so that you can try out your service.
+
 
 ## Step 2.5: Implement the controller for the service
+
+Before starting to build the controller, be sure you've made a PR for your service and tests, and started a new branch
+from that older branch.
 
 A video for steps 2.5, 2.6, and 2.8 appears here: [f22 Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
 
@@ -537,9 +575,9 @@ are also shown in this table:
 
 You'll see additional information in the Swagger-ui that is provided by annotations such as these found in the `EarthquakesController`
 
-Please note that the syntax of these may be different in the videos; I just upgraded from
+Please note that the syntax of these annotations may be different in the videos; I just upgraded from
 an older version of the software that used different annotation names.  Please use the 
-ones that are found in the current code base, not the ones in the video. 
+ones that are found in the current code base, not the ones in the video.   Here are the new annotation names:
 
 * `@Tag(name="Earthquake info from USGS")`
 * `@Operation(summary = "Get earthquakes a certain distance from UCSB's Storke Tower", description = "JSON return format documented here: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php")`
@@ -592,7 +630,7 @@ don't have to switch to your branch on their own machine to test it.
 Test the functionality on your new dev deployment.  If it works, then you are ready
 for a pull request.
 
-## Step 2.8: Make a Pull Request
+## Step 2.8: Make a Pull Request for your Controller and Tests
 
 * Navigate to your repo on the GitHub website
 * Go to the Pull Requests tab
