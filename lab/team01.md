@@ -292,8 +292,6 @@ To help VSCode not be confused, look under VSCode Extensions, and install this o
 
 Clone the team's repo to your own machine or CSIL account, with `git clone repo-url`, then cd into the repo and open it up in your editor (we suggest VSCode).
 
-* OR try opening it in a GitHub Codespace
-
 Then try running `mvn spring-boot:run` and opening up the server on <http://localhost:8080>.
 
 Try navigating to <http://localhost:8080/swagger-ui/> and trying out the various APIs.
