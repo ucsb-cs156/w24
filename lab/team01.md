@@ -10,6 +10,7 @@ num: team01
 ready: true
 starter: https://github.com/ucsb-cs156-m23/STARTER-team01
 qxx: m23
+org: ucsb-cs156-m23
 participation_activity_num: p09
 participation_activity_date: "Thursday 07/13/2023"
 demo_deployment: http://team01-f22.dokku-00.cs.ucsb.edu
