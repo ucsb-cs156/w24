@@ -191,7 +191,7 @@ You will get three grades for this assignment:
 
 # Part 1: Team divides up the work
 
-# Step 1.1: Divide up the controllers among your team
+# Step 1.1: Divide up the services among your team
 
 This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
 
