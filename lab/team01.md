@@ -523,9 +523,15 @@ When the tests pass and you have full coverage, make a commit, and then do a Pul
 * For the PR description, enter something like this.  DO NOT leave the description blank.
   It is very important to develop good habits around writing clear PR descriptions.
 
+  The `Closes #5` text is also super important; use the number of the issue that you are
+  working on. When you type `Closes #5` it will link the PR to issue 5, and if/when the PR is
+  merged, it will automatically close the issue and move it into the Done column on the Kanban board.
+  
   ```
   In this PR, we add an service that wraps the Location API from
   https://nominatim.openstreetmap.org/search/{location}?format=json"; 
+
+  Closes #5 
   ```
 * Then, once the PR is created, add your team members as code reviewers
 * Do not merge your own PR.  You should wait until another member of your team has code reviewed it, and then they can do the merge.
