@@ -8,6 +8,9 @@ parent: lectures
 slides: 
 ---
 
+# {{page.title}}: {{page.description}}
+
+
 Work on these in this order:
 * [jpa01](https://ucsb-cs156.github.io/m23/lab/jpa01.html) if not done (due last night; late submissions accepted til 11:59 tonight)
 * [jpa02](https://ucsb-cs156.github.io/m23/lab/jpa02.html) if not done (due 07/19 at 11:59pm, but please finish asap)
