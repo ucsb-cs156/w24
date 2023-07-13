@@ -1,4 +1,4 @@
----
+en---
 desc: "Team Project 01: Spring Boot Backend, part 1 (unauthenticated RESTFul APIs)"
 assigned: 2022-10-13 17:00
 due: 2022-10-20 23:59
@@ -332,7 +332,9 @@ Each of these service works roughly the same as the example `EarthquakeQueryServ
 
 Now, open up the stub file for your service, and start adding code based on what you see in the two example services.
 
-The first piece of information you need is a value for the endpoint, which is in the table below.
+The first piece of information you need is a value for the endpoint, which is in the table below.  You should
+see a variable `public static final String ENDPOINT` that is set to an empty string; instead, set that to the value
+in this table.  Note the values in `{braces}`; these are variables that will get substituted into the URL at a later step.
 
 | Service                     | Endpoint | 
 |-----------------------------|----------|
