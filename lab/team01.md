@@ -461,9 +461,9 @@ and your team name in place of {{page.sample_team}}
 
 <tt>
 dokku apps:create {{page.num}}-cgaucho-dev <br />
-dokku git:sync {{page.num}}-cgaucho-dev https://github.com/{{page.org}}/{{page.num}}-{{page.sample_team}} Chris-Earthquakes
-dokku ps:rebuild {{page.num}}-cgaucho-dev
-```
+dokku git:sync {{page.num}}-cgaucho-dev https://github.com/{{page.org}}/{{page.num}}-{{page.sample_team}} Chris-Earthquakes <br />
+dokku ps:rebuild {{page.num}}-cgaucho-dev <br />
+</tt>
 
 This builds a separate dokku deployment where you can test your branch before you do
 a pull request to make sure it is working properly.  You can also provide a link to this
