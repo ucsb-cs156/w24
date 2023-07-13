@@ -1,7 +1,7 @@
 ---
 title: "Week 03a - 07.11 Tue"
 lecture_date: 2023-07-11
-description: "informed consent briefing, git merge vs rebase, merge conflicts, and more"
+description: "informed consent briefing, jpa03"
 ready: true
 layout: default
 parent: lectures
