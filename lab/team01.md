@@ -17,6 +17,11 @@ sample_team: m23-9am-3
 teams_list: https://bit.ly/cs156-m23-teams
 ---
 
+NOTE: Gradescope autograders are not yet set up.
+
+We'll let you know when they are available.  If they aren't available by lecture time on Tuesday, we'll extend the deadline for
+the assignment.
+
 # First team programming assignment: Spring Backend, and working with APIs
 
 This is a team programming assignment.  Each team has it's own repo to complete this assignment, and
