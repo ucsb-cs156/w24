@@ -44,7 +44,6 @@ In this lab:
 -   using packages
 -   writing your own JUnit tests
 -   test coverage using Jacoco
--   publishing test coverage using Codecov
 -   mutation testing with pitest
 
 ## Background
