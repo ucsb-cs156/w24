@@ -8,4 +8,5 @@ parent: lectures
 slides: 
 ---
 
+# {{page.title}}: {{page.description}}
 
