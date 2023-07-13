@@ -309,7 +309,7 @@ To create your branch, cd into your cloned repo, and use this command:
 ```
 git checkout main
 git pull origin main
-git checkout -b Chris-PublicHoliday`
+git checkout -b Chris-PublicHoliday
 ```
 
 This creates a new branch `Chris-PublicHoliday` that is branched off a fresh copy of the main branch.
