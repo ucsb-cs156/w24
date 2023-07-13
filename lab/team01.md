@@ -12,7 +12,7 @@ starter: https://github.com/ucsb-cs156-m23/STARTER-team01
 qxx: m23
 participation_activity_num: p09
 participation_activity_date: "Thursday 07/13/2023"
-demo_deployment: http://team01.dokku-00.cs.ucsb.edu
+demo_deployment: http://team01-f22.dokku-00.cs.ucsb.edu
 sample_team: m23-9am-3
 teams_list: https://bit.ly/cs156-m23-teams
 ---
@@ -150,8 +150,18 @@ So you are given those twelve classes.   Your job, as a team, is to implement 20
 | `UniversityController` | `UniversityControllerTest` | `UniversityQueryService` | `UniversityQueryServiceTest` |
 | `ZipCodeController` | `ZipCodeControllerTest` | `ZipCodeQueryService` | `ZipCodeQueryServiceTest` |
 
+Here's some information on the APIs that these services are based on.
 
-You can see what those services will look like in Swagger by looking at this example of the finished app running:
+| Service                     | Example |  More info |
+|-----------------------------|----------|-------------|
+| `LocationQueryService`       | <https://nominatim.openstreetmap.org/search/Oxnard?format=json> | [Documentation](https://nominatim.org/release-docs/develop/api/Overview/) |
+| `PublicHolidayQueryService` | <https://date.nager.at/api/v2/publicholidays/2023/us> |[Documentation](https://date.nager.at/Api) |
+| `TidesQueryService`         | <https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date=20230710&end_date=20230712&station=9411340&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json> |[Documentation](https://api.tidesandcurrents.noaa.gov/api/prod/) |
+| `UniversityQueryService`    | <http://universities.hipolabs.com/search?name=Stanford> |[Documentation](https://github.com/Hipo/university-domains-list-api) |
+| `ZipCodeQueryService`       | <http://api.zippopotam.us/us/93106> |[Documentation](https://api.zippopotam.us/) |
+
+
+You can also see what those services will look like in Swagger by looking at this example of the finished app running:
 
 * <{{page.demo_deployment}}/swagger-ui/index.html>
 
