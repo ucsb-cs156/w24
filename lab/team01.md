@@ -244,12 +244,12 @@ Once the app is deployed, these links should work:
 | Team | Link |
 |-|-|
 | m23-9am-1 | <https://team01.dokku-01.cs.ucsb.edu> |
-| m23-9am-2 | <https://team02.dokku-01.cs.ucsb.edu> |
-| m23-9am-3 | <https://team03.dokku-01.cs.ucsb.edu> |
-| m23-10am-1 | <https://team04.dokku-01.cs.ucsb.edu> |
-| m23-10am-2 | <https://team05.dokku-01.cs.ucsb.edu> |
-| m23-10am-3 | <https://team06.dokku-01.cs.ucsb.edu> |
-| m23-10am-4 | <https://team07.dokku-01.cs.ucsb.edu> |
+| m23-9am-2 | <https://team01.dokku-02.cs.ucsb.edu> |
+| m23-9am-3 | <https://team01.dokku-03.cs.ucsb.edu> |
+| m23-10am-1 | <https://team01.dokku-04.cs.ucsb.edu> |
+| m23-10am-2 | <https://team01.dokku-05.cs.ucsb.edu> |
+| m23-10am-3 | <https://team01.dokku-06.cs.ucsb.edu> |
+| m23-10am-4 | <https://team01.dokku-07.cs.ucsb.edu> |
 
 
 The result of visiting the home page of the app in the browser should be something like this:
