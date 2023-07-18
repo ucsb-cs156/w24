@@ -223,7 +223,8 @@ So you are encouraged to try it if the team (or some part of it) is interested.
 We may or may not assign a grade for today's participation, but if we do, this will be the basis:
 
 * 50% did the student make a standup post in the slack channel?
-* 50% do they have a story in the in-progress column on the Kanban board?
+* 50% do they have an "issue" in the in-progress column on the Kanban board?
+  - or, alteratiavely, if they have no issue in the in progress column, is it because both the service and controller are "done", and all of the team level issues are "done"?
 
 In general, I'd like to get to the point where it's no longer necessary or helpful to track participation with these 
 required participation assignments:
