@@ -14,6 +14,8 @@ slides:
   - Managing branches
   - Managing Pull Requests
   - Why you should *freeze* a branch once you do a PR from it
+* How to manually test team01
+* Deadline, and early/on-time/late submission of team01
 * Discuss what a "standup meeting is" 
 * Hold our first "standup meeting"
 
@@ -54,6 +56,49 @@ Remember that:
   - Then, branches that branched off of that will need to be *rebased*
   - Rebasing means: clipping off all of the later commits that came after the *old* base, and reapplying them *on top of* the new base.
 
+# Manual testing of team01
+
+To manually test team01, you can:
+
+* Visit: <http://team01-f22.dokku-00.cs.ucsb.edu/swagger-ui/index.html> and try some queries
+* Then visit the `/swagger-ui/index.html` link on your page, and compare both what the page looks like, and your results.
+
+What to look for:
+* Are the controllers present on your page (note that the link above may have more controllers than you are responsible for implementing)
+* Is the documentation of the endpoints accurate in your controller, at least as accurate as what's on the example?
+* When you put in queries, do you get the same results?
+
+| Team | Repo | Kanban | Dokku |
+|-----|-------|--------|-----|
+| m23-9am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/1) | <http://team01.dokku-01.cs.ucsb.edu/swagger-ui/index.html> | 
+| m23-9am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/7) | | <http://team01.dokku-02.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-9am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/6) | | <http://team01.dokku-03.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/2) | | <http://team01.dokku-04.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/3) | | <http://team01.dokku-05.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/4) | | <http://team01.dokku-06.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-4 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-4) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/5) | | <http://team01.dokku-07.cs.ucsb.edu/swagger-ui/index.html>  |
+
+
+# Submission of team01, and deadlines
+
+Team01 is now available for submission on Canvas.  
+
+I've set a deadline of Friday 11:59pm for submission on Canvas, as well as some policies around early, on-time, and late submission.
+
+* <https://ucsb.instructure.com/courses/10130/assignments/104121>
+
+I will also be putting up autograders on Gradescope for team01; you will have one full week from when the autograders go online until the deadline for passing the autograder tests.  However, you should still work on the assignment and test it manually in the meantime. I'll go over how to test it manually today in class.
+
+# Sidenote: jpa01 autograder
+
+It appears that some folks got a perfect score on the mutation testing without actually writing any additional tests.
+
+I think this is a bug in the autograder script; I'm going to look into it.
+
+Your current grade on jpa01 will stand; everyone currently has 100, except for one student with a 93.08.
+
+But, if I determine that the autograder was broken, I'll add another assignment and give you at least a week to do it.
+(For the student with the 93.08; I'll change their grade to the resubmitted grade if it is higher than 93.08.)
 
 # What is a Standup meeting?
 
