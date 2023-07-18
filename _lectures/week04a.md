@@ -1,7 +1,7 @@
 ---
 title: "Week 04a - 07.18 Tue"
 lecture_date: 2023-07-18
-description: "Introduction to standup meetings"
+description: "Introduction to standup meetings; manual testing team01"
 ready: true
 layout: default
 parent: lectures
