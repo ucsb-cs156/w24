@@ -186,6 +186,33 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
 
    Be sure that you have Maven version 3.8 or higher, as Java 17 requires this version to work.
 
+   When you type `mvn --version` if you are getting a version of Java other than Java 17, the fix is described
+   in [this article](https://euedofia.medium.com/fix-default-java-version-on-maven-on-mac-os-x-156cf5930078) but that article is a little out of date, so here's the updated instructions:
+
+   To update the maven configuration, file, edit this file; note that the version number may be different
+   by the time you are reading these instructions:
+
+   ```
+   vim /opt/homebrew/Cellar/maven/3.9.3/bin/mvn
+   ```
+
+   In that file, change the line that starts with `JAVA_HOME=` to this:
+
+   ```
+   JAVA_HOME=“${JAVA_HOME:-$(/usr/libexec/java_home 17)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
+   ```
+
+   Again, you may need to adjust the version number `3.9.3` to whatever your version of maven is.  After doing
+   this, if you type `mvn --version`it should show Java 17, like this:
+
+   ```
+   Apache Maven 3.9.3 (ff8e977a158738155dc465c6a97ffaf31982d739)
+   Maven home: /opt/homebrew/Cellar/maven/3.9.3/libexec
+   Java version: 17, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home
+   Default locale: en_US, platform encoding: UTF-8
+   OS name: "mac os x", version: "11.5.2", arch: "aarch64", family: "mac"
+   ```
+   
 4. nvm, Node, and npm
 
    It is recommended to install Node and npm through Node Version Manager (nvm). The instructions for installing this are the same as those for Linux and WSL users, so please follow the instructions listed there.
