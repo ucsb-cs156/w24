@@ -11,9 +11,6 @@ title: jpa02
 starter: https://github.com/ucsb-cs156-m23/STARTER-jpa02
 ---
 
-# STILL UNDERGOING TESTING/PROOFING BY STAFF
-# BUT YOU MAY START IF YOU LIKE
-
 {% include drop_down_style.html %}
 
 # Individual lab, but you may help one another
