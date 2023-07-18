@@ -8,6 +8,23 @@ parent: lectures
 slides: 
 ---
 
+# jpa02 and jpa03 due Midnight tomorrow night
+
+* 26 of 33 students have submitted on Canvas. (I would have hoped for 33/33)
+* 13 of 33 students have submitted on Canvas. (I would have hoped for 33/33)
+
+jpa03 requires a lot of separate steps, and they are steps you must be very familiar with for team02.
+So you need to finish this asap.  Work on it today after standup if you are not finished with it.
+
+We also need to finish team01 asap, by Friday at the latest.  
+
+Every group of CS156 students says: 
+* Make sure we are completely prepared for the legacy code projects with some PAs to learn Spring, React, mvn, npm, etc.
+* Also: Start the legacy code projects earlier
+* But also: lots of folks are slow to complete the earlier PAs.
+  
+We can't have it both ways.  Let's get through these easier assignments so we can get to the good stuff.
+
 # {{page.title}}: {{page.description}}
 
 * Go over some details about how to approach team01
