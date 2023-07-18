@@ -71,12 +71,12 @@ What to look for:
 | Team | Repo | Kanban | Dokku |
 |-----|-------|--------|-----|
 | m23-9am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/1) | <http://team01.dokku-01.cs.ucsb.edu/swagger-ui/index.html> | 
-| m23-9am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/7) | | <http://team01.dokku-02.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-9am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/6) | | <http://team01.dokku-03.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/2) | | <http://team01.dokku-04.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/3) | | <http://team01.dokku-05.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/4) | | <http://team01.dokku-06.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-4 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-4) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/5) | | <http://team01.dokku-07.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-9am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/7) | <http://team01.dokku-02.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-9am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/6) |  <http://team01.dokku-03.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/2) |  <http://team01.dokku-04.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/3) |  <http://team01.dokku-05.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/4) |  <http://team01.dokku-06.cs.ucsb.edu/swagger-ui/index.html>  |
+| m23-10am-4 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-4) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/5) |  <http://team01.dokku-07.cs.ucsb.edu/swagger-ui/index.html>  |
 
 
 # Submission of team01, and deadlines
