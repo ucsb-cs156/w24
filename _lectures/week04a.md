@@ -78,6 +78,22 @@ What to look for:
 | m23-10am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/4) |  <http://team01.dokku-06.cs.ucsb.edu/swagger-ui/index.html>  |
 | m23-10am-4 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-4) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/5) |  <http://team01.dokku-07.cs.ucsb.edu/swagger-ui/index.html>  |
 
+# Deploy your main branch every time you merge a PR
+
+Note: if you have already merged a PR for a controller and that controller doesn't show up above, you need to deploy
+your main branch to dokku again.
+
+It should be as simple as this:
+
+1. Merge PR
+2. Login to your dokku machine
+3. Type this (putting in your team name for `m23-xxx-xx`)
+   ```
+   dokku git:sync team01 https://github.com/ucsb-cs156-m23/team01-m23-xxx-x main
+   dokku ps:rebuild
+   ```
+
+Once the output is finished, if it doesn't show errors, then the controller should appear on the dokku deployment above.
 
 # Submission of team01, and deadlines
 
