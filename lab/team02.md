@@ -9,6 +9,7 @@ layout: default
 parent: lab
 num: team02
 ready: true
+num_issues: 35
 starter: https://github.com/ucsb-cs156-m23/STARTER-team02
 ---
 
@@ -17,7 +18,11 @@ starter: https://github.com/ucsb-cs156-m23/STARTER-team02
 
 ## Your Project Boards
 
-Here are your project boards for team02:
+Here are your project boards for team02.  
+
+For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
+{{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
+please check in with the staff.  You should see around {{page.num_issues}} issues on the board in the ToDo column when you start.
 
 <!-- 
 | Team | Project Board|
@@ -87,7 +92,7 @@ In addition, we'll practice further with a few concepts that we touched on in `j
 
 ## The starting code
 
-Your starter code provides Spring Boot code with the ability to do CRUD operations on two database tables:
+Your starter code at <{{page.starter}}> provides Spring Boot code with the ability to do CRUD operations on two database tables:
 
 * UCSBDates
 * UCSBDiningCommons
@@ -345,13 +350,11 @@ From a process standpoint, this project works the same as team01:
 
 Here's how that will play out in detail:
 1. To start, each of you should clone your team's `team02-teamname` repo, which should already have a Kanban board set up for it.
-2. On the team's Kanban board, there should be three types of issues, marked with Tags
-   - Set up tasks: done at the start of the project (marked with the label `SETUP`)
-   - Regular coding tasks: done in the middle of the project
-   - Clean up tasks: done at the end of the project (marked with the label `CLEANUP`)
-   Notice the tags for each of these types of issues.
-3. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
-4. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
+2. On the team's Kanban board, there should be two types of issues:
+   * Ones that pertain to a particular database table
+   * Ones that are global to the entire team
+4. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
+5. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
    That post might look something like this:
 
    ```
@@ -363,7 +366,7 @@ Here's how that will play out in detail:
    Fay: UCSB Dining Commons Menu
    ```
    
-5. Now look on the Kanban board.  You should find that there are five issues on the Kanban board for your specific database table:   
+6. Now look on the Kanban board.  You should find that there are five issues on the Kanban board for your specific database table:   
    
    * create_database_table
    * add_list_all_and_post_endpoints
@@ -375,8 +378,8 @@ Here's how that will play out in detail:
    
    Typically, you should be assigned to only one item at a time in the In Progress column.  The exception is if you drag an item to In Progress, make some progress on it, and then need to stop working on it for a while because you are blocked, or something else urgently needs your attention.  But that should be the exception, not the normal way of doing things.
    
-6. Now work on your issues as you did in team01; dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.
-7. Near the end of the project there are a few "clean up tasks" for your team.    Those are marked as such on the Kanban board.   One of the last of those is to submit on Gauchospace for your team to note that your team is ready for the work to be graded.
+7. Now work on your issues as you did in team01; dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.
+8. Near the end of the project there are a few "clean up tasks" for your team.    Those are marked as such on the Kanban board.   One of the last of those is to submit on Gauchospace for your team to note that your team is ready for the work to be graded.
 
 
 
@@ -384,10 +387,20 @@ Here's how that will play out in detail:
 
 To get started:
 
-* One member of your team should clone your teams empty team02 repo
-* Add the STARTER-team02 repo as a remote called starter
-* Do `git checkout -b main`, `git pull starter main`, `git push origin main`
-
+* Clone your team's team02 
+* Add the <{{page.starter}}> repo as a remote called starter
+  <p>
+  <tt>git remote add starter {{page.starter}} </tt>
+  </p>
+  This is in case there are updates to the starter code that you need to pull from by doing:
+  ```
+  git pull starter main
+  git push origin main
+  ```
+* Then you are ready to start by making your first branch, something like `Chris-RecRequestTable`
+  ```
+  git checkout -b Chris-ReqRequestTable
+  ```
 
 
 ### Implement CRUD operations for a database table
