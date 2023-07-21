@@ -1,32 +1,19 @@
 ---
+title: team02
 desc: "Team Project: Spring Boot Backend, part 2 (authenticated CRUD)"
-assigned: 2022-07-21 09:00
+assigned: 2023-07-21 09:00
 due: 2023-08-21 11:59
 github_org: ucsb-cs156-m23
 layout: lab
+layout: default
+parent: lab
 num: team02
 ready: true
+starter: https://github.com/ucsb-cs156-m23/STARTER-team02
 ---
 
+
 {% include drop_down_style.html %}
-
-
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-# NOT READY YET - DO NOT START
-
 
 ## Your Project Boards
 
