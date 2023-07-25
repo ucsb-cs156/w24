@@ -6,6 +6,7 @@ ready: true
 layout: default
 parent: lectures
 slides: 
+canvas_retro_submission: https://ucsb.instructure.com/courses/10130/assignments/148221
 ---
 
 # Announcements
@@ -61,13 +62,13 @@ If someone would like to take on a CMPSC 192 or CMPSC 196 independent study on t
 
 # Agile Retrospective Intro (2:20-2:40)
 
-# Today (outline)
+The agile retrospective today is a group participation assignment, P11 (on canvas here:  <{{page.canvas_retro_submission}}> )
 
-The most important aspect of Agile: The Retrospective
+The most important aspect of Agile is the **Retrospective**
 
 We "inspect and adapt".
 
-* Pause all work/submission for team02/team03.
+* Please pause all work/submission for team02.
 * Focus only on the retro, and do not rush through it.
 * A retro that lasts less than 30 minutes raises questions about whether it is a good faith effort.
 * Give it the time that it needs.
@@ -96,9 +97,7 @@ In a retro, the team stops, pauses, reflects, and most importantly *comes up wit
 
 * Start by having everyone take 5 minutes to read through this article: [https://ucsb-cs156.github.io/topics/agile/agile_retros.html](https://ucsb-cs156.github.io/topics/agile/agile_retros.html)
   - Really read it!  It has the instructions for the most important activity in today's class
- 
-* Then take 5 minutes to read your fellow team members feedback (login to <https://catme.org>)
- 
+  
 * Next, choose a leader for your retro. It should be someone that has read the instructions and is comfortable leading the group. 
 * Then, locate the Google Drive folder for your team.  It should be linked in your Slack channel with a `gdrive` link this:
 
@@ -106,9 +105,9 @@ In a retro, the team stops, pauses, reflects, and most importantly *comes up wit
 
 Check that each member of the team is able to access the folder.
 
-In that folder, create a folder called `Retros` and in that folder, create a document `Retro1`
+In that folder, there should be a document called `Retro1`.  Open this document.
 
-Then follow the instructions in the [https://ucsb-cs156.github.io/topics/agile/agile_retros.html](https://ucsb-cs156.github.io/topics/agile/agile_retros.html) article for  Stop/Start/Continue retro.
+Follow the instructions in the [https://ucsb-cs156.github.io/topics/agile/agile_retros.html](https://ucsb-cs156.github.io/topics/agile/agile_retros.html) article for  a Stop/Start/Continue retro.
 
 In the document, write down who your retro leader is.
 
@@ -120,12 +119,13 @@ At the end of the process, you should have in your document:
   - This should be related to one of the top three items by votes that your group agreed on.
 * A brief explanation of how you will know whether your experiment was or was not a success.
 
-# After the retro is done
+# After the retro is done: Review and Submit on Canvas
 
 * Ask a staff member to look over your GDrive document; they'll check it to make sure it has the required elements:
   - items from each member under start/stop/continue
   - dot voting
   - an experiment, including the criteria by which you can know whether the experiment was a success
+* If/when they say LGTM, submit on Canvas here: <{{page.canvas_retro_submission}}>
 
 # Next steps if there's more time
 
