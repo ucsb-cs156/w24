@@ -129,7 +129,7 @@ At the end of the process, you should have in your document:
 
 # Next steps if there's more time
 
-* Continue work on team02
+* Continue work on [team02](https://ucsb-cs156.github.io/m23/lab/team02.html)
 * Start homework assignment [H01](https://ucsb-cs156.github.io/m23/hwk/h01/) (Intro to JavaScript).
   
 
