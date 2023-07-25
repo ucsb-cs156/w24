@@ -173,5 +173,16 @@ Preparation for first retro
   This will serve as a check that everyone has write access to this document before class today.
   If you have trouble, please post a note on the channel, and mention @phtcon
   ```
-* Before class, double check that there are no issues with accessing the folders  
+* Before class, double check that there are no issues with accessing the folders
+
+| Team | Folder |
+|------|---------|
+| m23-9am-1 | <https://drive.google.com/drive/folders/1t4FuANLOI_1Di1N3i-cBdhKsVNO5o5kn?usp=drive_link> |
+| m23-9am-2 | <https://drive.google.com/drive/folders/1d-yjzPtfYXYu396wq5ZYpMEdE9WKswGd?usp=drive_link> |
+| m23-9am-3 | <https://drive.google.com/drive/folders/137YWUc2J6W4NLCZEFw6lRilMyBPZUNb_?usp=drive_link> |
+| m23-10am-1 | <https://drive.google.com/drive/folders/1fIgeaLyhJwfx-8vY9NrMGUOGmKFjc9aE?usp=drive_link> |
+| m23-10am-2 | <https://drive.google.com/drive/folders/1LSbVA-dV3IKjZkGyGsYdsXc0DwU9iCxr?usp=drive_link> |
+| m23-10am-3 | <https://drive.google.com/drive/folders/1Zb4sqA46QKnQUid-ZyzG-BzjvUe-nbAr?usp=drive_link> |
+| m23-10am-4 | <https://drive.google.com/drive/folders/1viD52XnepPglyKN1TSzg7MA5-1E7mVIU?usp=drive_link> |
+
 </details>
