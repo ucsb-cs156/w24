@@ -117,3 +117,46 @@ At the end of the process, you should have in your document:
 * Continue work on team02
 * Start homework assignment [H01](https://ucsb-cs156.github.io/m23/hwk/h01/) (Intro to JavaScript).
   
+
+### Staff use only
+
+The information in the dropdown is for staff use only; you are welcome to look at it, but it's just
+the details of what preparation needs to happen for today's lecture. Not all that interesting, unless you
+want a peek behind the scenes.
+
+<details markdown="1">
+<summary>
+Preparation for first retro  
+</summary>
+
+* Create folder such as `cs156-m23-teams` inside staff Google Drive folder
+* Create one folder per team inside that folder named `m23-9am-1`, `m23-9am-2`, etc.
+* Create `Retro1` document inside each of those folders
+* Paste content inside each and change the heading as appropriate:
+  ```
+  # Retro 1—m23-9am-2—07/25/2023
+
+  Team members:
+  * replace with team member 1's name
+  * replace with team member 2's name
+  * replace with team member 3's name
+  * replace with team member 4's name
+  * replace with team member 5's name, or delete
+  * replace with team member 6's name, or delete
+  ```
+* Pull up roster of teams that has UCSB emails
+* For each team folder:
+  - Share the team's folder with the members of that team (i.e. paste in the emails to Share)
+  - Copy link to folder and paste on Slack channel with the label `GDrive`
+* For each team slack channel, send this message:
+  ```
+  @channel One small thing to do before class today if possible (< 5 minutes)
+  Please see the link labelled GDrive at the top of this channel.
+  Please verify that when logged in with your UCSB Google account, that you can open this folder.
+  You should see a document inside called "Retro1".
+  Inside that document is a list where should enter your name.
+  This will serve as a check that everyone has write access to this document before class today.
+  If you have trouble, please post a note on the channel, and mention @phtcon
+  ```
+* Before class, double check that there are no issues with accessing the folders  
+</details>
