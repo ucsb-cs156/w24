@@ -10,7 +10,22 @@ slides:
 
 # Announcements
 
-* There is a new homework assignment, [H01](https://ucsb-cs156.github.io/m23/hwk/h01/)
+## New participation assignment P10
+
+There is a new participation assignment [P10](https://ucsb.instructure.com/courses/10130/assignments/148214) which is your first CATME survey.
+- This is the first of several peer evaluations (one per sprint)
+- A Sprint is a period of work; a sprint ends and a new one starts when you do an Agile Retrospective, which we will do today.
+- The first one is for information only; but after this week, they may affect your grades for assignments you complete
+- As long as your peer evals are close to the mean for the group, everything is ok.
+- But if they are way below, it indicates that not all is well within the group, i.e. there is at least a perception that you may not
+  be contributing in a way the group is happy with.
+- That's something important to discuss and address sooner rather than later.
+- We'll see the CATME results and discuss in section on Friday.
+- Comments and rating are anonymized, but the content and rating is shared with the individual that you rated (after the deadline.)
+
+## New homework assignment H01
+
+There is a new homework assignment, [H01](https://ucsb-cs156.github.io/m23/hwk/h01/)
 * This will provide a brief introduction to JavaScript before we start team03, coming soon, where we start to work with the frontend
 * The due date is on Gradescope; you have a week, but *it will be better if you get this done sooner rather than later* so that you are prepared
   for team03.
