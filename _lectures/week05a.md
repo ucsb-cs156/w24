@@ -12,7 +12,17 @@ slides:
 
 * There is a new homework assignment, [H01](https://ucsb-cs156.github.io/m23/hwk/h01/)
 * This will provide a brief introduction to JavaScript before we start team03, coming soon, where we start to work with the frontend
-  
+* The due date is on Gradescope; you have a week, but *it will be better if you get this done sooner rather than later* so that you are prepared
+  for team03.
+* So, please start on H01 as/when you are finishing up team02, or you are blocked, e.g.
+
+  * waiting for office hours because you stuck on something
+  * done with your PRs, and there's nothing currently to code review
+
+  Or, if you just need a break from team02 work and want to do something else for a while
+
+The point is, you'll find team03 much easier if you've had a chance to complete H01 first.
+
 # Ten minute standup 2:01pm-2:11pm
 
 * Do a written update on the slack channel
