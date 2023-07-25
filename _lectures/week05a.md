@@ -10,7 +10,7 @@ slides:
 
 # Announcements
 
-* There is a new homework assignment, H01
+* There is a new homework assignment, [H01](https://ucsb-cs156.github.io/m23/hwk/h01/)
 * This will provide a brief introduction to JavaScript before we start team03, coming soon, where we start to work with the frontend
   
 # Ten minute standup 2:01pm-2:11pm
@@ -105,5 +105,5 @@ At the end of the process, you should have in your document:
 # Next steps if there's more time
 
 * Continue work on team02
-* Start homework assignment h01 (Intro to JavaScript).
+* Start homework assignment [H01](https://ucsb-cs156.github.io/m23/hwk/h01/) (Intro to JavaScript).
   
