@@ -11,8 +11,8 @@ slides:
 # Announcements 
 
 CATME Survey:
-* Thanks to the 29/33 students that have filled it out!
-* To the other four: i've pinged you.  Please take time after standup, and the brief HappyCows intro to do it in class today.
+* Thanks to the 31/33 students that have filled it out!
+* To the other two: i've pinged you.  Please take time after standup, and the brief HappyCows intro to do it in class today.
 * We should have 100% particpation by the end of class today.
 
 We'll do standup after today's partipation activity.
