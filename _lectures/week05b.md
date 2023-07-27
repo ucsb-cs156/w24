@@ -79,3 +79,27 @@ Bottom Line:
 
 
 # Remainder of class: work session on team02
+
+## Staff Info
+
+Information under the triangle is for staff.  You are welcome to look at it, but it's probably not that interesting.
+
+<details markdown="1>
+<summary markdown="1>
+Grading for P12, possibly P13
+</summary>
+
+Staff:  Please check P12 on Canvas
+* For each submission, check on <https://happycows.dokku-00.cs.ucsb.edu> that the student has bought at least one cow
+* You should be able to see this on the leaderboard
+
+Then, check each team and compare:
+* the team membership here: <https://bit.ly/cs156-m23-teams>
+* with who posted a slack update on their team channel
+
+If you see anyone that is missing, ping them on their team channel to see if they are online, and perhaps just didn't do a slack update.
+
+But if they are missing, make a note of it on the #staff channel.  We might make P13 a participation activity for whether or not
+folks participated in standup today.  (See my notes above in the student facing notes.)
+ 
+</details>
