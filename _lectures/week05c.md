@@ -6,6 +6,7 @@ ready: true
 layout: default
 parent: lectures
 slides: 
+github_org: ucsb-cs156-m23
 ---
 
 # Today's Agenda
