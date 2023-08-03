@@ -378,6 +378,31 @@ all the rest.
 
 Generally speaking, small, focused PRs are easier to get green on CI, code review and get merged, vs. large sprawling ones.
 
+## General workflow for frontend code
+
+To test the backend and frontend together:
+
+* At top level of repo, run `mvn spring-boot:run` in one window (you'll need to configure your `.env` file with `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, and `ADMIN_EMAILS`)
+* In a separate terminal window, cd into `frontend`, type `nvm use 16.20.0` and then run `npm start`
+
+Remember that the first time you do that, you must first do:
+
+```
+nvm use 16.20.0
+npm install
+```
+
+Here are some other commands, all things you do in the `frontend` directory
+after first doing `nvm use 16.20.0; npm install` once in that session:
+
+* Run tests locally: `npm test`.
+* Run tests from one file locally: `npm test -- RestaurantsEditPage`
+* Quickly test coverage locally: `npm run coverage`
+* Check linting locally: `npx eslint --fix .`
+* Check mutation coverage locally (slow): `npx stryker run`
+* Check mutation coverage of single file (faster): `npx stryker run -m frontend/src/main/pages/Restaurants/RestaurantsEditPage.js`
+* To run storybook locally: `npm run storybook`.
+
 ## Adding the placeholders
 
 When adding the placeholders, you'll be making changes to `App.js`, `AppNavbar.js`, and `AppNavbar.test.js`.
