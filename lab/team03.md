@@ -14,16 +14,15 @@ deployment: https://team03.dokku-00.cs.ucsb.edu/
 storybook: https://ucsb-cs156-m23.github.io/STARTER-team03/storybook/
 ---
 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
-# DO NOT START YET - will be ready by 2pm 
+# DRAFT FOR STAFF PROOFREADING
+# STUDENTS: Please do not start work on this yet
 
+But it's definitely ok to start reading and exploring the
+sample code and sample deployment.  If you find typos,
+dead links, or have questions, post to `#help-team03`
+
+# DO NOT START WORK YET - will be ready by 2pm today
+# DO NOT START WORK YET - will be ready by 2pm today
 
 {% include drop_down_style.html %}
 
