@@ -26,9 +26,7 @@ dead links, or have questions, post to `#help-team03`
 
 {% include drop_down_style.html %}
 
-# {{page.title}}
-## {{ page.description}}
-
+# {{page.title}}&mdash;{{ page.desc }}
 
 ## What are we learning in team03
 
