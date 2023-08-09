@@ -163,3 +163,23 @@ In a separate email, I'll send you a list of what we have on our list right now,
 Regards,
 Phill
 ```
+
+# PRs that went into the release notes above
+
+For reference, as you look at the release notes above, here are the PRs that went into these.  
+
+You may like to see how the PR descriptions were summarized into the release notes below.   As you look at this, you'll see that some PR titles/descriptions are better than others (I wrote pretty much all of them, so I'll be the first to acknowledge that some of them are pretty
+good, and others are not so great.) 
+
+A question to ponder: What is true about the titles/descriptions that are better, and what makes them better?
+
+* [Jake create set cow health page on frontend for admin #50](https://github.com/ucsb-cs156/proj-happycows/pull/50)
+* [Pc report service #57](https://github.com/ucsb-cs156/proj-happycows/pull/57)
+* [Pc report jobs #58](https://github.com/ucsb-cs156/proj-happycows/pull/58)
+* [Pc report controllers #59](https://github.com/ucsb-cs156/proj-happycows/pull/59)
+* [pc - migrate from SpringFox to SpringDoc #60](https://github.com/ucsb-cs156/proj-happycows/pull/60)
+* [pc - add ReportHeaderTable.js and storybook entry for it #61](https://github.com/ucsb-cs156/proj-happycows/pull/61)
+* [Pc reports page #62](https://github.com/ucsb-cs156/proj-happycows/pull/62)
+* [Pc report csv #63](https://github.com/ucsb-cs156/proj-happycows/pull/63)
+* [pc - make the jobs page "paged", meaning show only 10 jobs at a time #64](https://github.com/ucsb-cs156/proj-happycows/pull/64)
+
