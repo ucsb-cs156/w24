@@ -7,6 +7,7 @@ github_org: ucsb-cs156-m23
 layout: default
 parent: lab
 num: team01
+nav_order: 201
 ready: true
 starter: https://github.com/ucsb-cs156-m23/STARTER-team01
 qxx: m23
@@ -561,8 +562,7 @@ git pull origin Chris-Locations
 git checkout -b Chris-Locations-Controller
 ```
 
-It is important to *make a new branch* once you've made a pull request ; otherwise any commits you make on that branch will
-affect the pull request.  We want a pull request to not be a moving target; it should be stable so that it can be reviewed.
+It is important to *make a new branch* once you've made a pull request; otherwise any commits you make on that branch will affect the pull request.  We want a pull request to not be a moving target; it should be stable so that it can be reviewed.
 
 There times when a reviewer may suggest changes to a branch with an outstanding PR (e.g. `Chris-Locations`); when that happens, we can get those changes into, for example, `Chris-Locations-Controller`, if necessary, in a variety of ways.  We'll cross that bridge when we come to it.
 into the later branch 
@@ -582,7 +582,7 @@ In a Spring Boot application, a controller class is one that implements backend 
 on a URL).   You will now implement a controller so that users of your app (in practice, typically, the front end code)
 can access the information provided by your service. 
 
-The documentation at the staff solution to the lab <{{}}> shows the urls of the endpoints you'll be implementing; they 
+The documentation at the staff solution to the lab <{{page.demo_deployment}}> shows the urls of the endpoints you'll be implementing; they 
 are also shown in this table:
 
 

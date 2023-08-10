@@ -7,8 +7,8 @@ github_org: ucsb-cs156-m23
 layout: lab
 layout: default
 parent: lab
-num: team03
-ready: true
+num: project
+nav_order: 300
 ---
 
 TBD

@@ -8,6 +8,7 @@ layout: lab
 layout: default
 parent: lab
 num: team03
+nav_order: 203
 ready: true
 starter: https://github.com/ucsb-cs156-m23/STARTER-team03
 deployment: https://team03.dokku-00.cs.ucsb.edu/

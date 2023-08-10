@@ -7,6 +7,7 @@ github_org: ucsb-cs156-m23
 layout: default
 parent: lab
 num: jpa02
+nav_order: 102
 title: jpa02
 starter: https://github.com/ucsb-cs156-m23/STARTER-jpa02
 ---

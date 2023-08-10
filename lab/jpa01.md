@@ -4,6 +4,7 @@ assigned: 2023-06-29 14:00
 due: 2023-07-13 23:59
 layout: lab
 title: jpa01
+nav_order: 101
 ready: true
 parent: lab
 layout: default

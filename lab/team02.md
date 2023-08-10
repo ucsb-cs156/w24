@@ -8,6 +8,7 @@ layout: lab
 layout: default
 parent: lab
 num: team02
+nav_order: 202
 ready: true
 num_issues: 35
 starter: https://github.com/ucsb-cs156-m23/STARTER-team02

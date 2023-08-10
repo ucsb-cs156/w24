@@ -6,6 +6,7 @@ due: 2023-07-18 23:59
 github_org: ucsb-cs156-m23
 num: jpa03
 title: jpa03
+nav_order: 103
 ready: true
 starter: https://github.com/ucsb-cs156-m23/STARTER-jpa03
 layout: default
