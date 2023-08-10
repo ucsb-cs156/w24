@@ -155,9 +155,21 @@ To earn a "perfect score" (100%) for this component of your grade, you need to e
 
 Some assignments in the project category are worth more points, and some worth fewer.
 
-If you accumulate more than 100 project points, up to 10 project points may be used to raise your final average in the class. (The points will be recorded as extra credit). 
+If you accumulate more than 100 project points, the additional points may count as extra credit, at a rate of 1 extra credit point for each 10 points over 100 earned, up to a maximum project grade of 110.  For example:
 
-You may not earn more than 110 total project points--any points in excess of 110 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
+| Points Earned | Project Grade |
+|---------------|---------------|
+|    80         |    80         |
+|    90         |    90         |
+|   100         |  100          |
+|   105         |  100.5        |
+|   110         |  101          |
+|   115         |  101.5        |
+|   150         |  105          |
+|   180         |  108          |
+|   ≥200        |  110          |
+
+Your final project grade is maxed out at 110 total project points--any points in excess of 110 will not count towards your grade (though you'll probably learn a lot from having under taken the work to earn them.)
 
 Late Programming Assignments
 ----------------------------
