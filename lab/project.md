@@ -46,7 +46,7 @@ In this project:
 * Unlike in previous team projects, where your Issues list and 
   Kanban board may have been
   pre-populated with issues by the staff,
-  in the legacy code phase, populating the Issues list and Kanban board
+  in the legacy code phase, populating the Kanban board
   is the responsibility of the team.  More on that below.
 * The aim of the team is to earn 100 points before the deadline.  This forms the 
   most important part of you project grade, which is 25% of your course grade.
@@ -77,8 +77,7 @@ Your final project grade is maxed out at 110 total project points--any points in
 
 # Sprint Planning for Legacy Code project
 
-Each team already has a Kanban board setup for the legacy code project (see links below).   However unlike in your team01, team02, and team03 projects, it's up 
-to you to populate this yourself.
+Each team already has a Kanban board setup for the legacy code project (see links below).   However unlike in your team01, team02, and team03 projects, it's up to you to populate this yourself.
 
 | 9am | 10am | 
 |-----|-----|
@@ -121,7 +120,9 @@ Points belong to the whole team, not to individuals
 For issues, you'll need to do a bit more work that in the previous team projects.
 
 Here is where you'll get issues from:
-* The three starter code repos have issues lists (as shown in the table below). 
+* The three starter code repos have issues lists (as shown in the table below).
+* These have been copied to your repo
+* These issues come in different sizes 
   - A handful of these may be small easy issues. 
   - However, many (most?) of these issue *may not translate one-to-one into issues for your Kanban board*.
   - Instead, you are encouraged to try to *break the larger ones down into smaller issues*, each of which could be a single PR; more on this below.
