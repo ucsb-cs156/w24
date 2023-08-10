@@ -55,7 +55,7 @@ Then, come up with a new experiment for this Retro.  It can be a variation on th
 
 # Legacy code project onboarding
 
-Details coming soon
+See: <https://ucsb-cs156.github.io/m23/lab/project.html>
 
 # Brief Discussion of "Release Notes"
 
