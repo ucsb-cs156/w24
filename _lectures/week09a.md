@@ -1,6 +1,6 @@
 ---
 title: "Week 09a - 08.22 Tue"
-lecture_date: 2023-08-22
+lecture_date: 2023-11-28
 description: "Work on legacy code projects"
 ready: true
 layout: default

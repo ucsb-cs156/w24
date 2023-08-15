@@ -1,15 +1,15 @@
 ---
 desc: "Spring Boot / Dokku Hello World"
 description:  "Spring Boot / Dokku Hello World"
-assigned: 2023-07-07 09:00
-due: 2023-07-13 23:59
-github_org: ucsb-cs156-m23
+assigned: 2023-10-03 09:00
+due: 2023-10-04 23:59
+github_org: ucsb-cs156-f23
 layout: default
 parent: lab
 num: jpa02
 nav_order: 102
 title: jpa02
-starter: https://github.com/ucsb-cs156-m23/STARTER-jpa02
+starter: https://github.com/ucsb-cs156-f23/STARTER-jpa02
 ---
 
 {% include drop_down_style.html %}
@@ -83,19 +83,19 @@ Then you probably have a disk quota problem.
 
 Consult the page that shows the teams for this course; it should have a column that shows the name of your dokku server:
 
-* <https://bit.ly/cs156-m23-teams>
+* <https://bit.ly/cs156-f23-teams>
 
 Or, consult this table if you know your team number:
 
 | Team | Dokku server |
 |-|-|
-| m23-9am-1 | `dokku-01.cs.ucsb.edu` |
-| m23-9am-2 | `dokku-02.cs.ucsb.edu` |
-| m23-9am-3 | `dokku-03.cs.ucsb.edu` |
-| m23-10am-1 | `dokku-04.cs.ucsb.edu` |
-| m23-10am-2 | `dokku-05.cs.ucsb.edu` |
-| m23-10am-3 | `dokku-06.cs.ucsb.edu` |
-| m23-10am-4 | `dokku-07.cs.ucsb.edu` |
+| f23-9am-1 | `dokku-01.cs.ucsb.edu` |
+| f23-9am-2 | `dokku-02.cs.ucsb.edu` |
+| f23-9am-3 | `dokku-03.cs.ucsb.edu` |
+| f23-10am-1 | `dokku-04.cs.ucsb.edu` |
+| f23-10am-2 | `dokku-05.cs.ucsb.edu` |
+| f23-10am-3 | `dokku-06.cs.ucsb.edu` |
+| f23-10am-4 | `dokku-07.cs.ucsb.edu` |
 
 Remember your dokku hostname; you'll need it throughout the course.
 
@@ -403,7 +403,7 @@ link to **your repo**.
 
 For full credit:
 
-* The link should be something like : `https://github.com/ucsb-cs156-m23/jpa02-cgaucho`
+* The link should be something like : `https://github.com/ucsb-cs156-f23/jpa02-cgaucho`
 * It should NOT be:  `https://jpa02-cgaucho.dokku-01.cs.ucsb.edu`
 * BUT: the README at the link should contain a link to your running app on dokku.
 

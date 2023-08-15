@@ -1,6 +1,6 @@
 ---
 title: "Week 02c - 07.07 Fri"
-lecture_date: 2023-07-07
+lecture_date: 2023-10-12
 description: "start team00"
 ready: true
 layout: default
@@ -17,7 +17,7 @@ First, before anything else, please do this quick participation assignment:
 
 Please work on these assignments:
 
-* If not finished, please work on <https://ucsb-cs156.github.io/m23/lab/jpa01.html>
+* If not finished, please work on <https://ucsb-cs156.github.io/f23/lab/jpa01.html>
   - By the end of lab today, please try to *at least* get to the part that says:
     ```
     First, Add stubs for all of the methods that don’t have them yet.
@@ -29,7 +29,7 @@ Please work on these assignments:
 
     You do have until the deadline on Gradescope (07/13 11:59pm) to finish, but please try to at least make a submission today.
      
-* If/when you are done with jpa01, please try this lab: <https://ucsb-cs156.github.io/m23/lab/jpa02.html>
+* If/when you are done with jpa01, please try this lab: <https://ucsb-cs156.github.io/f23/lab/jpa02.html>
 
 Also: over the next few days, if you are stuck on jpa01 and are waiting to come in for office hours, please go ahead and start jpa02.
 

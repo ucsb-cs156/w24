@@ -1,20 +1,20 @@
 ---
 desc: "Deploying a Spring Boot/React/OAuth/Postgres app on Dokku"
 description: "Deploying a Spring Boot/React/OAuth/Postgres app on Dokku"
-assigned: 2023-07-11 14:00
-due: 2023-07-18 23:59
-github_org: ucsb-cs156-m23
+assigned: 2023-10-04 14:00
+due: 2023-10-11 23:59
+github_org: ucsb-cs156-f23
 num: jpa03
 title: jpa03
 nav_order: 103
 ready: true
-starter: https://github.com/ucsb-cs156-m23/STARTER-jpa03
+starter: https://github.com/ucsb-cs156-f23/STARTER-jpa03
 layout: default
 parent: lab
-teams_url: https://bit.ly/cs156-m23-teams
+teams_url: https://bit.ly/cs156-f23-teams
 example_running_app: 
-office_hours_page: https://ucsb-cs156.github.io/m23/office-hours
-software_install_url: https://ucsb-cs156.github.io/m23/info/software.html
+office_hours_page: https://ucsb-cs156.github.io/f23/office-hours
+software_install_url: https://ucsb-cs156.github.io/f23/info/software.html
 ---
 
 For due date: see the jpa03 entry on Canvas.
@@ -64,7 +64,7 @@ It should then look like this, and you shoudl be able to login:
 
 Once you are logged in, you'll see a menu like this one:
 
-<img width="647" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/0cfc63d4-d4d1-4764-8113-0f9e6c7f381e">
+<img width="647" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/0cfc63d4-d4d1-4764-8113-0f9e6c7f381e">
 
 None of the menus will do much of anything.  It turns out that the application is
 a shell of an application that:
@@ -168,10 +168,10 @@ If GitHub Actions are already enabled:
 <tbody>
 <tr>
 <td>
-<img width="600" alt="Github Actions Not Enabled" src="https://github.com/ucsb-cs156/m23/assets/1119017/f7bf5805-6c59-478b-bf4a-99c3c404cd1f">
+<img width="600" alt="Github Actions Not Enabled" src="https://github.com/ucsb-cs156/f23/assets/1119017/f7bf5805-6c59-478b-bf4a-99c3c404cd1f">
 </td>
 <td>
-<img width="600" alt="Github Actions Enabled" src="https://github.com/ucsb-cs156/m23/assets/1119017/72aa27eb-aa7a-4c7f-80c7-b7226332ed12">
+<img width="600" alt="Github Actions Enabled" src="https://github.com/ucsb-cs156/f23/assets/1119017/72aa27eb-aa7a-4c7f-80c7-b7226332ed12">
 </td>
 </tr>
 </tbody>
@@ -179,7 +179,7 @@ If GitHub Actions are already enabled:
 
 If it looks like the one on the left, click the green button that says "Enable Actions on this Repository".
 
-Next, visit the file [`docs/github-pages.md`](https://github.com/ucsb-cs156-m23/STARTER-jpa03/blob/main/docs/github-pages.md) on GitHub and read what it says to do to configure the documentation for your repo on Github Pages.
+Next, visit the file [`docs/github-pages.md`](https://github.com/ucsb-cs156-f23/STARTER-jpa03/blob/main/docs/github-pages.md) on GitHub and read what it says to do to configure the documentation for your repo on Github Pages.
 
 ## Step 4: Configure your app for localhost as documented in the README.md
 

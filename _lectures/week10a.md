@@ -1,6 +1,6 @@
 ---
 title: "Week 10a - 08.29 Tue"
-lecture_date: 2023-08-29
+lecture_date: 2023-12-05
 description: "Starting your presentations"
 ready: true
 layout: default

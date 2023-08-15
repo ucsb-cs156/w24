@@ -1,16 +1,16 @@
 ---
 desc: "Java OOP, Jacoco test coverage, Pitest mutation testing"
-assigned: 2023-06-29 14:00
-due: 2023-07-13 23:59
+assigned: 2023-10-03 14:00
+due: 2023-10-10 23:59
 layout: lab
 title: jpa01
 nav_order: 101
 ready: true
 parent: lab
 layout: default
-course_org: https://github.com/ucsb-cs156-m23
-course_org_name: ucsb-cs156-m23
-starter_repo: https://github.com/ucsb-cs156-m23/STARTER-jpa01
+course_org: https://github.com/ucsb-cs156-f23
+course_org_name: ucsb-cs156-f23
+starter_repo: https://github.com/ucsb-cs156-f23/STARTER-jpa01
 ---
 
 <style>

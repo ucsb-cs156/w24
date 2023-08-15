@@ -1,6 +1,6 @@
 ---
 title: "Week 09c - 08.25 Fri"
-lecture_date: 2023-08-25
+lecture_date: 2023-11-30
 description: "TBD"
 ready: true
 layout: default

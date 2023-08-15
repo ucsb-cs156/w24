@@ -1,6 +1,6 @@
 ---
 title: "Week 06a - 08.01 Tue"
-lecture_date: 2023-08-01
+lecture_date: 2023-11-07
 description: "team02 retro if finished; otherwise standup/work on team02"
 ready: true
 layout: default
@@ -30,7 +30,7 @@ Details of how to do Retro 2
 * Then, go to your folder on Google Drive (the link should be pinned to your slack channel)
 * Create a new document Retro2 similar to Retro1
 * Conduct a retro following the same basic instructions from here:
-  - <https://ucsb-cs156.github.io/m23/lectures/week05a/#retrospective-the-heart-of-agile>
+  - <https://ucsb-cs156.github.io/f23/lectures/week05a/#retrospective-the-heart-of-agile>
 
 One change to the instructions: before deciding on a new experiment, have a discussion of the experiment from your last retro.
 - Read the experiment from your Retro1 document.

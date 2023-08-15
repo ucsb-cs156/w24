@@ -1,9 +1,9 @@
 ---
 title: team02
 desc: "Team Project: Spring Boot Backend, part 2 (authenticated CRUD)"
-assigned: 2023-07-21 09:00
-due: 2023-08-21 11:59
-github_org: ucsb-cs156-m23
+assigned: 2023-10-18 09:00
+due: 2023-10-25 11:59
+github_org: ucsb-cs156-f23
 layout: lab
 layout: default
 parent: lab
@@ -11,7 +11,7 @@ num: team02
 nav_order: 202
 ready: true
 num_issues: 35
-starter: https://github.com/ucsb-cs156-m23/STARTER-team02
+starter: https://github.com/ucsb-cs156-f23/STARTER-team02
 ---
 
 
@@ -44,14 +44,24 @@ please check in with the staff.  You should see around {{page.num_issues}} issue
 
 | Team | Project Board|
 |------|--------------|
-| m23-9am-1 | <https://github.com/orgs/{{page.github_org}}/projects/9> |
-| m23-9am-2 | <https://github.com/orgs/{{page.github_org}}/projects/10> |
-| m23-9am-3 | <https://github.com/orgs/{{page.github_org}}/projects/11> |
-| m23-10am-1 | <https://github.com/orgs/{{page.github_org}}/projects/12> |
-| m23-10am-2 | <https://github.com/orgs/{{page.github_org}}/projects/13> |
-| m23-10am-3 | <https://github.com/orgs/{{page.github_org}}/projects/14> |
-| m23-10am-4 | <https://github.com/orgs/{{page.github_org}}/projects/15> |
+| f23-9am-1 | <https://github.com/orgs/{{page.github_org}}/projects/9> |
+| f23-9am-2 | <https://github.com/orgs/{{page.github_org}}/projects/10> |
+| f23-9am-3 | <https://github.com/orgs/{{page.github_org}}/projects/11> |
+| f23-10am-1 | <https://github.com/orgs/{{page.github_org}}/projects/12> |
+| f23-10am-2 | <https://github.com/orgs/{{page.github_org}}/projects/13> |
+| f23-10am-3 | <https://github.com/orgs/{{page.github_org}}/projects/14> |
+| f23-10am-4 | <https://github.com/orgs/{{page.github_org}}/projects/15> |
 
+
+## Work on your own laptop, not CSIL
+
+You should be working with a Java setup on your
+own laptop by this point, not on CSIL.
+
+For advice on what to install, see: 
+* <https://ucsb-cs156.github.io/m23/info/software.html>
+
+If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
 
 ## Big Picture: what is team02 all about?
 

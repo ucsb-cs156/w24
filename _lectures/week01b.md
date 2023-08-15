@@ -1,6 +1,6 @@
 ---
 title: "Week 01b - 06.29 Thu"
-lecture_date: 2023-06-29
+lecture_date: 2023-10-04
 description: "Thu: P04 (CSIL/ssh), P05 (divide up LTD sections), jpa00, H00"
 ready: true
 layout: default
@@ -30,4 +30,4 @@ slides: https://docs.google.com/presentation/d/1MAYJC84MEcrLMa9v7Qh7LmRTbNg8GF1Y
 
 4. Time to work on P04, jpa00, H00.
 
-If finished with all of those, try getting an early start on  [jpa01](https://ucsb-cs156.github.io/m23/lab/jpa01.html)
+If finished with all of those, try getting an early start on  [jpa01](https://ucsb-cs156.github.io/f23/lab/jpa01.html)

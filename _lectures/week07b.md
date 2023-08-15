@@ -1,6 +1,6 @@
 ---
 title: "Week 07b - 08.10 Thu"
-lecture_date: 2023-08-10
+lecture_date: 2023-11-15
 description: "team03, Retro3, release notes, legacy code onboarding"
 ready: true
 layout: default
@@ -35,7 +35,7 @@ Details of how to do Retro 3
 * Then, go to your folder on Google Drive (the link should be pinned to your slack channel)
 * Create a new document Retro3 similar to Retro1 and Retro2
 * Conduct a retro following the same basic instructions from here:
-  - <https://ucsb-cs156.github.io/m23/lectures/week05a/#retrospective-the-heart-of-agile>
+  - <https://ucsb-cs156.github.io/f23/lectures/week05a/#retrospective-the-heart-of-agile>
 
 Before deciding on a new experiment, **have a discussion of the experiment from your last retro**.
 - Read the experiment from your Retro2 document.
@@ -55,7 +55,7 @@ Then, come up with a new experiment for this Retro.  It can be a variation on th
 
 # Legacy code project onboarding
 
-See: <https://ucsb-cs156.github.io/m23/lab/project.html>
+See: <https://ucsb-cs156.github.io/f23/lab/project.html>
 
 # Brief Discussion of "Release Notes"
 
@@ -87,17 +87,17 @@ Here's a summary of changes:
 
 1. There is an instructor reports option on the admin menu.  To see an instructor report, select Instructor Reports from the admin menu, like this:
 
-   <img width="300" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/55e65a78-245e-4c96-87f7-65c191771693">
+   <img width="300" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/55e65a78-245e-4c96-87f7-65c191771693">
 
    Then, you'll see a page like this one, which shows all available reports. (We'll cover how to generate a report in a moment; that's done on the jobs menu.  Later on, we can add a feature so that these are generated automatically on a schedule; right now, it's on demand.)
 
-   <img width="800" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/8f90ef12-6db0-4316-9192-c2d72ff288a8">
+   <img width="800" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/8f90ef12-6db0-4316-9192-c2d72ff288a8">
 
    To see a specific report, click on the "View Report" button.
 
 2. The page where an Admin can view a report looks like this. 
 
-   <img width="1391" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/bc1e6004-d973-4dfc-a0f5-6c9796edbd9a">
+   <img width="1391" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/bc1e6004-d973-4dfc-a0f5-6c9796edbd9a">
 
    * There's a button to take you back to the list of reports.
    * At the top of the page is all of the information we have about the commons itself.
@@ -110,50 +110,50 @@ Here's a summary of changes:
     
 3. Manage Jobs page now has option to produce instructor reports.   To generate an instructor report, go to Manage Jobs
     
-   <img width="500" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/06ca2cf5-e0f4-4e2c-8589-d23fb182c200">
+   <img width="500" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/06ca2cf5-e0f4-4e2c-8589-d23fb182c200">
  
    Then, select either `Instructor Report` (which produces a report for every commons), or
    `Instructor report for specific commons`:
 
    If you choose "Instructor Report for specific commons" it looks like this.  Select the commons for which you want a report, and click Submit:
    
-   <img width="584" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/66d73290-a4f6-406a-86d0-ee7b61f6790b">
+   <img width="584" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/66d73290-a4f6-406a-86d0-ee7b61f6790b">
  
    Then watch under job status until the report is finished:
     
-   <img width="800" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/0a9401f8-e28d-4a1a-8e3c-21a148a37ec1">
+   <img width="800" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/0a9401f8-e28d-4a1a-8e3c-21a148a37ec1">
  
    Then, navigate to the page for instructor reports, as shown above.
     
 4. There is also now the job that can set all cows in a commons to have the same health value, increasing or decreasing as you see fit.   It is accessed from Admin / Jobs
 
-   <img width="300" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/daf276b0-5f97-4505-a721-63dd29dcdd5e">
+   <img width="300" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/daf276b0-5f97-4505-a721-63dd29dcdd5e">
 
    Then `Set Cow Health for a Specific Commons`
 
-   <img width="400" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/0f227dd3-55d8-4dca-b828-513e1d570b79">
+   <img width="400" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/0f227dd3-55d8-4dca-b828-513e1d570b79">
 
    Choose a commons and a new health value, and click `Set Cow Health`.
 
-   <img width="400" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/560017c0-788d-4eca-80fb-b21b92fec217">
+   <img width="400" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/560017c0-788d-4eca-80fb-b21b92fec217">
 
    Then monitor the job on the jobs page:
 
-   <img width="800" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/9b43815d-a432-45d1-a986-404f15e223e4">
+   <img width="800" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/9b43815d-a432-45d1-a986-404f15e223e4">
 
    When finished, the bottom of the output will look like this; the words `Cow Health has been set!` signify that the job is finished,
    as well as the word `Complete` on the status at the top
 
-   <img width="250" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/63ba6a80-7494-4b91-8507-fac2b8bebef3">
+   <img width="250" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/63ba6a80-7494-4b91-8507-fac2b8bebef3">
    
-   <img width="423" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/98002b3f-6dc1-48b7-999d-140acb48ae3c">
+   <img width="423" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/98002b3f-6dc1-48b7-999d-140acb48ae3c">
    
     
 5. Finally, one change you may or may not have noticed, but it turns out to be important: the Admin Jobs page used to show the output from all jobs since the beginning of time.
     
   Since we've had over 1900 jobs since we launched this instance of the Happy Cows app, that page was starting to load very, very slowly, and be unusable, especially on slower machines.   We've reorganized this page so that it only loads the most recent 10 jobs, most recent first, and then there are "next" and "previous" buttons to be able to move forward and backwards if there is a need to see older jobs logs.
     
-   <img width="243" alt="image" src="https://github.com/ucsb-cs156/m23/assets/1119017/c2a532ae-a176-4dbd-9db5-5428e2d3cafe">
+   <img width="243" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/c2a532ae-a176-4dbd-9db5-5428e2d3cafe">
 
 That's what we have for this release.   Let us know what  new feature you'd like us to prioritize.
     

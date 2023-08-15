@@ -1,21 +1,21 @@
 ---
 title: project
 desc: "Legacy Code Project instructions"
-assigned: 2023-08-15 14:00
-due: 2023-08-25 11:59
-github_org: ucsb-cs156-m23
+assigned: 2023-11-07 14:00
+due: 2023-11-29 11:59
+github_org: ucsb-cs156-f23
 layout: lab
 layout: default
 parent: lab
 num: project
 nav_order: 300
-m23_9am_1: https://github.com/orgs/ucsb-cs156-m23/projects/55
-m23_9am_2: https://github.com/orgs/ucsb-cs156-m23/projects/52
-m23_9am_3: https://github.com/orgs/ucsb-cs156-m23/projects/54
-m23_10am_1: https://github.com/orgs/ucsb-cs156-m23/projects/57
-m23_10am_2: https://github.com/orgs/ucsb-cs156-m23/projects/53
-m23_10am_3: https://github.com/orgs/ucsb-cs156-m23/projects/56
-m23_10am_4: https://github.com/orgs/ucsb-cs156-m23/projects/51
+f23_9am_1: https://github.com/orgs/ucsb-cs156-f23/projects/55
+f23_9am_2: https://github.com/orgs/ucsb-cs156-f23/projects/52
+f23_9am_3: https://github.com/orgs/ucsb-cs156-f23/projects/54
+f23_10am_1: https://github.com/orgs/ucsb-cs156-f23/projects/57
+f23_10am_2: https://github.com/orgs/ucsb-cs156-f23/projects/53
+f23_10am_3: https://github.com/orgs/ucsb-cs156-f23/projects/56
+f23_10am_4: https://github.com/orgs/ucsb-cs156-f23/projects/51
 proj_courses_slack_url: tbd
 proj_happycows_slack_url: https://ucsb-cs156-s23.slack.com/archives/C058QUC16QP
 proj_gauchoride_slack_url: https://ucsb-cs156-s23.slack.com/archives/C0595EWELLA
@@ -81,10 +81,10 @@ Each team already has a Kanban board setup for the legacy code project (see link
 
 | 9am | 10am | 
 |-----|-----|
-| [m23-9am-1]({{page.m23_9am_1}}) | [m23-10am-1]({{page.m23_10am_1}}) | 
-| [m23-9am-2]({{page.m23_9am_2}}) | [m23-10am-2]({{page.m23_10am_2}}) | 
-| [m23-9am-3]({{page.m23_9am_3}}) | [m23-10am-3]({{page.m23_10am_3}}) | 
-|                         | [m23-10am-4]({{page.m23_10am_4}}) | 
+| [f23-9am-1]({{page.f23_9am_1}}) | [f23-10am-1]({{page.f23_10am_1}}) | 
+| [f23-9am-2]({{page.f23_9am_2}}) | [f23-10am-2]({{page.f23_10am_2}}) | 
+| [f23-9am-3]({{page.f23_9am_3}}) | [f23-10am-3]({{page.f23_10am_3}}) | 
+|                         | [f23-10am-4]({{page.f23_10am_4}}) | 
 
 
 You should add the `In Review` column if it is not already present.
@@ -179,10 +179,10 @@ Links are provided below.
 
 | Team | Repo | Github Pages | Prod | QA |
 |--|--|--|--|--|
-| m23-9am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-1/) | [prod](https://proj-gauchoride.dokku-01.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-01.cs.ucsb.edu)
-| m23-9am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-2/) | [prod](https://proj-gauchoride.dokku-02.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-02.cs.ucsb.edu)
-| m23-9am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-3/) | [prod](https://proj-gauchoride.dokku-03.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-03.cs.ucsb.edu)
-| m23-9am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-m23-9am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-m23-9am-4/) | [prod](https://proj-gauchoride.dokku-04.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-04.cs.ucsb.edu)
+| f23-9am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-1/) | [prod](https://proj-gauchoride.dokku-01.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-01.cs.ucsb.edu)
+| f23-9am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-2/) | [prod](https://proj-gauchoride.dokku-02.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-02.cs.ucsb.edu)
+| f23-9am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-3/) | [prod](https://proj-gauchoride.dokku-03.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-03.cs.ucsb.edu)
+| f23-9am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-gauchoride-f23-9am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-gauchoride-f23-9am-4/) | [prod](https://proj-gauchoride.dokku-04.cs.ucsb.edu) | [qa](https://proj-gauchoride-qa.dokku-04.cs.ucsb.edu)
 
  
 ## 10am - happycows
@@ -191,10 +191,10 @@ Links are provided below.
 
 | Team | Repo | Github Pages | Prod | QA |
 |--|--|--|--|--|
-| m23-10am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-1/) | [prod](https://proj-happycows.dokku-04.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-04.cs.ucsb.edu) |
-| m23-10am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-2/) |[prod](https://proj-happycows.dokku-05.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-05.cs.ucsb.edu) |
-| m23-10am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-3/) |[prod](https://proj-happycows.dokku-06.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-06.cs.ucsb.edu) |
-| m23-10am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-m23-10am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-m23-10am-4/) |[prod](https://proj-happycows.dokku-07.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-07.cs.ucsb.edu) |
+| f23-10am-1 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-1) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-1/) | [prod](https://proj-happycows.dokku-04.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-04.cs.ucsb.edu) |
+| f23-10am-2 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-2) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-2/) |[prod](https://proj-happycows.dokku-05.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-05.cs.ucsb.edu) |
+| f23-10am-3 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-3) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-3/) |[prod](https://proj-happycows.dokku-06.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-06.cs.ucsb.edu) |
+| f23-10am-4 | [repo](https://github.com/ucsb-cs156-s23/proj-happycows-f23-10am-4) | [pages](https://ucsb-cs156-s23.github.io/proj-happycows-f23-10am-4/) |[prod](https://proj-happycows.dokku-07.cs.ucsb.edu) | [qa](https://proj-happycows-qa.dokku-07.cs.ucsb.edu) |
  
 <!-- ## 7pm - courses
 

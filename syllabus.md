@@ -25,10 +25,10 @@ Basic Facts
   * {{site.discussion_section_day}} {{site.discussion_section_times}}
   * Attendance/Participation is expected/required.
   * You must participate the section for which you are registered, since teams are assigned by section.
-* Office Hours: See: [https://ucsb-cs156.github.io/m23/office-hours.html](https://ucsb-cs156.github.io/m23/office-hours.html)
+* Office Hours: See: [https://ucsb-cs156.github.io/f23/office-hours.html](https://ucsb-cs156.github.io/f23/office-hours.html)
 
 
-Course website: <https://ucsb-cs156.github.io/m23/>
+Course website: <https://ucsb-cs156.github.io/f23/>
 
 About the Course
 ----------------
@@ -222,6 +222,33 @@ important to approach such conversations in a respectful manner,
 accepting that the instructor, TA and grader have been given
 responsibility for determining course standards, and applying those in
 a fair way to all students.
+
+Conflicts between Courses
+-------------------------
+
+If you are enrolled in another class that overlaps with either your
+assigned lecture or discussion section for CMPSC 156, you *must* obtain
+permission from both the instructor of CMPSC 156 and the instructor
+of the other course to remain enrolled.
+
+I *almost never* give this permission.  The problem is that class time in CMPSC 156 is not just a personal, individual matter; your absence will impact the other members of your team.   It is not fair to the other students on your team for your attention to be divided between CMPSC 156 and another course during scheduled lecture/discussion times.
+
+The only time I will consider an exception is when the instructor of record of the other course certifies in an email directly to me that:
+
+* synchronous attendance is *never* required during the conflicting course section
+* that there are no time conflicts with the final exam slot for CMPSC 156.
+
+If you fail to get this permission, and remain enrolled, you are subject to receiving a failing grade in the course.
+
+Use of a laptop is required
+---------------------------
+
+While the first couple of assignments can be completed on CSIL, for the bulk of the assignments in the class (starting with team01), you will
+need your own computing platform (i.e. your own laptop).
+
+You should try to pivot from working on CSIL to working on your own machine as soon as possible.  The software you will need
+to install is listed here:
+* <https://ucsb-cs156.github.io/f23/info/software.html>
 
 
 Accommodations for disabilities

@@ -1,6 +1,6 @@
 ---
 title: "Week 06b - 08.03 Thu"
-lecture_date: 2023-08-03
+lecture_date: 2023-11-08
 description: "Retro on team02 (unless done Tue), Start team03"
 ready: true
 layout: default
@@ -32,7 +32,7 @@ experiment from last time.
 # If/when done with team02 retro, start on team03.
 
 First, everyone read through the writeup here:
-* <https://ucsb-cs156.github.io/m23/lab/team03.html>
+* <https://ucsb-cs156.github.io/f23/lab/team03.html>
 
 Then, divide up the six tables and note who is doing what on your Slack channel.
 * It can be the the same tables as for team02, or you can switch things up.
@@ -54,7 +54,7 @@ Details of how to do Retro 2
 * Then, go to your folder on Google Drive (the link should be pinned to your slack channel)
 * Create a new document Retro2 similar to Retro1
 * Conduct a retro following the same basic instructions from here:
-  - <https://ucsb-cs156.github.io/m23/lectures/week05a/#retrospective-the-heart-of-agile>
+  - <https://ucsb-cs156.github.io/f23/lectures/week05a/#retrospective-the-heart-of-agile>
 
 One change to the instructions: before deciding on a new experiment, have a discussion of the experiment from your last retro.
 - Read the experiment from your Retro1 document.

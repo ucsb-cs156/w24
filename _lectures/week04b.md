@@ -1,6 +1,6 @@
 ---
 title: "Week 04b - 07.20 Thu"
-lecture_date: 2023-07-20
+lecture_date: 2023-10-25
 description: "Finish up team01"
 ready: true
 layout: default

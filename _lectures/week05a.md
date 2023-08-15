@@ -1,6 +1,6 @@
 ---
 title: "Week 05a - 07.25 Tue"
-lecture_date: 2023-07-25
+lecture_date: 2023-10-31
 description: "Retrospective, H01 assigned, work on team02"
 ready: true
 layout: default
@@ -26,7 +26,7 @@ There is a new participation assignment [P10](https://ucsb.instructure.com/cours
 
 ## New homework assignment H01
 
-There is a new homework assignment, [H01](https://ucsb-cs156.github.io/m23/hwk/h01/)
+There is a new homework assignment, [H01](https://ucsb-cs156.github.io/f23/hwk/h01/)
 * This will provide a brief introduction to JavaScript before we start team03, coming soon, where we start to work with the frontend
 * The due date is on Gradescope; you have a week, but *it will be better if you get this done sooner rather than later* so that you are prepared
   for team03.
@@ -129,8 +129,8 @@ At the end of the process, you should have in your document:
 
 # Next steps if there's more time
 
-* Continue work on [team02](https://ucsb-cs156.github.io/m23/lab/team02.html)
-* Start homework assignment [H01](https://ucsb-cs156.github.io/m23/hwk/h01/) (Intro to JavaScript).
+* Continue work on [team02](https://ucsb-cs156.github.io/f23/lab/team02.html)
+* Start homework assignment [H01](https://ucsb-cs156.github.io/f23/hwk/h01/) (Intro to JavaScript).
   
 
 ### Staff use only
@@ -144,12 +144,12 @@ want a peek behind the scenes.
 Preparation for first retro  
 </summary>
 
-* Create folder such as `cs156-m23-teams` inside staff Google Drive folder
-* Create one folder per team inside that folder named `m23-9am-1`, `m23-9am-2`, etc.
+* Create folder such as `cs156-f23-teams` inside staff Google Drive folder
+* Create one folder per team inside that folder named `f23-9am-1`, `f23-9am-2`, etc.
 * Create `Retro1` document inside each of those folders
 * Paste content inside each and change the heading as appropriate:
   ```
-  # Retro 1—m23-9am-2—07/25/2023
+  # Retro 1—f23-9am-2—07/25/2023
 
   Team members:
   * replace with team member 1's name
@@ -177,24 +177,24 @@ Preparation for first retro
 
 | Team | Folder |
 |------|---------|
-| m23-9am-1 | <https://drive.google.com/drive/folders/1t4FuANLOI_1Di1N3i-cBdhKsVNO5o5kn?usp=drive_link> |
-| m23-9am-2 | <https://drive.google.com/drive/folders/1d-yjzPtfYXYu396wq5ZYpMEdE9WKswGd?usp=drive_link> |
-| m23-9am-3 | <https://drive.google.com/drive/folders/137YWUc2J6W4NLCZEFw6lRilMyBPZUNb_?usp=drive_link> |
-| m23-10am-1 | <https://drive.google.com/drive/folders/1fIgeaLyhJwfx-8vY9NrMGUOGmKFjc9aE?usp=drive_link> |
-| m23-10am-2 | <https://drive.google.com/drive/folders/1LSbVA-dV3IKjZkGyGsYdsXc0DwU9iCxr?usp=drive_link> |
-| m23-10am-3 | <https://drive.google.com/drive/folders/1Zb4sqA46QKnQUid-ZyzG-BzjvUe-nbAr?usp=drive_link> |
-| m23-10am-4 | <https://drive.google.com/drive/folders/1viD52XnepPglyKN1TSzg7MA5-1E7mVIU?usp=drive_link> |
+| f23-9am-1 | <https://drive.google.com/drive/folders/1t4FuANLOI_1Di1N3i-cBdhKsVNO5o5kn?usp=drive_link> |
+| f23-9am-2 | <https://drive.google.com/drive/folders/1d-yjzPtfYXYu396wq5ZYpMEdE9WKswGd?usp=drive_link> |
+| f23-9am-3 | <https://drive.google.com/drive/folders/137YWUc2J6W4NLCZEFw6lRilMyBPZUNb_?usp=drive_link> |
+| f23-10am-1 | <https://drive.google.com/drive/folders/1fIgeaLyhJwfx-8vY9NrMGUOGmKFjc9aE?usp=drive_link> |
+| f23-10am-2 | <https://drive.google.com/drive/folders/1LSbVA-dV3IKjZkGyGsYdsXc0DwU9iCxr?usp=drive_link> |
+| f23-10am-3 | <https://drive.google.com/drive/folders/1Zb4sqA46QKnQUid-ZyzG-BzjvUe-nbAr?usp=drive_link> |
+| f23-10am-4 | <https://drive.google.com/drive/folders/1viD52XnepPglyKN1TSzg7MA5-1E7mVIU?usp=drive_link> |
 
 * Retro1 documents
 
 | Team | Folder |
 |------|---------|
-| m23-9am-1 | <https://docs.google.com/document/d/1pHMKI_OVq7ZsA5nz0505fAUckaSY9MkgqAi46-y0HwI/edit> |
-| m23-9am-2 | <https://docs.google.com/document/d/1d1VjBCsc_dW53mEKsq_MhQ5RhHwsu21GxkY_C_UUVq8/edit> |
-| m23-9am-3 | <https://docs.google.com/document/d/16uVb7TSIhlvzyAWO8uxnUKHV81PLewQAACGv8NwDlh8/edit> |
-| m23-10am-1 | <https://docs.google.com/document/d/1cs9mNtczN54WfpAfxcxQ9iJmYTjJbrdXMvbHFmWv5Pc/edit> |
-| m23-10am-2 | <https://docs.google.com/document/d/1eHzG-8x7V9wgJl0fsAuqJkCmVCPS6nJc7SuNF4PcJsE/edit> |
-| m23-10am-3 | <https://docs.google.com/document/d/1n3PU-V_AYL6s3L1ISG3tYAHtPgpmFkDfJBo8LekxLOY/edit> |
-| m23-10am-4 | <https://docs.google.com/document/d/1nbawcAl26jXLRKDT0z4TXG8y95iqBMz_BlymX0UixrQ/edit> |
+| f23-9am-1 | <https://docs.google.com/document/d/1pHMKI_OVq7ZsA5nz0505fAUckaSY9MkgqAi46-y0HwI/edit> |
+| f23-9am-2 | <https://docs.google.com/document/d/1d1VjBCsc_dW53mEKsq_MhQ5RhHwsu21GxkY_C_UUVq8/edit> |
+| f23-9am-3 | <https://docs.google.com/document/d/16uVb7TSIhlvzyAWO8uxnUKHV81PLewQAACGv8NwDlh8/edit> |
+| f23-10am-1 | <https://docs.google.com/document/d/1cs9mNtczN54WfpAfxcxQ9iJmYTjJbrdXMvbHFmWv5Pc/edit> |
+| f23-10am-2 | <https://docs.google.com/document/d/1eHzG-8x7V9wgJl0fsAuqJkCmVCPS6nJc7SuNF4PcJsE/edit> |
+| f23-10am-3 | <https://docs.google.com/document/d/1n3PU-V_AYL6s3L1ISG3tYAHtPgpmFkDfJBo8LekxLOY/edit> |
+| f23-10am-4 | <https://docs.google.com/document/d/1nbawcAl26jXLRKDT0z4TXG8y95iqBMz_BlymX0UixrQ/edit> |
 
 </details>

@@ -1,6 +1,6 @@
 ---
 title: "Week 05b - 07.27 Thu"
-lecture_date: 2023-07-27
+lecture_date: 2023-11-01
 description: "Intro to Legacy App 'HappyCows'; standup/work on team02"
 ready: true
 layout: default
@@ -34,7 +34,7 @@ Today, your assignment is to play the game a little bit.
 Specifically, to earn today's participation grade:
 
 * Login at <https://happycows.dokku-00.cs.ucsb.edu>
-* Find the Commons *CMPSC 156 M23* and **join** it. 
+* Find the Commons *CMPSC 156 f23* and **join** it. 
   * Please leave the other commons, "Summer Meadows Homestead", alone—that's for Prof. de Vries' class.
 * Once you've joined the commons, you can visit it.
 * Please buy at least one cow. 
@@ -49,7 +49,7 @@ That's all you must do.  However, if you like, you may:
 
 ## Submitting P12 on Canvas
 
-Joining the CMPSC 156 M23 game and buying at least one cow is all you must to do to earn the points for the participation assignment.   When you've done those four things, submit on Canvas.
+Joining the CMPSC 156 f23 game and buying at least one cow is all you must to do to earn the points for the participation assignment.   When you've done those four things, submit on Canvas.
 
 For your submission, please write at least the word "Done".  That's the minimum requirement—and if you are still busy with team02, it's probably best to just do that and pivot back to team02 (or filling out CATME if you haven't done that yet).
 
@@ -94,7 +94,7 @@ Staff:  Please check P12 on Canvas
 * You should be able to see this on the leaderboard
 
 Then, check each team and compare:
-* the team membership here: <https://bit.ly/cs156-m23-teams>
+* the team membership here: <https://bit.ly/cs156-f23-teams>
 * with who posted a slack update on their team channel
 
 If you see anyone that is missing, ping them on their team channel to see if they are online, and perhaps just didn't do a slack update.

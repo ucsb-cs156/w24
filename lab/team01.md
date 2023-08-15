@@ -1,22 +1,22 @@
 ---
 title: team01
 desc: "Team Project 01: Spring Boot Backend, part 1 (unauthenticated RESTFul APIs)"
-assigned: 2023-07-13 14:00
-due: 2023-07-20 23:59
-github_org: ucsb-cs156-m23
+assigned: 2023-10-10 14:00
+due: 2023-10-17 23:59
+github_org: ucsb-cs156-f23
 layout: default
 parent: lab
 num: team01
 nav_order: 201
 ready: true
-starter: https://github.com/ucsb-cs156-m23/STARTER-team01
-qxx: m23
-org: ucsb-cs156-m23
+starter: https://github.com/ucsb-cs156-f23/STARTER-team01
+qxx: f23
+org: ucsb-cs156-f23
 participation_activity_num: p09
 participation_activity_date: "Thursday 07/13/2023"
 demo_deployment: http://team01-f22.dokku-00.cs.ucsb.edu
-sample_team: m23-9am-3
-teams_list: https://bit.ly/cs156-m23-teams
+sample_team: f23-9am-3
+teams_list: https://bit.ly/cs156-f23-teams
 ---
 
 NOTE: Gradescope autograders are not yet set up.
@@ -28,6 +28,16 @@ the assignment.
 
 This is a team programming assignment.  Each team has it's own repo to complete this assignment, and
 you will work as a team.
+
+## Work on your own laptop, not CSIL
+
+You should be working with a Java setup on your
+own laptop by this point, not on CSIL.
+
+For advice on what to install, see: 
+* <https://ucsb-cs156.github.io/m23/info/software.html>
+
+If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
 
 # Grading
 
@@ -66,7 +76,7 @@ There may be more columns or fewer, though typically at a minimum, there is:
 Here's how that will play out in detail:
 
 
-1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-m23-9am-1`, `team01-m23-9am-2`,etc.
+1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-f23-9am-1`, `team01-f23-9am-2`,etc.
 
 2. Open the link for your team's Project.  You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
 3. The `Todo` column will be populated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  These correspond to the Issues that we'll also see in the `Issues` column of your repo.
@@ -182,13 +192,13 @@ This will probably be the last time that is true, however, so you are encouraged
 
 Here are the links to the repos:
 
-* <https://github.com/ucsb-cs156-m23/team01-m23-9am-1>
-* <https://github.com/ucsb-cs156-m23/team01-m23-9am-2>
-* <https://github.com/ucsb-cs156-m23/team01-m23-9am-3>
-* <https://github.com/ucsb-cs156-m23/team01-m23-10am-1>
-* <https://github.com/ucsb-cs156-m23/team01-m23-10am-2>
-* <https://github.com/ucsb-cs156-m23/team01-m23-10am-3>
-* <https://github.com/ucsb-cs156-m23/team01-m23-10am-4>
+* <https://github.com/ucsb-cs156-f23/team01-f23-9am-1>
+* <https://github.com/ucsb-cs156-f23/team01-f23-9am-2>
+* <https://github.com/ucsb-cs156-f23/team01-f23-9am-3>
+* <https://github.com/ucsb-cs156-f23/team01-f23-10am-1>
+* <https://github.com/ucsb-cs156-f23/team01-f23-10am-2>
+* <https://github.com/ucsb-cs156-f23/team01-f23-10am-3>
+* <https://github.com/ucsb-cs156-f23/team01-f23-10am-4>
 
 <!--
 
@@ -244,19 +254,19 @@ Once the app is deployed, these links should work:
 
 | Team | Link |
 |-|-|
-| m23-9am-1 | <https://team01.dokku-01.cs.ucsb.edu> |
-| m23-9am-2 | <https://team01.dokku-02.cs.ucsb.edu> |
-| m23-9am-3 | <https://team01.dokku-03.cs.ucsb.edu> |
-| m23-10am-1 | <https://team01.dokku-04.cs.ucsb.edu> |
-| m23-10am-2 | <https://team01.dokku-05.cs.ucsb.edu> |
-| m23-10am-3 | <https://team01.dokku-06.cs.ucsb.edu> |
-| m23-10am-4 | <https://team01.dokku-07.cs.ucsb.edu> |
+| f23-9am-1 | <https://team01.dokku-01.cs.ucsb.edu> |
+| f23-9am-2 | <https://team01.dokku-02.cs.ucsb.edu> |
+| f23-9am-3 | <https://team01.dokku-03.cs.ucsb.edu> |
+| f23-10am-1 | <https://team01.dokku-04.cs.ucsb.edu> |
+| f23-10am-2 | <https://team01.dokku-05.cs.ucsb.edu> |
+| f23-10am-3 | <https://team01.dokku-06.cs.ucsb.edu> |
+| f23-10am-4 | <https://team01.dokku-07.cs.ucsb.edu> |
 
 
 The result of visiting the home page of the app in the browser should be something like this:
    
 ```json
-{"api-documentation":"http://localhost:8080/swagger-ui/","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-m23/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
+{"api-documentation":"http://localhost:8080/swagger-ui/","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-f23/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
 ```
    
 It might also be nicely formatted, depending on whether you have any browser extensions installed for processing JSON:
@@ -264,7 +274,7 @@ It might also be nicely formatted, depending on whether you have any browser ext
 {
   api-documentation: "https://starter-team01.herokuapp.com/swagger-ui/",
   greeting: "Greetings from Spring Boot",
-  repo: "https://github.com/ucsb-cs156-m23/STARTER-team01",
+  repo: "https://github.com/ucsb-cs156-f23/STARTER-team01",
   team: [
     "Andrew L.",
     "Bryan T.",
@@ -698,7 +708,7 @@ When a PR is merged:
   actual team name:
 
   ```
-  dokku git:sync team01 https://github.com/ucsb-cs156-m23/team01-m23-9am-x main
+  dokku git:sync team01 https://github.com/ucsb-cs156-f23/team01-f23-9am-x main
   dokku ps:rebuild
   ```
 
@@ -735,7 +745,7 @@ One last time, be sure that your main branch is up-to-date with Dokku; change `9
 actual team name:
 
 ```
-dokku git:sync team01 https://github.com/ucsb-cs156-m23/team01-m23-9am-x main
+dokku git:sync team01 https://github.com/ucsb-cs156-f23/team01-f23-9am-x main
 dokku ps:rebuild
 ```
 

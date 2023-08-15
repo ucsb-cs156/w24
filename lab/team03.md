@@ -1,18 +1,18 @@
 ---
 title: team03
 desc: "Team Project: React CRUD frontend"
-assigned: 2023-08-02 09:00
-due: 2023-08-10 11:59
-github_org: ucsb-cs156-m23
+assigned: 2023-10-26 09:00
+due: 2023-11-03 11:59
+github_org: ucsb-cs156-f23
 layout: lab
 layout: default
 parent: lab
 num: team03
 nav_order: 203
 ready: true
-starter: https://github.com/ucsb-cs156-m23/STARTER-team03
+starter: https://github.com/ucsb-cs156-f23/STARTER-team03
 deployment: https://team03.dokku-00.cs.ucsb.edu/
-storybook: https://ucsb-cs156-m23.github.io/STARTER-team03/storybook/
+storybook: https://ucsb-cs156-f23.github.io/STARTER-team03/storybook/
 ---
 
 {% include drop_down_style.html %}
@@ -36,6 +36,16 @@ We are focusing on learning these new React concepts:
 * Using `npm run coverage` to run test coverage
 * Using `npx stryker run` to run mutation coverage
 * Using `npm run storybook` to visualize frontend components in isolation
+
+## Work on your own laptop, not CSIL
+
+You should be working with a Java and Node (Javascript) setup on your
+own laptop by this point, not on CSIL.
+
+For advice on what to install, see: 
+* <https://ucsb-cs156.github.io/m23/info/software.html>
+
+If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
 
 ## What are we doing in team03?
 
@@ -239,7 +249,7 @@ The two database tables in the starter code are these:
   digits are the year, and the final digit is either 1, 2, 3, or 4, for
   Winter, Spring, Summer and Fall, respectively.  This may seem like a
   weird format, but it's the one used internally by systems like GOLD.
-  The `yyyyq` format  has the advantage that when you sort, the quarters come out in the right order.  That would not be true if you sorted `['F22', 'W23', 'S23','M23', 'F23']` in lexicographic order; they would come out `['F22', 'F23', 'M23','S23', 'W23']` which is an order that makes no sense.
+  The `yyyyq` format  has the advantage that when you sort, the quarters come out in the right order.  That would not be true if you sorted `['F22', 'W23', 'S23','f23', 'F23']` in lexicographic order; they would come out `['F22', 'F23', 'f23','S23', 'W23']` which is an order that makes no sense.
 
   For reference only, 
   here's a complete list of UCSBDates for F23. This list is in the original
@@ -300,7 +310,7 @@ and disabled in others.  The important things to keep in mind are:
   part of the Agile software design philosophy.
 
 Note that we are not using feature toggles in team03 (at least not as of
-M23, though it would be a nice thing to incorporate into a future version
+f23, though it would be a nice thing to incorporate into a future version
 of the project.)   But I wanted to be clear about how this "placeholder" code
 might be handled if this were a real-world code base, and not an
 exercise.
@@ -311,13 +321,13 @@ The Kanban boards for team03 are set up here:
 
 | Team | Kanban Board |
 |------|--------------|
-|m23-9am-1 | <https://github.com/orgs/ucsb-cs156-m23/projects/19/views/1>|
-|m23-9am-2 | <https://github.com/orgs/ucsb-cs156-m23/projects/20/views/1>|
-|m23-9am-3 | <https://github.com/orgs/ucsb-cs156-m23/projects/21/views/1>|
-|m23-10am-1 | <https://github.com/orgs/ucsb-cs156-m23/projects/22/views/1>|
-|m23-10am-2 | <https://github.com/orgs/ucsb-cs156-m23/projects/23/views/1>|
-|m23-10am-3 | <https://github.com/orgs/ucsb-cs156-m23/projects/24/views/1>|
-|m23-10am-4 | <https://github.com/orgs/ucsb-cs156-m23/projects/49/views/1> |
+|f23-9am-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/19/views/1>|
+|f23-9am-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/20/views/1>|
+|f23-9am-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/21/views/1>|
+|f23-10am-1 | <https://github.com/orgs/ucsb-cs156-f23/projects/22/views/1>|
+|f23-10am-2 | <https://github.com/orgs/ucsb-cs156-f23/projects/23/views/1>|
+|f23-10am-3 | <https://github.com/orgs/ucsb-cs156-f23/projects/24/views/1>|
+|f23-10am-4 | <https://github.com/orgs/ucsb-cs156-f23/projects/49/views/1> |
 
 The issues on your Kanban board can be grouped as follows:
 

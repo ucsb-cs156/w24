@@ -1,6 +1,6 @@
 ---
 title: "Week 04a - 07.18 Tue"
-lecture_date: 2023-07-18
+lecture_date: 2023-10-24
 description: "Introduction to standup meetings; manual testing team01"
 ready: true
 layout: default
@@ -38,7 +38,7 @@ We can't have it both ways.  Let's get through these easier assignments so we ca
 
 We'll then continue work on team01.
 
-* <https://ucsb-cs156.github.io/m23/lab/team01/>
+* <https://ucsb-cs156.github.io/f23/lab/team01/>
 
 # Some Details about team01
 
@@ -87,13 +87,13 @@ What to look for:
 
 | Team | Repo | Kanban | Dokku |
 |-----|-------|--------|-----|
-| m23-9am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/1) | <http://team01.dokku-01.cs.ucsb.edu/swagger-ui/index.html> | 
-| m23-9am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/7) | <http://team01.dokku-02.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-9am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-9am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/6) |  <http://team01.dokku-03.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-1 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/2) |  <http://team01.dokku-04.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-2 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/3) |  <http://team01.dokku-05.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-3 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/4) |  <http://team01.dokku-06.cs.ucsb.edu/swagger-ui/index.html>  |
-| m23-10am-4 | [Repo](https://github.com/ucsb-cs156-m23/team01-m23-10am-4) | [Kanban](https://github.com/orgs/ucsb-cs156-m23/projects/5) |  <http://team01.dokku-07.cs.ucsb.edu/swagger-ui/index.html>  |
+| f23-9am-1 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-9am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/1) | <http://team01.dokku-01.cs.ucsb.edu/swagger-ui/index.html> | 
+| f23-9am-2 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-9am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/7) | <http://team01.dokku-02.cs.ucsb.edu/swagger-ui/index.html>  |
+| f23-9am-3 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-9am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/6) |  <http://team01.dokku-03.cs.ucsb.edu/swagger-ui/index.html>  |
+| f23-10am-1 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-10am-1) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/2) |  <http://team01.dokku-04.cs.ucsb.edu/swagger-ui/index.html>  |
+| f23-10am-2 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-10am-2) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/3) |  <http://team01.dokku-05.cs.ucsb.edu/swagger-ui/index.html>  |
+| f23-10am-3 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-10am-3) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/4) |  <http://team01.dokku-06.cs.ucsb.edu/swagger-ui/index.html>  |
+| f23-10am-4 | [Repo](https://github.com/ucsb-cs156-f23/team01-f23-10am-4) | [Kanban](https://github.com/orgs/ucsb-cs156-f23/projects/5) |  <http://team01.dokku-07.cs.ucsb.edu/swagger-ui/index.html>  |
 
 # Deploy your main branch every time you merge a PR
 
@@ -104,9 +104,9 @@ It should be as simple as this:
 
 1. Merge PR
 2. Login to your dokku machine
-3. Type this (putting in your team name for `m23-xxx-xx`)
+3. Type this (putting in your team name for `f23-xxx-xx`)
    ```
-   dokku git:sync team01 https://github.com/ucsb-cs156-m23/team01-m23-xxx-x main
+   dokku git:sync team01 https://github.com/ucsb-cs156-f23/team01-f23-xxx-x main
    dokku ps:rebuild
    ```
 
