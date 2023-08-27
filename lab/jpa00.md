@@ -37,10 +37,11 @@ This lab checks that you can succesfully edit, compile, run and submit a simple
 If you want to try to do this lab using CSIL, read this carefully:
 
 * Java 17 was installed on CSIL on 01/02/2022, so we are hoping that you can do this lab on CSIL, but it may require some configuration of your CSIL account; instructions are included in the lab.
-* If you do *not* do the configuration, you might get Java 18, 19 or 20 instead. That's likely not a problem for this particular lab (though I can't guarantee that!), but it is likely to be a problem at *some* point. So good to get this sorted now.
+* If you do *not* do the configuration, you might get Java 18, 19, 20 or 21 instead. That's likely not a problem for this particular lab (though I can't guarantee that!), but it is likely to be a problem at *some* point. So good to get this sorted now.
 * The short version is this: you need to set the environnment variable `JAVA_HOME` to `/usr/lib/jvm/java-17-openjdk`, and possibly modify your path.
 * If you don't know what that means, then read and follow the instructions carefully.
- 
+
+
 # Maybe: try your own machine instead of CSIL? 
  
 We want to encourage you to try to complete this lab on your own machine if possible.  Installing a Java 17 environment on your own machine will make everything else in the course a lot easier; while this simple "Hello World" type assignment can be easily done on CSIL, working with full stack webapps on CSIL can be awkward, at best.
@@ -55,6 +56,8 @@ Most large Java frameworks only target *Long Term Support (LTS)* versions of Jav
 
 The next Java LTS version will be Java 21 which is scheduled for Fall 2023; it may take some time after that version is released for Spring to be ready to move to it.  So I expect we'll be using Java 17 for this course at least through Fall 2023.
 
+More info here: <https://github.com/ucsb-cs156/ucsb-cs156.github.io/blob/main/topics/java/java_versions.md>
+
 # How to install Java 17 and Maven on your own machine
 
 Note: these instructions were current as of F22.   Things change every quarter&mdash;sometimes even from day to day&mdash;and the only way we find out is when students try things and tell us.  (We don't have the bandwidth to try all of the instructions on every possible OS version combination.)
@@ -65,12 +68,6 @@ Note: these instructions were current as of F22.   Things change every quarter&m
   * For help *after* you've installed WSL, use the `#help-linux-wsl` Slack channel 
 * For Linux, there are instructions on  [this page]({{ page.course_software }}). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the `#help-linux-wsl` Slack channel 
  
-
-# Do I really need Java 17?  
-
-You may be wondering whether it's ok if you have Java 19 or Java 18, or Java 11, or some other version of Java instead of Java 17.    This short answer is: for this simple `Hello` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 17, *specifically*, which (unlike Java 12, 13, 14, 15, 18 or 19) is considered a *Long-Term Support* release of Java.
-
-Read more here if you are interested: [https://ucsb-cs156.github.io/topics/java_versions/](https://ucsb-cs156.github.io/topics/java/java_versions.html)  
 
 # Something for everyone to learn
 
