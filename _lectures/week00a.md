@@ -16,8 +16,13 @@ Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
+Team list: <https://bit.ly/cs156-f23-teams> or 
 
-TODO: paste in image of your team
+<img src="https://github.com/ucsb-cs156/f23/assets/1119017/329e7aa0-f703-4f77-80d5-541d5e268494" height="300" />
+
+![SH1431-F23](https://github.com/ucsb-cs156/f23/assets/1119017/6cfda978-a1bd-4824-982b-bc6920742c36)
+
+
 
 # My special passion: Teaching real world software practice
 
