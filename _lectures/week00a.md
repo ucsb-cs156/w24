@@ -7,7 +7,7 @@ layout: default
 parent: lectures
 slides: TBD
 video: TBD
-slack_help_lecture_discussion: TBD
+slack_help_lecture_discussion: https://ucsb-cs156-f23.slack.com/archives/C05UG867W84
 link_to_self_intro_activity: TBD
 link_to_team_first_day_activity: TBD
 ---
