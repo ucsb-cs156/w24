@@ -5,7 +5,7 @@ description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
-slides: TBD
+slides: https://docs.google.com/presentation/d/18JwQ0Hv_Qk3J1MvBQoamnEaQ0L-F25LgWqgt0-PDM2w/edit?usp=sharing
 video: TBD
 slack_help_lecture_discussion: https://ucsb-cs156-f23.slack.com/archives/C05UG867W84
 link_to_self_intro_activity: https://ucsb.instructure.com/courses/14657/assignments/165161
