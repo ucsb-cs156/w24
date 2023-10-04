@@ -5,7 +5,7 @@ description: "Wed: P04 (divide up LTD sections), jpa00, H00"
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/1MAYJC84MEcrLMa9v7Qh7LmRTbNg8GF1YMS-DTO3rLCY/edit?usp=sharing
+slides: https://docs.google.com/presentation/d/15IObJ9FJp1aro1pxb7J1AcVcfeqIR67D-3A0xsfHae0/edit?usp=sharing
 ---
 
 [Slides]({{page.slides}})
