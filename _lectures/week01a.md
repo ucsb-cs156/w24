@@ -5,15 +5,17 @@ description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
-slides: tbd
-video: tbd
+slides: https://docs.google.com/presentation/d/1X_yNJqV6QCv6Lx4Urmq6Tq8PizChQUYlAr6sTJuVEhA/edit?usp=sharing
 ---
 
-Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
+Link to [Slides]({{page.slides}}) 
 
-# TODO: Informed Consent briefing
+# Informed Consent briefing
 
-# Please sit with your team:
+Please see the slides for the informed consent briefing related to the pre-survey.
 
-<img width="618" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/7e99a653-5834-48f2-b185-f37c56c402d1">
+The link to the pre-survey is on the slack, and on Canvas.
 
+# Starting on jpa00
+
+* <https://ucsb-cs156.github.io/f23/lab/jpa00.html>
