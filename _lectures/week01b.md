@@ -1,5 +1,5 @@
 ---
-title: "Week 01b - 06.29 Thu"
+title: "Week 01b - 10.04 Wed"
 lecture_date: 2023-10-04
 description: "Wed: P04 (divide up LTD sections), jpa00, H00"
 ready: true
