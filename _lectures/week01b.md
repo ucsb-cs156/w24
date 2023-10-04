@@ -1,7 +1,7 @@
 ---
 title: "Week 01b - 06.29 Thu"
 lecture_date: 2023-10-04
-description: "Thu: P04 (CSIL/ssh), P05 (divide up LTD sections), jpa00, H00"
+description: "Wed: P04 (divide up LTD sections), jpa00, H00"
 ready: true
 layout: default
 parent: lectures
@@ -10,24 +10,17 @@ slides: https://docs.google.com/presentation/d/1MAYJC84MEcrLMa9v7Qh7LmRTbNg8GF1Y
 
 [Slides]({{page.slides}})
 
-1. Introduction (10 minutes)
-   - Remote participation / zoom links
-   - P04 (due at end of class today); takes 5-10 minutes; just CSIL/ssh setup
-   - A few words about using CSIL vs. your own laptop
-   - jpa00 (due next Wednesday) — brief remarks
+1. Announcements (10 minutes)
+   - Two folks haven't completed P00; I've emailed you; please do it tonight!
+   - Everyone has completed P01
+   - Please complete P02 if you didn't yet; I've reopened it; it's just the introduction on Slack, and then submitting a link to that introduction on Canvas.
+   - jpa00 is working on Gradescope now; please work on that after P05 today.
    - Overview of P05 (due at end of class today)
-   - Overview of H00 (due midnight July 4)
+   - Overview of H00 (due noon Tuesday October 10)
 
-2. Group Activity P04 check-in (1-10 minutes)
-   - Check in with team; if not everyone has done P04, two options:
-   - Give team members 5-10 minute to do it—rest of team, look over P05.
-   - OR: Save that for end of class 
+2. Group activity: Do P04 (15-20 minutes)
+	 - See P04 link on Canvas or Course Web Site for instructions
 
 
-3. Group activity: Do P05 (15-20 minutes)
-	 - See P05 link on Canvas or Course Web Site for instructions
+3. Time to work on jpa00, H00 (or P00, P02 if not done yet)
 
-
-4. Time to work on P04, jpa00, H00.
-
-If finished with all of those, try getting an early start on  [jpa01](https://ucsb-cs156.github.io/f23/lab/jpa01.html)
