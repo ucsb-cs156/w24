@@ -141,7 +141,8 @@ That should get you set up with the starter code.
 That initial submission will probably end up looking something like the images below.  If so, that's normal, and
 you are on the right track.
 
-Right hand side bar in Gradescope.
+Right hand side bar in Gradescope:
+
 <img width="398" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/ea2af520-3b39-426e-8f42-f68adb0f45a8">
 
 There will also be some very long output, and somewhere in it, you'll find this:
