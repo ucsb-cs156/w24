@@ -1,7 +1,7 @@
 ---
 desc: "Java OOP, Jacoco test coverage, Pitest mutation testing"
-assigned: 2023-10-03 14:00
-due: 2023-10-10 23:59
+assigned: 2023-10-05 14:00
+due: 2023-10-12 23:59
 layout: lab
 title: jpa01
 nav_order: 101
