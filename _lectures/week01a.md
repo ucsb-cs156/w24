@@ -1,7 +1,7 @@
 ---
 title: "Week 01a - 10.03 Tue"
 lecture_date: 2023-10-03
-description: "Introduction to CS156"
+description: "Informed Consent Briefing, jpa00"
 ready: true
 layout: default
 parent: lectures
