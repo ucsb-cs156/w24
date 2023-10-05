@@ -141,14 +141,14 @@ That should get you set up with the starter code.
 A few things to notice:
 
 * Under `src`, there are two directory trees:
-   * `src/main/java/edu/ucsb/cs56/pconrad/menuitems` contains regular Java classes.
-   * `src/test/java/edu/ucsb/cs56/pconrad/menuitems` contains the test classes.
+   * `src/main/java/edu/ucsb/cs156/pconrad/menuitems` contains regular Java classes.
+   * `src/test/java/edu/ucsb/cs156/pconrad/menuitems` contains the test classes.
 
-Don't change the package from `pconrad` to your name; the Gradescope autograder is looking for the code under the `edu.ucsb.cs56.pconrad.menuitems` package.
+Don't change the package from `pconrad` to your name; the Gradescope autograder is looking for the code under the `edu.ucsb.cs156.pconrad.menuitems` package.
 So each source file:
 
 * must be under that directory path when it is compiled, and
-* must have `package edu.ucsb.cs56.pconrad.menuitems;` as the first line in the file
+* must have `package edu.ucsb.cs156.pconrad.menuitems;` as the first line in the file
 
 Here are the commands you'll need as you work with the code. Try them out now.
 
