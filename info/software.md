@@ -201,7 +201,7 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    ```
    JAVA_HOME=“${JAVA_HOME:-$(/usr/libexec/java_home 17)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
    ```
-   Or if you find that the above does not work after typing `mvn --verision` then try:
+   Or if you find that the above does not work after typing `mvn --version` then try:
     ```
    JAVA_HOME=“${JAVA_HOME:-$(/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
    ```
