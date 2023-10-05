@@ -136,7 +136,32 @@ git push origin main
 
 That should get you set up with the starter code.
 
-# Step 1: Get oriented to packages
+# Step 1: Make an initial submission of just the starter code on Gradescope
+
+That initial submission will probably end up looking something like the images below.  If so, that's normal, and
+you are on the right track.
+
+Right hand side bar in Gradescope.
+<img width="398" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/ea2af520-3b39-426e-8f42-f68adb0f45a8">
+
+There will also be some very long output, and somewhere in it, you'll find this:
+
+```
+[ERROR] Failures: 
+[ERROR]   MenuItemTest.test_getPrice:18 expected: <$10.49> but was: <stub>
+[ERROR]   MenuItemTest.test_getPrice_0:49 Expected edu.ucsb.cs156.pconrad.menuitem.MenuItem.TooNarrowException to be thrown, but nothing was thrown.
+[ERROR]   MenuItemTest.test_getPrice_10:24 expected: <    $10.49> but was: <stub>
+[ERROR]   MenuItemTest.test_getPrice_5:41 Expected edu.ucsb.cs156.pconrad.menuitem.MenuItem.TooNarrowException to be thrown, but nothing was thrown.
+[ERROR]   MenuItemTest.test_getPrice_6:36 expected: <$10.49> but was: <stub>
+[ERROR]   MenuItemTest.test_getPrice_7:30 expected: < $10.49> but was: <stub>
+[ERROR]   MenuItemTest.test_toString:58 expected: <Small Poke Bowl,1049,Poke Bowls> but was: <stub>
+[INFO] 
+[ERROR] Tests run: 7, Failures: 7, Errors: 0, Skipped: 0
+```
+
+That's the part you can start using to get tests to pass.  So, let's read on to figure out how to do that.
+
+# Step 2: Get oriented to packages
 
 A few things to notice:
 
@@ -162,7 +187,7 @@ Here are the commands you'll need as you work with the code. Try them out now.
 | generate a mutation test report | `mvn test org.pitest:pitest-maven:mutationCoverage` | Open the file <tt>target/pit-reports/<i>yyyymmddhhmm</i>/index.html</tt> to see the report; note that <tt><i>yyyymmddhhmm</i></tt> will be replaced by a date/timestamp. |
 
 
-# Step 2: Start writing code to make tests pass
+# Step 3: Start writing code to make tests pass
 
 In this lab, you'll be implementing several methods of a class called `MenuItem` that represents
 item on a restaurant Menu.
@@ -231,20 +256,20 @@ To check the code against the tests that you've written, use:
 
 Interpreting the output can be 
 
-# Step 3: Learning about Test Coverage
+# Step 4: Learning about Test Coverage
 
 Now, did you really write unit tests for all of your code? Let's check!
 
 We can automatically compute "test case coverage", using a tool call JaCoCo (Java Code Coverage).
 
-Read these short articles about test coverage before moving to step 4:
+Read these short articles about test coverage before moving to step 5:
 * <https://ucsb-cs156.github.io/topics/testing/>
 * <https://ucsb-cs156.github.io/topics/testing_jacoco_reports/>
 
 Once you've looked over those, it's time to check your test coverage, which
-we'll do in Step 4.
+we'll do in Step 5.
 
-# Step 4: Checking Test Case Coverage
+# Step 5: Checking Test Case Coverage
 
 Be sure that you've added your pair partner to your submissions on Gauchospace
 
@@ -270,7 +295,7 @@ Then, check your test coverage!
    * Yellow means it is being missed by *branch coverage*; some branches are covered, and others are not.   
    * Think about the multiple paths through the code and be sure your tests are coverage all of them.
 
-# Step 5: Try to get as close to 100% coverage as you can
+# Step 6: Try to get as close to 100% coverage as you can
 
 Keep reworking your code until you get as close as you can to 100% test coverage.
 
@@ -422,7 +447,7 @@ Now: since the mutants are based on your *your individual solution*, it is impos
 
 
 
-# Step 6: Before final submission on Gradescope
+# Step 7: Before final submission on Gradescope
 
 Look for jpa01 on Gradescope.
 
