@@ -201,6 +201,10 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    ```
    JAVA_HOME=“${JAVA_HOME:-$(/usr/libexec/java_home 17)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
    ```
+   Or if you find that the above does not work after typing `mvn --verision` then try:
+    ```
+   JAVA_HOME=“${JAVA_HOME:-$(/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
+   ```
 
    Again, you may need to adjust the version number `3.9.3` to whatever your version of maven is.  After doing
    this, if you type `mvn --version`it should show Java 17, like this:
