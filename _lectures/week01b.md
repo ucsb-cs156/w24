@@ -15,7 +15,7 @@ slides: https://docs.google.com/presentation/d/15IObJ9FJp1aro1pxb7J1AcVcfeqIR67D
    - Everyone has completed P01
    - Please complete P02 if you didn't yet; I've reopened it; it's just the introduction on Slack, and then submitting a link to that introduction on Canvas.
    - jpa00 is working on Gradescope now; please work on that after P05 today.
-   - Overview of P05 (due at end of class today)
+   - Overview of P04 (due at end of class today)
    - Overview of H00 (due noon Tuesday October 10)
 
 2. Group activity: Do P04 (15-20 minutes)
