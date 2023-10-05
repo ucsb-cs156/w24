@@ -1,5 +1,5 @@
 ---
-title: "Week 01c - 06.30 Thu"
+title: "Week 01c - 10.05 Thu"
 lecture_date: 2023-10-05
 description: "Finish jpa00, Start jpa01 (Java mutation testing)"
 ready: true
