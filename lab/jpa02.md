@@ -1,8 +1,8 @@
 ---
 desc: "Spring Boot / Dokku Hello World"
 description:  "Spring Boot / Dokku Hello World"
-assigned: 2023-10-03 09:00
-due: 2023-10-04 23:59
+assigned: 2023-10-10 09:00
+due: 2023-10-17 23:59
 github_org: ucsb-cs156-f23
 layout: default
 parent: lab
@@ -10,6 +10,7 @@ num: jpa02
 nav_order: 102
 title: jpa02
 starter: https://github.com/ucsb-cs156-f23/STARTER-jpa02
+teams_link: "<https://bit.ly/cs156-f23-teams>"
 ---
 
 {% include drop_down_style.html %}
@@ -89,15 +90,22 @@ Or, consult this table if you know your team number:
 
 | Team | Dokku server |
 |-|-|
-| f23-9am-1 | `dokku-01.cs.ucsb.edu` |
-| f23-9am-2 | `dokku-02.cs.ucsb.edu` |
-| f23-9am-3 | `dokku-03.cs.ucsb.edu` |
-| f23-10am-1 | `dokku-04.cs.ucsb.edu` |
-| f23-10am-2 | `dokku-05.cs.ucsb.edu` |
-| f23-10am-3 | `dokku-06.cs.ucsb.edu` |
-| f23-10am-4 | `dokku-07.cs.ucsb.edu` |
+| f23-5pm-1 | `dokku-01.cs.ucsb.edu` |
+| f23-5pm-2 | `dokku-02.cs.ucsb.edu` |
+| f23-5pm-3 | `dokku-03.cs.ucsb.edu` |
+| f23-5pm-4 | `dokku-04.cs.ucsb.edu` |
+| f23-6pm-1 | `dokku-05.cs.ucsb.edu` |
+| f23-6pm-2 | `dokku-06.cs.ucsb.edu` |
+| f23-6pm-3 | `dokku-07.cs.ucsb.edu` |
+| f23-6pm-4 | `dokku-08.cs.ucsb.edu` |
+| f23-7pm-1 | `dokku-09.cs.ucsb.edu` |
+| f23-7pm-2 | `dokku-10.cs.ucsb.edu` |
+| f23-7pm-3 | `dokku-11.cs.ucsb.edu` |
+| f23-7pm-4 | `dokku-12.cs.ucsb.edu` |
 
 Remember your dokku hostname; you'll need it throughout the course.
+
+You can also find a table of these here: {{page.teams_link}}
 
 To login to your dokku host:
 
@@ -383,8 +391,6 @@ You should commit the changes to the tests to GitHub.
 Note that from a "purist" point of view, we are doing TDD "wrong" this time; to do it "the right way",  we should have modified the tests first, and then modified the code so that the tests pass.  
 
 We can pivot to this style of working once we have a better grasp on all the moving parts here&mdash;or not.  To be honest, there are times when the pure TDD approach is good, and other times when it's more effective to get something working, and then figure out how to test it.  It's good to understand various ways of approaching testing, and the pros/cons of each approach.
-
-
 
 # Step 10: Adding links to running web app in the README.md
 
