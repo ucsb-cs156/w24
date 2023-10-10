@@ -114,6 +114,7 @@ To login to your dokku host:
 
 * If you can login, you may continue to the next step.   
 * If you cannot login, see the troubleshooting instructions here: <https://ucsb-cs156.github.io/topics/dokku/logging_in.html>
+* All development for this project should be done locally(preferred) or CSIL(only if your own machine hasn't been set up properly). Dokku is used only for deployment purposes.
 
 # Step 3: Create your repo
 
