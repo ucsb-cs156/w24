@@ -17,7 +17,7 @@ teams_link: "<https://bit.ly/cs156-f23-teams>"
 
 # Individual lab, but you may help one another
 
-This is an **individual** lab on the topic of Java web apps on render.
+This is an **individual** lab on the topic of Java web apps.
 
 You may cooperate with one or more pair partners from your team to help in debugging and understanding the lab, but each person should complete the lab separately for themselves.
 
@@ -262,7 +262,7 @@ So the web address to acccess your server is: `http://localhost:8080`.
 
 * Note: You should use `http` not `https` when running on `localhost`. Using `http` is the unsecure, unencrypted version.   
 * It is possible to set up Spring Boot to run `https` (the secure, encrypted version), but it's complicated and typically
-  unnecessary; Render sets up `https` for us automatically, so we really don't need to deal with those steps most of the time.
+  unnecessary; 
 
 # Step 5: Understanding `localhost` vs. Dokku
 
@@ -273,11 +273,7 @@ When running on `localhost`:
 
 Running on `localhost` is fine for testing and development.  But eventually we want to know how to deploy a web application so that anyone on the internet can access it.
 
-To get the web app running on the public internet, we'll need to use a cloud-computing platform such as Render.com.
-
-Render allows us to deploy web applications in Java rather easily. 
-
-*A side note*: though we won't explore it in this course, Render also makes it easy to deploy webapps in *a variety of langauges*, including Python, Node (JavaScript), and Ruby just to name a few.   Many of the skills you'll learn in this course about Render will transfer to those other languages if you want to work with them in other courses such as CMPSC 48, CMPSC 189A/B, or personal projects.)
+To get the web app running on the public internet, we'll need to use a cloud-computing platform.
 
 *A note about security*: Let's say up front that this is a risky thing to do.   You need to be very careful about security when deploying web applications to the public internet.  Fortunately, this particular application is rather simple and low-risk.   We'll discuss web security throughout the course.
 
@@ -341,7 +337,7 @@ Update: The autograder has been modified to handle the cases of:
 * underscores `_` in email addresses
 * periods `.` in email addresses
 
-In order to convert each of these to legal Render app names, the autograder converts your email by:
+In order to convert each of these to legal app names, the autograder converts your email by:
 * stripping off the @ and everything after the @
 * converting to all lowercase
 * converting `_` and `.` to `-`
@@ -373,7 +369,7 @@ Then:
   To redeploy, follow the steps here: 
   * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html#deploying-an-app>
   
-Ok, so far, we haven't really done anything we couldn't have done with a static web page.  But we have gotten a working Java web app running on Render, so it's start we can build on.  
+Ok, so far, we haven't really done anything we couldn't have done with a static web page.  But we have gotten a working Java web app running, so it's start we can build on.  
 
 
 # Step 9: The test cases
