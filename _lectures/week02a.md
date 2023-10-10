@@ -11,7 +11,7 @@ slides: https://docs.google.com/presentation/d/1n4A-DakiN9QPdn5vt5cyuY6Q6tVVSACP
 [Slides]({{page.slides}})
 
 
-Today's activity: <https://ucsb-cs156.github.io/f23/hwk/p07/>
+Today's activity: <https://ucsb-cs156.github.io/f23/hwk/p06/>
 
 After today's activity, you are encouraged to
 
