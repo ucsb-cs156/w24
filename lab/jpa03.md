@@ -62,9 +62,10 @@ It should then look like this, and you shoudl be able to login:
 
 <img width="732" alt="image" src="https://user-images.githubusercontent.com/1119017/235782012-7775743c-1880-4960-b99a-3417055f850e.png">
 
-Once you are logged in, you'll see a menu like this one:
+Once you are logged in, you'll see a navigation bar like this one:
 
-<img width="647" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/0cfc63d4-d4d1-4764-8113-0f9e6c7f381e">
+<img width="1208" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/c6acd005-85fb-4907-b65e-cce203a61294">
+
 
 None of the menus will do much of anything.  It turns out that the application is
 a shell of an application that:
