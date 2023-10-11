@@ -282,7 +282,7 @@ not the example value shown here).
 Here's a checklist to look over before submitting on Canvas:
 
 1. On the main page for the repo: is the app "green on CI"? i.e. does the `main` branch have a green check for the Github Actions scripts?
-2. On the main page for the repo: is there a link to the apps Github Pages site on the main page for the repo?  (i.e. the site whose URL is something like `https://ucsb-cs156-s23.github.io/jpa03-cgaucho`)?
+2. On the main page for the repo: is there a link to the apps Github Pages site on the main page for the repo?  (i.e. the site whose URL is something like `https://ucsb-cs156-f23.github.io/jpa03-cgaucho`)?
 3. Does the Github Pages site link take you to a page with links to
    javadoc and storybook?
 4. Do those javadoc and storybook links work?
@@ -299,10 +299,15 @@ If so, then you are ready to submit on Canvas.
 * (10 pts) Basic Logistics
   * There is a repo with the correct name in the correct organization with the starter code for this lab
   * There is a post on Canvas for this assignment that has the correct content
-* (20 pts) There is a running web app at <tt>https://{{page.num}}-<i>githubid</i>.dokku-xx.cs.ucsb.edu</tt>
+* (10 pts) There is a running web app at <tt>https://{{page.num}}-<i>githubid</i>.dokku-xx.cs.ucsb.edu</tt>
 * (10 pts) README has a link to your running web app.
 * (20 pts) Running web app has the ability to login with OAuth through a Google Account.
-* (20 pts) Github Pages are set up correctly.
+* (10 pts) The `ADMIN_EMAILS` variable is set to include all staff emails (see list below) plus your own email.
+  - The correct setting is shown below, except with your email in place of `youremail`
+  - `ADMIN_EMAILS=youremail@ucsb.edu,phtcon@ucsb.edu,andrewpeng@ucsb.edu,jingpeng@ucsb.edu,rbriggs@ucsb.edu,benjamin_ye@ucsb.edu,sangitakunapuli@ucsb.edu,b_feng@ucsb.edu`
+* (20 pts) Github Pages are set up correctly including:
+  - The link on your main repo page is set to the running Github Pages
+  - That link shows the correct content
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
 
 Note that the Rubric above is subject to change, but if it does:
