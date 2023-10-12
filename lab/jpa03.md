@@ -337,9 +337,15 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
 * Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-f23/settings/actions>
-  <img width="943" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
 
   This is needed so that the github actions scripts have write access to the directory.
+
+  <img width="943" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
+
+ 
+  This setting is probabaly also a good idea:
+
+  <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
 
 
 </details>
