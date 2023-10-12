@@ -286,7 +286,7 @@ Then, check your test coverage!
 *How* you go about that depends a lot on your setup.   
 * On CSIL, we suggest mounting your home directory with Samba so that you can navigate to the `target/site/jacoco/index.html` file from your
   computer, and double click on it to open it.
-* Instructions for that are here for [Windows](https://ucsb-cs156.github.io/topics/csil_mount_drive_to_windows_using_samba/) and [MacOS](https://ucsb-cs156.github.io/topics/csil_mount_drive_to_macOs_using_samba/)  
+* Instructions for that are here for [Windows](https://ucsb-cs156.github.io/topics/CSIL/csil_mount_drive_to_windows_using_samba.html) and [MacOS](https://ucsb-cs156.github.io/topics/CSIL/csil_mount_drive_to_macOs_using_samba.html)  
   
 # How to read the test coverage reports
 
