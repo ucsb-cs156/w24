@@ -288,7 +288,7 @@ Here's a checklist to look over before submitting on Canvas:
 4. Do those javadoc and storybook links work?
 5. In the README.md file: is there a link to the running app?
 6. Does OAuth work on the running app, i.e. can I log in with my Google login?
-7. Did you remember to add the instructor, your mentor, your fellow team members, and yourself to the `ADMIN_EMAILS` variable in your `config:set` on dokku?
+7. Did you remember to add the staff(see emails in the rubric below), your teammates, and yourself to the `ADMIN_EMAILS` variable in your `config:set` on dokku?
 8. Did you deploy a database? If so, for Admin users, the Users menu should show who has logged in recently (it uses the database to do this.)
 If so, then you are ready to submit on Canvas.  
 
