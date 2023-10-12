@@ -12,7 +12,7 @@ starter: https://github.com/ucsb-cs156-f23/STARTER-jpa03
 layout: default
 parent: lab
 teams_url: https://bit.ly/cs156-f23-teams
-example_running_app: 
+example_running_app: https://jpa03-staff.dokku-00.cs.ucsb.edu/
 office_hours_page: https://ucsb-cs156.github.io/f23/office-hours
 software_install_url: https://ucsb-cs156.github.io/f23/info/software.html
 ---
@@ -52,7 +52,7 @@ with in this course have a similar structure.
 
 Here is an example of this app, up and running.  Try logging in with your UCSB Google Credentials:
 
-* <https://jpa03-staff.dokku-00.cs.ucsb.edu/>
+* <{{page.example_running_app}}>
 
 If the menu looks like this, click on the hamburger icon (☰) to expose the Login button:
 
@@ -314,3 +314,28 @@ Note that the Rubric above is subject to change, but if it does:
 
 * You'll be notified during a class meeting 
 * You'll have an additional week from the date of the announced change to get your repo in shape with the new requirements.
+
+
+# Instructor Resources
+
+
+<details markdown="1">
+<summary>
+Click the triangle for a list of tasks the instructor should do prior releasing this lab.
+</summary>
+
+* Create jpa03 repos using the <https://ucsb-cs-github-linker.herokuapp.com>
+* Set up starter code in the course organization, and update links
+* Create a Canvas assignment for jpa03
+* Make sure the app <{{page.example_running_app}}> is up and running, and is sync'd with the starter code:
+  
+  i.e, on dokku-00 for example, do:
+  ```
+  dokku git:sync jpa03-staff https://github.com/ucsb-cs156-f23/STARTER-jpa03 main
+  dokku ps:rebuild jpa03-staff
+  ```
+* Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
+* Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
+</details>
+
+
