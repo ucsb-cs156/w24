@@ -79,6 +79,7 @@ However, we need those basic functions as a basis to build more complex function
 and every student in the class needs to know how to configure and deploy an app on
 Dokku.  The configuration has several parts:
 
+* Setting up SSL (https) for your dokku app
 * Configuring Google OAuth (this can be tested on localhost first)
 * Setting up the dokku app
 * Connecting it to a Github repo
@@ -247,6 +248,7 @@ The steps to get your app up and running on Dokku are documented here:
 * [Getting Started on Dokku](https://github.com/ucsb-cs156-s23/STARTER-jpa03/tree/main#getting-started-on-dokku)
 
 These include: 
+- Setting up SSL (https) for your dokku app
 - Creating the dokku app
 - Creating the postgres database and linking it to your app 
 - Setting up the needed environment variables with `dokku config:set app-name VARIABLE=VALUE`
