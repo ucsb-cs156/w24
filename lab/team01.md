@@ -68,8 +68,7 @@ There may be more columns or fewer, though typically at a minimum, there is:
 Here's how that will play out in detail:
 
 
-1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-f23-9am-1`, `team01-f23-9am-2`,etc.
-
+1. Navigate to the web page for the GitHub organization, i.e. <https://github.com/{{page.github_org}}>.  You'll see a tab for `Projects`. Click on that tab.  You should then see a project for your team for the team01 assignment, e.g. `team01-f23-5pm-1`, `team01-f23-5pm-2`,etc. 
 2. Open the link for your team's Project.  You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
 3. The `Todo` column will be populated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  These correspond to the Issues that we'll also see in the `Issues` column of your repo.
 4. Now navigate to your repo for {{page.num}}, which will have a url such as: <https://github.com/{{page.github_org}}/{{page.num}}-{{page.sample_team}}>.  You will see a tab for `Issues`. Click on that tab.
@@ -242,13 +241,18 @@ Once the app is deployed, these links should work:
 
 | Team | Link |
 |-|-|
-| f23-9am-1 | <https://team01.dokku-01.cs.ucsb.edu> |
-| f23-9am-2 | <https://team01.dokku-02.cs.ucsb.edu> |
-| f23-9am-3 | <https://team01.dokku-03.cs.ucsb.edu> |
-| f23-10am-1 | <https://team01.dokku-04.cs.ucsb.edu> |
-| f23-10am-2 | <https://team01.dokku-05.cs.ucsb.edu> |
-| f23-10am-3 | <https://team01.dokku-06.cs.ucsb.edu> |
-| f23-10am-4 | <https://team01.dokku-07.cs.ucsb.edu> |
+| f23-5pm-1 | <https://team01.dokku-01.cs.ucsb.edu> |
+| f23-5pm-2 | <https://team01.dokku-02.cs.ucsb.edu> |
+| f23-5pm-3 | <https://team01.dokku-03.cs.ucsb.edu> |
+| f23-5pm-4 | <https://team01.dokku-04.cs.ucsb.edu> |
+| f23-6pm-1 | <https://team01.dokku-05.cs.ucsb.edu> |
+| f23-6pm-2 | <https://team01.dokku-06.cs.ucsb.edu> |
+| f23-6pm-3 | <https://team01.dokku-07.cs.ucsb.edu> |
+| f23-6pm-4 | <https://team01.dokku-08.cs.ucsb.edu> |
+| f23-7pm-1 | <https://team01.dokku-09.cs.ucsb.edu> |
+| f23-7pm-2 | <https://team01.dokku-10.cs.ucsb.edu> |
+| f23-7pm-3 | <https://team01.dokku-11.cs.ucsb.edu> |
+| f23-7pm-4 | <https://team01.dokku-12.cs.ucsb.edu> |
 
 
 The result of visiting the home page of the app in the browser should be something like this:
