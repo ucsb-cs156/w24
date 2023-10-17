@@ -756,6 +756,9 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 </summary>
 
 * Create team01 repos using the <https://ucsb-cs-github-linker.herokuapp.com>
+
+  <img width="465" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
+
 * Set up starter code in the course organization, and update links
 * Create a Canvas assignment for team01
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
