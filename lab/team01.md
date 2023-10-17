@@ -141,12 +141,13 @@ For each of these controller / service pairs, there are also tests:
 {:.table .table-sm .table-striped .table-bordered}
 
 
-So you are given those twelve classes.   Your job, as a team, is to implement 20 more classes (4 each), i.e. one row of the following table:
+So you are given those twelve classes.   Your job, as a team of six developers, is to implement 24 more classes (4 each for each of the six rows of the following table).
 
-(Or 16 more classes if you are a team of 4)
+Important: Initially, each team member should take responsibility for one row of the table, but ultimately, you are all responsible, as a team, for all six rows.
 
 | Controller  | Controller Test | Service  | Service Test |
 |-|-|-|-|
+| `JokeController` | `JokeControllerTest` | `JokeQueryService` | `JokeQueryServiceTest` |
 | `LocationController` | `LocationControllerTest` | `LocationQueryService` | `LocationQueryServiceTest` |
 | `PublicHolidaysController` | `PublicHolidaysControllerTest` | `PublicHolidayQueryService` | `PublicHolidayQueryServiceTest` |
 | `TidesController` | `TidesControllerTest` | `TidesQueryService` | `TidesQueryServiceTest` |
@@ -157,6 +158,7 @@ Here's some information on the APIs that these services are based on.
 
 | Service                     | Example |  More info |
 |-----------------------------|----------|-------------|
+| `JokeQueryService` | <https://v2.jokeapi.dev/joke/Programming?amount=2> | [Documentation](https://sv443.net/jokeapi/v2/)
 | `LocationQueryService`       | <https://nominatim.openstreetmap.org/search/Oxnard?format=json> | [Documentation](https://nominatim.org/release-docs/develop/api/Overview/) |
 | `PublicHolidayQueryService` | <https://date.nager.at/api/v2/publicholidays/2023/us> |[Documentation](https://date.nager.at/Api) |
 | `TidesQueryService`         | <https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date=20230710&end_date=20230712&station=9411340&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json> |[Documentation](https://api.tidesandcurrents.noaa.gov/api/prod/) |
@@ -173,7 +175,7 @@ that start with `@` in the code.)
 
 # Note: This is an exercise
 
-To be clear: this particular application (with backend services and controllers based on these five APIs) is just an "exercise"; similar to a scrimmage for a sports team, or playing "scales" on a musical instrument. The application we are building doesn't necessarily make sense as a piece of working software, but it will help us to practice some important skills.
+To be clear: this particular application (with backend services and controllers based on these six APIs) is just an "exercise"; similar to a scrimmage for a sports team, or playing "scales" on a musical instrument. The application we are building doesn't necessarily make sense as a piece of working software, but it will help us to practice some important skills.
 
 The nice thing about this first team activity is that we've structured it so that, for the most part, each contributor's code is independent of the others&mdash; you'll get a first taste of working as a team, but for the most part, your contributions will succeed (or not) independent of your other team members.  
 
@@ -183,15 +185,7 @@ This will probably be the last time that is true, however, so you are encouraged
 
 Here are the links to the repos:
 
-* <https://github.com/ucsb-cs156-f23/team01-f23-9am-1>
-* <https://github.com/ucsb-cs156-f23/team01-f23-9am-2>
-* <https://github.com/ucsb-cs156-f23/team01-f23-9am-3>
-* <https://github.com/ucsb-cs156-f23/team01-f23-10am-1>
-* <https://github.com/ucsb-cs156-f23/team01-f23-10am-2>
-* <https://github.com/ucsb-cs156-f23/team01-f23-10am-3>
-* <https://github.com/ucsb-cs156-f23/team01-f23-10am-4>
 
-<!--
 
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
@@ -200,8 +194,6 @@ Here are the links to the repos:
 |[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|[team01-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-3)|[team01-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-3)|
 |[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|[team01-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-4)|[team01-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-4)|
 
--->
-
 
 # Part 1: Team divides up the work
 
@@ -209,16 +201,15 @@ Here are the links to the repos:
 
 This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
 
-In the "To do" column on the Kanban board, you'll find issues for implementing the five services.
+In the "To do" column on the Kanban board, you'll find issues for implementing the six services.
 
-(If you are on a team with only four members, you may skip one of the five; we'll manually 
-adjust your grades to give you credit for the missing work.  Or someone on the team 
-can go ahead and do it for practice.)
+(If you are on a team with fewer than six members, you may skip one of the six; we'll manually  adjust your grades to give you credit for the missing work.  Or someone on the team can go ahead and do it for practice.)
 
 Divide these up among the members of your team.  When each team members claims one of the services, they should drag the issue for that service into the `In Progress` column, and then assign the issue to themselves.
 
-The five services are:
+The six services are:
 
+* Joke look up (enter a category and number of jokes, get back that many jokes in that category).
 * Location look up (enter a string, get back locations in the world along with their latitude/longitude)
 * Look up public holidays (enter a year and a country code), get back public holidays
 * Tides query (enter a start and end date, and a station id, get back high and low tides during that period)
@@ -371,7 +362,8 @@ in this table.  Note the values in `{braces}`; these are variables that will get
 
 | Service                     | Endpoint | 
 |-----------------------------|----------|
-| `LocationController`       | `https://nominatim.openstreetmap.org/search/{location}?format=json` |
+| `JokeService` | `https://v2.jokeapi.dev/joke/{category}?amount={numJokes}` |
+| `LocationService`       | `https://nominatim.openstreetmap.org/search/{location}?format=json` |
 | `PublicHolidayQueryService` | `https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}` |
 | `TidesQueryService`         | `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date={beginDate}&end_date={endDate}&station={station}&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json` |
 | `UniversityQueryService`    | `http://universities.hipolabs.com/search?name={name}` |
@@ -590,6 +582,7 @@ are also shown in this table:
 
 |  Controller                | Endpoint     |
 |----------------------------|--------------|
+|  `JokeController`          | `/api/jokes/get` |
 |  `LocationController`      | `/api/locations/get` |  
 |  `PublicHolidayController` | `/api/publicholidays/get` |  
 |  `TidesController`         | `/api/tides/get` |  
