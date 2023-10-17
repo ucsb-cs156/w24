@@ -1,20 +1,16 @@
 ---
-title: "Week 03a - 07.11 Tue"
+title: "Week 03a - 10.17 Tue"
 lecture_date: 2023-10-17
-description: "informed consent briefing, jpa03"
+description: "start team01"
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/1YbHWyed_GitgdHMtti5KBqiclpxt4mxseOgFg6snVjs/edit?usp=sharing
+slides: 
 ---
 
-[Slides]({{page.slides}})
+Today we start: <https://ucsb-cs156.github.io/f23/lab/team01.html>
 
-# Informed consent briefing
+And today's participation activity is this one:
 
-See slides
 
-# jpa03
-
-* <https://ucsb-cs156.github.io/f23/lab/jpa03.html>
 
