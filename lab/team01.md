@@ -198,14 +198,10 @@ And here are the Kanban boards:
 
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
-|[team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-f23/projects/2)|
-[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-f23/projects/6)| [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-f23/projects/10)|
-|[team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-f23/projects/3)|
-[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-f23/projects/7)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-f23/projects/11)|
-|[team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-f23/projects/4)|
-[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-f23/projects/8)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-f23/projects/12)|
-|[team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-f23/projects/5)|
-[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-f23/projects/9)| [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-f23/projects/13)|
+| [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-f23/projects/2) |[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-f23/projects/6) | [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-f23/projects/10) |
+| [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-f23/projects/3)|[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-f23/projects/7)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-f23/projects/11)|
+| [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-f23/projects/4)|[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-f23/projects/8)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-f23/projects/12)|
+| [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-f23/projects/5) |[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-f23/projects/9) | [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-f23/projects/13) |
 
 # Part 1: Team divides up the work
 
