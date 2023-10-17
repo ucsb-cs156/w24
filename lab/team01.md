@@ -15,7 +15,7 @@ qxx: f23
 org: ucsb-cs156-f23
 participation_activity_num: p09
 participation_activity_date: "Thursday 07/13/2023"
-demo_deployment: http://team01-f22.dokku-00.cs.ucsb.edu
+demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: f23-9am-3
 teams_list: https://bit.ly/cs156-f23-teams
 ---
@@ -31,6 +31,7 @@ You should be working with a Java setup on your
 own laptop by this point, not on CSIL.
 
 For advice on what to install, see: 
+
 * <{{page.software}}>
 
 If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
@@ -745,3 +746,38 @@ Be sure to follow the instructions:
 
 
 (End of assignment)
+
+# Instructor Resources
+
+
+<details markdown="1">
+<summary>
+Click the triangle for a list of tasks the instructor should do prior releasing this lab.
+</summary>
+
+* Create team01 repos using the <https://ucsb-cs-github-linker.herokuapp.com>
+* Set up starter code in the course organization, and update links
+* Create a Canvas assignment for team01
+* Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
+  
+  i.e, on dokku-00 for example, do:
+  ```
+  dokku git:sync team01 https://github.com/ucsb-cs156-f23/PRIVATE-team01 main
+  dokku ps:rebuild team01
+  ```
+* Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
+* Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
+* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-f23/settings/actions>
+
+  This is needed so that the github actions scripts have write access to the directory.
+
+  <img width="943" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
+
+ 
+  This setting is probabaly also a good idea:
+
+  <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
+
+
+</details>
+
