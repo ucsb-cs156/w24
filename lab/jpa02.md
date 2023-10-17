@@ -49,7 +49,7 @@ If you are new to writing software for the web, you are <em>strongly encouaged</
 
 -   Web applications run on the "server" side of the web architecture, not the client side.
 -   So to test a web application, we need to set up a web server that can run Java code.
--   You can run applications at a URL such as <https://localhost:8080> but that app is only available in a browser on the same
+-   You can run applications at a URL such as <http://localhost:8080> but that app is only available in a browser on the same
     computer as where the `mvn spring-boot:run` command was performed, (i.e. the "local host", typically your laptop.)
 -   Configuring a public web server for Java is challenging. But, fortunately, we don't have to; the folks that maintain CSIL have
     already done that for us.
@@ -286,7 +286,7 @@ You can follow the instructions here to create a new app. Use the name `jpa02-yo
 
 * <https://ucsb-cs156.github.io/topics/dokku/deploying_an_app.html#deploying-an-app>
 
-This should result in an app at the address `https://jpa02-yourgithubid.dokku-xx.cs.ucsb.edu`
+This should result in an app at the address `http://jpa02-yourgithubid.dokku-xx.cs.ucsb.edu`
 
 
 # Step 7: Use the dokku commands
@@ -407,7 +407,7 @@ link to **your repo**.
 For full credit:
 
 * The link should be something like : `https://github.com/ucsb-cs156-f23/jpa02-cgaucho`
-* It should NOT be:  `https://jpa02-cgaucho.dokku-01.cs.ucsb.edu`
+* It should NOT be:  `http://jpa02-cgaucho.dokku-01.cs.ucsb.edu`
 * BUT: the README at the link should contain a link to your running app on dokku.
 
 
