@@ -761,6 +761,11 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
 * Set up starter code in the course organization, and update links
 * Create a Canvas assignment for team01
+* Create projects for all of the groups. You can find a repo with Github Actions
+  scripts to do that here: <https://github.com/ucsb-cs156-f23/project-creator>.
+
+  You will probably need to make a new copy of that repo for this quarter in this
+  quarter's organization and update the github actions scripts.
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
   
   i.e, on dokku-00 for example, do:
