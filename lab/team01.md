@@ -73,7 +73,7 @@ Here's how that will play out in detail:
 4. Now navigate to your repo for {{page.num}}, which will have a url such as: <https://github.com/{{page.github_org}}/{{page.num}}-{{page.sample_team}}>.  You will see a tab for `Issues`. Click on that tab.
 4. You should now see a list of issues.  These are the work items your team needs to complete to do the the work for the team01 assignment. They are the same issues that you find in the "To Do" column of your Kanban board (i.e. your `Project`, to use the GitHub terminology). 
 5. There may also be some additional housekeeping steps that you need to complete in order for the {{page.num}} assignment to be considered completed; the issues on the Kanban board are not necessarily the only things you need to complete to earn full credit for the assignment.  But these issues are the bulk of the work you need to divide up as a team.   
-6. Note that you are allowed and even encouraged to add cards on the Kanban board and/or Issues for any other items you find in the assignment description that need to be completed (e.g. submitting team01b on Gradescope on behalf of the team, for example.).  Tracking this on the Kanban board can be a helpful way to make sure that it get done, and to signal to other team members when it has been done.
+6. Note that you are allowed and even encouraged to add cards on the Kanban board and/or Issues for any other items you find in the assignment description that need to be completed.  Tracking this on the Kanban board can be a helpful way to make sure that it get done, and to signal to other team members when it has been done.
 7. Each team member will take on an issue, one at a time, assign it to themselves, and move it from the "To Do" column of the Kanban board to the "In Progress" column as you start the issue.  When you are finished with the issue, you move it into the "In Review" column when you've made a "Pull Request" to indicate that the issue is ready for your team members to review. 
 8. Ideally, each team member should have exactly one (and only one) issue assigned to them in the In Progress column at a time. 
 9. Once a pull request is complete for a given task, you move it into the `In Review` column
@@ -201,10 +201,6 @@ Here are the links to the repos:
 
 -->
 
-You will get three grades for this assignment:
-* You'll get two autograded grades via Gradescope (team01a, team01b)
-* You'll also get a manual grade assigned in Canvas (team01); this will be a check that 
-  you've followed the Kanban board and Git/GitHub processes described in the assignment.
 
 # Part 1: Team divides up the work
 
@@ -675,11 +671,6 @@ for a pull request.
 * Link your PR to the issue. One way to do this by putting `Closes #13` in the text of the PR description (where `13` is the issue number.)  There are also ways to link issues with PRs in the GitHub web interface. 
 
 
-## Step 2.9: Try submitting your branch on Gradescope
-
-Now, go to the [team01 assignment on Gradescope]({{page.gradescope}}) and submit from the team's repo, and from your branch (`Name-Topic`) rather than the `main` branch (there's a drop down where you can select the branch) to see
-if the tests pertaining to your service/controller are passing.  Don't worry (for now) about the other tests for the moment; just try to get the tests for your own service/controller to pass.
-
 # Part 3: Back to the team 
 
 ## Step 3.1: Review and merge the PRs
@@ -689,7 +680,6 @@ Now, as a team, look at one another's PRs.  You should be able to do a code revi
 * It's also a good idea to try it out. Here are three ways:
   - You can check out the branch (`git fetch; git checkout Other-Branch`), then run `mvn spring-boot:run` to test the code.
   - If the PR author left a link to a dev deployment in the PR, you can test it there.
-  - Finally, you can try submitting that branch to Gradescope and see if it passes it's tests
 * When the *team* is satisfied with the code for one of the branches, you can merge that branch into main by clicking the "Merge" button on the PR.
 
 When a PR is merged:
@@ -744,20 +734,13 @@ Double check that:
 * the running app shows your team members names (i.e. that Step 3.2 above was done correctly)
 * that each of the other controllers works properly and returns good results (check this by interactively testing through the swagger-ui interface)
 
-## Step 4.2  Each team member must submit team01a individually from the main branch on Gradescope
+## Step 4.2  One team member submits on Canvas on behalf of the team.
 
-Once all of the PRs for the team are merged, *each* team member should find [assignment team01 on Gradscope]({{page.gradescope}}), submit from the team's repo, and the `main` branch on Gradescope.  The main branch should now contain all team member's work.
+Be sure to follow the instructions:
+* Submit a link to the repo, not the running app
+* Be sure that the README for the repo has an updated link to the running app
+* Be sure that the tests are passing (green check)
+* Be sure that the Github pages site is publishing properly.
 
-*Do not simply assume that your team will submit on your behalf*.
-
-To help promote both team and individual accountability, I am asking each team member to submit the team's work to Gradescope separately, after all of the PR's are merged.
-
-I would like to see which team members are actually in touch with their teams and engaged with the process&mdash;hopefully that's everyone.   This mutual team accountability will be an important skill during the project phase of the course, so we are practicing it with a programming assignment now (which is a "lower stakes" part of your course grade.)
-
-## Step 4.3  One team member can submit team01b on Gradescope on behalf of the team
-
-You will get one grade for this assignment out of 100 points based on the Gradescope autograder.
-
-Please be sure that all team members names are included in this group submission.
 
 (End of assignment)
