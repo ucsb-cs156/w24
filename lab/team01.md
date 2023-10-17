@@ -371,7 +371,7 @@ in this table.  Note the values in `{braces}`; these are variables that will get
 | Service                     | Endpoint | 
 |-----------------------------|----------|
 | `JokeService` | `https://v2.jokeapi.dev/joke/{category}?amount={numJokes}` |
-| `LocationService`       | `https://nominatim.openstreetmap.org/search/{location}?format=json` |
+| `LocationService`       | `https://nominatim.openstreetmap.org/search.php?q=Oxnard&format=jsonv2` |
 | `PublicHolidayQueryService` | `https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}` |
 | `TidesQueryService`         | `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date={beginDate}&end_date={endDate}&station={station}&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json` |
 | `UniversityQueryService`    | `http://universities.hipolabs.com/search?name={name}` |
