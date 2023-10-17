@@ -10,6 +10,7 @@ num: team01
 nav_order: 201
 ready: true
 starter: https://github.com/ucsb-cs156-f23/STARTER-team01
+software: https://ucsb-cs156.github.io/f23/info/software.html
 qxx: f23
 org: ucsb-cs156-f23
 participation_activity_num: p09
@@ -30,7 +31,7 @@ You should be working with a Java setup on your
 own laptop by this point, not on CSIL.
 
 For advice on what to install, see: 
-* <https://ucsb-cs156.github.io/m23/info/software.html>
+* <{{page.software}}>
 
 If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
 
