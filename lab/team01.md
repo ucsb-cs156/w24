@@ -19,11 +19,6 @@ sample_team: f23-9am-3
 teams_list: https://bit.ly/cs156-f23-teams
 ---
 
-NOTE: Gradescope autograders are not yet set up.
-
-We'll let you know when they are available.  If they aren't available by lecture time on Tuesday, we'll extend the deadline for
-the assignment.
-
 # First team programming assignment: Spring Backend, and working with APIs
 
 This is a team programming assignment.  Each team has it's own repo to complete this assignment, and
@@ -41,13 +36,8 @@ If this presents a difficulty, please contact the instructor ASAP so that some a
 
 # Grading
 
-* There are two Gradescope autograders for this assignment: team01a and team01b
-* They run different tests.  Both count towards your grade
-* You should submit as a team from your main branch, with a group submission for the team
-* Please coordinate on your submissions to Gradescope, using your team's Slack channel to coordinate
-* There is also a Canvas assignment which will be evaluated as well; one person from your
-  team should submit on Canvas.
-
+* You will submit on Canvas for manual grading.
+  
 # Working with a Kanban Board
 
 In this assignment, we'll start practicing with a *Kanban Board*, which is a basic tool used by many software development organizations.
