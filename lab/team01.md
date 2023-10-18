@@ -346,6 +346,61 @@ You'll do all of your work in this branch, and when you are done, you'll do a *P
 * *Note that using this workflow is a required part of the assignment*.
 * We are practicing a workflow (the GitHub feature-branch/pull-request workflow) that will become super important later in the course, and even more important when you work on real world projects.
 
+## Step 2.2a: Make a first commit
+
+To get this new branch to appears on Github, we will need to make at least one commit.
+
+I suggest the following: open up the service that you were assigned to; a file for it should already be in the directory `src/main/java/edu/ucsb/cs156/spring/backenddemo/services`.  For example, for ZipCode, it looks like this (I'm leaving out the imports section):
+
+```java
+@Service
+public class ZipCodeQueryService {
+
+    private final RestTemplate restTemplate;
+
+    public ZipCodeQueryService(RestTemplateBuilder restTemplateBuilder) {
+        restTemplate = restTemplateBuilder.build();
+    }
+
+    public static final String ENDPOINT = "";
+
+    public String getJSON(String zipcode) throws HttpClientErrorException {
+       return "";
+    }
+}
+```
+
+One small change you can make (it's not enough to implement the service, but it's a good start) is to add in the definition of the `ENDPOINT` variable.  It's currently an empty string.  You'll find the necessary value in the table below.  Note the values in `{braces}`; these are variables that will get substituted into the URL at a later step.
+
+| Service                     | Endpoint | 
+|-----------------------------|----------|
+| `JokeService` | `https://v2.jokeapi.dev/joke/{category}?amount={numJokes}` |
+| `LocationService`       | `https://nominatim.openstreetmap.org/search/{location}?format=json` |
+| `PublicHolidayQueryService` | `https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}` |
+| `TidesQueryService`         | `https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?application=ucsb-cs156&begin_date={beginDate}&end_date={endDate}&station={station}&product=predictions&datum=mllw&units=english&time_zone=lst_ldt&interval=hilo&format=json` |
+| `UniversityQueryService`    | `http://universities.hipolabs.com/search?name={name}` |
+| `ZipCodeQueryService`       | `http://api.zippopotam.us/us/{zipcode}` |
+
+Make this change, and then do a commit.  After doing `git add .`, always do a `git status` to make sure you didn't accidentally add something unintentional; the only file you should be adding to the commit is the `.java` file for your service.  Also use *your* initials, not literally `xy` unless those are your initials, e.g. if your name is Xifeng Yan.
+
+Note that `XY-ZipCode` in the example below is the name of your branch.
+
+```
+git add .
+git status 
+git commit -m "xy - define ENDPOINT for zip code service`
+git push origin XY-ZipCode
+```
+
+At this point, you should see your branch on Github.  The following table shows all branches for each of the twelve teams' repos; check that yours appears.
+
+|   |   |   |   |
+|---|---|---|---|
+| [f23-5pm-1 branches](https://github.com/ucsb-cs156-f23/team01-f23-5pm-1/branches) | [f23-5pm-2 branches](https://github.com/ucsb-cs156-f23/team01-f23-5pm-2/branches) | [f23-5pm-3 branches](https://github.com/ucsb-cs156-f23/team01-f23-5pm-3/branches) | [f23-5pm-4 branches](https://github.com/ucsb-cs156-f23/team01-f23-5pm-4/branches) | 
+| [f23-6pm-1 branches](https://github.com/ucsb-cs156-f23/team01-f23-6pm-1/branches) | [f23-6pm-2 branches](https://github.com/ucsb-cs156-f23/team01-f23-6pm-2/branches) | [f23-6pm-3 branches](https://github.com/ucsb-cs156-f23/team01-f23-6pm-3/branches) | [f23-6pm-4 branches](https://github.com/ucsb-cs156-f23/team01-f23-6pm-4/branches) | 
+| [f23-7pm-1 branches](https://github.com/ucsb-cs156-f23/team01-f23-7pm-1/branches) | [f23-7pm-2 branches](https://github.com/ucsb-cs156-f23/team01-f23-7pm-2/branches) | [f23-7pm-3 branches](https://github.com/ucsb-cs156-f23/team01-f23-7pm-3/branches) | [f23-7pm-4 branches](https://github.com/ucsb-cs156-f23/team01-f23-7pm-4/branches) | 
+
+
 ## Step 2.3: Implement the Service you were assigned
 
 Now, in the directory `src/main/java/edu/ucsb/cs156/spring/backenddemo/services`, you should find the "stub" for the service that you are asked to create.  
@@ -364,9 +419,11 @@ and look into what's going on in the code, as long as it doesn't slow you down t
 
 Open up the stub file for your service, and start adding code based on what you see in the two example services.
 
-The first piece of information you need is a value for the endpoint, which is in the table below.  You should
-see a variable `public static final String ENDPOINT` that is set to an empty string; instead, set that to the value
-in this table.  Note the values in `{braces}`; these are variables that will get substituted into the URL at a later step.
+The first piece of information you need is a value for the endpoint.  
+
+You should see a variable `public static final String ENDPOINT` that is set to an empty string; instead, set that to the value
+in the table below (you may have already done this in Step 2.2a above).  
+Note the values in `{braces}`; these are variables that will get substituted into the URL at a later step.
 
 | Service                     | Endpoint | 
 |-----------------------------|----------|
