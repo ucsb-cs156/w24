@@ -43,19 +43,19 @@ Here are the links to the repos for team02
 
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
-|[{{page.title}}-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-1)|[{{page.title}}-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-1)|[{{page.title}}-{{page.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-1)|
-|[{{page.title}}-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-2)|[{{page.title}}-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-2)|[{{page.title}}-{{page.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-2)|
-|[{{page.title}}-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-3)|[{{page.title}}-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-3)|[{{page.title}}-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-3)|
-|[{{page.title}}-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-4)|[{{page.title}}-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-4)|[{{page.title}}-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-4)|
+|[{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-1)|[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-1)|[{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-1)|
+|[{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-2)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-2)|[{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-2)|
+|[{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-3)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-3)|[{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-3)|
+|[{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-4)|[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-4)|[{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-4)|
 
 ## Project boards (also called Kanban boards):
 
 | 5pm | 6pm | 7pm|
 |-----|-----|----|
-| [{{page.title}}-{{page.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/14) |[{{page.title}}-{{page.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/18) | [{{page.title}}-{{page.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/22) |
-| [{{page.title}}-{{page.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/15)|[{{page.title}}-{{page.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/19)| [{{page.title}}-{{page.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/23)|
-| [{{page.title}}-{{page.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/16)|[{{page.title}}-{{page.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/20)| [{{page.title}}-{{page.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/24)|
-| [{{page.title}}-{{page.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/17) |[{{page.title}}-{{page.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/21) | [{{page.title}}-{{page.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/25) |
+| [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/14) |[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/18) | [{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/22) |
+| [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/15)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/19)| [{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/23)|
+| [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/16)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/20)| [{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/24)|
+| [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/17) |[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/21) | [{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/25) |
 
 
 For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
