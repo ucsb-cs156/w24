@@ -12,6 +12,7 @@ nav_order: 202
 ready: true
 num_issues: 35
 starter: https://github.com/ucsb-cs156-f23/STARTER-team02
+demo_deployment: http://team02.dokku-00.cs.ucsb.edu
 ---
 
 # NOT READY YET
@@ -115,11 +116,11 @@ In addition, we'll practice further with a few concepts that we touched on in `j
 
 Your starter code at <{{page.starter}}> provides Spring Boot code with the ability to do CRUD operations on two database tables:
 
-* UCSBDates
-* UCSBDiningCommons
+* `UCSBDates`
+* `UCSBDiningCommons`
 
-These tables are set up to match the data that is available through two public APIs that are provided by UCSB and documented at
-<https://developer.ucsb.edu>.
+These tables are set up to be parallel with the data that is available through two public APIs that are provided by UCSB and documented at
+<https://developer.ucsb.edu> (though the format is slightly alterered for this assignment.)
 
 The `UCSBDates` tables has four columns, is indexed by a numeric `@Id` field (`private long id;`) and is intended to store data like that shown here:
 
@@ -174,10 +175,10 @@ Here are the six tables you'll be adding (one per person).
 On the Kanban board, you'll find five issues for each of these tables:
 
 * Add database table (the `@Entity` and `@Repository` classes, no test classes)
-* Add GET endpoint to list all database records, and a POST  endpoint to create new database records, plus tests (this, and all of the rest, are done in the Controller and Controller test classes)
-* Add GET endpoint to get a single database row by its id. (plus tests)
-* Add PUT endpoint to update a single database row by its id. (plus tests) 
-* Add DELETE endpoint to delete a single database row by its id. (plus tests)
+* Add `GET` endpoint to list all database records, and a `POST`  endpoint to create new database records, plus tests (this, and all of the rest, are done in the Controller and Controller test classes)
+* Add `GET` endpoint to get a single database row by its id. (plus tests)
+* Add `PUT` endpoint to update a single database row by its id. (plus tests) 
+* Add `DELETE` endpoint to delete a single database row by its id. (plus tests)
 
 You should choose one of these database tables, and then assign yourself the five issues that pertain to that database table.
 
@@ -654,3 +655,50 @@ If you need additional guidance, ask on the `#help-team02` channel, and we'll tr
 When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Canvas.
 
 There is no Gradescope autograder for team02; it will be graded manually.
+
+# Instructor Resources
+
+
+<details markdown="1">
+<summary>
+Click the triangle for a list of tasks the instructor should do prior releasing this lab.
+</summary>
+
+* Create team02 repos using the <https://ucsb-cs-github-linker.herokuapp.com>
+
+  <img width="465" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/434dceb9-77a3-4ce6-9c28-a5faf4e0be1d">
+
+* Set up starter code in the course organization, and update links
+* Create a Canvas assignment for team01
+* Create projects for all of the groups. You can find a script for this here:
+  * <https://github.com/ucsb-cs156-f23/project-creator/blob/main/scripts/team02-projects.sh>
+  You will probably need to make a new copy of that repo for this quarter in this
+  quarter's organization and update the scripts.  
+* After running the script, there are three aspects of setting up the projects that
+  are manual:
+  * set view to board
+  * change team access to admin
+  * add "In Review" column
+* Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
+  
+  i.e, on dokku-00 for example, do:
+  ```
+  dokku git:sync team01 https://github.com/ucsb-cs156-f23/PRIVATE-team01 main
+  dokku ps:rebuild team01
+  ```
+* Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
+* Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
+* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-f23/settings/actions>
+
+  This is needed so that the github actions scripts have write access to the directory.
+
+  <img width="943" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
+
+ 
+  This setting is probabaly also a good idea:
+
+  <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
+
+
+</details>
+
