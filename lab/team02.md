@@ -10,7 +10,9 @@ parent: lab
 num: team02
 nav_order: 202
 ready: true
-num_issues: 35
+num_issues: 42
+num_top_level_issues: 6
+num_issues_per_table: 6
 starter: https://github.com/ucsb-cs156-f23/STARTER-team02
 demo_deployment: http://team02.dokku-00.cs.ucsb.edu
 ---
@@ -60,8 +62,21 @@ Here are the links to the repos for team02
 
 For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
-please check in with the staff.  You should see around {{page.num_issues}} issues on the board in the ToDo column when you start.
+please check in with the staff.  
 
+You should see {{page.num_issues}} issues on the board in the ToDo column when you start:
+* There are {{page.num_top_level_issues}} issues that pertain to the whole project; these are for the entire team to divide up (so about one per person, though the team can divide those up any way they see fit.)
+* There are also {{page.num_issues_per_table}} issues for each of the six database tables: for example, there are {{page.num_issues_per_table}} issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, one team member will do all six of these; the intent is for each team member to learn all of the basics of working with a database table by going through all of these steps.
+
+## It's still a *team* project.
+
+Having said that, it is still the responsibility of the *entire team* to get all six of the tables completed. So, even if/when you are "finished with your six issues", please *still stay in class* and help others on your team, do code reviews, and generally see where you can be helpful.
+
+The time/effort you invest now in helping to build the capacity of your team will pay off later.
+
+* If other members of your team are sincerely putting in effort with an intention to work for the team, but don't have as much coding experience as you, helping those members out is both in your personal best interest, and the best interest of the team.  It is something you can talk about at job interviews; for employers, this is a highly valued trait.
+* On the other hand, if there are members of your team that are not really showing up, not following through, etc. *this is the time* to call attention to it, not in a mean or hostile way, but in a supportive, but honest way.  You are encouraged to do as much as you can with friendly but candid discussions inside your team first.  Messages on the team slack channel can be helpful here.   If that doesn't help, then call this to the attention of your team mentor (i.e. the TA/LA assigned to your team, see: <https://bit.ly/cs156-f23-teams> for a list), and or the instructor via DMs on Slack.
+* If you want to have a private 1-1 chat, that's good too, but please start with a Slack message so that we can keep track of who is telling us what; with twelve teams (and sometimes 36 or more teams over the course of an academic year) it gets difficult to remember who we talked to about what.
 
 ## Work on your own laptop, not CSIL
 
