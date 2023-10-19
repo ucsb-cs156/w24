@@ -36,51 +36,42 @@ starter: https://github.com/ucsb-cs156-f23/STARTER-team02
 
 {% include drop_down_style.html %}
 
-## Your Project Boards
+## Repos for team02
 
-Here are your project boards for team02.  
+Here are the links to the repos for team02
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+|[{{page.title}}-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-1)|[{{page.title}}-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-1)|[{{page.title}}-{{page.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-1)|
+|[{{page.title}}-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-2)|[{{page.title}}-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-2)|[{{page.title}}-{{page.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-2)|
+|[{{page.title}}-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-3)|[{{page.title}}-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-3)|[{{page.title}}-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-3)|
+|[{{page.title}}-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-5pm-4)|[{{page.title}}-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-6pm-4)|[{{page.title}}-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/{{page.title}}-{{page.qxx}}-7pm-4)|
+
+## Project boards (also called Kanban boards):
+
+| 5pm | 6pm | 7pm|
+|-----|-----|----|
+| [{{page.title}}-{{page.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/14) |[{{page.title}}-{{page.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/18) | [{{page.title}}-{{page.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/22) |
+| [{{page.title}}-{{page.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/15)|[{{page.title}}-{{page.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/19)| [{{page.title}}-{{page.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/23)|
+| [{{page.title}}-{{page.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/16)|[{{page.title}}-{{page.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/20)| [{{page.title}}-{{page.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/24)|
+| [{{page.title}}-{{page.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/17) |[{{page.title}}-{{page.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/21) | [{{page.title}}-{{page.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/25) |
+
 
 For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
 please check in with the staff.  You should see around {{page.num_issues}} issues on the board in the ToDo column when you start.
 
-<!-- 
-| Team | Project Board|
-|------|--------------|
-| f22-5pm-1 | <https://github.com/orgs/ucsb-cs156-f22/projects/13> |
-| f22-5pm-2 | <https://github.com/orgs/ucsb-cs156-f22/projects/14> |
-| f22-5pm-3 | <https://github.com/orgs/ucsb-cs156-f22/projects/15> |
-| f22-5pm-4 | <https://github.com/orgs/ucsb-cs156-f22/projects/16> |
-| f22-6pm-1 | <https://github.com/orgs/ucsb-cs156-f22/projects/17> |
-| f22-6pm-2 | <https://github.com/orgs/ucsb-cs156-f22/projects/18> |
-| f22-6pm-3 | <https://github.com/orgs/ucsb-cs156-f22/projects/19> |
-| f22-6pm-4 | <https://github.com/orgs/ucsb-cs156-f22/projects/20> |
-| f22-7pm-1 | <https://github.com/orgs/ucsb-cs156-f22/projects/21> |
-| f22-7pm-2 | <https://github.com/orgs/ucsb-cs156-f22/projects/22> |
-| f22-7pm-3 | <https://github.com/orgs/ucsb-cs156-f22/projects/23> |
-| f22-7pm-4 | <https://github.com/orgs/ucsb-cs156-f22/projects/24> |
--->
-
-| Team | Project Board|
-|------|--------------|
-| f23-9am-1 | <https://github.com/orgs/{{page.github_org}}/projects/9> |
-| f23-9am-2 | <https://github.com/orgs/{{page.github_org}}/projects/10> |
-| f23-9am-3 | <https://github.com/orgs/{{page.github_org}}/projects/11> |
-| f23-10am-1 | <https://github.com/orgs/{{page.github_org}}/projects/12> |
-| f23-10am-2 | <https://github.com/orgs/{{page.github_org}}/projects/13> |
-| f23-10am-3 | <https://github.com/orgs/{{page.github_org}}/projects/14> |
-| f23-10am-4 | <https://github.com/orgs/{{page.github_org}}/projects/15> |
-
 
 ## Work on your own laptop, not CSIL
 
-You should be working with a Java setup on your
+You should be working with a Java/Javascript setup on your
 own laptop by this point, not on CSIL.
 
 For advice on what to install, see: 
-* <https://ucsb-cs156.github.io/m23/info/software.html>
+* <https://ucsb-cs156.github.io/{{site.qxx}}/info/software.html>
 
 If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
+
 
 ## Big Picture: what is team02 all about?
 
@@ -92,7 +83,7 @@ Set up Tasks (once per team):
 * Setting up a Repo with qa deployment on Dokku
 
 Coding Tasks: 
-* Adding 4 to 5 database tables (one per team member)
+* Adding 6 database tables (about one per team member)
 * Setting up CRUD (Create, Read, Update, Destroy) operations for each of those tables
 * Adding backend test coverage for all of that
 
@@ -130,14 +121,51 @@ Your starter code at <{{page.starter}}> provides Spring Boot code with the abili
 These tables are set up to match the data that is available through two public APIs that are provided by UCSB and documented at
 <https://developer.ucsb.edu>.
 
-The `UCSBDates` tables has three columns, and is intended to store data like that shown here:
+The `UCSBDates` tables has four columns, is indexed by a numeric `@Id` field (`private long id;`) and is intended to store data like that shown here:
 
+```json
+[
+  {
+    "id": 1,
+    "quarterYYYYQ": "20234",
+    "name": "firstDayOfClasses",
+    "localDateTime":  "2023-09-28T00:00:00"
+  },
+  {
+    "id": 2,
+    "quarterYYYYQ": "20234",
+    "name": "lastDayOfClasses",
+    "localDateTime":  "2023-12-08T00:00:00"
+  }
+]
+```
 
-The `UCSBDiningCommons` table has six columns, and is intended to store data like that shown here:
+The `UCSBDiningCommons` table has six columns, is indexed by a string `@Id` field (`private String code`) and is intended to store data like that shown here:
 
+```json
+[
+  {
+    "name": "Carrillo",
+    "code": "carrillo",
+    "hasSackMeal": false,
+    "hasTakeOutMeal": false,
+    "hasDiningCam": true,
+    "latitude": 34.409953,
+    "longitude": -119.85277
+  },
+  {
+    "name": "Ortega",
+    "code": "ortega",
+    "hasSackMeal": true,
+    "hasTakeOutMeal": true,
+    "hasDiningCam": true,
+    "latitude": 34.410987,
+    "longitude": -119.84709
+  }
+]
+```
 
 ## Your task: add CRUD for additional database tables
-
 
 You'll be adding CRUD operations for six additional database tables; one per team member:
 
@@ -157,7 +185,7 @@ As you look over these, note that some of them use an *autogenerated `Long`* as 
 already in the data.  That may not make any sense to you right now, but there is an explanation immediately following the list of database tables.  
 We'll also go over this in lecture.
    
-### (1) UCSB Dining Commons Menu 
+### (1) UCSB Dining Commons Menu Item
 
 <details>
   
@@ -165,7 +193,7 @@ We'll also go over this in lecture.
 For details on the UCSB Dining Commons Menu database table, click the triangle
 </summary>
 
-The `UCSBDiningCommonsMenuItem` will use an autogenerated `Long` as its `id` field, and will have these additional columns:
+The `UCSBDiningCommonsMenuItems` table will use an autogenerated `Long` as its `id` field, and will have these additional columns:
 
 * `String diningCommonsCode`
 * `String name`
@@ -190,7 +218,7 @@ For details on the UCSB Organization database table click the triangle
 </summary>
 
 
-The `UCSBOrganization` table will use the `orgCode` field (a String) as its `@Id` field, and will have these columns:
+The `UCSBOrganizations` table will use the `orgCode` field (a String) as its `@Id` field, and will have these columns:
 
 * String orgCode
 * String orgTranslationShort
@@ -217,7 +245,7 @@ For details on the Recommendation request database table click the triangle
 </summary>
 
 
-The `RecommendationRequest` table will use an autogenerated  `Long` as its `@Id` field, and will have these additional fields:
+The `RecommendationRequests` table will use an autogenerated  `Long` as its `@Id` field, and will have these additional fields:
 
 * String requesterEmail
 * String professorEmail
@@ -247,20 +275,57 @@ For details on the Menu Item Review database table click the triangle
 </summary>
 
 
-The `MenuItemReview` table will use an autogenerated  `Long` as its `@Id` field, and will have these additional fields:
+The `MenuItemReviews` table will use an autogenerated  `Long` as its `@Id` field, and will have these additional fields:
 
-* Long itemId (the id in the UCSBDiningCommonsMenuItem table of a menu item)
+* Long itemId (the id in the `UCSBDiningCommonsMenuItems` table of a menu item)
 * String reviewerEmail (the email of the reviewer)
 * int stars (0 to 5 stars)
 * LocalDateTime dateReviewed
 * String comments  
 
+**Pay attention to this important detail** because students doing this table often get this wrong: there are two id values: `id` and `itemId`.  
+* The
+`id` value uniquely identifies a review.  For example:
+  * "I love the apple pie; so tasty!" might be a review with id `47`
+  * "I hate the apple pie; tastes like cardboard" might be a review with id `53`
+* The `itemId` is different. It identifies what item is being reviewed.  It refers to the id in *a different table*, i.e. the `UCSBDiningCommonsMenuItems` table.   
+
+For example, if that other table (`UCSBDiningCommonsMenuItems`) has an entry for the Apple Pie at Ortega like this:
+```json
+{
+  "id": 7,
+  "diningCommonsCode": "ortega",
+  "name": "Apple Pie",
+  "station" : "Desserts"
+}
+```
+
+then this table, the `MenuItemReviews` table might have include these two entries:
+```json
+[
+  {
+    "id": 47,
+    "itemId": 7,
+    "reviewerEmail" : "cgaucho@ucsb.edu",
+    "stars": 5,
+    "comments": "I love the Apple Pie"
+  },
+  {
+    "id": 53,
+    "itemId": 7,
+    "reviewerEmail" : "ldelplaya@ucsb.edu",
+    "stars": 0,
+    "comments": "I hate the Apple Pie"
+  },  
+]
+```
+
 Here are some sample values:
   
 | id | itemId | reviewerEmail | stars | dateReviewed | comments | 
 |-|-|-|-|-|-|-|
-| 1 | 27 | cgaucho@ucsb.edu | 3 | 2022-04-20 | bland af |
-| 2 | 29 | cgaucho@ucsb.edu | 5 | 2022-04-20 | best apple pie ever |
+| 1 | 27 | cgaucho@ucsb.edu | 3 | 2022-04-20 | bland af but edible I guess |
+| 2 | 29 | cgaucho@ucsb.edu | 5 | 2022-04-20 | best veggie pizza ever |
 | 3 | 29 | ldelplaya@ucsb.edu | 0 | 2022-04-21 | not tryna get food poisoning, but if I were this would do it|
 
 </details>
@@ -274,7 +339,7 @@ For details on the Help Request database table click the triangle
 </summary>
 
 
-The `HelpRequest` table will use an autogenerated `Long` as its `@Id` field, and will have these additional fields:
+The `HelpRequests` table will use an autogenerated `Long` as its `@Id` field, and will have these additional fields:
 
 * String requesterEmail
 * String teamId
@@ -321,9 +386,19 @@ Here are some sample values:
   
 </details>
 
-### Two types of id values
+### An `@Entity` class
 
-Every database table has a *primary key* marked in a Spring Boot `@Entity` class with the annotation `@Id`.
+Every database table starts with an `@Entity class that defines what one row of the table contains.  
+
+For the most part think of it as a "plain old java object" that just has the basic features of a class:
+* private data members for each field (column)
+* getters, setters, constructor, `toString`, `hashCode`, and `equals` (we use the `@Data` annotation of Lombok to generate these automatically)
+
+We typically use singular nouns for the entity class, e.g. `UCSBDate`, `UCSBDiningCommons`
+
+### Two types of id values for an `@Entity`
+
+In Spring, each `@Entity` class has a *primary key* marked with the annotation `@Id`.
 
 This value must be unique in the database table; no two rows can have the same primary key.
 
@@ -351,7 +426,18 @@ There are two strategies for dealing with this requirement:
    @Id
    private String code;
    ```
-   
+
+## Setting up a `@Repository` class
+
+A second part of setting up a database table in Spring is creating a `@Repository` class.
+
+Note: do not confuse this use of the english word "repository" with the concept of a "repository
+in Git/Github.  The english word "repository" means "a container in which things are stored", and, regrettably, it was chosen, separately, by both the authors of git and the authors of Spring, to mean two very different kinds of collections.
+
+In Spring, a `@Repository` class is an abstraction for the database table itself, i.e. an instance of a `@Repository` class represents the entire table of data (all of the rows and columns). 
+
+We typically name a Repository class with a name such as `___Repository` where the blank is filled in with the name of the `@Entity`, e.g. instances of an `@Entity` class named `UCSBDate` would be stored in a `UCSBDateRepository`.
+
 It is important to understand that when you set up an `@Repository` class, the types that you pass to `CRUDRepository` as shown below must match the type of the `@Entity` and the type of the `@Id` field, as in these examples:
 
 1. `UCSBDateRepository` uses `CrudRepository<UCSBDate, Long>` because the `@Id` field of `UCSBDate` is a `Long`:
@@ -370,8 +456,10 @@ It is important to understand that when you set up an `@Repository` class, the t
     ...
     ```
    
-As you look over your database table description above, take note of which of these applies to you.
+As you look over your database table description above, take note of which of these applies to you.  It's important to choose the correct kind of code as your model when creating your own `@Entity`, `@Repository` and `Controller (@RestController)` classes:
 
+* Choose `UCSBDate` as your example to follow when the id field is going to be an integer, e.g. in the cases of `UCSBDiningCommonsMenuItems`,  `RecommendationRequests`, `MenuItemReviews`, `HelpRequests`, `Articles`
+* Choose `UCSBDiningCommons` when the id field is going to be a unique string that's part of the data, e.g. in the cases of `UCSBOrganizations`.
 
 ## What you'll do: Process
 
@@ -389,11 +477,11 @@ Here's how that will play out in detail:
 
    ```
    Adam:  Articles
-   Brianna: Menu Item Review
-   Chris:  Help Request
-   Danny: Recommendation Request
-   Erin: UCSB Organization
-   Fay: UCSB Dining Commons Menu
+   Brianna: Menu Item Reviews
+   Chris:  Help Requests
+   Danny: Recommendation Requests
+   Erin: UCSB Organizations
+   Fay: UCSB Dining Commons Menu Items
    ```
    
 6. Now look on the Kanban board.  You should find that there are five issues on the Kanban board for your specific database table:   
@@ -438,8 +526,8 @@ To get started:
 
 To add an SQL database table in Spring Boot, you typically add two files:
 
-* A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table
-* A Java class that is annotated with `@Repository`; each instance of this class represents a database table.
+* A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table.  Name should be a singular noun.  Add the file in the same directory/package as the other `@Entity` classes.
+* A Java class that is annotated with `@Repository`; each instance of this class represents a database table.  Name should be the Entity name followed by `Repository`. Add the file in the same directory/package as the other `@Repository` classes.
 
 There is more information in the issues on the Kanban board to guide you through the rest of the process.
 
@@ -519,7 +607,7 @@ What do these annotations do?
         .longitude(-119.85277)
         .build();
   ```
-* `@Entity(name = "ucsbdiningcommons")` is the annotation that says this will be a row in a database table; the parameter sets the name of the table.
+* `@Entity(name = "ucsbdiningcommons")` is the annotation that says this will be a row in a database table; the parameter sets the name of the table.  We typically use all lowercase plural nouns here, with no hyphens or underscores.
 
 With these annotations in place, it's a simple matter of defining private fields for each of the columns in the database table.
 
@@ -565,6 +653,4 @@ If you need additional guidance, ask on the `#help-team02` channel, and we'll tr
 
 When all branches are merged to main, all tasks on Kanban board in the done column, please submit on Canvas.
 
-For now, there is no Gradescope autograder for team02; it will be graded manually.
-
-If that changes, we'll let you know.
+There is no Gradescope autograder for team02; it will be graded manually.
