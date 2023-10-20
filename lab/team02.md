@@ -203,7 +203,7 @@ We'll also go over this in lecture.
    
 ### (1) UCSB Dining Commons Menu Item
 
-<details>
+<details markdown="1">
   
 <summary>
 For details on the UCSB Dining Commons Menu database table, click the triangle
@@ -228,7 +228,7 @@ Here are some sample values:
   
 ### (2) UCSB Organization
 
-<details>
+<details markdown="1">
 <summary>
 For details on the UCSB Organization database table click the triangle
 </summary>
@@ -255,7 +255,7 @@ Here are some sample values:
 
 ### (3) Recommendation Request
 
-<details>
+<details markdown="1">
 <summary>
 For details on the Recommendation request database table click the triangle
 </summary>
@@ -285,7 +285,7 @@ Here are some sample values:
 
 ### (4) Menu Item Review
 
-<details>
+<details markdown="1">
 <summary>
 For details on the Menu Item Review database table click the triangle
 </summary>
@@ -349,7 +349,8 @@ Here are some sample values:
 
 ### (5) Help Request
 
-<details>
+<details markdown="1">
+
 <summary>
 For details on the Help Request database table click the triangle
 </summary>
@@ -378,7 +379,8 @@ Here are some sample values:
 
 ### (6)  Articles
 
-<details>
+<details markdown="1">
+
 <summary>
 For details on the Articles database table click the triangle
 </summary>
