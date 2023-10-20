@@ -339,7 +339,7 @@ then this table, the `MenuItemReviews` table might have include these two entrie
 Here are some sample values:
   
 | id | itemId | reviewerEmail | stars | dateReviewed | comments | 
-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|
 | 1 | 27 | cgaucho@ucsb.edu | 3 | 2022-04-20 | bland af but edible I guess |
 | 2 | 29 | cgaucho@ucsb.edu | 5 | 2022-04-20 | best veggie pizza ever |
 | 3 | 29 | ldelplaya@ucsb.edu | 0 | 2022-04-21 | not tryna get food poisoning, but if I were this would do it|
