@@ -131,7 +131,7 @@ how the database is supposed to work.
 You should see {{page.num_issues}} issues on the board in the ToDo column when you start.  From a high-level standpoint, you'll be resolving all of the issues on the Kanban board, which are divided into two types:
 
 * There are {{page.num_top_level_issues}} issues that pertain to the whole project; these are for the entire team to divide up (so about one per person, though the team can divide those up any way they see fit.)
-* There are also {{page.num_issues_per_table_alpha} issues for each of the {{page.num_database_tables_alpha}} database tables: for example, there are {{page.num_issues_per_table_alpha}  issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, each team member will choose one database table (e.g. `Articles` and then complete  all {{page.num_issues_per_table_alpha} of the issues pertaining to `Articles`. 
+* There are also {{page.num_issues_per_table_alpha}} issues for each of the {{page.num_database_tables_alpha}} database tables: for example, there are {{page.num_issues_per_table_alpha}}  issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, each team member will choose one database table (e.g. `Articles` and then complete  all {{page.num_issues_per_table_alpha}} of the issues pertaining to `Articles`. 
 
 ### Set up Tasks 
 
@@ -165,7 +165,7 @@ There is more detail both in the instructions below and on the issues themselves
 
 ## It's still a *team* project.
 
-Having said that, it is still the responsibility of the *entire team* to get all the issues for all  {{page.num_database_tables_alpha}}  of the tables completed. So, even if/when you are "finished with the {{page.num_issues_per_table_alpha} issues for your table", please *still stay in class* and help others on your team, do code reviews, and generally see where you can be helpful.
+Having said that, it is still the responsibility of the *entire team* to get all the issues for all  {{page.num_database_tables_alpha}}  of the tables completed. So, even if/when you are "finished with the {{page.num_issues_per_table_alpha}} issues for your table", please *still stay in class* and help others on your team, do code reviews, and generally see where you can be helpful.
 
 The time/effort you invest now in helping to build the capacity of your team will pay off later.
 
