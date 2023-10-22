@@ -580,8 +580,8 @@ all working on different assignments.
 
 For example of `@Entity` classes, consult these files in the starter code:
 
-* [UCSBDate.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/entities/UCSBDate.java)
-* [UCSBDiningCommons.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/entities/UCSBDiningCommons.java)
+* [UCSBDate.java](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/entities/UCSBDate.java)
+* [UCSBDiningCommons.java](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/entities/UCSBDiningCommons.java)
 
 
 You'll see that these files have a particular structure, with these annotations:
@@ -634,8 +634,8 @@ With these annotations in place, it's a simple matter of defining private fields
 
 For the repository class, see the examples:
 
-* [UCSBDateRepository](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/repositories/UCSBDateRepository.java)
-* [UCSBDiningCommonsRepository](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/repositories/UCSBDiningCommonsRepository.java)
+* [UCSBDateRepository](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/repositories/UCSBDateRepository.java)
+* [UCSBDiningCommonsRepository](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/repositories/UCSBDiningCommonsRepository.java)
 
 
 Note that these are both `interface` files and not classes.
@@ -654,14 +654,14 @@ In any case, if/when you do need to understand that, here is some documentation 
 
 # Details: Controller methods and tests
 
-The examples for the Controller Methods are tests are in these files:
+The examples for the Controllers and Controller Tests are in these files:
 
 * Controllers:
-  - [UCSBDatesController.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/controllers/UCSBDatesController.java)
-  - [UCSBDiningCommonsController.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/controllers/UCSBDiningCommonsController.java)
+  - [UCSBDatesController.java](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/controllers/UCSBDatesController.java)
+  - [UCSBDiningCommonsController.java](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/controllers/UCSBDiningCommonsController.java)
 * Controller Tests:
-  - [UCSBDatesControllerTests.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/test/java/edu/ucsb/cs156/example/controllers/UCSBDatesControllerTests.java)
-  - [UCSBDiningCommonsControllerTests.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/test/java/edu/ucsb/cs156/example/controllers/UCSBDiningCommonsControllerTests.java)
+  - [UCSBDatesControllerTests.java](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/test/java/edu/ucsb/cs156/example/controllers/UCSBDatesControllerTests.java)
+  - [UCSBDiningCommonsControllerTests.java](https://github.com/{{page.github_org}}/STARTER-team02/blob/main/src/test/java/edu/ucsb/cs156/example/controllers/UCSBDiningCommonsControllerTests.java)
 
 You should be able to find the code you need for each of the methods, and use it as a model to create the code for your database table.
 
@@ -688,7 +688,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Set up starter code in the course organization, and update links
 * Create a Canvas assignment for team01
 * Create projects for all of the groups. You can find a script for this here:
-  * <https://github.com/ucsb-cs156-f23/project-creator/blob/main/scripts/team02-projects.sh>
+  * <https://github.com/{{page.github_org}}/project-creator/blob/main/scripts/team02-projects.sh>
   You will probably need to make a new copy of that repo for this quarter in this
   quarter's organization and update the scripts.  
 * After running the script, there are three aspects of setting up the projects that
@@ -699,13 +699,15 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
   
   i.e, on dokku-00 for example, do:
-  ```
-  dokku git:sync team01 https://github.com/ucsb-cs156-f23/PRIVATE-team01 main
+
+  <pre>
+  dokku git:sync team01 https://github.com/{{page.github_org}}/PRIVATE-team01 main
   dokku ps:rebuild team01
-  ```
+  </pre>
+
 * Proofread the instructions in this file, and request that the staff (TAs/LAs do also)
 * Consider assigning at least one TA/LA (preferably the one with the least prior experience with the course) to complete the lab in it's entirety to debug the starter code and instructions
-* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/ucsb-cs156-f23/settings/actions>
+* Be sure that the organization settings are set like this, in, for example, <https://github.com/organizations/{{page.github_org}}/settings/actions>
 
   This is needed so that the github actions scripts have write access to the directory.
 
