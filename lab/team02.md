@@ -11,8 +11,11 @@ num: team02
 nav_order: 202
 ready: true
 num_issues: 42
+num_database_tables: 6
+num_database_tables_alpha: six
 num_top_level_issues: 6
 num_issues_per_table: 6
+num_issues_per_table_alpha: six
 starter: https://github.com/ucsb-cs156-f23/STARTER-team02
 demo_deployment: http://team02.dokku-00.cs.ucsb.edu
 ---
@@ -39,6 +42,16 @@ demo_deployment: http://team02.dokku-00.cs.ucsb.edu
 
 {% include drop_down_style.html %}
 
+## What this assignment is about: Database CRUD operations
+
+In this assignment, we will build the backend only for api endpoint that allow CRUD operations (Create, Read, Update, Destroy) for each of six database tables.
+
+The type of database we'll work with in this assignment is called an SQL database (SQL is typically pronounced like the english word "sequel").  
+
+For this assignment, we are still dealing directly with the backend via Swagger.
+
+In the next assignment, we'll start looking how how to build a proper front end for the types of things we did in both team01 and team02.
+
 ## Repos for team02
 
 Here are the links to the repos for team02
@@ -59,24 +72,10 @@ Here are the links to the repos for team02
 | [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/16)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/20)| [{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/24)|
 | [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/17) |[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/21) | [{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/25) |
 
-
 For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
 please check in with the staff.  
 
-You should see {{page.num_issues}} issues on the board in the ToDo column when you start:
-* There are {{page.num_top_level_issues}} issues that pertain to the whole project; these are for the entire team to divide up (so about one per person, though the team can divide those up any way they see fit.)
-* There are also {{page.num_issues_per_table}} issues for each of the six database tables: for example, there are {{page.num_issues_per_table}} issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, one team member will do all six of these; the intent is for each team member to learn all of the basics of working with a database table by going through all of these steps.
-
-## It's still a *team* project.
-
-Having said that, it is still the responsibility of the *entire team* to get all six of the tables completed. So, even if/when you are "finished with your six issues", please *still stay in class* and help others on your team, do code reviews, and generally see where you can be helpful.
-
-The time/effort you invest now in helping to build the capacity of your team will pay off later.
-
-* If other members of your team are sincerely putting in effort with an intention to work for the team, but don't have as much coding experience as you, helping those members out is both in your personal best interest, and the best interest of the team.  It is something you can talk about at job interviews; for employers, this is a highly valued trait.
-* On the other hand, if there are members of your team that are not really showing up, not following through, etc. *this is the time* to call attention to it, not in a mean or hostile way, but in a supportive, but honest way.  You are encouraged to do as much as you can with friendly but candid discussions inside your team first.  Messages on the team slack channel can be helpful here.   If that doesn't help, then call this to the attention of your team mentor (i.e. the TA/LA assigned to your team, see: <https://bit.ly/cs156-f23-teams> for a list), and or the instructor via DMs on Slack.
-* If you want to have a private 1-1 chat, that's good too, but please start with a Slack message so that we can keep track of who is telling us what; with twelve teams (and sometimes 36 or more teams over the course of an academic year) it gets difficult to remember who we talked to about what.
 
 ## Work on your own laptop, not CSIL
 
@@ -91,26 +90,155 @@ If this presents a difficulty, please contact the instructor ASAP so that some a
 
 ## Big Picture: what is team02 all about?
 
-From a high-level standpoint, you'll be resolving these issues:
+We'll be working to create six database tables:
 
-Set up Tasks (once per team):
+* Articles: for example, blog posts, newspaper articles, etc.
+* UCSB Dining Commons Menu Items: food/beverage items offered by UCSB Dining Halls
+* Menu Item Reviews: reviews of food/beverage items offered by UCSB Dining Halls
+* Help Requests: requests for help, e.g. those on the `#help-lecture-discussion` channel of the course slack
+* Recommendation Requests: e.g. requests for letters of rec for grad school, scholarships, jobs
+* UCSB Organizations: student orgs at UCSB
 
-* Setting up a Repo with prod deployment on Dokku
-* Setting up a Repo with qa deployment on Dokku
+There is more information on each of these tables in the assignment.
 
-Coding Tasks: 
-* Adding 6 database tables (about one per team member)
-* Setting up CRUD (Create, Read, Update, Destroy) operations for each of those tables
-* Adding backend test coverage for all of that
+Then, we'll add API endpoints that allow you to create, read, update and destroy records in each of these database tables.
 
-For this assignment, we are still dealing directly with the backend via Swagger.
 
-In the next assignment, we'll start looking how how to build a proper front end for the types of things we did in both team01 and team02.
+<details markdown="1">
+<summary>
+Click the triangle to see more detail about what that looks like on Swagger.
+</summary>  
+
+### CRUD operations on Swagger
+
+Here's what the CRUD operations look like for the two example database tables in the starter code:
+
+<img width="684" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/4710aff0-bfc4-4f31-ba51-3c8e7801fd9e">
+
+Once you set up your team's `team02` deployment on dokku, you should be able to try this out:
+* To create a new record, use the `POST` endpoint
+* To see the new record you created, use either of the `GET` endpoints
+* To modify a record, use the `PUT` endpoint.
+* To delete a record, use the `DELETE` endpoint.
+
+You are encouraged to try these out on the example database tables before starting to work on your own, so that you understand
+how the database is supposed to work.
+
+</details>
+
+## The Kanban board contents
+
+You should see {{page.num_issues}} issues on the board in the ToDo column when you start.  From a high-level standpoint, you'll be resolving all of the issues on the Kanban board, which are divided into two types:
+
+* There are {{page.num_top_level_issues}} issues that pertain to the whole project; these are for the entire team to divide up (so about one per person, though the team can divide those up any way they see fit.)
+* There are also {{page.num_issues_per_table_alpha} issues for each of the {{page.num_database_tables_alpha}} database tables: for example, there are {{page.num_issues_per_table_alpha}  issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, each team member will choose one database table (e.g. `Articles` and then complete  all {{page.num_issues_per_table_alpha} of the issues pertaining to `Articles`. 
+
+### Set up Tasks 
+
+These appear only once on the board for the entire team; there are a total of {{page.num_top_level_issues}} of them.
+
+| Task | 
+|------|
+| Adjusting the `README.md` with a list of who is working on which table |
+| Setting up Github Pages |
+| Setting up a Repo with prod deployment on Dokku |
+| Setting up a Repo with qa deployment on Dokku |
+| Adjusting the links in the README.md for the dokku deployments |
+| Submitting the final project on Canvas (this is the *last* thing the team will do) |
+
+### Coding Tasks
+
+These are done by each team member for their database table, so each of these {{page.num_issues_per_table}} issues appears
+once for each of the {{page.num_database_tables}} database tables.
+
+| Task | Coding? |
+|------|--------|
+| Setting up a personal dokku dev instance (no coding) | None: config only |
+| Setting up the database table (`@Entity` and `@Repository` class) (code under `/src/main/java` only) | Under `src/main/java` only |
+| Setting up the POST operation (which creates one database row) and a GET operation to get all rows in the database |  Under `src/main/java` and `src/test/java` |
+| Setting up an GET operation to get a single row by its id |  Under `src/main/java` and `src/test/java` |
+| Setting up a DELETE operation (to delete a single row by its id) |  Under `src/main/java` and `src/test/java` |
+| Setting up a PUT operation (to update a single row by its id) |  Under `src/main/java` and `src/test/java` |
+
+There is more detail both in the instructions below and on the issues themselves about how to proceed.
+
+
+## It's still a *team* project.
+
+Having said that, it is still the responsibility of the *entire team* to get all the issues for all  {{page.num_database_tables_alpha}}  of the tables completed. So, even if/when you are "finished with the {{page.num_issues_per_table_alpha} issues for your table", please *still stay in class* and help others on your team, do code reviews, and generally see where you can be helpful.
+
+The time/effort you invest now in helping to build the capacity of your team will pay off later.
+
+* If other members of your team are sincerely putting in effort with an intention to work for the team, but don't have as much coding experience as you, helping those members out is both in your personal best interest, and the best interest of the team.  It is something you can talk about at job interviews; for employers, this is a highly valued trait.
+* On the other hand, if there are members of your team that are not really showing up, not following through, etc. *this is the time* to call attention to it, not in a mean or hostile way, but in a supportive, but honest way.  You are encouraged to do as much as you can with friendly but candid discussions inside your team first.  Messages on the team slack channel can be helpful here.   If that doesn't help, then call this to the attention of your team mentor (i.e. the TA/LA assigned to your team, see: <https://bit.ly/cs156-f23-teams> for a list), and or the instructor via DMs on Slack.
+* If you want to have a private 1-1 chat, that's good too, but please start with a Slack message so that we can keep track of who is telling us what; with twelve teams (and sometimes 36 or more teams over the course of an academic year) it gets difficult to remember who we talked to about what.
+
+
+## What you'll do: Process
+
+From a process standpoint, this project works the same as team01:
+
+Here's how that will play out in detail:
+1. To start, each of you should clone your team's `team02-teamname` repo, which should already have a Kanban board set up for it.
+2. On the team's Kanban board, there should be two types of issues:
+   * Ones that are global to the entire team (setup tasks)
+   * Ones that pertain to a particular database table
+4. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
+5. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
+   
+   That post might look something like this:
+
+   ```
+   Adam:  Articles
+   Brianna: Menu Item Reviews
+   Chris:  Help Requests
+   Danny: Recommendation Requests
+   Erin: UCSB Organizations
+   Fay: UCSB Dining Commons Menu Items
+   ```
+
+   At this point, whomever was assigned the issue to add the table to the README with the team assignments should be able to get that done.
+   
+6. Now look on the Kanban board.  You should find that there are six issues on the Kanban board for your specific database table:   
+
+   You should find all of the stories for your database item, and assign them to yourself; but drag *only one* into the In Progress column (and if you are already assigned to one of the set up tasks, don't even drag that one yet!  
+   
+   Typically, you should be assigned to only one item at a time in the In Progress column.  The exception is if you drag an item to In Progress, make some progress on it, and then need to stop working on it for a while because you are blocked, or something else urgently needs your attention.  But that should be the exception, not the normal way of doing things.
+   
+8. Now work on your issues as you did in team01; dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.  Also work on the setup task to which you were assigned.
+9. While the project is underway, **every time class meets, you'll start with a standup meeting**.
+
+   While it is optional, many teams also find it helpful to schedule a few standups on slack/zoom or in person outside of class on days the class doesn't meet (one or more of: Fri, Sat, Sun, Mon).
+
+   When all issues are finished, complete the "Submit on Canvas" issue. It may contain a checklist of things to review as you submit.
+
+
+# Getting started
+
+To get started:
+
+* Clone your team's team02 
+* Add the <{{page.starter}}> repo as a remote called starter
+  <p>
+  <tt>git remote add starter {{page.starter}} </tt>
+  </p>
+  This is in case there are updates to the starter code that you need to pull from by doing:
+  ```
+  git pull starter main
+  git push origin main
+  ```
+* Then you are ready to start by making your first branch, something like `Chris-RecRequestTable`
+  ```
+  git checkout -b Chris-ReqRequestTable
+  ```
+
+Also: set up your dev deployment on dokku (see the issue: "(your-database-table) - Create personal dokku dev deployment"
 
 # More details on team02
 
-In this team project, our starter code has a frontend and backend, however we are still focusing only on the backend part.  The front end provides only a place for us to login with our Google account so that we
-can authenticate before doing CRUD operations.
+The rest of the material below is extra background/explanation to help you understand the assignment.
+
+In this team project, our starter code has a frontend and backend, however we are still focusing only on the backend part.  The frontend is a minimal frontend that provides *only a place for us to login with our Google account* so that we can authenticate before doing CRUD operations.
 
 We are focusing on learning these new Spring Boot backend concepts:
 
@@ -127,7 +255,7 @@ In addition, we'll practice further with a few concepts that we touched on in `j
 - Working with feature branches, issues, a Kanban board, pull requests, and GitHub actions scripts
 - Working with code coverage and mutation testing
 
-## The starting code
+## The two database tables in the starting code
 
 Your starter code at <{{page.starter}}> provides Spring Boot code with the ability to do CRUD operations on two database tables:
 
@@ -404,7 +532,17 @@ Here are some sample values:
   
 </details>
 
-### An `@Entity` class
+
+## Adding a database table
+
+To add an SQL database table in Spring Boot, you typically add two files:
+
+* A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table.  Name should be a singular noun.  Add the file in the same directory/package as the other `@Entity` classes.
+* A Java class that is annotated with `@Repository`; each instance of this class represents a database table.  Name should be the Entity name followed by `Repository`. Add the file in the same directory/package as the other `@Repository` classes.
+
+There is more information in the sections below as well as on the Kanban Board issues themselves to guide you through the process.
+
+### What is an `@Entity` class?
 
 Every database table starts with an `@Entity class that defines what one row of the table contains.  
 
@@ -414,7 +552,8 @@ For the most part think of it as a "plain old java object" that just has the bas
 
 We typically use singular nouns for the entity class, e.g. `UCSBDate`, `UCSBDiningCommons`
 
-### Two types of id values for an `@Entity`
+
+### Two types of id values for an `@Entity` class
 
 In Spring, each `@Entity` class has a *primary key* marked with the annotation `@Id`.
 
@@ -445,138 +584,12 @@ There are two strategies for dealing with this requirement:
    private String code;
    ```
 
-## Setting up a `@Repository` class
+### The `@Entity` class in more detail
 
-A second part of setting up a database table in Spring is creating a `@Repository` class.
-
-Note: do not confuse this use of the english word "repository" with the concept of a "repository
-in Git/Github.  The english word "repository" means "a container in which things are stored", and, regrettably, it was chosen, separately, by both the authors of git and the authors of Spring, to mean two very different kinds of collections.
-
-In Spring, a `@Repository` class is an abstraction for the database table itself, i.e. an instance of a `@Repository` class represents the entire table of data (all of the rows and columns). 
-
-We typically name a Repository class with a name such as `___Repository` where the blank is filled in with the name of the `@Entity`, e.g. instances of an `@Entity` class named `UCSBDate` would be stored in a `UCSBDateRepository`.
-
-It is important to understand that when you set up an `@Repository` class, the types that you pass to `CRUDRepository` as shown below must match the type of the `@Entity` and the type of the `@Id` field, as in these examples:
-
-1. `UCSBDateRepository` uses `CrudRepository<UCSBDate, Long>` because the `@Id` field of `UCSBDate` is a `Long`:
-
-    ```
-    @Repository
-    public interface UCSBDateRepository extends CrudRepository<UCSBDate, Long> {
-    ...
-    ```
-   
-2. `UCSBDiningCommonsRepository` uses `CrudRepository<UCSBDate, String>` because the `@Id` field of `UCSBDiningCommons` is a `String`:
-
-    ```
-    @Repository
-    public interface UCSBDiningCommonsRepository extends CrudRepository<UCSBDiningCommons, String> {
-    ...
-    ```
-   
-As you look over your database table description above, take note of which of these applies to you.  It's important to choose the correct kind of code as your model when creating your own `@Entity`, `@Repository` and `Controller (@RestController)` classes:
-
-* Choose `UCSBDate` as your example to follow when the id field is going to be an integer, e.g. in the cases of `UCSBDiningCommonsMenuItems`,  `RecommendationRequests`, `MenuItemReviews`, `HelpRequests`, `Articles`
-* Choose `UCSBDiningCommons` when the id field is going to be a unique string that's part of the data, e.g. in the cases of `UCSBOrganizations`.
-
-## What you'll do: Process
-
-From a process standpoint, this project works the same as team01:
-
-
-Here's how that will play out in detail:
-1. To start, each of you should clone your team's `team02-teamname` repo, which should already have a Kanban board set up for it.
-2. On the team's Kanban board, there should be two types of issues:
-   * Ones that pertain to a particular database table
-   * Ones that are global to the entire team
-4. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
-5. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
-   That post might look something like this:
-
-   ```
-   Adam:  Articles
-   Brianna: Menu Item Reviews
-   Chris:  Help Requests
-   Danny: Recommendation Requests
-   Erin: UCSB Organizations
-   Fay: UCSB Dining Commons Menu Items
-   ```
-   
-6. Now look on the Kanban board.  You should find that there are five issues on the Kanban board for your specific database table:   
-   
-   * create_database_table
-   * add_list_all_and_post_endpoints
-   * add get for single item
-   * add put for single item
-   * add delete for single item 
-
-   You should find all of the stories for your database item, and assign them to yourself; but drag *only one* into the In Progress column (and if you are already assigned to one of the set up tasks, don't even drag that one yet!  
-   
-   Typically, you should be assigned to only one item at a time in the In Progress column.  The exception is if you drag an item to In Progress, make some progress on it, and then need to stop working on it for a while because you are blocked, or something else urgently needs your attention.  But that should be the exception, not the normal way of doing things.
-   
-7. Now work on your issues as you did in team01; dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.
-8. Near the end of the project there are a few "clean up tasks" for your team.    Those are marked as such on the Kanban board.   One of the last of those is to submit on Gauchospace for your team to note that your team is ready for the work to be graded.
-
-
-
-# Getting started
-
-To get started:
-
-* Clone your team's team02 
-* Add the <{{page.starter}}> repo as a remote called starter
-  <p>
-  <tt>git remote add starter {{page.starter}} </tt>
-  </p>
-  This is in case there are updates to the starter code that you need to pull from by doing:
-  ```
-  git pull starter main
-  git push origin main
-  ```
-* Then you are ready to start by making your first branch, something like `Chris-RecRequestTable`
-  ```
-  git checkout -b Chris-ReqRequestTable
-  ```
-
-
-### Implement CRUD operations for a database table
-
-
-To add an SQL database table in Spring Boot, you typically add two files:
-
-* A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table.  Name should be a singular noun.  Add the file in the same directory/package as the other `@Entity` classes.
-* A Java class that is annotated with `@Repository`; each instance of this class represents a database table.  Name should be the Entity name followed by `Repository`. Add the file in the same directory/package as the other `@Repository` classes.
-
-There is more information in the issues on the Kanban board to guide you through the rest of the process.
-
-# More Hints
-
-We may add more hints about working with the team02 code as we discover what
-problems studnets run into.
-
-In the meantime, use the `#help-team02` channel to ask questions.
-
-# A note about open source
-
-Note that this assignment is open source.
-
-The repos are public *on purpose*.
-* You are encouraged to consult with one another within and across teams where it helps
-  your learning.
-* That does not mean that you can cheat by just copying code from another team.
-* You are *not* permitted to just look at another team's code, even though you "can".
-* It does mean that you should try to solve the problems as best you can, but you may 
-  consult with members of other teams as you work.  In that context, you may look at 
-  other team's code.
-
-This isn't hard.   You all *know* when you are are looking at other team's work to
-try to learn, versus when you are just looking at it as a shortcut to learning.
-
-I'm trusting you to do the right thing.   This is practice for when, later on, you are
-all working on different assignments.
-
-# Understanding how to create the `@Entity` class
-
+<details markdown="1">
+<summary markdown="1">
+Click the triangle for more details on creating an `@Entity` class
+</summary>
 
 For example of `@Entity` classes, consult these files in the starter code:
 
@@ -629,8 +642,49 @@ What do these annotations do?
 
 With these annotations in place, it's a simple matter of defining private fields for each of the columns in the database table.
 
+</details>
 
-# Details: `@Repository` class
+
+### What is a `@Repository` class?
+
+A second part of setting up a database table in Spring is creating a `@Repository` class.
+
+Note: do not confuse this use of the english word "repository" with the concept of a "repository
+in Git/Github.  The english word "repository" means "a container in which things are stored", and, regrettably, it was chosen, separately, by both the authors of git and the authors of Spring, to mean two very different kinds of collections.
+
+In Spring, a `@Repository` class is an abstraction for the database table itself, i.e. an instance of a `@Repository` class represents the entire table of data (all of the rows and columns). 
+
+We typically name a Repository class with a name such as `___Repository` where the blank is filled in with the name of the `@Entity`, e.g. instances of an `@Entity` class named `UCSBDate` would be stored in a `UCSBDateRepository`.
+
+It is important to understand that when you set up an `@Repository` class, the types that you pass to `CRUDRepository` as shown below must match the type of the `@Entity` and the type of the `@Id` field, as in these examples:
+
+1. `UCSBDateRepository` uses `CrudRepository<UCSBDate, Long>` because the `@Id` field of `UCSBDate` is a `Long`:
+
+    ```
+    @Repository
+    public interface UCSBDateRepository extends CrudRepository<UCSBDate, Long> {
+    ...
+    ```
+   
+2. `UCSBDiningCommonsRepository` uses `CrudRepository<UCSBDate, String>` because the `@Id` field of `UCSBDiningCommons` is a `String`:
+
+    ```
+    @Repository
+    public interface UCSBDiningCommonsRepository extends CrudRepository<UCSBDiningCommons, String> {
+    ...
+    ```
+   
+As you look over your database table description above, take note of which of these applies to you.  It's important to choose the correct kind of code as your model when creating your own `@Entity`, `@Repository` and `Controller (@RestController)` classes:
+
+* Choose `UCSBDate` as your example to follow when the id field is going to be an integer, e.g. in the cases of `UCSBDiningCommonsMenuItems`,  `RecommendationRequests`, `MenuItemReviews`, `HelpRequests`, `Articles`
+* Choose `UCSBDiningCommons` when the id field is going to be a unique string that's part of the data, e.g. in the cases of `UCSBOrganizations`.
+
+### The `@Repository` class in more detail
+
+<details markdown="1">
+<summary markdown="1">
+Click the triangle for more details on creating an `@Repository` class
+</summary>
 
 For the repository class, see the examples:
 
@@ -651,6 +705,36 @@ generated code are complicated: we will not go over all of them in lecture, and 
 *you probably won't need that for this assignment* (though you may need to know it later in the course.)
 
 In any case, if/when you do need to understand that, here is some documentation is here to help get you started: <https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/#jdbc.query-methods>
+
+</details>
+
+
+# More Hints
+
+We may add more hints about working with the team02 code as we discover what
+problems studnets run into.
+
+In the meantime, use the `#help-team02` channel to ask questions.
+
+# A note about open source
+
+Note that this assignment is open source.
+
+The repos are public *on purpose*.
+* You are encouraged to consult with one another within and across teams where it helps
+  your learning.
+* That does not mean that you can cheat by just copying code from another team.
+* You are *not* permitted to just look at another team's code, even though you "can".
+* It does mean that you should try to solve the problems as best you can, but you may 
+  consult with members of other teams as you work.  In that context, you may look at 
+  other team's code.
+
+This isn't hard.   You all *know* when you are are looking at other team's work to
+try to learn, versus when you are just looking at it as a shortcut to learning.
+
+I'm trusting you to do the right thing.   This is practice for when, later on, you are
+all working on different assignments.
+
 
 # Details: Controller methods and tests
 
