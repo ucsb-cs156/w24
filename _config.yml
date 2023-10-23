@@ -6,7 +6,7 @@ incremental: true
 
 course: "CMPSC 156"
 title: "CS156 w24"
-quarter: "Fall 2023"
+quarter: "Winter 2024"
 QXX: w24
 qxx: w24
 baseurl: "/w24"
@@ -14,7 +14,7 @@ baseurl: "/w24"
 ta_list_full: TBD
 la_list_full: TBD
 discussion_section_day: Wednesday
-discussion_section_times: 5pm, 6pm, 7pm 
+discussion_section_times: 4pm, 5pm, 6pm, 7pm
 
 mermaid:
   # Version of mermaid library
