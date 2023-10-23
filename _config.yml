@@ -5,11 +5,11 @@ theme: just-the-docs
 incremental: true
 
 course: "CMPSC 156"
-title: "CS156 f23"
+title: "CS156 w24"
 quarter: "Fall 2023"
-QXX: f23
-qxx: f23
-baseurl: "/f23"
+QXX: w24
+qxx: w24
+baseurl: "/w24"
 
 ta_list_full: TBD
 la_list_full: TBD
@@ -36,13 +36,13 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/ucsb-cs156/f23" # the github URL for your repo
+gh_edit_repository: "https://github.com/ucsb-cs156/w24" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 
-help_macos_link: https://ucsb-cs156-f23.slack.com/
-help_windows_link: https://ucsb-cs156-f23.slack.com/
+help_macos_link: https://ucsb-cs156-w24.slack.com/
+help_windows_link: https://ucsb-cs156-w24.slack.com/
 
 
 # Collections for website data
