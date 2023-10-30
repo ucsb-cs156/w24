@@ -719,9 +719,21 @@ In Liquibase, a migration file describes how a change should be applied to a giv
 * Each change set has an `id` such as `Articles-1`.  The `id` is typically the name of the `@Entity` class followed by a number; these numbers just start at 1 and increase with each change set. , -the number of the `changeSet` in the file, Example: Articles-1. 
 * In addition to that each `changeSet` has an `author`, some `preconditions` and most important, a list of `changes`.
 
-In the `changes` is where we describe the database changes, in the example files for `UCSBDates` and `UCSBDinningCommons` we can see the changes described for the creation of a new table.
-Example:
-  ```
+<details markdown="1">
+<summary markdown="1">
+Click the triangle for more details on creating an `Database Migration` file
+</summary>
+
+For the Database Migration files, see the examples:
+
+* [UCSBDate](https://github.com/ucsb-cs156-w24/STARTER-team02/blob/main/src/main/resources/db/migration/changes/UCSBDates.json)
+* [UCSBDiningCommons](https://github.com/ucsb-cs156-w24/STARTER-team02/blob/main/src/main/resources/db/migration/changes/UCSBDiningCommons.json)
+
+We describe the database changes in the `changes` section of the files linked to above.
+
+Here's the code for one of those, namely the database migration for file `UCSBDates`:
+
+```json
   {
     "databaseChangeLog": [
       {
@@ -784,26 +796,16 @@ Example:
       }
     ]
   }
-  ```
+```
 
-It is important that the `tableName` atribute of the change matches the `@Entity(name = YOURTABLENAME)` that you provided during the creation of the Entity Class.
+It is important that the `tableName` attribute of the change matches the `@Entity(name = YOURTABLENAME)` that you provided during the creation of the `@Entity` Class.
 
-From now on if you make any change to the original entity a new `changeSet` with a new `id` needs to be added to the database migration file so that the database tables align with the Entity.
+From this point forward, any time you make a change to the original entity you must create a new `changeSet` with a new `id` value.
+That `changeSet` needs to be added to the database migration file so that the database tables align with the `@Entity`.
 
-All changes described in these files will be applied everytime you start the app with `mvn spring-boot:run`. However if the changes were already applied they will not be applied again
+All changes described in these files will be applied everytime you start the app with `mvn spring-boot:run`. However if the changes were already applied they will not be applied again.
 
 For more information on Liquibase you can visit <https://ucsb-cs156.github.io/topics/liquibase/>
-
-<details markdown="1">
-<summary markdown="1">
-Click the triangle for more details on creating an `Database Migration` file
-</summary>
-
-For the Database Migration files, see the examples:
-
-* [UCSBDate](https://github.com/ucsb-cs156-w24/STARTER-team02/blob/main/src/main/resources/db/migration/changes/UCSBDates.json)
-* [UCSBDiningCommons](https://github.com/ucsb-cs156-w24/STARTER-team02/blob/main/src/main/resources/db/migration/changes/UCSBDiningCommons.json)
-
 
 Note that these files only describe the creation of a table, however on the real world you will most likely be describing changes like adding a new column or deleting an existing table etc. for all possible changes you can make to the database using the changes sets you can see <https://docs.liquibase.com/change-types/home.html>
 
