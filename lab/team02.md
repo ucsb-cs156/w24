@@ -711,11 +711,13 @@ In any case, if/when you do need to understand that, here is some documentation 
 
 ### What is a `Database Migration` file?
 
-the third part of setting up your new table is a creating a migration file
+The third part of setting up your new table is a creating a *database migration file*.
 
-In Liquibase a migration file describes how a change should be applied to a given table. It is used on live databases where the data cannot be erased between versions and need to be under continuous integration.
+In Liquibase, a migration file describes how a change should be applied to a given table. It is used on live databases where the data cannot be erased between versions and need to be under continuous integration.
 
-Each file contains multiple `changeSets` each change set contains an `id` typically the name of the file-the number of the `changeSet` in the file, Example: Articles-1. In addition to that each `changeSet` contains an `author` some `preconditions` and the most important a list of `changes`
+* Each file contains multiple `changeSets`. 
+* Each change set has an `id` such as `Articles-1`.  The `id` is typically the name of the `@Entity` class followed by a number; these numbers just start at 1 and increase with each change set. , -the number of the `changeSet` in the file, Example: Articles-1. 
+* In addition to that each `changeSet` has an `author`, some `preconditions` and most important, a list of `changes`.
 
 In the `changes` is where we describe the database changes, in the example files for `UCSBDates` and `UCSBDinningCommons` we can see the changes described for the creation of a new table.
 Example:
