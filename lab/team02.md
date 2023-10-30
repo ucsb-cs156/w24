@@ -719,6 +719,8 @@ In Liquibase, a migration file describes how a change should be applied to a giv
 * Each change set has an `id` such as `Articles-1`.  The `id` is typically the name of the `@Entity` class followed by a number; these numbers just start at 1 and increase with each change set. , -the number of the `changeSet` in the file, Example: Articles-1. 
 * In addition to that each `changeSet` has an `author`, some `preconditions` and most important, a list of `changes`.
 
+### The database migration files in more detail
+
 <details markdown="1">
 <summary markdown="1">
 Click the triangle for more details on creating an `Database Migration` file
