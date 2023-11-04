@@ -46,7 +46,7 @@ demo_deployment: http://team02.dokku-00.cs.ucsb.edu
 
 In this assignment, we will build the backend only for api endpoint that allow CRUD operations (Create, Read, Update, Destroy) for each of six database tables.
 
-The type of database we'll work with in this assignment is called an SQL database (SQL is typically pronounced like the english word "sequel").  
+The type of database we'll work with in this assignment is called an SQL database (SQL is typically pronounced like the english word "sequel").
 
 For this assignment, we are still dealing directly with the backend via Swagger.
 
@@ -74,7 +74,7 @@ Here are the links to the repos for team02
 
 For team02, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
-please check in with the staff.  
+please check in with the staff.
 
 
 ## Work on your own laptop, not CSIL
@@ -82,7 +82,7 @@ please check in with the staff.
 You should be working with a Java/Javascript setup on your
 own laptop by this point, not on CSIL.
 
-For advice on what to install, see: 
+For advice on what to install, see:
 * <https://ucsb-cs156.github.io/{{site.qxx}}/info/software.html>
 
 If this presents a difficulty, please contact the instructor ASAP so that some arrangement can be made for your situation.
@@ -107,7 +107,7 @@ Then, we'll add API endpoints that allow you to create, read, update and destroy
 <details markdown="1">
 <summary>
 Click the triangle to see more detail about what that looks like on Swagger.
-</summary>  
+</summary>
 
 ### CRUD operations on Swagger
 
@@ -131,13 +131,13 @@ how the database is supposed to work.
 You should see {{page.num_issues}} issues on the board in the ToDo column when you start.  From a high-level standpoint, you'll be resolving all of the issues on the Kanban board, which are divided into two types:
 
 * There are {{page.num_top_level_issues}} issues that pertain to the whole project; these are for the entire team to divide up (so about one per person, though the team can divide those up any way they see fit.)
-* There are also {{page.num_issues_per_table_alpha}} issues for each of the {{page.num_database_tables_alpha}} database tables: for example, there are {{page.num_issues_per_table_alpha}}  issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, each team member will choose one database table (e.g. `Articles` and then complete  all {{page.num_issues_per_table_alpha}} of the issues pertaining to `Articles`. 
+* There are also {{page.num_issues_per_table_alpha}} issues for each of the {{page.num_database_tables_alpha}} database tables: for example, there are {{page.num_issues_per_table_alpha}}  issues that pertain to the `UCSBDiningCommonsMenuItems` table.   Typically, each team member will choose one database table (e.g. `Articles` and then complete  all {{page.num_issues_per_table_alpha}} of the issues pertaining to `Articles`.
 
-### Set up Tasks 
+### Set up Tasks
 
 These appear only once on the board for the entire team; there are a total of {{page.num_top_level_issues}} of them.
 
-| Task | 
+| Task |
 |------|
 | Adjusting the `README.md` with a list of who is working on which table |
 | Setting up Github Pages |
@@ -185,7 +185,7 @@ Here's how that will play out in detail:
    * Ones that pertain to a particular database table
 4. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
 5. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
-   
+
    That post might look something like this:
 
    ```
@@ -198,13 +198,13 @@ Here's how that will play out in detail:
    ```
 
    At this point, whomever was assigned the issue to add the table to the README with the team assignments should be able to get that done.
-   
-6. Now look on the Kanban board.  You should find that there are six issues on the Kanban board for your specific database table:   
 
-   You should find all of the stories for your database item, and assign them to yourself; but drag *only one* into the In Progress column (and if you are already assigned to one of the set up tasks, don't even drag that one yet!  
-   
+6. Now look on the Kanban board.  You should find that there are six issues on the Kanban board for your specific database table:
+
+   You should find all of the stories for your database item, and assign them to yourself; but drag *only one* into the In Progress column (and if you are already assigned to one of the set up tasks, don't even drag that one yet!
+
    Typically, you should be assigned to only one item at a time in the In Progress column.  The exception is if you drag an item to In Progress, make some progress on it, and then need to stop working on it for a while because you are blocked, or something else urgently needs your attention.  But that should be the exception, not the normal way of doing things.
-   
+
 8. Now work on your issues as you did in team01; dragging them to "In Review" once they are ready for code review, and to "Done" when they are merged.  Also work on the setup task to which you were assigned.
 9. While the project is underway, **every time class meets, you'll start with a standup meeting**.
 
@@ -217,7 +217,7 @@ Here's how that will play out in detail:
 
 To get started:
 
-* Clone your team's team02 
+* Clone your team's team02
 * Add the <{{page.starter}}> repo as a remote called starter
   <p>
   <tt>git remote add starter {{page.starter}} </tt>
@@ -243,7 +243,7 @@ In this team project, our starter code has a frontend and backend, however we ar
 We are focusing on learning these new Spring Boot backend concepts:
 
 * Creating SQL database tables using `@Entity` and `@Repository`
-* Creating a database migration file for Liquibase migration
+* Creating a `database migration` file for Liquibase migration
 * Using the Lombok annotations: `@Data`, `@NoArgsConstructor`, `@Builder`, etc.
 * Implementing controller routes for CRUD operations (Created, Read, Update, Destroy)
 * Writing unit tests for controller CRUD operations, including the use of:
@@ -321,19 +321,19 @@ On the Kanban board, you'll find five issues for each of these tables:
 * Add database table (the `@Entity` and `@Repository` classes, no test classes)
 * Add `GET` endpoint to list all database records, and a `POST`  endpoint to create new database records, plus tests (this, and all of the rest, are done in the Controller and Controller test classes)
 * Add `GET` endpoint to get a single database row by its id. (plus tests)
-* Add `PUT` endpoint to update a single database row by its id. (plus tests) 
+* Add `PUT` endpoint to update a single database row by its id. (plus tests)
 * Add `DELETE` endpoint to delete a single database row by its id. (plus tests)
 
 You should choose one of these database tables, and then assign yourself the five issues that pertain to that database table.
 
 As you look over these, note that some of them use an *autogenerated `Long`* as the `@Id` field, while others use a different field
-already in the data.  That may not make any sense to you right now, but there is an explanation immediately following the list of database tables.  
+already in the data.  That may not make any sense to you right now, but there is an explanation immediately following the list of database tables.
 We'll also go over this in lecture.
-   
+
 ### (1) UCSB Dining Commons Menu Item
 
 <details markdown="1">
-  
+
 <summary>
 For details on the UCSB Dining Commons Menu database table, click the triangle
 </summary>
@@ -353,8 +353,8 @@ Here are some sample values:
 | 3  | ortega            | Chicken Caesar Salad  | Entrees |
 | 5  | portola            | Cream of Broccoli Soup (v) | Greens & Grains |
 
-</details>  
-  
+</details>
+
 ### (2) UCSB Organization
 
 <details markdown="1">
@@ -398,10 +398,10 @@ The `RecommendationRequests` table will use an autogenerated  `Long` as its `@Id
 * LocalDateTime dateRequested
 * LocalDateTime dateNeeded
 * boolean done
-  
+
 
 Here are some sample values:
-  
+
 | id | requesterEmail | professorEmail | explanation | dateRequested | dateNeeded | done |
 |-|-|-|-|-|-|-|
 | 1 | cgaucho@ucsb.edu | phtcon@ucsb.edu | BS/MS program | 2022-04-20 | 2022-05-01 | false |
@@ -426,14 +426,14 @@ The `MenuItemReviews` table will use an autogenerated  `Long` as its `@Id` field
 * String reviewerEmail (the email of the reviewer)
 * int stars (0 to 5 stars)
 * LocalDateTime dateReviewed
-* String comments  
+* String comments
 
-**Pay attention to this important detail** because students doing this table often get this wrong: there are two id values: `id` and `itemId`.  
+**Pay attention to this important detail** because students doing this table often get this wrong: there are two id values: `id` and `itemId`.
 * The
 `id` value uniquely identifies a review.  For example:
   * "I love the apple pie; so tasty!" might be a review with id `47`
   * "I hate the apple pie; tastes like cardboard" might be a review with id `53`
-* The `itemId` is different. It identifies what item is being reviewed.  It refers to the id in *a different table*, i.e. the `UCSBDiningCommonsMenuItems` table.   
+* The `itemId` is different. It identifies what item is being reviewed.  It refers to the id in *a different table*, i.e. the `UCSBDiningCommonsMenuItems` table.
 
 For example, if that other table (`UCSBDiningCommonsMenuItems`) has an entry for the Apple Pie at Ortega like this:
 ```json
@@ -461,13 +461,13 @@ then this table, the `MenuItemReviews` table might have include these two entrie
     "reviewerEmail" : "ldelplaya@ucsb.edu",
     "stars": 0,
     "comments": "I hate the Apple Pie"
-  },  
+  },
 ]
 ```
 
 Here are some sample values:
-  
-| id | itemId | reviewerEmail | stars | dateReviewed | comments | 
+
+| id | itemId | reviewerEmail | stars | dateReviewed | comments |
 |-|-|-|-|-|-|
 | 1 | 27 | cgaucho@ucsb.edu | 3 | 2022-04-20 | bland af but edible I guess |
 | 2 | 29 | cgaucho@ucsb.edu | 5 | 2022-04-20 | best veggie pizza ever |
@@ -493,16 +493,16 @@ The `HelpRequests` table will use an autogenerated `Long` as its `@Id` field, an
 * LocalDateTime requestTime
 * String explanation
 * boolean solved
-  
-  
+
+
 Here are some sample values:
-  
+
 | id |  requesterEmail | teamId | tableOrBreakoutRoom | requestTime | explanation | solved  |
 |-|-|-|-|-|-|-|
-| 1 | cgaucho@ucsb.edu | s22-5pm-3 | 7 | 2022-04-20T17:35 | Need help with Swagger-ui | false | 
-| 2 | ldelplaya@ucsb.edu | s22-6pm-3 | 11 | 2022-04-20T18:31 | Dokku problems | false | 
-| 3 | pdg@ucsb.edu | s22-6pm-4 | 13 | 2022-04-21T14:15 | Merge conflict  | false | 
-  
+| 1 | cgaucho@ucsb.edu | s22-5pm-3 | 7 | 2022-04-20T17:35 | Need help with Swagger-ui | false |
+| 2 | ldelplaya@ucsb.edu | s22-6pm-3 | 11 | 2022-04-20T18:31 | Dokku problems | false |
+| 3 | pdg@ucsb.edu | s22-6pm-4 | 13 | 2022-04-21T14:15 | Merge conflict  | false |
+
 </details>
 
 
@@ -517,20 +517,20 @@ For details on the Articles database table click the triangle
 
 The `Articles` table will use an autogenerated `Long` as its `@Id` field, and will have these additional fields:
 
-* String title 
-* String url 
+* String title
+* String url
 * String explanation
 * String email (of person that submitted it)
 * LocalDateTime dateAdded
-  
-  
+
+
 Here are some sample values:
-  
-| id | title | url | explanation | email | dateAdded | 
+
+| id | title | url | explanation | email | dateAdded |
 |-|-|-|-|-|-|
 | 1 | Using testing-playground with React Testing Library | https://dev.to/katieraby/using-testing-playground-with-react-testing-library-26j7 | Helpful when we get to front end development | phtcon@ucsb.edu | 2022-04-20 |
 | 2 | Handy Spring Utility Classes | https://twitter.com/maciejwalkowiak/status/1511736828369719300?t=gGXpmBH4y4eY9OBSUInZEg&s=09 | A lot of really useful classes are built into Spring | phtcon@ucsb.edu | 2022-04-19|
-  
+
 </details>
 
 
@@ -541,11 +541,13 @@ To add an SQL database table in Spring Boot, you typically add two files:
 * A Java class that is annotated with `@Entity`; each instance of this class represents a single row in the database table.  Name should be a singular noun.  Add the file in the same directory/package as the other `@Entity` classes.
 * A Java class that is annotated with `@Repository`; each instance of this class represents a database table.  Name should be the Entity name followed by `Repository`. Add the file in the same directory/package as the other `@Repository` classes.
 
+In addition, you'll need to add a `database migration` file in order to create the table in the database. This is done by adding a file in the directory `src/main/resources/db/migration/changes` that describes the changes to the database.
+
 There is more information in the sections below as well as on the Kanban Board issues themselves to guide you through the process.
 
 ### What is an `@Entity` class?
 
-Every database table starts with an `@Entity class that defines what one row of the table contains.  
+Every database table starts with an `@Entity class that defines what one row of the table contains.
 
 For the most part think of it as a "plain old java object" that just has the basic features of a class:
 * private data members for each field (column)
@@ -569,17 +571,17 @@ There are two strategies for dealing with this requirement:
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    private long id;
    ```
-   
-   As an aside: you may wonder what happens when we run out of numbers.  Since these `id` numbers are typically stored in a 64-bit Java `Long`, the maximum number is: `9,223,372,036,854,775,807L`.   
-   * If you stored 1 Million records per second, 24 hours a day, 7 days a week, it would take you [292 thousand years](https://www.google.com/search?q=9%2C223%2C372%2C036%2C854%2C775%2C807+%2F+1000000+%2F+60+%2F+60+%2F+24+%2F+365&rlz=1C5CHFA_enUS888US889&sxsrf=APq-WBtGUMS1ceirZg3u9OrjxeaktzoWaw%3A1643567397963&ei=Jdn2Yen0Oc3EkPIP3du9gA4&ved=0ahUKEwipm63Xjdr1AhVNIkQIHd1tD-AQ4dUDCA4&uact=5&oq=9%2C223%2C372%2C036%2C854%2C775%2C807+%2F+1000000+%2F+60+%2F+60+%2F+24+%2F+365&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQ4w1Y9A9gxxZoAXAAeACAAZcBiAGYA5IBAzAuM5gBAKABAcABAQ&sclient=gws-wiz) to cycle through this many id numbers.  
+
+   As an aside: you may wonder what happens when we run out of numbers.  Since these `id` numbers are typically stored in a 64-bit Java `Long`, the maximum number is: `9,223,372,036,854,775,807L`.
+   * If you stored 1 Million records per second, 24 hours a day, 7 days a week, it would take you [292 thousand years](https://www.google.com/search?q=9%2C223%2C372%2C036%2C854%2C775%2C807+%2F+1000000+%2F+60+%2F+60+%2F+24+%2F+365&rlz=1C5CHFA_enUS888US889&sxsrf=APq-WBtGUMS1ceirZg3u9OrjxeaktzoWaw%3A1643567397963&ei=Jdn2Yen0Oc3EkPIP3du9gA4&ved=0ahUKEwipm63Xjdr1AhVNIkQIHd1tD-AQ4dUDCA4&uact=5&oq=9%2C223%2C372%2C036%2C854%2C775%2C807+%2F+1000000+%2F+60+%2F+60+%2F+24+%2F+365&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQ4w1Y9A9gxxZoAXAAeACAAZcBiAGYA5IBAzAuM5gBAKABAcABAQ&sclient=gws-wiz) to cycle through this many id numbers.
    * That's also over 18,000 records for every square meter on the face of the planet earth.  Not sure what database table needs that many records.
 
-   
+
 2. Using a value already in the data that is inherently unique.  For example, we might use perm number as an id field for a table of students.
 
    The `UCSBDiningCommons` entity in the sample code shows an example, where the `code` field is guaranteed to be unique; no two dining commons
    will have the same `code` value:
-   
+
    ```
    @Id
    private String code;
@@ -653,7 +655,7 @@ A second part of setting up a database table in Spring is creating a `@Repositor
 Note: do not confuse this use of the english word "repository" with the concept of a "repository
 in Git/Github.  The english word "repository" means "a container in which things are stored", and, regrettably, it was chosen, separately, by both the authors of git and the authors of Spring, to mean two very different kinds of collections.
 
-In Spring, a `@Repository` class is an abstraction for the database table itself, i.e. an instance of a `@Repository` class represents the entire table of data (all of the rows and columns). 
+In Spring, a `@Repository` class is an abstraction for the database table itself, i.e. an instance of a `@Repository` class represents the entire table of data (all of the rows and columns).
 
 We typically name a Repository class with a name such as `___Repository` where the blank is filled in with the name of the `@Entity`, e.g. instances of an `@Entity` class named `UCSBDate` would be stored in a `UCSBDateRepository`.
 
@@ -666,7 +668,7 @@ It is important to understand that when you set up an `@Repository` class, the t
     public interface UCSBDateRepository extends CrudRepository<UCSBDate, Long> {
     ...
     ```
-   
+
 2. `UCSBDiningCommonsRepository` uses `CrudRepository<UCSBDate, String>` because the `@Id` field of `UCSBDiningCommons` is a `String`:
 
     ```
@@ -674,7 +676,7 @@ It is important to understand that when you set up an `@Repository` class, the t
     public interface UCSBDiningCommonsRepository extends CrudRepository<UCSBDiningCommons, String> {
     ...
     ```
-   
+
 As you look over your database table description above, take note of which of these applies to you.  It's important to choose the correct kind of code as your model when creating your own `@Entity`, `@Repository` and `Controller (@RestController)` classes:
 
 * Choose `UCSBDate` as your example to follow when the id field is going to be an integer, e.g. in the cases of `UCSBDiningCommonsMenuItems`,  `RecommendationRequests`, `MenuItemReviews`, `HelpRequests`, `Articles`
@@ -697,11 +699,11 @@ Note that these are both `interface` files and not classes.
 
 Normally, if you  create an `interface`, you also need to create a  class that implements that interface.
 
-However, Spring Boot will *automatically generate the code for you*.  
+However, Spring Boot will *automatically generate the code for you*.
 
 In addition, if you need certain kinds of queries, you can specify methods in your interface to implement those queries.
 
-The rules for translating method naming conventions into 
+The rules for translating method naming conventions into
 generated code are complicated: we will not go over all of them in lecture, and you are not expected to memorize or learn them all, and
 *you probably won't need that for this assignment* (though you may need to know it later in the course.)
 
@@ -715,11 +717,11 @@ The third part of setting up your new table is a creating a *database migration 
 
 In Liquibase, a migration file describes how a change should be applied to a given table. It is used on live databases where the data cannot be erased between versions and need to be under continuous integration.
 
-* Each file contains multiple `changeSets`. 
-* Each change set has an `id` such as `Articles-1`.  The `id` is typically the name of the `@Entity` class followed by a number; these numbers just start at 1 and increase with each change set. , -the number of the `changeSet` in the file, Example: Articles-1. 
+* Each file contains multiple `changeSets`.
+* Each change set has an `id` such as `Articles-1`.  The `id` is typically the name of the `@Entity` class followed by a number; these numbers just start at 1 and increase with each change set. , -the number of the `changeSet` in the file, Example: Articles-1.
 * In addition to that each `changeSet` has an `author`, some `preconditions` and most important, a list of `changes`.
 
-### The database migration files in more detail
+### The `Database Migration` file in more detail
 
 <details markdown="1">
 <summary markdown="1">
@@ -800,10 +802,11 @@ Here's the code for one of those, namely the database migration for file `UCSBDa
   }
 ```
 
-It is important that the `tableName` attribute of the change matches the `@Entity(name = YOURTABLENAME)` that you provided during the creation of the `@Entity` Class.
+The file is a JSON file that contains a single object with a single attribute `databaseChangeLog` which is an array of `changeSet` objects. These `changeSet` objects describe the sets of `changes` that need to be made to the database, as well as any `preConditions` that decide whether or not to apply the `changeSet`.
 
-From this point forward, any time you make a change to the original entity you must create a new `changeSet` with a new `id` value.
-That `changeSet` needs to be added to the database migration file so that the database tables align with the `@Entity`.
+It is important that the `tableName` attribute of the `change` matches the `@Entity(name = YOURTABLENAME)` that you provided during the creation of the `@Entity` Class.
+
+From this point forward, any time you make a change to the original entity you must add a new `changeSet` to the `databaseChangeLog` array with a new `id` value. The `changes` section of the `changeSet` will describe the changes that need to be made to the database in order to match the new `@Entity` class.
 
 All changes described in these files will be applied everytime you start the app with `mvn spring-boot:run`. However if the changes were already applied they will not be applied again.
 
@@ -814,7 +817,7 @@ Note that these files only describe the creation of a table, however on the real
 Also you might find it useful to know the commands described in the [Liquibase doc](https://github.com/ucsb-cs156-w24/STARTER-team02/blob/main/docs/liquibase.md). They will allow you to check and apply the changes that will happen to the database outside of just building the app
 
 </details>
-  
+
 
 # More Hints
 
@@ -832,8 +835,8 @@ The repos are public *on purpose*.
   your learning.
 * That does not mean that you can cheat by just copying code from another team.
 * You are *not* permitted to just look at another team's code, even though you "can".
-* It does mean that you should try to solve the problems as best you can, but you may 
-  consult with members of other teams as you work.  In that context, you may look at 
+* It does mean that you should try to solve the problems as best you can, but you may
+  consult with members of other teams as you work.  In that context, you may look at
   other team's code.
 
 This isn't hard.   You all *know* when you are are looking at other team's work to
@@ -881,14 +884,14 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 * Create projects for all of the groups. You can find a script for this here:
   * <https://github.com/{{page.github_org}}/project-creator/blob/main/scripts/team02-projects.sh>
   You will probably need to make a new copy of that repo for this quarter in this
-  quarter's organization and update the scripts.  
+  quarter's organization and update the scripts.
 * After running the script, there are three aspects of setting up the projects that
   are manual:
   * set view to board
   * change team access to admin
   * add "In Review" column
 * Make sure the app <{{page.demo_deployment}}> is up and running, and is sync'd with the starter code:
-  
+
   i.e, on dokku-00 for example, do:
 
   <pre>
@@ -904,7 +907,7 @@ Click the triangle for a list of tasks the instructor should do prior releasing 
 
   <img width="943" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/de8c9efe-7bcd-48a1-97d5-0c0aa68a68db">
 
- 
+
   This setting is probabaly also a good idea:
 
   <img width="972" alt="image" src="https://github.com/ucsb-cs156/f23/assets/1119017/99fead23-d9d0-4373-a435-466c5ef9e752">
