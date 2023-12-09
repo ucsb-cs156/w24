@@ -11,14 +11,14 @@ nav_order: 1
 Basic Facts
 -----------
 
-* **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Slack)
-   * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
+* **Instructor**:  [Scott Chow](www.linkedin.com/in/scott-chow) (contact via Slack)
+   * Use the "instructor messsage" feature to contact Instructor Chow, as well as all TAs, Readers and Mentors
 * **Lecture**:
    * Tue/Thu 2pm-3:15pm
    * You are expected to participate synchronously.  The mode of instruction is "in-person".  Having said that: accomodations will be made if students need to stay away due to illness: please *do not come to class* if you are sick.  Instead, contact the course staff for remote participation options.
-   * While there will be *some* lecture material (recorded and made available asynchronously over Zoom), in most class meetings there will be some 
+   * While there will be *some* lecture material (recorded and made available asynchronously over Zoom), in most class meetings there will be some
      activities that are done in teams during the class meeting time.  There is no meaningful way these activities can be
-     "recorded", done asynchronously, or "made up" after the fact, since the skills we are teaching and learning are *team* skills.   
+     "recorded", done asynchronously, or "made up" after the fact, since the skills we are teaching and learning are *team* skills.
 * **TAs**: {{site.ta_list_full}} (contact via Slack)
 * **LAs**: {{site.la_list_full}} (contact via Slack)
 * **Lab** (50 minute discussion section)
@@ -61,54 +61,54 @@ Final Course Grades
 
 Your grade will be made up of activities from the following categories:
 
-* Participation Grades (10%) - Each participation grade will be out of 100 points.  
-  
+* Participation Grades (10%) - Each participation grade will be out of 100 points.
+
   Particpation grades may vary: some are individual, some are team, and some may be a combination of the two that adds up to 100.
-  
-* Homeworks / Quizzes (20 %) - These will be administered through Gradescope.  
+
+* Homeworks / Quizzes (20 %) - These will be administered through Gradescope.
   Some questions will be graded by hand (e.g. short answer/essay type questions), while others might be autograded
   (e.g. multiple choice, fill in the blank, true/false questions.)  These will typically be based on assigned readings.
-  
+
 * PAs (Auto-Graded Programming assignments) (20 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
 * Exams (25 %) - If conditions permit, we will have two in-person written exams; a midterm and an final. There are two contingencies in case conditions change:
-  - The instructor may substitute a "take-home" exam on an online assessment 
+  - The instructor may substitute a "take-home" exam on an online assessment
     for either of the in-person exams.
   - If only one exam is offered, it will be worth 25% of your grade.
-  - If is not possible to hold any exams, these points will be distributed instead among the other course components. 
+  - If is not possible to hold any exams, these points will be distributed instead among the other course components.
 
-* Project Grade:  (25%) - Your project grade will be based on your contributions during the Project phase of the course.   
+* Project Grade:  (25%) - Your project grade will be based on your contributions during the Project phase of the course.
 
   The project grade is divided into two parts:
   * One component of the project grade is based on your team's productivity, i.e. the extent to which your team
-    makes substantial contributions to the open source project to which you are assigned.   Your team earns points towards a total of 
+    makes substantial contributions to the open source project to which you are assigned.   Your team earns points towards a total of
     100 points for this grade item each time a "pull request" is merged by course staff into the `main` branch of the GitHub repository of
     code for that project.    The number of points earned will vary depending on the challenge represented by the code change.
-    
+
   * Other components of your project grade may be based on an assessment of your performance on various quality metrics related to your team's
-    *professional skills* related to software development.  
+    *professional skills* related to software development.
 
     Your grade here may be a team based grade, an individual grade, or a combination
     of these.  Examples of these include, but are not limited to:
     - The quality of commit messages (inspected by spot checking)
     - The quality of descriptions on pull requests and issues
-    - The extent to which you and your team keep your Kanban board up-to-date 
+    - The extent to which you and your team keep your Kanban board up-to-date
     - Your team's presentations to the course.
 
   In addition, we'll be using peer evaluations through a tool called CATME to assess your individual contributions to the project's success.
-  The peer evaluation may apply a multiplier to your project grade, increasing it or decreasing it, per your team's assessment 
+  The peer evaluation may apply a multiplier to your project grade, increasing it or decreasing it, per your team's assessment
   of your contributions.   It is important to be sure that you are meeting your committments to your team for a variety of reasons; your
   grade is among those.
 
 We will compute an overall average for your score in the course, based on the weights above, plus extra credit.
 
-* Then, a standard 10 point scale will be applied to your overall grade, plus *each* of the four components of your grade 
-  (Participation, Homeworks/Quizzes, PAs, and Project), with the upper and lower ends of each range as +/- grades, 
+* Then, a standard 10 point scale will be applied to your overall grade, plus *each* of the four components of your grade
+  (Participation, Homeworks/Quizzes, PAs, and Project), with the upper and lower ends of each range as +/- grades,
   except for A+ grades, see below.  There is no "rounding up"; a grade of 86.9999 is a B and a grade of 87.0000 is a B+.
 
   This gives us six grade components: the original five, plus your overall average.
-  
+
 Finally:
 
 * To earn a grade of A, you must an A average overall, and in *each* of the five components.
@@ -123,14 +123,14 @@ Finally:
 
 A+ grades: These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff).   Students earning an A+ grade must be in the top 10% of each of the five components of the grade in the class.  The instructor may decide, at their discretion, to not award any A+ grades.
 
-Missing homework/in-class activities: Drop the lowest n grades 
+Missing homework/in-class activities: Drop the lowest n grades
 -------------------------------------------------------
 
-If you miss a participation assignment, you miss the opportunity for the points on that participation assignment, or homework that was due. 
+If you miss a participation assignment, you miss the opportunity for the points on that participation assignment, or homework that was due.
 
 Rather than providing a makeup opportunity, I will drop:
 * the lowest n participation assignments
-* the lowest k homework/quiz grades 
+* the lowest k homework/quiz grades
 
 Where both n and k are a function of the number of assignments in that category:
 * <= 2 assignments, no dropped assignments
