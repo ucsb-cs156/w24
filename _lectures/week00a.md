@@ -1,13 +1,13 @@
 ---
-title: "Week 00a - 09.28 Thu"
-lecture_date: 2023-09-28
+title: "Week 00a - 01.09 Thu"
+lecture_date: 2024-01-09
 description: "Introduction to CS156"
 ready: true
 layout: default
 parent: lectures
-slides: https://docs.google.com/presentation/d/18JwQ0Hv_Qk3J1MvBQoamnEaQ0L-F25LgWqgt0-PDM2w/edit?usp=sharing
+slides: https://docs.google.com/presentation/d/1p5sfBLJZmXqKKmtV9sTRVVq4lbD-hqvEgtt0QZayShQ/edit?usp=sharing
 video: TBD
-slack_help_lecture_discussion: https://ucsb-cs156-f23.slack.com/archives/C05UG867W84
+slack_help_lecture_discussion: https://ucsb-cs156-w24.slack.com/archives/C069ED0JD5G
 link_to_self_intro_activity: https://ucsb.instructure.com/courses/14657/assignments/165161
 link_to_team_first_day_activity: https://ucsb.instructure.com/courses/14657/assignments/165162
 ---
@@ -16,7 +16,7 @@ Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
-Team list: <https://bit.ly/cs156-f23-teams> or 
+Team list: <https://bit.ly/cs156-f23-teams> or
 
 <img src="https://github.com/ucsb-cs156/f23/assets/1119017/329e7aa0-f703-4f77-80d5-541d5e268494" height="300" />
 
@@ -36,7 +36,7 @@ Helping prepare you for transition from "Computer Science Student" to "Professio
 
 # What's different?
 
-| Dimension | CS Student | Professional SW Dev  | 
+| Dimension | CS Student | Professional SW Dev  |
 |---------|-------|----------|
 | What: Differences in Scope | well-defined, fixed scope | vague, open-ended, evolving scope |
 | When: Short vs. Long Time Spans | short time spans (days, weeks)  | long time spans (months, years) |
@@ -71,8 +71,8 @@ Please use #help-lecture-discussion
 - Instead of Raising your hand
 - Instead of Walking up to TA/instructor/LA (they may be in the middle of helping someone else)
 - Instead of Using the "ask for help" button on Zoom
- 
-Note that the zoom "ask for help" button doesn't work well: 
+
+Note that the zoom "ask for help" button doesn't work well:
 - It doesn't maintain a queue
 - Only the "zoom host" sees it
 - It immediately disappears without a trace.
@@ -83,14 +83,14 @@ Here: <https://ucsb-cs156.github.io>
 
 Note the two parts:
 * Permanent part for CS156
-* The part for `/f23/` specifically
+* The part for `/w24/` specifically
 
 
 # Where is the syllabus?
 
 Here:
 
-* <https://ucsb-cs156.github.io/f23/info/syllabus/>
+* <https://ucsb-cs156.github.io/w24/info/syllabus/>
 
 # Online access to the textbooks
 
@@ -99,16 +99,16 @@ Here:
   - <https://bit.ly/or-hfj3> Head First Java, 3rd Edition
   - <https://bit.ly/or-jn8> Java in a Nutshell, 8th Edition
 
-# Homework 
+# Homework
 
-## For next Thursday 
+## For next Thursday
 
 * Before next Thursday's lecture seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
   - Read all of the "abstract" and Section 1 (about 1 page), and skim through Section 4 (about 5 pages)
   - During class next week, you'll be dividing up the six parts of section 4 among the team members,
-    and then doing a more detailed read for a homework assignment due in a few days. 
+    and then doing a more detailed read for a homework assignment due in a few days.
 
-* As you read, be prepared to discuss the ways in which developers felt unprepared, 
+* As you read, be prepared to discuss the ways in which developers felt unprepared,
   and what experiences they wish they had during their courses at University.
 
   The point of reading this paper is to try to understand *why* this course is structured the way it is.
@@ -116,7 +116,7 @@ Here:
 # Other Homework will be on Gradescope
 
 * You can access Gradescope through Canvas
-* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/f23>
+* Link to Canvas is on the course website: <https://ucsb-cs156.github.io/w24>
 * There will be reading assignments in the textbooks for each homework assignment.
 
 # What will we learn in this class:
@@ -125,7 +125,7 @@ Here:
   - Coding to build applications, not just to learn a data structure, algorithm or language feature
 * Working with legacy code
 * Full stack web applications
-  - Java backend 
+  - Java backend
   - JavaScript/React front end
   - Databases and APIs
 
@@ -133,7 +133,7 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
-* Check website for software to install <https://ucsb-cs156.github.io/f23/info/software/>
+* Check website for software to install <https://ucsb-cs156.github.io/w24/info/software/>
 
 # Now we meet our first team
 
@@ -149,20 +149,20 @@ Note that while the instructor, or a TA or LA might drop in on your Breakout Roo
 
 # What to do in your breakout room
 
-1. If you haven't yet made a post to your team channel introducing yourself, 
+1. If you haven't yet made a post to your team channel introducing yourself,
    i.e. [this assignment on Canvas](page.link_to_self_intro_activity), please do that now, following the instructions at [this link](page.link_to_self_intro_activity).
-   
+
    The deadline for full credit for this activity is at the end of today's
    lecture, and it will only take a moment.
 
-2. Once everyone on your team has done that, you are going to work as a team on 
+2. Once everyone on your team has done that, you are going to work as a team on
    the activity at this link on canvas:
 
    * <{{page.link_to_team_first_day_activity}}>
 
-      
-# If time remains, here's what to do with it      
-      
+
+# If time remains, here's what to do with it
+
 If you complete the activities above, with the time remaining, you are invited to discuss with one another your prior experience with these technologies, and record some of that discussion in your Slack channel.
 
 *It's totally fine if you have no experience with any of these things.*  Success in this course is defined by *learning*, which is the change between where you start and where you end up at the end of the course.   So, don't worry about comparing yourself to others and feeling like you don't belong.
@@ -181,7 +181,7 @@ What are you most interested to learn in this course?
 * Spring or Spring Boot, specifically
 * React, specifically
 * Testing with a test framework such a JUnit, Jest, Mocha, Cypress, etc.
-* Test Coverage 
+* Test Coverage
 * basic git (`git add`, `git commit`, `git push`)
 * advanced GitHub (multiple branches, pull requests, rebasing branches)
 * Kanban boards (e.g. Trello, or Projects inside GitHub)
