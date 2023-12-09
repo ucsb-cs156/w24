@@ -11,7 +11,7 @@ nav_order: 1
 Basic Facts
 -----------
 
-* **Instructor**:  [Scott Chow](www.linkedin.com/in/scott-chow) (contact via Slack)
+* **Instructor**:  [Scott Chow](https://www.linkedin.com/in/scott-chow) (contact via Slack)
    * Use the "instructor messsage" feature to contact Instructor Chow, as well as all TAs, Readers and Mentors
 * **Lecture**:
    * Tue/Thu 2pm-3:15pm
