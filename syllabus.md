@@ -14,7 +14,7 @@ Basic Facts
 * **Instructor**:  [Scott Chow](https://www.linkedin.com/in/scott-chow) (contact via Slack)
    * Use the "instructor messsage" feature to contact Instructor Chow, as well as all TAs, Readers and Mentors
 * **Lecture**:
-   * Tue/Thu 2pm-3:15pm
+   * Tue/Thu 5pm-6:15pm @ ILP 2211
    * You are expected to participate synchronously.  The mode of instruction is "in-person".  Having said that: accomodations will be made if students need to stay away due to illness: please *do not come to class* if you are sick.  Instead, contact the course staff for remote participation options.
    * While there will be *some* lecture material (recorded and made available asynchronously over Zoom), in most class meetings there will be some
      activities that are done in teams during the class meeting time.  There is no meaningful way these activities can be
