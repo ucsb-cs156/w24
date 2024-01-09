@@ -139,7 +139,7 @@ We'll now separate into teams, (and/or go into breakout rooms if online) and you
 Teams are by discussion section; there are three discussion sections, and 4 teams per discussion section.
 
 Team assignments, and the mapping from teams to staff (LAs/TAs) is listed here:
-* <https://bit.ly/cs156-f23-teams>
+* <https://bit.ly/cs156-w24-teams>
 
 Note that while the instructor, or a TA or LA might drop in on your Breakout Room, they are not the discussion leader.  You need to self-organize to run your own  breakout room discussion.
 
