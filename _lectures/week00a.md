@@ -87,7 +87,7 @@ Note the two parts:
 
 Here:
 
-* <https://ucsb-cs156.github.io/w24/info/syllabus/>
+* <https://ucsb-cs156.github.io/w24/syllabus>
 
 # Online access to the textbooks
 
