@@ -130,7 +130,7 @@ Legacy Applications: They existed before this course started, and will continue 
 
 # Logistics
 
-* Check website for software to install <https://ucsb-cs156.github.io/w24/info/software/>
+* Check website for software to install <https://ucsb-cs156.github.io/w24/info/software.html>
 
 # Now we meet our first team
 
