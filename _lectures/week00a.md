@@ -16,12 +16,9 @@ Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
-Team list: <https://bit.ly/cs156-f23-teams> or
+Team list: <https://bit.ly/cs156-w24-teams> 
 
-<img src="https://github.com/ucsb-cs156/f23/assets/1119017/329e7aa0-f703-4f77-80d5-541d5e268494" height="300" />
-
-![SH1431-F23](https://github.com/ucsb-cs156/f23/assets/1119017/6cfda978-a1bd-4824-982b-bc6920742c36)
-
+<img width="408" alt="ILP 2211 W24" src="https://github.com/ucsb-cs156/w24/assets/1119017/b6003bfc-3625-41a8-97ef-c11ff61d0531">
 
 
 # My special passion: Teaching real world software practice
