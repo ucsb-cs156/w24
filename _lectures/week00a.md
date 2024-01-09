@@ -53,7 +53,7 @@ Helping prepare you for transition from "Computer Science Student" to "Professio
 * "Lectures" (75 minute classes on TR)
   - Typically try to keep the lecture material to between 15-30 minutes, max 45
   - Usually between 30-60 minutes of group, hands on work in your teams
-* "Discussion" (50 minute classes on Friday)
+* "Discussion" (50 minute classes on Wednesday)
   - Typically try to keep instructions to 5-15 minutes
   - 35-45 minutes with your teams
 
