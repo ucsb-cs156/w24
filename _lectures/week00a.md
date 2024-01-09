@@ -100,7 +100,7 @@ Here:
 
 ## For next Thursday
 
-* Before next Thursday's lecture seciton, skim this article: <https://pconrad.github.io/files/paper028.pdf>
+* Before Thursday's lecture, skim this article: <https://pconrad.github.io/files/paper028.pdf>
   - Read all of the "abstract" and Section 1 (about 1 page), and skim through Section 4 (about 5 pages)
   - During class next week, you'll be dividing up the six parts of section 4 among the team members,
     and then doing a more detailed read for a homework assignment due in a few days.
