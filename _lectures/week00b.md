@@ -1,7 +1,7 @@
 ---
 title: "Week 00b - 01.10 Tues"
 lecture_date: 2024-01-10
-description: "Introduction to CS156"
+description: "Getting to work - P04, jpa00, H00"
 ready: true
 layout: default
 parent: lectures
