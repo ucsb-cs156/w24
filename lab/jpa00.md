@@ -16,25 +16,6 @@ starter_repo: https://github.com/ucsb-cs156-w24/STARTER-jpa00
 course_software: https://ucsb-cs156.github.io/w24/info/software.html
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-
 This assignment is `jpa00`, i.e "Java Programming Assignment 00".
 
 If you find typos or problems with the lab instructions, please report these via Slack:
