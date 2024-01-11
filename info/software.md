@@ -27,7 +27,7 @@ Instructions on installing these follow below.
    
    Download it here: <https://zoom.us/download>
 
-2. UCSB VPN Client (Pulse Secure)
+2. UCSB VPN Client (Pulse Secure) (Optional)
 
    What it does:
    * Reroutes all your network traffic through the UCSB network, so that it appears that
@@ -45,7 +45,7 @@ Instructions on installing these follow below.
 
    Where to get Pulse Secure:  <https://www.it.ucsb.edu/pulse-secure-campus-vpn/get-connected-vpn>
 
-3. Samba Access to your CSIL home directory
+3. Samba Access to your CSIL home directory (Optional)
 
    What it does:
 
@@ -193,19 +193,23 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    by the time you are reading these instructions:
 
    ```
-   vim /opt/homebrew/Cellar/maven/3.9.3/bin/mvn
+   vim /opt/homebrew/Cellar/maven/3.9.6/bin/mvn
    ```
 
    In that file, change the line that starts with `JAVA_HOME=` to this:
 
    ```
-   JAVA_HOME=“${JAVA_HOME:-$(/usr/libexec/java_home 17)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
+   JAVA_HOME=“${JAVA_HOME:-$(/usr/libexec/java_home 17)}” exec “/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
    ```
    Or if you find that the above does not work after typing `mvn --version` then try:
     ```
-   JAVA_HOME=“${JAVA_HOME:-$(/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home)}” exec “/opt/homebrew/Cellar/maven/3.9.3/libexec/bin/mvn” “$@”
+   JAVA_HOME=“${JAVA_HOME:-$/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
    ```
-
+   For Apple Silicon (M1/M2/M3), try replacing the first `openjdk` with `openjdk@17`, like this:
+    ```
+   JAVA_HOME=“${JAVA_HOME:-$/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
+   ```
+    
    Again, you may need to adjust the version number `3.9.3` to whatever your version of maven is.  After doing
    this, if you type `mvn --version`it should show Java 17, like this:
 
