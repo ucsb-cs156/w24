@@ -1,5 +1,5 @@
 ---
-title: "Week 00c - 01.11 Tues"
+title: "Week 00c - 01.11 Thur"
 lecture_date: 2024-01-11
 description: "Mutation Testing and You - jpa00, jpa01, h00"
 ready: true
