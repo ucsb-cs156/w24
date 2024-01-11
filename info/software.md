@@ -164,7 +164,7 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
 
 4. Maven
 
-   After installing Java 17, you can use `brew` to install maven:
+   After installing Java 17, you can use `brew` to install Maven:
 
    ```
    brew update
@@ -203,22 +203,22 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    ```
    Or if you find that the above does not work after typing `mvn --version` then try:
     ```
-   JAVA_HOME=“${JAVA_HOME:-$/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
+   JAVA_HOME=“${JAVA_HOME:-/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
    ```
    For Apple Silicon (M1/M2/M3), try replacing the first `openjdk` with `openjdk@17`, like this:
     ```
    JAVA_HOME=“${JAVA_HOME:-/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
    ```
     
-   Again, you may need to adjust the version number `3.9.3` to whatever your version of maven is.  After doing
-   this, if you type `mvn --version`it should show Java 17, like this:
+   Again, you may need to adjust the version number `3.9.6` to whatever your version of Maven is.  After doing
+   this, if you type `mvn --version` it should show Java 17, like this:
 
    ```
-   Apache Maven 3.9.3 (ff8e977a158738155dc465c6a97ffaf31982d739)
-   Maven home: /opt/homebrew/Cellar/maven/3.9.3/libexec
-   Java version: 17, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk/17/libexec/openjdk.jdk/Contents/Home
+   Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+   Maven home: /opt/homebrew/Cellar/maven/3.9.6/libexec
+   Java version: 17.0.9, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@17/17.0.9/libexec/openjdk.jdk/Contents/Home
    Default locale: en_US, platform encoding: UTF-8
-   OS name: "mac os x", version: "11.5.2", arch: "aarch64", family: "mac"
+   OS name: "mac os x", version: "14.1", arch: "aarch64", family: "mac"
    ```
    
 4. nvm, Node, and npm
