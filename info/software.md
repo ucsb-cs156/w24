@@ -199,15 +199,15 @@ If you have questions about this section, please ask on the [`#help-macos`]({{si
    In that file, change the line that starts with `JAVA_HOME=` to this:
 
    ```
-   JAVA_HOME=“${JAVA_HOME:-$(/usr/libexec/java_home 17)}” exec “/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
+   JAVA_HOME="${JAVA_HOME:-$(/usr/libexec/java_home 17)}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
    ```
    Or if you find that the above does not work after typing `mvn --version` then try:
     ```
-   JAVA_HOME=“${JAVA_HOME:-/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
+   JAVA_HOME="${JAVA_HOME:-/usr/local/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}" exec "/usr/local/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
    ```
    For Apple Silicon (M1/M2/M3), try replacing the first `openjdk` with `openjdk@17`, like this:
     ```
-   JAVA_HOME=“${JAVA_HOME:-/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}” exec “/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn” “$@”
+   JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home}" exec "/opt/homebrew/Cellar/maven/3.9.6/libexec/bin/mvn" "$@"
    ```
     
    Again, you may need to adjust the version number `3.9.6` to whatever your version of Maven is.  After doing
