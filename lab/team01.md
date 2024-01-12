@@ -18,7 +18,7 @@ participation_activity_date: "Thursday 07/13/2023"
 demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: w24-9am-3
 teams_list: https://bit.ly/cs156-w24-teams
-canvas: https://ucsb.instructure.com/courses/14657/assignments/165183
+canvas: https://ucsb.instructure.com/courses/17178/assignments/192315
 ---
 
 # NOT READY YET
