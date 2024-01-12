@@ -37,7 +37,7 @@ software_install_url: https://ucsb-cs156.github.io/w24/info/software.html
 # DO NOT START YET
 
 
-For due date: see the jpa03 entry on Canvas.
+For due date: see the jpa03 entry on Canvas: https://ucsb.instructure.com/courses/17178/assignments/192309
 
 # Instructions for jpa03
 
