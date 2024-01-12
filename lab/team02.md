@@ -18,6 +18,7 @@ num_issues_per_table: 6
 num_issues_per_table_alpha: six
 starter: https://github.com/ucsb-cs156-f23/STARTER-team02
 demo_deployment: http://team02.dokku-00.cs.ucsb.edu
+canvas: https://ucsb.instructure.com/courses/17178/assignments/192316
 ---
 
 # NOT READY YET
@@ -39,6 +40,7 @@ demo_deployment: http://team02.dokku-00.cs.ucsb.edu
 # DO NOT START YET
 # DO NOT START YET
 
+Canvas link: <{{page.canvas}}>
 
 {% include drop_down_style.html %}
 
