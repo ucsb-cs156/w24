@@ -13,6 +13,7 @@ ready: true
 starter: https://github.com/ucsb-cs156-w24/STARTER-team03
 deployment: https://team03.dokku-00.cs.ucsb.edu/
 storybook: https://ucsb-cs156-w24.github.io/STARTER-team03/storybook/
+canvas: https://ucsb.instructure.com/courses/17178/assignments/192317
 ---
 
 # NOT READY YET
@@ -34,6 +35,7 @@ storybook: https://ucsb-cs156-w24.github.io/STARTER-team03/storybook/
 # DO NOT START YET
 # DO NOT START YET
 
+Canvas link: <{{page.canvas}}>
 
 {% include drop_down_style.html %}
 
