@@ -34,6 +34,8 @@ teams_link: "<https://bit.ly/cs156-w24-teams>"
 
 {% include drop_down_style.html %}
 
+Canvas link: https://ucsb.instructure.com/courses/17178/assignments/192308
+
 # Individual lab, but you may help one another
 
 This is an **individual** lab on the topic of Java web apps.
