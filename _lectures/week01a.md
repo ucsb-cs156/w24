@@ -1,5 +1,5 @@
 ---
-title: "Week 00a - 01.09 Tues"
+title: "Week 01a - 01.09 Tues"
 lecture_date: 2024-01-09
 description: "Introduction to CS156"
 ready: true
@@ -16,7 +16,7 @@ Link to [Slides]({{page.slides}}) and [Video]({{page.video}})
 
 # Please sit with your team:
 
-Team list: <https://bit.ly/cs156-w24-teams> 
+Team list: <https://bit.ly/cs156-w24-teams>
 
 <img width="408" alt="ILP 2211 W24" src="https://github.com/ucsb-cs156/w24/assets/1119017/b6003bfc-3625-41a8-97ef-c11ff61d0531">
 

@@ -1,5 +1,5 @@
 ---
-title: "Week 00b - 01.10 Wed"
+title: "Week 01b - 01.10 Wed"
 lecture_date: 2024-01-10
 description: "Getting to work - P04, jpa00, H00"
 ready: true
