@@ -13,25 +13,6 @@ starter: https://github.com/ucsb-cs156-w24/STARTER-jpa02
 teams_link: "<https://bit.ly/cs156-w24-teams>"
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-
 {% include drop_down_style.html %}
 
 Canvas link: <https://ucsb.instructure.com/courses/17178/assignments/192308>

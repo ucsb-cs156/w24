@@ -17,26 +17,6 @@ office_hours_page: https://ucsb-cs156.github.io/w24/office-hours
 software_install_url: https://ucsb-cs156.github.io/w24/info/software.html
 ---
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-
-
 For due date: see the jpa03 entry on Canvas: <https://ucsb.instructure.com/courses/17178/assignments/192309>
 
 # Instructions for jpa03
