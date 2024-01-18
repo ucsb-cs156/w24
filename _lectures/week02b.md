@@ -35,7 +35,7 @@ Having said that:
   * And use `#help-lecture-discussion` if you need help (whether in person or remote.)
 
 Here is today's participation assignment.  Please complete it before your section ends today.
-* p07: <https://ucsb.instructure.com/courses/14657/assignments/175519>
+* p07: <https://ucsb.instructure.com/courses/17178/assignments/192310>
 
 When you've finished with that:
 * If not finished with jpa01, work on that.
