@@ -1,5 +1,5 @@
 ---
-title: "Week 02c - 10.18 Thu"
+title: "Week 02c - 01.18 Thu"
 lecture_date: 2024-01-18
 description: "work on  jpa01, jpa02, jpa03; try to finish by next Tuesday"
 ready: true
