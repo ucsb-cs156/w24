@@ -306,7 +306,7 @@ If so, then you are ready to submit on Canvas.
 * (20 pts) Running web app has the ability to login with OAuth through a Google Account.
 * (10 pts) The `ADMIN_EMAILS` variable is set to include all staff emails (see list below) plus your own email.
   - The correct setting is shown below, except with your email in place of `youremail`
-  - `ADMIN_EMAILS=youremail@ucsb.edu,phtcon@ucsb.edu,andrewpeng@ucsb.edu,jingpeng@ucsb.edu,rbriggs@ucsb.edu,benjamin_ye@ucsb.edu,sangitakunapuli@ucsb.edu,b_feng@ucsb.edu`
+  - `ADMIN_EMAILS=youremail@ucsb.edu,scottpchow@ucsb.edu,andrewpeng@ucsb.edu,anika_arora@ucsb.edu,sangitakunapuli@ucsb.edu,ihoffman@ucsb.edu,whuang602@ucsb.edu,aasish@ucsb.edu`
 * (20 pts) Github Pages are set up correctly including:
   - The link on your main repo page is set to the running Github Pages
   - That link shows the correct content
