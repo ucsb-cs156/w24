@@ -1,8 +1,8 @@
 ---
 title: team01
 desc: "Team Project 01: Spring Boot Backend, part 1 (unauthenticated RESTFul APIs)"
-assigned: 2023-10-10 14:00
-due: 2023-10-17 23:59
+assigned: 2024-01-23 17:00
+due: 2024-02-01 23:59
 github_org: ucsb-cs156-w24
 layout: default
 parent: lab
@@ -14,32 +14,12 @@ software: https://ucsb-cs156.github.io/w24/info/software.html
 qxx: w24
 org: ucsb-cs156-w24
 participation_activity_num: p09
-participation_activity_date: "Thursday 07/13/2023"
+participation_activity_date: "Thursday 01/23/2024"
 demo_deployment: http://team01.dokku-00.cs.ucsb.edu
 sample_team: w24-9am-3
 teams_list: https://bit.ly/cs156-w24-teams
 canvas: https://ucsb.instructure.com/courses/17178/assignments/192315
 ---
-
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-
 
 Canvas link: <{{page.canvas}}>
 
