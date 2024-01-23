@@ -12,5 +12,5 @@ Today we start: <https://ucsb-cs156.github.io/w24/lab/team01.html>
 
 And today's participation activity is this one:
 
-
+<https://ucsb-cs156.github.io/w24/hwk/p08/>
 
