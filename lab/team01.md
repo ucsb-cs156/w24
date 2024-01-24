@@ -190,21 +190,21 @@ Here are the links to the repos:
 
 
 
-| 5pm | 6pm | 7pm|
-|-----|-----|----|
-|[team01-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1)|[team01-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-1)|[team01-{{page.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-1)|
-|[team01-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-2)|[team01-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-2)|[team01-{{page.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-2)|
-|[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|[team01-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-3)|[team01-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-3)|
-|[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|[team01-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-4)|[team01-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-4)|
+| 4pm | 5pm | 6pm | 7pm|
+|-----|-----|-----|----|
+|[team01-{{page.qxx}}-4pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-1)|[team01-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1)|[team01-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-1)|[team01-{{page.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-1)|
+|[team01-{{page.qxx}}-4pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-2)|[team01-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-2)|[team01-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-2)|[team01-{{page.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-2)|
+|[team01-{{page.qxx}}-4pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-3)|[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|[team01-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-3)|[team01-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-3)|
+|[team01-{{page.qxx}}-4pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-4)|[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|[team01-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-4)|[team01-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-4)|
 
 And here are the Kanban boards:
 
-| 5pm | 6pm | 7pm|
-|-----|-----|----|
-| [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/2) |[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/6) | [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/10) |
-| [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/3)|[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/7)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/11)|
-| [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/4)|[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/8)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/12)|
-| [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/5) |[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/9) | [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/13) |
+| 4pm | 5pm | 6pm | 7pm|
+|-----|-----|-----|----|
+| [team01-{{page.qxx}}-4pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/5) | [team01-{{page.qxx}}-5pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/9) |[team01-{{page.qxx}}-6pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/13) | [team01-{{page.qxx}}-7pm-1](https://github.com/orgs/ucsb-cs156-w24/projects/18) |
+| [team01-{{page.qxx}}-4pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/6)| [team01-{{page.qxx}}-5pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/10)|[team01-{{page.qxx}}-6pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/11)| [team01-{{page.qxx}}-7pm-2](https://github.com/orgs/ucsb-cs156-w24/projects/14)|
+| [team01-{{page.qxx}}-4pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/7)| [team01-{{page.qxx}}-5pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/11)|[team01-{{page.qxx}}-6pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/16)| [team01-{{page.qxx}}-7pm-3](https://github.com/orgs/ucsb-cs156-w24/projects/20)|
+| [team01-{{page.qxx}}-4pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/8) | [team01-{{page.qxx}}-5pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/12) |[team01-{{page.qxx}}-6pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/17) | [team01-{{page.qxx}}-7pm-4](https://github.com/orgs/ucsb-cs156-w24/projects/21) |
 
 # Part 1: Team divides up the work
 
@@ -243,18 +243,22 @@ Once the app is deployed, these links should work:
 
 | Team | Link |
 |-|-|
-| w24-5pm-1 | <https://team01.dokku-01.cs.ucsb.edu> |
-| w24-5pm-2 | <https://team01.dokku-02.cs.ucsb.edu> |
-| w24-5pm-3 | <https://team01.dokku-03.cs.ucsb.edu> |
-| w24-5pm-4 | <https://team01.dokku-04.cs.ucsb.edu> |
-| w24-6pm-1 | <https://team01.dokku-05.cs.ucsb.edu> |
-| w24-6pm-2 | <https://team01.dokku-06.cs.ucsb.edu> |
-| w24-6pm-3 | <https://team01.dokku-07.cs.ucsb.edu> |
-| w24-6pm-4 | <https://team01.dokku-08.cs.ucsb.edu> |
-| w24-7pm-1 | <https://team01.dokku-09.cs.ucsb.edu> |
-| w24-7pm-2 | <https://team01.dokku-10.cs.ucsb.edu> |
-| w24-7pm-3 | <https://team01.dokku-11.cs.ucsb.edu> |
-| w24-7pm-4 | <https://team01.dokku-12.cs.ucsb.edu> |
+| w24-4pm-1 | <https://team01.dokku-01.cs.ucsb.edu> |
+| w24-4pm-2 | <https://team01.dokku-02.cs.ucsb.edu> |
+| w24-4pm-3 | <https://team01.dokku-03.cs.ucsb.edu> |
+| w24-4pm-4 | <https://team01.dokku-04.cs.ucsb.edu> |
+| w24-5pm-1 | <https://team01.dokku-05.cs.ucsb.edu> |
+| w24-5pm-2 | <https://team01.dokku-06.cs.ucsb.edu> |
+| w24-5pm-3 | <https://team01.dokku-07.cs.ucsb.edu> |
+| w24-5pm-4 | <https://team01.dokku-08.cs.ucsb.edu> |
+| w24-6pm-1 | <https://team01.dokku-09.cs.ucsb.edu> |
+| w24-6pm-2 | <https://team01.dokku-10.cs.ucsb.edu> |
+| w24-6pm-3 | <https://team01.dokku-11.cs.ucsb.edu> |
+| w24-6pm-4 | <https://team01.dokku-12.cs.ucsb.edu> |
+| w24-7pm-1 | <https://team01.dokku-13.cs.ucsb.edu> |
+| w24-7pm-2 | <https://team01.dokku-14.cs.ucsb.edu> |
+| w24-7pm-3 | <https://team01.dokku-15.cs.ucsb.edu> |
+| w24-7pm-4 | <https://team01.dokku-16.cs.ucsb.edu> |
 
 
 The result of visiting the home page of the app in the browser should be something like this:
@@ -399,6 +403,7 @@ At this point, you should see your branch on Github.  The following table shows 
 
 |   |   |   |   |
 |---|---|---|---|
+| [w24-4pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-1/branches) | [w24-4pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-2/branches) | [w24-4pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-3/branches) | [w24-4pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-4pm-4/branches) |
 | [w24-5pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-1/branches) | [w24-5pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-2/branches) | [w24-5pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-3/branches) | [w24-5pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-5pm-4/branches) |
 | [w24-6pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-1/branches) | [w24-6pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-2/branches) | [w24-6pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-3/branches) | [w24-6pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-6pm-4/branches) |
 | [w24-7pm-1 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-1/branches) | [w24-7pm-2 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-2/branches) | [w24-7pm-3 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-3/branches) | [w24-7pm-4 branches](https://github.com/ucsb-cs156-w24/team01-w24-7pm-4/branches) |
