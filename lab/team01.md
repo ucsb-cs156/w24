@@ -110,7 +110,7 @@ This video goes with this introduction:
 
 You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
 
-We will use a tool called *-ui* that:
+We will use a tool called *Swagger-ui* that:
 * builds a temporary front-end that can be used by developers to test the backend.
 * provides a way for programmers to automatically build documentation for their backend.
 
