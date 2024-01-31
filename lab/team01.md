@@ -110,7 +110,7 @@ This video goes with this introduction:
 
 You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
 
-We will use a tool called *Swagger-ui* that:
+We will use a tool called *-ui* that:
 * builds a temporary front-end that can be used by developers to test the backend.
 * provides a way for programmers to automatically build documentation for their backend.
 
@@ -264,7 +264,7 @@ Once the app is deployed, these links should work:
 The result of visiting the home page of the app in the browser should be something like this:
 
 ```json
-{"api-documentation":"http://localhost:8080/swagger-ui/","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-w24/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
+{"api-documentation":"http://localhost:8080/swagger-ui/index.html","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-w24/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
 ```
 
 It might also be nicely formatted, depending on whether you have any browser extensions installed for processing JSON:
@@ -328,7 +328,7 @@ Clone the team's repo to your own machine or CSIL account, with `git clone repo-
 
 Then try running `mvn spring-boot:run` and opening up the server on <http://localhost:8080>.
 
-Try navigating to <http://localhost:8080/swagger-ui/> and trying out the various APIs.
+Try navigating to <http://localhost:8080/swagger-ui/index.html> and trying out the various APIs.
 
 Then when you are ready to start coding, we'll move on to Step 2.2.
 
