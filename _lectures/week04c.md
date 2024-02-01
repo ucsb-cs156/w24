@@ -25,3 +25,7 @@ slides:
 ### Work on team02
 
 - `team02` is due on Wednesday, Feb 7 at 11:59pm
+
+### Read up on the Retrospective Process
+
+- [Agile Retros](https://ucsb-cs156.github.io/topics/agile/agile_retros.html)
