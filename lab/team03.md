@@ -1,8 +1,8 @@
 ---
 title: team03
 desc: "Team Project: React CRUD frontend"
-assigned: 2023-10-26 09:00
-due: 2023-11-03 11:59
+assigned: 2024-02-07 09:00
+due: 2024-02-20 11:59
 github_org: ucsb-cs156-w24
 layout: lab
 layout: default
@@ -15,25 +15,6 @@ deployment: https://team03.dokku-00.cs.ucsb.edu/
 storybook: https://ucsb-cs156-w24.github.io/STARTER-team03/storybook/
 canvas: https://ucsb.instructure.com/courses/17178/assignments/192317
 ---
-
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
 
 Canvas link: <{{page.canvas}}>
 
@@ -64,21 +45,21 @@ We are focusing on learning these new React concepts:
 
 Here are the links to the repos for team02
 
-| 5pm | 6pm | 7pm|
-|-----|-----|----|
-|[{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-1)|[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-1)|[{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-1)|
-|[{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-2)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-2)|[{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-2)|
-|[{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-3)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-3)|[{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-3)|
-|[{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-4)|[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-4)|[{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-4)|
+| 4pm | 5pm | 6pm | 7pm|
+|-----|-----|-----|----|
+|[{{page.title}}-{{site.qxx}}-4pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-4pm-1)|[{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-1)|[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-1)|[{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-1)|
+|[{{page.title}}-{{site.qxx}}-4pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-4pm-2)|[{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-2)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-2)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-2)|
+|[{{page.title}}-{{site.qxx}}-4pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-4pm-3)|[{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-3)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-3)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-3)|
+|[{{page.title}}-{{site.qxx}}-4pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-4pm-4)|[{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-5pm-4)|[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-6pm-4)|[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{site.qxx}}/{{page.title}}-{{site.qxx}}-7pm-4)|
 
 ## Project boards (also called Kanban boards):
 
-| 5pm | 6pm | 7pm|
-|-----|-----|----|
-| [{{page.title}}-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/30) |[{{page.title}}-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/34) | [{{page.title}}-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/38) |
-| [{{page.title}}-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/31)|[{{page.title}}-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/35)| [{{page.title}}-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/39)|
-| [{{page.title}}-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/32)|[{{page.title}}-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/36)| [{{page.title}}-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/40)|
-| [{{page.title}}-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/33) |[{{page.title}}-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/37) | [{{page.title}}-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/41) |
+| 4pm | 5pm | 6pm | 7pm|
+|-----|-----|-----|----|
+| [team03-{{site.qxx}}-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/59) | [team03-{{site.qxx}}-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/63) |[team03-{{site.qxx}}-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/67) | [team03-{{site.qxx}}-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/71) |
+| [team03-{{site.qxx}}-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/60)| [team03-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/64)|[team03-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/68)| [team03-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/72)|
+| [team03-{{site.qxx}}-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/61)| [team03-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/65)|[team03-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/69)| [team03-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/73)|
+| [team03-{{site.qxx}}-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/62) | [team03-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/66) |[team03-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/70) | [team03-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/74) |
 
 For team03, the Kanban board is populated by the staff before you start using the Github Actions workflow [`99-team02.yml`](
 {{page.starter}}/blob/main/.github/workflows/99-team02.yml); if your Kanban is not yet populated,
@@ -93,12 +74,12 @@ dokku git:sync team03 https://github.com/ucsb-cs156-w24/team03-w24-7pm-1 main
 dokku ps:rebuild team03
 ```
 
-| 5pm | 6pm | 7pm|
-|-----|-----|----|
-| 5pm-1: <https://{{page.title}}.dokku-01.cs.ucsb.edu> | 6pm-1: <https://{{page.title}}.dokku-05.cs.ucsb.edu> |  7pm-1: <https://{{page.title}}.dokku-09.cs.ucsb.edu> |
-| 5pm-2: <https://{{page.title}}.dokku-02.cs.ucsb.edu> | 6pm-2: <https://{{page.title}}.dokku-06.cs.ucsb.edu> |  7pm-2: <https://{{page.title}}.dokku-10.cs.ucsb.edu> |
-| 5pm-3: <https://{{page.title}}.dokku-03.cs.ucsb.edu> | 6pm-3: <https://{{page.title}}.dokku-07.cs.ucsb.edu> |  7pm-3: <https://{{page.title}}.dokku-11.cs.ucsb.edu> |
-| 5pm-4: <https://{{page.title}}.dokku-04.cs.ucsb.edu> | 6pm-4: <https://{{page.title}}.dokku-08.cs.ucsb.edu> |  7pm-4: <https://{{page.title}}.dokku-12.cs.ucsb.edu> |
+| 4pm | 5pm | 6pm | 7pm|
+|-----|-----|-----|----|
+| 4pm-1: <https://{{page.title}}.dokku-01.cs.ucsb.edu> | 5pm-1: <https://{{page.title}}.dokku-05.cs.ucsb.edu> | 6pm-1: <https://{{page.title}}.dokku-09.cs.ucsb.edu> |  7pm-1: <https://{{page.title}}.dokku-13.cs.ucsb.edu> |
+| 4pm-2: <https://{{page.title}}.dokku-02.cs.ucsb.edu> | 5pm-2: <https://{{page.title}}.dokku-06.cs.ucsb.edu> | 6pm-2: <https://{{page.title}}.dokku-10.cs.ucsb.edu> |  7pm-2: <https://{{page.title}}.dokku-14.cs.ucsb.edu> |
+| 4pm-3: <https://{{page.title}}.dokku-03.cs.ucsb.edu> | 5pm-3: <https://{{page.title}}.dokku-07.cs.ucsb.edu> | 6pm-3: <https://{{page.title}}.dokku-11.cs.ucsb.edu> |  7pm-3: <https://{{page.title}}.dokku-15.cs.ucsb.edu> |
+| 4pm-4: <https://{{page.title}}.dokku-04.cs.ucsb.edu> | 5pm-4: <https://{{page.title}}.dokku-08.cs.ucsb.edu> | 6pm-4: <https://{{page.title}}.dokku-12.cs.ucsb.edu> |  7pm-4: <https://{{page.title}}.dokku-16.cs.ucsb.edu> |
 
 ## Work on your own laptop, not CSIL
 
@@ -384,18 +365,22 @@ The Kanban boards for team03 are set up here:
 
 | Team | Kanban Board |
 |------|--------------|
-|w24-5pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/30>|
-|w24-5pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/31>|
-|w24-5pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/32>|
-|w24-5pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/33>|
-|w24-6pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/34>|
-|w24-6pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/35>|
-|w24-6pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/36>|
-|w24-6pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/37>|
-|w24-7pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/38>|
-|w24-7pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/39>|
-|w24-7pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/40>|
-|w24-7pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/41>|
+|w24-4pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/59>|
+|w24-4pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/60>|
+|w24-4pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/61>|
+|w24-4pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/61>|
+|w24-5pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/63>|
+|w24-5pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/64>|
+|w24-5pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/65>|
+|w24-5pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/66>|
+|w24-6pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/67>|
+|w24-6pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/68>|
+|w24-6pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/69>|
+|w24-6pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/70>|
+|w24-7pm-1 | <https://github.com/orgs/ucsb-cs156-w24/projects/71>|
+|w24-7pm-2 | <https://github.com/orgs/ucsb-cs156-w24/projects/72>|
+|w24-7pm-3 | <https://github.com/orgs/ucsb-cs156-w24/projects/73>|
+|w24-7pm-4 | <https://github.com/orgs/ucsb-cs156-w24/projects/74>|
 
 The issues on your Kanban board can be grouped as follows:
 
