@@ -41,9 +41,9 @@ We are focusing on learning these new React concepts:
 * Using `npm run storybook` to visualize frontend components in isolation
 
 
-## Repos for team02
+## Repos for team03
 
-Here are the links to the repos for team02
+Here are the links to the repos for team03
 
 | 4pm | 5pm | 6pm | 7pm|
 |-----|-----|-----|----|

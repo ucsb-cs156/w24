@@ -122,11 +122,22 @@ Please check the kanban boards for your assigned teams to see that the team has 
 | Jing / Bobby | [team03-{{site.qxx}}-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/31)|[team03-{{site.qxx}}-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/35)| [team03-{{site.qxx}}-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/39)|
 | Sangita | [team03-{{site.qxx}}-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/32)|[team03-{{site.qxx}}-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/36)| [team03-{{site.qxx}}-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/40)|
 | Leon | [team03-{{site.qxx}}-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/33) |[team03-{{site.qxx}}-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/37) | [team03-{{site.qxx}}-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/41) | -->
+### team02
 
 | Staff Member | team 1 | team 2 | team 3 | team 4 |
-|--------------|-----|-----|-----|-----|
-| Issac        | [team03-w24-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/xx) |
-| Aasish       | [team-03-w24-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/xx) |
-| William      | [team-03-w24-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/xx) |
-| Sangita      | [team-03-w24-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/xx) | [team-03-w24-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/xx) |
+|-----|-----|-----|-----|-----|
+| Issac        | [team03-w24-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/47) | [team-03-w24-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/48) | [team-03-w24-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/51) | [team-03-w24-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/52) |
+| Aasish       | [team-03-w24-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/45) | [team-03-w24-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/46) | [team-03-w24-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/57) | [team-03-w24-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/58) |
+| William      | [team-03-w24-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/49) | [team-03-w24-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/50) | [team-03-w24-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/53) | [team-03-w24-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/54) |
+| Sangita      | [team-03-w24-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/43) | [team-03-w24-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/44) | [team-03-w24-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/55) | [team-03-w24-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/56) |
+
+### team03
+
+| Staff Member | team 1 | team 2 | team 3 | team 4 |
+|-----|-----|-----|-----|-----|
+| Issac        | [team03-w24-5pm-1](https://github.com/orgs/{{page.github_org}}/projects/63) | [team-03-w24-5pm-2](https://github.com/orgs/{{page.github_org}}/projects/64) | [team-03-w24-6pm-1](https://github.com/orgs/{{page.github_org}}/projects/67) | [team-03-w24-6pm-2](https://github.com/orgs/{{page.github_org}}/projects/68) |
+| Aasish       | [team-03-w24-4pm-3](https://github.com/orgs/{{page.github_org}}/projects/61) | [team-03-w24-4pm-4](https://github.com/orgs/{{page.github_org}}/projects/62) | [team-03-w24-7pm-3](https://github.com/orgs/{{page.github_org}}/projects/73) | [team-03-w24-7pm-4](https://github.com/orgs/{{page.github_org}}/projects/74) |
+| William      | [team-03-w24-5pm-3](https://github.com/orgs/{{page.github_org}}/projects/65) | [team-03-w24-5pm-4](https://github.com/orgs/{{page.github_org}}/projects/66) | [team-03-w24-6pm-3](https://github.com/orgs/{{page.github_org}}/projects/69) | [team-03-w24-6pm-4](https://github.com/orgs/{{page.github_org}}/projects/70) |
+| Sangita      | [team-03-w24-4pm-1](https://github.com/orgs/{{page.github_org}}/projects/59) | [team-03-w24-4pm-2](https://github.com/orgs/{{page.github_org}}/projects/60) | [team-03-w24-7pm-1](https://github.com/orgs/{{page.github_org}}/projects/71) | [team-03-w24-7pm-2](https://github.com/orgs/{{page.github_org}}/projects/72) |
+
 </details>
