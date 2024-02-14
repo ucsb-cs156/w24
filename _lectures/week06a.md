@@ -9,6 +9,7 @@ slides:
 ---
 
 # Today
+* Mini-lecture: team02 and backend architecture
 * Standup
   * Each team member, please do a written standup update in your slack channel.  You can do these updates at any time starting from now up until your scheduled section time.
   * Please meet in person or on zoom during the first 10 minutes of your scheduled discussion time (or at the very least, check in on Slack during those 10 minutes) to do two things:
