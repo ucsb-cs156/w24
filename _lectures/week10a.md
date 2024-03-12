@@ -15,10 +15,11 @@ slides:
 * Post survey should be released today
 * Please fill out your Course evaluations!
 
+<img src="https://github.com/ucsb-cs156-w24/proj-organic-w24-6pm-2/assets/15284810/7e647277-fd02-42d9-89d8-d7dc786f6531">
+
 <details markdown="1">
 <summary>
-The information here is for teams that haven't reached 100 points. Fortunately, that applies to zero teams in W24; but I'm keeping it here
-  in case we copy this page for future quarters.
+The information here is for teams that haven't reached 100 points.
 </summary>
 
 If your team isn't yet at 100 points:
@@ -42,7 +43,8 @@ If your team isn't yet at 100 points:
 
 If you did not fill out the pre-survey, but would still like to do so for extra credit,
 and/or to offer your informed consent to allow us to use your data for research,
-let me know via Slack DM and I'll send you the link.
+let me know via Slack DM and I'll send you the link. You can also find the pre-survey
+link on the home page of the course on Canvas.
 
 
 <details markdown="1">

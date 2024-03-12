@@ -22,9 +22,12 @@ slides:
 * Due 5pm Friday of finals week
 
 # Final Exam slot
-* Used for a final activity that counts as part of your project grade
-* You'll be doing live demos of your code, and reviewing all of the other team's code.
-* This requires synchronous participation either live or on zoom.
+* Used for a final activity that counts as part of your project grade.
+* You'll viewing the demos and code from other teams' projects.
+* This requires synchronous participation either live or on zoom.*
+
+
+*Note*: It is possible for students to perform final exam activities asynchronously, but they will need to complete the activity by the end of the finals slot (10:30PM on Wednesday of finals week).  If you are unable to attend the live session, please let your instructor know as soon as possible.
 
 # Today: retro4
 
@@ -35,3 +38,10 @@ This retro is a little different from the rest, in the sense that it is a sort o
 There is no further work ahead of the team, so instead of focusing on how the team can improve, it is focused more on
 what learnings from your time together you'll take with you to future work on team software development projects.
 Other than that, it's like any other retro.
+
+
+## Other reminders
+
+Fill out your course evaluations if you haven't already!
+
+<img src="https://github.com/ucsb-cs156-w24/proj-organic-w24-6pm-2/assets/15284810/7e647277-fd02-42d9-89d8-d7dc786f6531">
