@@ -12,7 +12,7 @@ slides:
 
 
 * Final CATME survey should be released today
-* Post survey should be released today
+<!-- * Post survey should be released today -->
 * Please fill out your Course evaluations!
 
 <img src="https://github.com/ucsb-cs156-w24/proj-organic-w24-6pm-2/assets/15284810/7e647277-fd02-42d9-89d8-d7dc786f6531">
