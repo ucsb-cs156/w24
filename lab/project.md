@@ -104,6 +104,10 @@ sections:
           kanban: 94
 ---
 
+<style>
+  td, th { min-width: auto}
+</style>
+
 # W24 Legacy Project Launch
 
 On Wed February 21, 2024, in section, we'll launch the legacy code projects.
