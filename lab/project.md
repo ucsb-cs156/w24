@@ -20,8 +20,8 @@ githubPagesUrl: https://ucsb-cs156-w24.github.io
 sections:
   -
       time: 4pm
-      product: proj-happy-cows
-      productShort: happy-cows
+      product: proj-happycows
+      productShort: happycows
       teams:
         -
           num: 1
